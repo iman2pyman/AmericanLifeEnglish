@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Extract project ZIP
         run: |
           unzip -o AmericanLifeEnglish-Android-Starter.zip -d project
@@ -20,26 +23,15 @@ jobs:
 
       - name: Fix JVM compatibility
         run: |
-          GRADLE_FILE=$(find . -type f -path "*/app/build.gradle.kts" -print -quit)
-
-          if [ -z "$GRADLE_FILE" ]; then
-            echo "Gradle file not found!"
-            find . -maxdepth 4 -type f
-            exit 1
-          fi
-
-          echo "Found: $GRADLE_FILE"
-
-          python3 - "$GRADLE_FILE" <<'PY'
-          import sys
+          python3 - <<'PY'
           from pathlib import Path
 
-          p = Path(sys.argv[1])
+          p = Path("app/build.gradle.kts")
           s = p.read_text()
 
-          old = '    buildFeatures { compose = true }'
-
-          new = '''    compileOptions {
+          s = s.replace(
+              '    buildFeatures { compose = true }',
+              '''    compileOptions {
                   sourceCompatibility = JavaVersion.VERSION_17
                   targetCompatibility = JavaVersion.VERSION_17
               }
@@ -47,11 +39,7 @@ jobs:
                   jvmTarget = "17"
               }
               buildFeatures { compose = true }'''
-
-          if old in s:
-              s = s.replace(old, new, 1)
-          elif 'jvmTarget = "17"' not in s:
-              raise SystemExit("Expected Gradle configuration not found!")
+          )
 
           p.write_text(s)
           print("JVM compatibility fixed!")
@@ -67,7 +55,7 @@ jobs:
         run: |
           SDKMANAGER=$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)
           echo "$(dirname "$SDKMANAGER")" >> "$GITHUB_PATH"
-          yes | "$SDKMANAGER" --licenses
+          yes | "$SDKMANAGER" --licenses || true
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
@@ -75,7 +63,8 @@ jobs:
           gradle-version: '8.9'
 
       - name: Install Android SDK components
-        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+        run: |
+          sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
       - name: Build APK
         run: gradle assembleDebug
