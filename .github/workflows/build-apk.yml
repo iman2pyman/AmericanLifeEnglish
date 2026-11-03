@@ -18,7 +18,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -o AmericanLifeEnglish-Android-Starter.zip -d project
+          unzip -o AmericanLifeEnglish-v0.2.0.zip -d project
           cp -R project/. .
 
       - name: Fix JVM compatibility
