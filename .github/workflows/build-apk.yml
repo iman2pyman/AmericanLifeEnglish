@@ -16,10 +16,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Extract project ZIP
+      - name: Fix JVM compatibility
         run: |
-          unzip -o AmericanLifeEnglish-Android-Starter.zip -d project
-          cp -R project/. .
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p = Path("app/build.gradle.kts")
+          s = p.read_text()
+
+          s = s.replace(
+              '    buildFeatures { compose = true }',
+              '''    compileOptions {
+                  sourceCompatibility = JavaVersion.VERSION_17
+                  targetCompatibility = JavaVersion.VERSION_17
+              }
+              kotlinOptions {
+                  jvmTarget = "17"
+              }
+              buildFeatures { compose = true }'''
+          )
+
+          p.write_text(s)
+          PY
 
       - name: Setup Java
         uses: actions/setup-java@v4
