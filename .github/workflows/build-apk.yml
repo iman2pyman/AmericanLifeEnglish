@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      -      - name: Fix JVM compatibility
+      - name: Fix JVM compatibility
         run: |
           GRADLE_FILE=$(find . -type f -path "*/app/build.gradle.kts" -print -quit)
 
