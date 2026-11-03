@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Extract project ZIP
+        run: |
+          unzip -o AmericanLifeEnglish-Android-Starter.zip -d project
+          cp -R project/. .
 
       - name: Fix JVM compatibility
         run: |
