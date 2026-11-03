@@ -16,17 +16,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fix JVM compatibility
+      -      - name: Fix JVM compatibility
         run: |
-          python3 - <<'PY'
+          GRADLE_FILE=$(find . -type f -path "*/app/build.gradle.kts" -print -quit)
+
+          if [ -z "$GRADLE_FILE" ]; then
+            echo "Gradle file not found!"
+            find . -maxdepth 4 -type f
+            exit 1
+          fi
+
+          echo "Found: $GRADLE_FILE"
+
+          python3 - "$GRADLE_FILE" <<'PY'
+          import sys
           from pathlib import Path
 
-          p = Path("app/build.gradle.kts")
+          p = Path(sys.argv[1])
           s = p.read_text()
 
-          s = s.replace(
-              '    buildFeatures { compose = true }',
-              '''    compileOptions {
+          old = '    buildFeatures { compose = true }'
+
+          new = '''    compileOptions {
                   sourceCompatibility = JavaVersion.VERSION_17
                   targetCompatibility = JavaVersion.VERSION_17
               }
@@ -34,9 +45,14 @@ jobs:
                   jvmTarget = "17"
               }
               buildFeatures { compose = true }'''
-          )
+
+          if old in s:
+              s = s.replace(old, new, 1)
+          elif 'jvmTarget = "17"' not in s:
+              raise SystemExit("Expected Gradle configuration not found!")
 
           p.write_text(s)
+          print("JVM compatibility fixed!")
           PY
 
       - name: Setup Java
