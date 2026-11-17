@@ -25,6 +25,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
 
 private val Navy = Color(0xFF14213D)
 private val Blue = Color(0xFF2563EB)
@@ -53,24 +55,37 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
     val words = remember { loadVocabulary(context) }
     var page by remember { mutableStateOf("home") }
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
+    var dialog by remember { mutableStateOf<String?>(null) }
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
         Surface(Modifier.fillMaxSize(), color = Page) {
             when {
                 selectedWord != null -> WordDetailScreen(selectedWord!!, onSpeak) { selectedWord = null }
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
-                    onGrammar = { page = "grammar" }
+                    onGrammar = { page = "grammar" }, onHelp = { dialog = "help" }, onAbout = { dialog = "about" }
                 )
                 page == "search" -> SearchScreen(words, onSpeak, { page = "home" }) { selectedWord = it }
                 page == "vocabulary" -> LearningScreen(words, onSpeak, { page = "home" }) { selectedWord = it }
                 else -> GrammarScreen { page = "home" }
             }
         }
+        dialog?.let { kind ->
+            val help = kind == "help"
+            InfoDialog(
+                if (help) "راهنمای برنامه" else "درباره برنامه و سازنده",
+                if (help) "در جستجوی واژگان می‌توانید واژه را به انگلیسی یا معنی فارسی پیدا کنید. در آموزش واژگان، سطح CEFR را انتخاب کنید و واژه‌ها را همراه با معنی، تعریف، مثال و تلفظ یاد بگیرید. با لمس آیکون بلندگو، تلفظ انگلیسی آمریکایی از طریق موتور گفتار گوشی پخش می‌شود. بخش گرامر در این مرحله همچنان خالی است."
+                else "American English Vocabulary\n\nبرنامه‌ای برای کمک به فارسی‌زبانان در یادگیری انگلیسی آمریکایی.",
+                { dialog = null }
+            )
+        }
     }
 }
 
 @Composable
-private fun HomeScreen(onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar: () -> Unit) {
+private fun HomeScreen(
+    onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar: () -> Unit,
+    onHelp: () -> Unit, onAbout: () -> Unit
+) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).background(Page), horizontalAlignment = Alignment.CenterHorizontally) {
         Box(Modifier.fillMaxWidth().background(Brush.verticalGradient(listOf(Navy, Color(0xFF203D68)))).padding(horizontal = 22.dp, vertical = 30.dp)) {
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -104,6 +119,11 @@ private fun HomeScreen(onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar
             ActionCard("آموزش گرامر", "قواعد زبان را قدم‌به‌قدم یاد بگیر", "文", Color(0xFF8B5CF6), onGrammar)
             Spacer(Modifier.height(24.dp))
             HorizontalDivider(color = Color(0xFFE1E7F0))
+            Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 12.dp), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
+                TextButton(onClick = onHelp) { Text("راهنمای برنامه", color = Blue, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
+                Text("•", color = Color(0xFFB3BDCC))
+                TextButton(onClick = onAbout) { Text("درباره برنامه و سازنده", color = Blue, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
+            }
         }
     }
 }
@@ -145,6 +165,24 @@ private fun GrammarScreen(onBack: () -> Unit) {
         Spacer(Modifier.height(18.dp))
         Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = Color.White, shadowElevation = 3.dp) {
             Text("این بخش فعلاً خالی است و در مرحله بعد تکمیل می‌شود.", Modifier.padding(20.dp), color = Muted, fontSize = 14.sp, lineHeight = 24.sp)
+        }
+    }
+}
+
+
+@Composable
+private fun InfoDialog(title: String, body: String, onDismiss: () -> Unit) {
+    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Surface(Modifier.fillMaxWidth(.88f), shape = RoundedCornerShape(24.dp), color = Color.White, shadowElevation = 18.dp) {
+            Column(Modifier.padding(22.dp)) {
+                Text(title, color = Navy, fontSize = 19.sp, fontWeight = FontWeight.ExtraBold)
+                Spacer(Modifier.height(13.dp))
+                Text(body, color = Ink, fontSize = 14.sp, lineHeight = 25.sp)
+                Spacer(Modifier.height(18.dp))
+                Button(onClick = onDismiss, Modifier.fillMaxWidth(), shape = RoundedCornerShape(13.dp), colors = ButtonDefaults.buttonColors(containerColor = Blue)) {
+                    Text("متوجه شدم", fontWeight = FontWeight.Bold)
+                }
+            }
         }
     }
 }
