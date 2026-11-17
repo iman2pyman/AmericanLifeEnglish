@@ -73,7 +73,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
             val help = kind == "help"
             InfoDialog(
                 if (help) "راهنمای برنامه" else "درباره برنامه و سازنده",
-                if (help) "در جستجوی واژگان می‌توانید واژه را به انگلیسی یا معنی فارسی پیدا کنید. در آموزش واژگان، سطح CEFR را انتخاب کنید و واژه‌ها را همراه با معنی، تعریف، مثال و تلفظ یاد بگیرید. با لمس آیکون بلندگو، تلفظ انگلیسی آمریکایی از طریق موتور گفتار گوشی پخش می‌شود. بخش گرامر در این مرحله همچنان خالی است."
+                if (help) "در جستجوی واژگان می‌توانید واژه را به انگلیسی یا معنی فارسی پیدا کنید. در آموزش واژگان، سطح CEFR را انتخاب کنید و واژه‌ها را همراه با معنی، تعریف، مثال و تلفظ یاد بگیرید. با لمس آیکون بلندگو، تلفظ انگلیسی آمریکایی از طریق موتور گفتار گوشی پخش می‌شود. در بخش گرامر، درس‌های سطح‌بندی‌شده را بخوانید و با آزمون کوتاه هر درس تمرین کنید."
                 else "American English Vocabulary\n\nبرنامه‌ای برای کمک به فارسی‌زبانان در یادگیری انگلیسی آمریکایی.",
                 { dialog = null }
             )
@@ -155,20 +155,6 @@ private fun ActionCard(title: String, subtitle: String, symbol: String, accent: 
         }
     }
 }
-
-@Composable
-private fun GrammarScreen(onBack: () -> Unit) {
-    Column(Modifier.fillMaxSize().background(Page).padding(22.dp)) {
-        TextButton(onClick = onBack) { Text("→ بازگشت به صفحه اصلی", color = Blue, fontWeight = FontWeight.Bold) }
-        Spacer(Modifier.height(24.dp))
-        Text("آموزش گرامر", color = Navy, fontSize = 25.sp, fontWeight = FontWeight.ExtraBold)
-        Spacer(Modifier.height(18.dp))
-        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = Color.White, shadowElevation = 3.dp) {
-            Text("این بخش فعلاً خالی است و در مرحله بعد تکمیل می‌شود.", Modifier.padding(20.dp), color = Muted, fontSize = 14.sp, lineHeight = 24.sp)
-        }
-    }
-}
-
 
 @Composable
 private fun InfoDialog(title: String, body: String, onDismiss: () -> Unit) {
