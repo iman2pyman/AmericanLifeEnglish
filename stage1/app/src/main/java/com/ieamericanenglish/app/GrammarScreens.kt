@@ -24,7 +24,6 @@ private data class GrammarLesson(
     val structure: String,
     val examples: List<Pair<String, String>>,
     val question: String,
-    val prompt: String,
     val choices: List<String>,
     val answer: Int,
     val reason: String
@@ -35,7 +34,7 @@ private val grammarLessons = listOf(
         "فعل to be برای معرفی، بیان هویت، شغل، وضعیت و ویژگی‌ها استفاده می‌شود. شکل فعل با فاعل هماهنگ می‌شود.",
         "I am  •  He/She/It is  •  You/We/They are",
         listOf("I am a student." to "من دانش‌آموز / دانشجو هستم.","She is happy." to "او خوشحال است.","They are at home." to "آن‌ها در خانه هستند."),
-        "کدام گزینه درست است؟","She ___ my friend.",listOf("am","is","are"),1,"برای فاعل She از is استفاده می‌کنیم."),
+        "کدام گزینه درست است؟ She ___ my friend.",listOf("am","is","are"),1,"برای فاعل She از is استفاده می‌کنیم."),
     GrammarLesson("A1","حال ساده","Present Simple",
         "برای عادت‌ها، برنامه‌های روزانه و واقعیت‌های عمومی از حال ساده استفاده می‌کنیم. برای he، she و it معمولاً به فعل s یا es اضافه می‌شود.",
         "I/You/We/They + verb  •  He/She/It + verb-s",
@@ -148,8 +147,6 @@ private fun GrammarLessonDetail(lesson: GrammarLesson) {
                 Text("آزمون کوتاه", color = Color(0xFF14213D), fontWeight = FontWeight.ExtraBold, fontSize = 15.sp)
                 Spacer(Modifier.height(8.dp))
                 Text(lesson.question, color = Color(0xFF18243A), fontSize = 13.sp, lineHeight = 22.sp)
-                Spacer(Modifier.height(4.dp))
-                Text(lesson.prompt, color = Color(0xFF2563EB), fontSize = 14.sp, fontWeight = FontWeight.SemiBold, lineHeight = 22.sp)
                 Spacer(Modifier.height(8.dp))
                 lesson.choices.forEachIndexed { index, choice ->
                     val selectedColor = when {
