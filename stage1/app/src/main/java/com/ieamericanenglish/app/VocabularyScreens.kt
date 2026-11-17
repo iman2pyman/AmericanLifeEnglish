@@ -20,6 +20,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+private fun normalizeSearchText(value: String): String = value.lowercase()
+    .replace('ي', 'ی').replace('ك', 'ک').replace('ى', 'ی')
+
 private val LevelColors = mapOf(
     "A1" to Color(0xFF0F9D91), "A2" to Color(0xFF2563EB),
     "B1" to Color(0xFF8B5CF6), "B2" to Color(0xFFB7791F),
@@ -40,7 +43,13 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
     var query by remember { mutableStateOf("") }
     val results = remember(query, words) {
         if (query.isBlank()) emptyList()
-        else words.filter { it.word.contains(query.trim(), true) || it.meaningsFa.contains(query.trim(), true) }
+        else {
+            val needle = normalizeSearchText(query.trim())
+            words.filter {
+                normalizeSearchText(it.word).contains(needle) ||
+                    normalizeSearchText(it.meaningsFa).contains(needle)
+            }
+        }
     }
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("جستجوی واژگان", onBack)
