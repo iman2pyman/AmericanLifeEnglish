@@ -37,6 +37,7 @@ fun loadVocabulary(context: Context): List<VocabularyWord> {
 }
 
 class AmericanSpeech(context: Context) {
+    private val appContext = context.applicationContext
     private var ready = false
     private var engine: TextToSpeech? = TextToSpeech(context.applicationContext) { status ->
         if (status == TextToSpeech.SUCCESS) {
@@ -46,7 +47,11 @@ class AmericanSpeech(context: Context) {
     }
 
     fun speak(word: String) {
-        if (ready) engine?.speak(word, TextToSpeech.QUEUE_FLUSH, null, "word_" + word.hashCode())
+        if (ready) {
+            engine?.speak(word, TextToSpeech.QUEUE_FLUSH, null, "word_" + word.hashCode())
+        } else {
+            Toast.makeText(appContext, "موتور گفتار انگلیسی یا صدای English (United States) روی گوشی آماده نیست.", Toast.LENGTH_SHORT).show()
+        }
     }
 
     fun close() {
