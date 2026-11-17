@@ -24,6 +24,7 @@ private data class GrammarLesson(
     val structure: String,
     val examples: List<Pair<String, String>>,
     val question: String,
+    val prompt: String,
     val choices: List<String>,
     val answer: Int,
     val reason: String
@@ -123,7 +124,7 @@ fun GrammarScreen(onBack: () -> Unit) {
 @Composable
 private fun GrammarLessonDetail(lesson: GrammarLesson) {
     var answer by remember(lesson) { mutableStateOf<Int?>(null) }
-    Column(Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState())) {
+    Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState())) {
         Text(lesson.title, color = Color(0xFF14213D), fontSize = 23.sp, fontWeight = FontWeight.ExtraBold)
         Spacer(Modifier.height(5.dp))
         Text("سطح ${lesson.level}  •  ${lesson.subtitle}", color = Color(0xFF2563EB), fontSize = 12.sp, fontWeight = FontWeight.Bold)
@@ -147,6 +148,8 @@ private fun GrammarLessonDetail(lesson: GrammarLesson) {
                 Text("آزمون کوتاه", color = Color(0xFF14213D), fontWeight = FontWeight.ExtraBold, fontSize = 15.sp)
                 Spacer(Modifier.height(8.dp))
                 Text(lesson.question, color = Color(0xFF18243A), fontSize = 13.sp, lineHeight = 22.sp)
+                Spacer(Modifier.height(4.dp))
+                Text(lesson.prompt, color = Color(0xFF2563EB), fontSize = 14.sp, fontWeight = FontWeight.SemiBold, lineHeight = 22.sp)
                 Spacer(Modifier.height(8.dp))
                 lesson.choices.forEachIndexed { index, choice ->
                     val selectedColor = when {
