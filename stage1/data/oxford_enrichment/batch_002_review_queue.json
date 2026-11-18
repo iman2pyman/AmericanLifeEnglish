@@ -1,0 +1,1012 @@
+{
+  "batch": 2,
+  "target_size": 200,
+  "candidate_count": 200,
+  "source_file": "stage1/data/oxford_missing_candidates_review.txt",
+  "source_note": "Editorial candidate list derived from archived Oxford/Longman plain-text lists; not an official current Oxford American word list.",
+  "status": "candidate_queue_only",
+  "production_ready": false,
+  "review_policy": "Each candidate must be checked for American-English relevance, lexical uniqueness, headword status, part of speech, senses, Persian meanings, General American IPA, CEFR estimate, definition, natural US example, Persian example translation, synonyms/antonyms, word family, and collocations before promotion.",
+  "candidates": [
+    {
+      "order": 1,
+      "word": "across",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 2,
+      "word": "after",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 3,
+      "word": "afterwards",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 4,
+      "word": "against",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 5,
+      "word": "alcoholic",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 6,
+      "word": "although",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 7,
+      "word": "among",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 8,
+      "word": "analyse",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 9,
+      "word": "angrily",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 10,
+      "word": "annoyed",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 11,
+      "word": "annoying",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 12,
+      "word": "another",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 13,
+      "word": "anxious",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 14,
+      "word": "any",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 15,
+      "word": "apologize",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 16,
+      "word": "app",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 17,
+      "word": "appointment",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 18,
+      "word": "armed",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 19,
+      "word": "arms",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 20,
+      "word": "arrangement",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 21,
+      "word": "artificial",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 22,
+      "word": "ashamed",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 23,
+      "word": "asleep",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 24,
+      "word": "assistant",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 25,
+      "word": "associated",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 26,
+      "word": "attach",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 27,
+      "word": "aunt",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 28,
+      "word": "autumn",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 29,
+      "word": "awful",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 30,
+      "word": "backwards",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 31,
+      "word": "bacteria",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 32,
+      "word": "badly",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 33,
+      "word": "bake",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 34,
+      "word": "banana",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 35,
+      "word": "band",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 36,
+      "word": "barrier",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 37,
+      "word": "based",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 38,
+      "word": "bathroom",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 39,
+      "word": "battery",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 40,
+      "word": "bean",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 41,
+      "word": "because",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 42,
+      "word": "bedroom",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 43,
+      "word": "bee",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 44,
+      "word": "beef",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 45,
+      "word": "beg",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 46,
+      "word": "behave",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 47,
+      "word": "behaviour",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 48,
+      "word": "behind",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 49,
+      "word": "being",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 50,
+      "word": "below",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 51,
+      "word": "belt",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 52,
+      "word": "bend",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 53,
+      "word": "bent",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 54,
+      "word": "bet",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 55,
+      "word": "between",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 56,
+      "word": "beyond",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 57,
+      "word": "bike",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 58,
+      "word": "biology",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 59,
+      "word": "biscuit",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 60,
+      "word": "bite",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 61,
+      "word": "bitter",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 62,
+      "word": "blank",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 63,
+      "word": "blind",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 64,
+      "word": "blog",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 65,
+      "word": "blonde",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 66,
+      "word": "boil",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 67,
+      "word": "boot",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 68,
+      "word": "bored",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 69,
+      "word": "boring",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 70,
+      "word": "both",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 71,
+      "word": "boyfriend",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 72,
+      "word": "brand",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 73,
+      "word": "brave",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 74,
+      "word": "breath",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 75,
+      "word": "breathe",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 76,
+      "word": "breathing",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 77,
+      "word": "bride",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 78,
+      "word": "broken",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 79,
+      "word": "brown",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 80,
+      "word": "brush",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 81,
+      "word": "bubble",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 82,
+      "word": "bury",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 83,
+      "word": "bush",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 84,
+      "word": "businessman",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 85,
+      "word": "butter",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 86,
+      "word": "bye",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 87,
+      "word": "cafe",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 88,
+      "word": "cake",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 89,
+      "word": "calculate",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 90,
+      "word": "calm",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 91,
+      "word": "camping",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 92,
+      "word": "cancel",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 93,
+      "word": "cancer",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 94,
+      "word": "cannot",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 95,
+      "word": "captain",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 96,
+      "word": "careless",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 97,
+      "word": "carpet",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 98,
+      "word": "carrot",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 99,
+      "word": "cartoon",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 100,
+      "word": "cent",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 101,
+      "word": "centre",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 102,
+      "word": "ceremony",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 103,
+      "word": "chart",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 104,
+      "word": "cheat",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 105,
+      "word": "cheerful",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 106,
+      "word": "chef",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 107,
+      "word": "chemistry",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 108,
+      "word": "chest",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 109,
+      "word": "chocolate",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 110,
+      "word": "cigarette",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 111,
+      "word": "cinema",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 112,
+      "word": "classroom",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 113,
+      "word": "clause",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 114,
+      "word": "clever",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 115,
+      "word": "clock",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 116,
+      "word": "closed",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 117,
+      "word": "closely",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 118,
+      "word": "clothes",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 119,
+      "word": "cloud",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 120,
+      "word": "clue",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 121,
+      "word": "coat",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 122,
+      "word": "colour",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 123,
+      "word": "coloured",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 124,
+      "word": "comedy",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 125,
+      "word": "complicated",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 126,
+      "word": "concerned",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 127,
+      "word": "confident",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 128,
+      "word": "confuse",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 129,
+      "word": "confused",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 130,
+      "word": "confusing",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 131,
+      "word": "connected",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 132,
+      "word": "conscious",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 133,
+      "word": "consume",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 134,
+      "word": "container",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 135,
+      "word": "continuous",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 136,
+      "word": "convinced",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 137,
+      "word": "cooker",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 138,
+      "word": "cooking",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 139,
+      "word": "correctly",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 140,
+      "word": "cottage",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 141,
+      "word": "cotton",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 142,
+      "word": "council",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 143,
+      "word": "courage",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 144,
+      "word": "cousin",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 145,
+      "word": "covered",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 146,
+      "word": "cow",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 147,
+      "word": "crazy",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 148,
+      "word": "creature",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 149,
+      "word": "crop",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 150,
+      "word": "crowded",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 151,
+      "word": "crucial",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 152,
+      "word": "cruel",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 153,
+      "word": "cup",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 154,
+      "word": "cupboard",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 155,
+      "word": "cure",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 156,
+      "word": "curly",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 157,
+      "word": "curtain",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 158,
+      "word": "curved",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 159,
+      "word": "dad",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 160,
+      "word": "dancing",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 161,
+      "word": "dear",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 162,
+      "word": "deeply",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 163,
+      "word": "defence",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 164,
+      "word": "definite",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 165,
+      "word": "definitely",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 166,
+      "word": "deliberate",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 167,
+      "word": "deliberately",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 168,
+      "word": "delicious",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 169,
+      "word": "delight",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 170,
+      "word": "delighted",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 171,
+      "word": "dentist",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 172,
+      "word": "departure",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 173,
+      "word": "depressed",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 174,
+      "word": "depressing",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 175,
+      "word": "designer",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 176,
+      "word": "desk",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 177,
+      "word": "desperate",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 178,
+      "word": "despite",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 179,
+      "word": "destination",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 180,
+      "word": "detective",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 181,
+      "word": "determined",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 182,
+      "word": "diagram",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 183,
+      "word": "dialogue",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 184,
+      "word": "diamond",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 185,
+      "word": "diary",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 186,
+      "word": "dictionary",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 187,
+      "word": "digital",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 188,
+      "word": "dirt",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 189,
+      "word": "disadvantage",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 190,
+      "word": "disappear",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 191,
+      "word": "disappointed",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 192,
+      "word": "disappointing",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 193,
+      "word": "disc",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 194,
+      "word": "dish",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 195,
+      "word": "dishonest",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 196,
+      "word": "dislike",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 197,
+      "word": "division",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 198,
+      "word": "divorced",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 199,
+      "word": "downstairs",
+      "status": "pending_lexical_review"
+    },
+    {
+      "order": 200,
+      "word": "downwards",
+      "status": "pending_lexical_review"
+    }
+  ]
+}
