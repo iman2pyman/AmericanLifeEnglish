@@ -30816,13 +30816,20 @@
     "synonyms_antonyms": "space; gap; separation",
     "word_family": "distant (adj); distance (v); distances (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "The distance from my home"
+    "collocations": "The distance from my home",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ˈdɪstəns/",
+    "definitionEn": "the amount of space between two places, people, or things",
+    "exampleEn": "The distance from my home to work is about ten miles.",
+    "exampleFa": "فاصله خانه من تا محل کار حدود ده مایل است.",
+    "synonymsAntonyms": "space; gap; separation",
+    "wordFamily": "distant (adj); distance (v); distances (n)"
   },
   {
     "word": "expense",
     "cefr": "B1",
     "category": "Money and finance, Work and business",
-    "meanings_fa": "هزینه؛ مخارج؛ خرج",
+    "meanings_fa": "هزینه؛ مخارج",
     "review_status": "Editorial completion batch 1/8; final human review recommended",
     "ready_flag": false,
     "release_decision": null,
@@ -30835,7 +30842,14 @@
     "synonyms_antonyms": "cost; outlay; expenditure",
     "word_family": "expenses (plural); expensive (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "a major expense for our family"
+    "collocations": "a major expense for our family",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ɪkˈspɛns/",
+    "definitionEn": "money that you spend to buy or do something",
+    "exampleEn": "Travel is a major expense for our family.",
+    "exampleFa": "سفر یکی از هزینه‌های عمده خانواده ماست.",
+    "synonymsAntonyms": "cost; outlay; expenditure",
+    "wordFamily": "expenses (plural); expensive (adj)"
   },
   {
     "word": "provider",
@@ -30854,7 +30868,14 @@
     "synonyms_antonyms": "supplier; vendor; caregiver",
     "word_family": "provide (v); provider (n); provision (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "health insurance provider you trust"
+    "collocations": "health insurance provider you trust",
+    "partOfSpeech": "noun",
+    "ipaUs": "/prəˈvaɪdər/",
+    "definitionEn": "a person or organization that supplies a service or something needed",
+    "exampleEn": "Choose a health insurance provider you trust.",
+    "exampleFa": "یک ارائه‌دهنده بیمه درمانی انتخاب کنید که به او اعتماد دارید.",
+    "synonymsAntonyms": "supplier; vendor; caregiver",
+    "wordFamily": "provide (v); provider (n); provision (n)"
   },
   {
     "word": "trading",
@@ -30873,7 +30894,14 @@
     "synonyms_antonyms": "commerce; dealing; exchange",
     "word_family": "trade (n/v); trader (n); trading (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "Online trading involves financial risk"
+    "collocations": "Online trading involves financial risk",
+    "partOfSpeech": "noun/gerund",
+    "ipaUs": "/ˈtreɪdɪŋ/",
+    "definitionEn": "the activity of buying and selling goods, services, or financial assets",
+    "exampleEn": "Online trading involves financial risk.",
+    "exampleFa": "معامله‌گری آنلاین با ریسک مالی همراه است.",
+    "synonymsAntonyms": "commerce; dealing; exchange",
+    "wordFamily": "trade (n/v); trader (n); trading (n)"
   },
   {
     "word": "emphasize",
@@ -30892,7 +30920,14 @@
     "synonyms_antonyms": "stress; highlight; underscore",
     "word_family": "emphasis (n); emphatic (adj); emphatically (adv)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "The instructor emphasized the need for clear communication"
+    "collocations": "The instructor emphasized the need for clear communication",
+    "partOfSpeech": "verb",
+    "ipaUs": "/ˈɛmfəˌsaɪz/",
+    "definitionEn": "to give special importance or attention to something",
+    "exampleEn": "The instructor emphasized the need for clear communication.",
+    "exampleFa": "مربی بر ضرورت ارتباط روشن تأکید کرد.",
+    "synonymsAntonyms": "stress; highlight; underscore",
+    "wordFamily": "emphasis (n); emphatic (adj); emphatically (adv)"
   },
   {
     "word": "gold",
@@ -30911,7 +30946,14 @@
     "synonyms_antonyms": "precious metal; golden",
     "word_family": "golden (adj); gold (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "a small gold necklace"
+    "collocations": "a small gold necklace",
+    "partOfSpeech": "noun/adjective",
+    "ipaUs": "/ɡoʊld/",
+    "definitionEn": "a valuable yellow metal; having a gold color",
+    "exampleEn": "She wears a small gold necklace.",
+    "exampleFa": "او یک گردنبند کوچک طلا به گردن دارد.",
+    "synonymsAntonyms": "precious metal; golden",
+    "wordFamily": "golden (adj)"
   },
   {
     "word": "hair",
@@ -30930,7 +30972,14 @@
     "synonyms_antonyms": "locks; strands",
     "word_family": "hairy (adj); hairdresser (n); haircut (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "He got a haircut yesterday"
+    "collocations": "He got a haircut yesterday",
+    "partOfSpeech": "noun",
+    "ipaUs": "/hɛr/",
+    "definitionEn": "the thin strands that grow on a person's or animal's skin",
+    "exampleEn": "He got a haircut yesterday.",
+    "exampleFa": "او دیروز موهایش را کوتاه کرد.",
+    "synonymsAntonyms": "locks; strands",
+    "wordFamily": "hairy (adj); hairdresser (n); haircut (n)"
   },
   {
     "word": "unique",
@@ -30949,7 +30998,14 @@
     "synonyms_antonyms": "distinctive; one-of-a-kind; singular",
     "word_family": "uniquely (adv); uniqueness (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "has a unique way of learning"
+    "collocations": "has a unique way of learning",
+    "partOfSpeech": "adjective",
+    "ipaUs": "/juˈniːk/",
+    "definitionEn": "being the only one of its kind or unlike anything else",
+    "exampleEn": "Each person has a unique way of learning.",
+    "exampleFa": "هر فرد روش یادگیری منحصربه‌فردی دارد.",
+    "synonymsAntonyms": "distinctive; one-of-a-kind; singular",
+    "wordFamily": "uniquely (adv); uniqueness (n)"
   },
   {
     "word": "wonderful",
@@ -30968,7 +31024,14 @@
     "synonyms_antonyms": "excellent; fantastic; marvelous",
     "word_family": "wonder (n/v); wonderfully (adv)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "had a wonderful time at the"
+    "collocations": "had a wonderful time at the",
+    "partOfSpeech": "adjective",
+    "ipaUs": "/ˈwʌndərfəl/",
+    "definitionEn": "very good, enjoyable, or impressive",
+    "exampleEn": "We had a wonderful time at the beach.",
+    "exampleFa": "ما در ساحل اوقات فوق‌العاده‌ای داشتیم.",
+    "synonymsAntonyms": "excellent; fantastic; marvelous",
+    "wordFamily": "wonder (n/v); wonderfully (adv)"
   },
   {
     "word": "collapse",
@@ -30987,7 +31050,14 @@
     "synonyms_antonyms": "fall down; cave in; break down",
     "word_family": "collapsed (adj); collapsing (adj); collapse (n/v)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "roof could collapse under heavy snow"
+    "collocations": "roof could collapse under heavy snow",
+    "partOfSpeech": "verb/noun",
+    "ipaUs": "/kəˈlæps/",
+    "definitionEn": "to fall down suddenly or fail completely; a sudden breakdown",
+    "exampleEn": "The old roof could collapse under heavy snow.",
+    "exampleFa": "ممکن است سقف قدیمی زیر برف سنگین فرو بریزد.",
+    "synonymsAntonyms": "fall down; cave in; break down",
+    "wordFamily": "collapsed (adj); collapsing (adj)"
   },
   {
     "word": "judgment",
@@ -31006,7 +31076,14 @@
     "synonyms_antonyms": "assessment; opinion; decision",
     "word_family": "judge (n/v); judgmental (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "your best judgment before signing the"
+    "collocations": "your best judgment before signing the",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ˈdʒʌdʒmənt/",
+    "definitionEn": "the ability to make decisions or an opinion formed after considering facts",
+    "exampleEn": "Use your best judgment before signing the contract.",
+    "exampleFa": "پیش از امضای قرارداد با بهترین تشخیص خود تصمیم بگیر.",
+    "synonymsAntonyms": "assessment; opinion; decision",
+    "wordFamily": "judge (n/v); judgmental (adj)"
   },
   {
     "word": "manufacturing",
@@ -31025,7 +31102,14 @@
     "synonyms_antonyms": "production; fabrication",
     "word_family": "manufacture (v/n); manufacturer (n); manufactured (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "manufacturing creates many jobs"
+    "collocations": "manufacturing creates many jobs",
+    "partOfSpeech": "noun/gerund",
+    "ipaUs": "/ˌmænjəˈfæktʃərɪŋ/",
+    "definitionEn": "the process of making products, especially in factories",
+    "exampleEn": "Manufacturing creates many jobs in this region.",
+    "exampleFa": "تولید صنعتی در این منطقه شغل‌های زیادی ایجاد می‌کند.",
+    "synonymsAntonyms": "production; fabrication",
+    "wordFamily": "manufacture (v/n); manufacturer (n); manufactured (adj)"
   },
   {
     "word": "reply",
@@ -31044,7 +31128,14 @@
     "synonyms_antonyms": "answer; respond; response",
     "word_family": "reply (n/v); replies (plural); replied (past)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "Please reply to my email"
+    "collocations": "Please reply to my email",
+    "partOfSpeech": "verb/noun",
+    "ipaUs": "/rɪˈplaɪ/",
+    "definitionEn": "to answer someone in speech or writing; an answer",
+    "exampleEn": "Please reply to my email by Friday.",
+    "exampleFa": "لطفاً تا جمعه به ایمیل من پاسخ بده.",
+    "synonymsAntonyms": "answer; respond; response",
+    "wordFamily": "replies (plural); replied (past)"
   },
   {
     "word": "blue",
@@ -31063,7 +31154,14 @@
     "synonyms_antonyms": "azure; sad; down",
     "word_family": "blue (n/adj); bluish (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "are light blue "
+    "collocations": "are light blue ",
+    "partOfSpeech": "adjective/noun",
+    "ipaUs": "/bluː/",
+    "definitionEn": "having the color of a clear daytime sky; feeling sad",
+    "exampleEn": "The walls in her office are light blue.",
+    "exampleFa": "دیوارهای دفتر او آبی روشن هستند.",
+    "synonymsAntonyms": "azure; sad; down",
+    "wordFamily": "bluish (adj)"
   },
   {
     "word": "burden",
@@ -31082,7 +31180,14 @@
     "synonyms_antonyms": "load; responsibility; hardship",
     "word_family": "burdensome (adj); burden (n/v)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "one person's burden "
+    "collocations": "one person's burden ",
+    "partOfSpeech": "noun/verb",
+    "ipaUs": "/ˈbɝːdən/",
+    "definitionEn": "a difficult responsibility or something that causes worry or hardship",
+    "exampleEn": "Caring for the equipment should not be one person's burden.",
+    "exampleFa": "نگهداری از تجهیزات نباید مسئولیت سنگین یک نفر باشد.",
+    "synonymsAntonyms": "load; responsibility; hardship",
+    "wordFamily": "burdensome (adj)"
   },
   {
     "word": "reasonable",
@@ -31101,7 +31206,14 @@
     "synonyms_antonyms": "sensible; fair; rational",
     "word_family": "reason (n/v); reasonably (adv); reasonableness (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "offered a reasonable monthly rent"
+    "collocations": "offered a reasonable monthly rent",
+    "partOfSpeech": "adjective",
+    "ipaUs": "/ˈriːzənəbəl/",
+    "definitionEn": "fair and sensible; not too expensive or extreme",
+    "exampleEn": "The landlord offered a reasonable monthly rent.",
+    "exampleFa": "صاحبخانه اجاره ماهانه منصفانه‌ای پیشنهاد داد.",
+    "synonymsAntonyms": "sensible; fair; rational",
+    "wordFamily": "reason (n/v); reasonably (adv); reasonableness (n)"
   },
   {
     "word": "succeed",
@@ -31120,7 +31232,14 @@
     "synonyms_antonyms": "achieve; prosper; do well",
     "word_family": "success (n); successful (adj); successfully (adv)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "You can succeed if you keep"
+    "collocations": "You can succeed if you keep",
+    "partOfSpeech": "verb",
+    "ipaUs": "/səkˈsiːd/",
+    "definitionEn": "to achieve what you want or to do something well",
+    "exampleEn": "You can succeed if you keep practicing.",
+    "exampleFa": "اگر به تمرین ادامه بدهی می‌توانی موفق شوی.",
+    "synonymsAntonyms": "achieve; prosper; do well",
+    "wordFamily": "success (n); successful (adj); successfully (adv)"
   },
   {
     "word": "university",
@@ -31139,7 +31258,14 @@
     "synonyms_antonyms": "college; institution",
     "word_family": "university (n); university-level (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "attend a university in California"
+    "collocations": "attend a university in California",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ˌjuːnəˈvɝːsəti/",
+    "definitionEn": "an institution where people study for degrees and do advanced research",
+    "exampleEn": "She plans to attend a university in California.",
+    "exampleFa": "او قصد دارد در دانشگاهی در کالیفرنیا تحصیل کند.",
+    "synonymsAntonyms": "college; institution",
+    "wordFamily": "university-level (adj)"
   },
   {
     "word": "advise",
@@ -31158,7 +31284,14 @@
     "synonyms_antonyms": "recommend; counsel; suggest",
     "word_family": "advice (n); adviser (n); advisable (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "The doctor advised him to get more sleep"
+    "collocations": "The doctor advised him to get more sleep",
+    "partOfSpeech": "verb",
+    "ipaUs": "/ədˈvaɪz/",
+    "definitionEn": "to tell someone what you think they should do",
+    "exampleEn": "The doctor advised him to get more sleep.",
+    "exampleFa": "پزشک به او توصیه کرد بیشتر بخوابد.",
+    "synonymsAntonyms": "recommend; counsel; suggest",
+    "wordFamily": "advice (n); adviser (n); advisable (adj)"
   },
   {
     "word": "depict",
@@ -31177,7 +31310,14 @@
     "synonyms_antonyms": "portray; represent; illustrate",
     "word_family": "depiction (n); depicted (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "The film depicts life in a small American town"
+    "collocations": "The film depicts life in a small American town",
+    "partOfSpeech": "verb",
+    "ipaUs": "/dɪˈpɪkt/",
+    "definitionEn": "to show or describe someone or something in a picture or words",
+    "exampleEn": "The film depicts life in a small American town.",
+    "exampleFa": "این فیلم زندگی در یک شهر کوچک آمریکایی را به تصویر می‌کشد.",
+    "synonymsAntonyms": "portray; represent; illustrate",
+    "wordFamily": "depiction (n); depicted (adj)"
   },
   {
     "word": "feeling",
@@ -31196,7 +31336,14 @@
     "synonyms_antonyms": "emotion; sensation; impression",
     "word_family": "feel (v); feeling (n/adj); feeler (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "a strange feeling that something was"
+    "collocations": "a strange feeling that something was",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ˈfiːlɪŋ/",
+    "definitionEn": "an emotion or physical sensation; an opinion or belief",
+    "exampleEn": "I had a strange feeling that something was wrong.",
+    "exampleFa": "احساس عجیبی داشتم که چیزی درست نیست.",
+    "synonymsAntonyms": "emotion; sensation; impression",
+    "wordFamily": "feel (v); feeler (n)"
   },
   {
     "word": "positive",
@@ -31215,7 +31362,14 @@
     "synonyms_antonyms": "optimistic; favorable; affirmative",
     "word_family": "positively (adv); positivity (n); positive (adj)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "to stay positive during the job"
+    "collocations": "to stay positive during the job",
+    "partOfSpeech": "adjective",
+    "ipaUs": "/ˈpɑːzətɪv/",
+    "definitionEn": "good or helpful; showing confidence; greater than zero",
+    "exampleEn": "Try to stay positive during the job search.",
+    "exampleFa": "هنگام جست‌وجوی کار سعی کن مثبت‌اندیش بمانی.",
+    "synonymsAntonyms": "optimistic; favorable; affirmative",
+    "wordFamily": "positively (adv); positivity (n)"
   },
   {
     "word": "spirit",
@@ -31234,7 +31388,14 @@
     "synonyms_antonyms": "soul; morale; enthusiasm",
     "word_family": "spirited (adj); spiritless (adj); spiritually (adv)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "great team spirit "
+    "collocations": "great team spirit ",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ˈspɪrɪt/",
+    "definitionEn": "the nonphysical part of a person; courage, energy, or attitude",
+    "exampleEn": "The team showed great team spirit.",
+    "exampleFa": "تیم روحیه گروهی بسیار خوبی نشان داد.",
+    "synonymsAntonyms": "soul; morale; enthusiasm",
+    "wordFamily": "spirited (adj); spiritless (adj); spiritually (adv)"
   },
   {
     "word": "ultimately",
@@ -31253,7 +31414,14 @@
     "synonyms_antonyms": "eventually; finally; in the end",
     "word_family": "ultimate (adj); ultimately (adv)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "ultimately , the decision"
+    "collocations": "ultimately , the decision",
+    "partOfSpeech": "adverb",
+    "ipaUs": "/ˈʌltəmətli/",
+    "definitionEn": "finally, after everything has been considered or done",
+    "exampleEn": "Ultimately, the decision is yours.",
+    "exampleFa": "در نهایت، تصمیم با خودت است.",
+    "synonymsAntonyms": "eventually; finally; in the end",
+    "wordFamily": "ultimate (adj)"
   },
   {
     "word": "actor",
@@ -31272,7 +31440,14 @@
     "synonyms_antonyms": "performer; player",
     "word_family": "act (v); actor (n); actress (n); acting (n); action (n)",
     "quality_flag": "schema_normalized; editorial_review_recommended",
-    "collocations": "The actor received an award"
+    "collocations": "The actor received an award",
+    "partOfSpeech": "noun",
+    "ipaUs": "/ˈæktər/",
+    "definitionEn": "a person who performs in plays, movies, or television",
+    "exampleEn": "The actor received an award for his performance.",
+    "exampleFa": "این بازیگر برای هنرنمایی‌اش جایزه گرفت.",
+    "synonymsAntonyms": "performer; player",
+    "wordFamily": "act (v); actress (n); acting (n); action (n)"
   },
   {
     "word": "horse",
