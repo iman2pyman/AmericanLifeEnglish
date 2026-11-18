@@ -86,6 +86,9 @@ class LearningStore(context: Context) {
             prefs.edit().putString(KEY_DAILY, dailyJson.toString()).apply()
             selected
         }
+        if (stored == null) {
+            finalNew.forEach { setWordStatus(it.word, "learning") }
+        }
         return DailyLearningPlan(
             date = today,
             newWords = finalNew,
