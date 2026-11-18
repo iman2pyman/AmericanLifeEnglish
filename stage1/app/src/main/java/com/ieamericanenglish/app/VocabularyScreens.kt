@@ -39,7 +39,7 @@ fun ScreenHeader(title: String, onBack: () -> Unit) {
 }
 
 @Composable
-fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit) {
+fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember { mutableStateOf("") }
     val uniqueWordCount = remember(words) {
         words.map { it.word.trim().lowercase() }.distinct().size
@@ -65,7 +65,7 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
         Spacer(Modifier.height(10.dp))
         Text(if (query.isBlank()) "جستجو در " + uniqueWordCount + " واژه" else results.size.toString() + " نتیجه", color = Color(0xFF718096), fontSize = 12.sp)
         LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
-            items(results, key = { it.word }) { word -> WordRow(word, onSpeak) { onWord(word) } }
+            items(results, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
         }
     }
 }
@@ -82,7 +82,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
             listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
                 val tint = LevelColors[item] ?: Color(0xFF2563EB)
                 FilterChip(
-                    selected = level == item, onClick = { level = item },
+                    selected = level == item, onClick = { level = item; onLevelChanged(item) },
                     label = { Text(item, fontWeight = FontWeight.Bold) },
                     colors = FilterChipDefaults.filterChipColors(selectedContainerColor = tint, selectedLabelColor = Color.White)
                 )
@@ -96,13 +96,13 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
         }
         Spacer(Modifier.height(10.dp))
         LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
-            items(levelWords, key = { it.word }) { word -> WordRow(word, onSpeak) { onWord(word) } }
+            items(levelWords, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
         }
     }
 }
 
 @Composable
-fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, onClick: () -> Unit) {
+fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}, onClick: () -> Unit) {
     val accent = LevelColors[word.cefr] ?: Color(0xFF2563EB)
     Surface(
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
@@ -129,7 +129,7 @@ fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, onClick: () -> Unit
 }
 
 @Composable
-fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: () -> Unit) {
+fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: () -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}) {
     val accent = LevelColors[word.cefr] ?: Color(0xFF2563EB)
     val englishExamples = word.exampleEn.split("|").map { it.trim() }.filter { it.isNotBlank() }
     val persianExamples = word.exampleFa.split("|").map { it.trim() }.filter { it.isNotBlank() }
@@ -142,7 +142,7 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
                         Text(word.word, color = accent, fontSize = 29.sp, fontWeight = FontWeight.ExtraBold)
                         Text(word.ipaUs, color = Color(0xFF718096), fontSize = 15.sp)
                     }
-                    TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = Color(0xFF2563EB), fontWeight = FontWeight.Bold) }
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {\n                        TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = Color(0xFF2563EB), fontWeight = FontWeight.Bold) }\n                        TextButton(onClick = onToggleBookmark) { Text(if (isBookmarked) "★ نشان‌دار" else "☆ نشان‌دار", color = if (isBookmarked) Color(0xFFB7791F) else Color(0xFF2563EB), fontWeight = FontWeight.Bold) }\n                    }
                 }
                 Spacer(Modifier.height(8.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
