@@ -71,10 +71,11 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
 }
 
 @Composable
-fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null) {
     var level by remember { mutableStateOf(initialLevel) }
     LaunchedEffect(initialLevel) { level = initialLevel }
-    val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) } }
+    val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) }.distinctBy { LearningStore.wordId(it.word) } }
+    val dailyPlan = remember(level, words, bookmarks, learningStore) { learningStore?.buildDailyPlan(words, level) }
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
         Text("سطح یادگیری را انتخاب کن", color = Color(0xFF18243A), fontSize = 15.sp, fontWeight = FontWeight.Bold)
@@ -94,6 +95,17 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
             Box(Modifier.size(9.dp).clip(CircleShape).background(LevelColors[level] ?: Color(0xFF2563EB)))
             Spacer(Modifier.width(7.dp))
             Text("سطح " + level + "  •  " + levelWords.size + " واژه", color = Color(0xFF718096), fontSize = 12.sp)
+        }
+        Spacer(Modifier.height(10.dp))
+        dailyPlan?.let { plan ->
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 2.dp) {
+                Column(Modifier.padding(13.dp)) {
+                    Text("برنامه امروز", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                    Spacer(Modifier.height(5.dp))
+                    Text("${plan.newWords.size} واژه جدید از هدف ۱۵تایی  •  ${plan.reviewWords.size} واژه برای مرور", color = Color(0xFF2563EB), fontSize = 12.sp)
+                    Text("هدف ماهانه: ${plan.monthlyNewWordGoal} واژه${if (plan.bookmarkedWaiting > 0) "  •  ${plan.bookmarkedWaiting} نشان‌دار در صف" else ""}", color = Color(0xFF718096), fontSize = 11.sp)
+                }
+            }
         }
         Spacer(Modifier.height(10.dp))
         LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
@@ -121,6 +133,7 @@ fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, isBookmarked: Boole
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(word.cefr, color = accent, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                TextButton(onClick = onToggleBookmark, contentPadding = PaddingValues(0.dp), modifier = Modifier.size(30.dp)) { Text(if (isBookmarked) "★" else "☆", color = if (isBookmarked) Color(0xFFB7791F) else Color(0xFF718096), fontSize = 20.sp) }
                 TextButton(onClick = { onSpeak(word.word) }, contentPadding = PaddingValues(0.dp), modifier = Modifier.size(36.dp)) {
                     Text("🔊", fontSize = 17.sp)
                 }
