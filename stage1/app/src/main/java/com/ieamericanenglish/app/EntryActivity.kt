@@ -53,19 +53,37 @@ class EntryActivity : ComponentActivity() {
 private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
     val context = LocalContext.current
     val words = remember { loadVocabulary(context) }
+    val learningStore = remember(context) { LearningStore(context) }
+    var storeRevision by remember { mutableIntStateOf(0) }
+    val bookmarkedWords = remember(storeRevision) { learningStore.bookmarks() }
+    var selectedLevel by remember { mutableStateOf(learningStore.selectedLevel()) }
     var page by remember { mutableStateOf("home") }
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
     var dialog by remember { mutableStateOf<String?>(null) }
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
         Surface(Modifier.fillMaxSize(), color = Page) {
             when {
-                selectedWord != null -> WordDetailScreen(\n                    selectedWord!!, onSpeak, { selectedWord = null },\n                    isBookmarked = LearningStore.wordId(selectedWord!!.word) in bookmarkedWords,\n                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ }\n                )
+                selectedWord != null -> WordDetailScreen(
+                    selectedWord!!, onSpeak, { selectedWord = null },
+                    isBookmarked = LearningStore.wordId(selectedWord!!.word) in bookmarkedWords,
+                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ }
+                )
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
                     onGrammar = { page = "grammar" }, onHelp = { dialog = "help" }, onAbout = { dialog = "about" }
                 )
-                page == "search" -> SearchScreen(\n                    words, onSpeak, { page = "home" }, { selectedWord = it },\n                    bookmarks = bookmarkedWords,\n                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }\n                )
-                page == "vocabulary" -> LearningScreen(\n                    words, onSpeak, { page = "home" }, { selectedWord = it },\n                    initialLevel = selectedLevel,\n                    onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },\n                    bookmarks = bookmarkedWords,\n                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }\n                )
+                page == "search" -> SearchScreen(
+                    words, onSpeak, { page = "home" }, { selectedWord = it },
+                    bookmarks = bookmarkedWords,
+                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
+                )
+                page == "vocabulary" -> LearningScreen(
+                    words, onSpeak, { page = "home" }, { selectedWord = it },
+                    initialLevel = selectedLevel,
+                    onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
+                    bookmarks = bookmarkedWords,
+                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
+                )
                 else -> GrammarScreen { page = "home" }
             }
         }
