@@ -23,21 +23,35 @@ data class VocabularyWord(
 )
 
 fun loadVocabulary(context: Context): List<VocabularyWord> {
-    val json = context.assets.open("vocabulary_1000.json")
-        .bufferedReader(Charsets.UTF_8).use { it.readText() }
-    val array = JSONArray(json)
+    val arrays = mutableListOf<JSONArray>()
+    arrays += JSONArray(context.assets.open("vocabulary_1000.json")
+        .bufferedReader(Charsets.UTF_8).use { it.readText() })
+    for (name in listOf(
+        "vocabulary_additional_001.json",
+        "vocabulary_additional_002.json",
+        "vocabulary_additional_003.json",
+        "vocabulary_additional_004.json",
+        "vocabulary_additional_005.json"
+    )) {
+        arrays += JSONArray(context.assets.open(name)
+            .bufferedReader(Charsets.UTF_8).use { it.readText() })
+    }
     val levelJson = context.assets.open("cefr_levels.json")
         .bufferedReader(Charsets.UTF_8).use { it.readText() }
     val levelOverrides = JSONObject(levelJson)
-    return List(array.length()) { i ->
-        val o = array.getJSONObject(i)
-        VocabularyWord(
-            o.optString("word"), o.optString("meanings_fa"), o.optString("part_of_speech"),
-            o.optString("ipa_us"), levelOverrides.optString(o.optString("word").lowercase(Locale.US), o.optString("cefr")), o.optString("category"),
-            o.optString("definition_en"), o.optString("example_en"), o.optString("example_fa"),
-            o.optString("synonyms_antonyms"), o.optString("word_family"), o.optString("collocations")
-        )
+    val result = mutableListOf<VocabularyWord>()
+    for (array in arrays) {
+        for (i in 0 until array.length()) {
+            val o = array.getJSONObject(i)
+            result += VocabularyWord(
+                o.optString("word"), o.optString("meanings_fa"), o.optString("part_of_speech"),
+                o.optString("ipa_us"), levelOverrides.optString(o.optString("word").lowercase(Locale.US), o.optString("cefr")), o.optString("category"),
+                o.optString("definition_en"), o.optString("example_en"), o.optString("example_fa"),
+                o.optString("synonyms_antonyms"), o.optString("word_family"), o.optString("collocations")
+            )
+        }
     }
+    return result
 }
 
 class AmericanSpeech(context: Context) {
