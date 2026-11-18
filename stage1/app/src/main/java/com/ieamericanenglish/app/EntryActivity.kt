@@ -82,7 +82,8 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
                     initialLevel = selectedLevel,
                     onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
                     bookmarks = bookmarkedWords,
-                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
+                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ },
+                    learningStore = learningStore
                 )
                 else -> GrammarScreen { page = "home" }
             }
