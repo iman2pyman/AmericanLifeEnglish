@@ -32,6 +32,7 @@ fun loadVocabulary(context: Context): List<VocabularyWord> {
         "vocabulary_additional_003.json",
         "vocabulary_additional_004.json",
         "vocabulary_additional_005.json",
+        "vocabulary_additional_006.json",
         "vocabulary_additional_006.json"
     )) {
         arrays += JSONArray(context.assets.open(name)
