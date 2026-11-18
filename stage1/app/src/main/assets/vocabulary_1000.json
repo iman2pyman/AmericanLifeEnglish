@@ -30811,7 +30811,12 @@
     "exampleFa": "فاصله بین دو شهر صد کیلومتر است. | او به سفری به فاصله دور دست رفت.",
     "synonymsAntonyms": "",
     "wordFamily": "distances (plural)",
-    "collocations": "short [adj]; long [adj]; safe [adj]; differential [noun_after]; between [prep_after]; from [prep_after]; like [prep_after]; walk [verb]; travel [verb]; keep [verb]"
+    "collocations": "short [adj]; long [adj]; safe [adj]; differential [noun_after]; between [prep_after]; from [prep_after]; like [prep_after]; walk [verb]; travel [verb]; keep [verb]",
+    "meanings_fa": "فاصله؛ مسافت؛ دوری",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "expense",
@@ -30825,7 +30830,12 @@
     "exampleFa": "هزینه‌های تجاری می‌توانند از مالیات کسر شوند. | موفقیت این پروژه با هزینه بسیاری از وقت آزاد انجام شد.",
     "synonymsAntonyms": "",
     "wordFamily": "expenses (plural)",
-    "collocations": "educational [adj]; medical [adj]; legal [adj]; data [noun_after]; account [noun_after]; subsidy [noun_before]; of [prep_after]; for [prep_after]; as [prep_after]; report [verb]"
+    "collocations": "educational [adj]; medical [adj]; legal [adj]; data [noun_after]; account [noun_after]; subsidy [noun_before]; of [prep_after]; for [prep_after]; as [prep_after]; report [verb]",
+    "meanings_fa": "هزینه؛ مخارج؛ خرج",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "provider",
@@ -30839,7 +30849,12 @@
     "exampleFa": "یک ارائه‌دهنده اینترنت قابل‌اعتماد انتخاب کنید.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "lsc-funded [adj]; cellular [adj]; efficient [adj]; service [noun_before]; care [noun_before]; abortion [noun_before]; because [prep_after]; of [prep_after]; to [prep_after]"
+    "collocations": "lsc-funded [adj]; cellular [adj]; efficient [adj]; service [noun_before]; care [noun_before]; abortion [noun_before]; because [prep_after]; of [prep_after]; to [prep_after]",
+    "meanings_fa": "ارائه‌دهنده؛ تأمین‌کننده؛ عرضه‌کننده خدمات",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "trading",
@@ -30853,7 +30868,12 @@
     "exampleFa": "شرکت در سطح بین‌المللی تجارت می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "oxides [adj]; after-hours [adj]; important [adj]; post [noun_after]; program [noun_after]; port [noun_after]; mercury [noun_before]; dioxide [noun_before]; day [noun_before]; on [prep_after]; in [prep_after]; of [prep_after]; halt [verb]; found [verb]; stop [verb]"
+    "collocations": "oxides [adj]; after-hours [adj]; important [adj]; post [noun_after]; program [noun_after]; port [noun_after]; mercury [noun_before]; dioxide [noun_before]; day [noun_before]; on [prep_after]; in [prep_after]; of [prep_after]; halt [verb]; found [verb]; stop [verb]",
+    "meanings_fa": "تجارت؛ دادوستد؛ معامله‌گری",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "emphasize",
@@ -30867,7 +30887,12 @@
     "exampleFa": "معلم بر اهمیت تکالیف شب تأکید کرد. | سخنگو بر نکات کلیدی پیام خود تأکید کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "emphasizes (3rd_present); emphasized (past); emphasizing (gerund)",
-    "collocations": "repeatedly [adv]; also [adv]; importance [noun_object]; nature [noun_object]; need [noun_object]; that [prep_after]; in [prep_after]; to [prep_after]"
+    "collocations": "repeatedly [adv]; also [adv]; importance [noun_object]; nature [noun_object]; need [noun_object]; that [prep_after]; in [prep_after]; to [prep_after]",
+    "meanings_fa": "تأکید کردن؛ برجسته کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "gold",
@@ -30881,7 +30906,12 @@
     "exampleFa": "او کیسه‌ای پر از طلا و سکه‌های طلایی پنهان کرد. | او یک حلقه طلایی بر انگشتش می‌پوشید. | آفتاب غروب رنگ طلایی داشت. | گندم‌های طلایی در مزرعه موج می‌خوردند.",
     "synonymsAntonyms": "",
     "wordFamily": "golds (plural)",
-    "collocations": "jewelry [noun]; standard [noun]; solid [adj]; pure [adj]; medieval [adj]; rush [noun_after]; medal [noun_after]; coin [noun_after]; as [prep_after]; with [prep_after]; in [prep_after]; win [verb]; find [verb]"
+    "collocations": "jewelry [noun]; standard [noun]; solid [adj]; pure [adj]; medieval [adj]; rush [noun_after]; medal [noun_after]; coin [noun_after]; as [prep_after]; with [prep_after]; in [prep_after]; win [verb]; find [verb]",
+    "meanings_fa": "طلا؛ طلایی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "hair",
@@ -30895,7 +30925,12 @@
     "exampleFa": "موی سرم بسیار بلند شده است. | ماشین از تصادف فقط یک موی فاصله داشت.",
     "synonymsAntonyms": "",
     "wordFamily": "hairs (plural)",
-    "collocations": "pubic [adj]; golden [adj]; short [adj]; dryer [noun_after]; color [noun_after]; day [noun_after]; blond [noun_before]; out [prep_after]; on [prep_after]; from [prep_after]; dye [verb]; grow [verb]; cut [verb]"
+    "collocations": "pubic [adj]; golden [adj]; short [adj]; dryer [noun_after]; color [noun_after]; day [noun_after]; blond [noun_before]; out [prep_after]; on [prep_after]; from [prep_after]; dye [verb]; grow [verb]; cut [verb]",
+    "meanings_fa": "مو؛ موی سر یا بدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "unique",
@@ -30909,7 +30944,12 @@
     "exampleFa": "این طرح طراحی منحصر به فرد و کاملا متفاوت است. | این مشکل منحصر به این منطقه است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "most [adv]; not [adv]; browser [noun]; successor [noun]; opportunity [noun]; to [prep_after]; in [prep_after]"
+    "collocations": "most [adv]; not [adv]; browser [noun]; successor [noun]; opportunity [noun]; to [prep_after]; in [prep_after]",
+    "meanings_fa": "منحصربه‌فرد؛ بی‌همتا؛ ویژه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "wonderful",
@@ -30923,7 +30963,12 @@
     "exampleFa": "این فیلم واقعاً شگفت‌انگیز بود و خیلی دوست داشتم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "how [adv]; so [adv]; view [noun]; beach [noun]; collection [noun]; that [prep_after]; to [prep_after]"
+    "collocations": "how [adv]; so [adv]; view [noun]; beach [noun]; collection [noun]; that [prep_after]; to [prep_after]",
+    "meanings_fa": "عالی؛ فوق‌العاده؛ شگفت‌انگیز",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "collapse",
@@ -30937,7 +30982,12 @@
     "exampleFa": "پس از سال‌ها کار سخت، او دچار فروپاشی جسمانی شد. | سازمان بعد از بحران مالی فروریخت. | فروپاشی سقف ساختمان باعث جریمه سنگینی شد. | ورزشکار در انتهای بازی از پا درآمد.",
     "synonymsAntonyms": "",
     "wordFamily": "collapses (3rd_present); collapsed (past); collapsing (gerund)",
-    "collocations": "partial [adj]; imminent [adj]; total [adj]; of [prep_after]; into [prep_after]; on [prep_after]; predict [verb]; suffer [verb]; cause [verb]; distinction [noun_object]; year [noun_object]; under [prep_after]; at [prep_after]"
+    "collocations": "partial [adj]; imminent [adj]; total [adj]; of [prep_after]; into [prep_after]; on [prep_after]; predict [verb]; suffer [verb]; cause [verb]; distinction [noun_object]; year [noun_object]; under [prep_after]; at [prep_after]",
+    "meanings_fa": "فروریختن؛ فروپاشیدن؛ از حال رفتن؛ فروپاشی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "judgment",
@@ -30951,7 +31001,12 @@
     "exampleFa": "داوری او درباره کیفیت فیلم بسیار منصفانه بود. | داوری در مورد توانایی‌های دیگران نباید بدون اطلاعات کافی انجام شود.",
     "synonymsAntonyms": "",
     "wordFamily": "judgments (plural)",
-    "collocations": "professional [adj]; summary [adj]; subjective [adj]; call [noun_after]; forfeiture [noun_before]; news [noun_before]; value [noun_before]; about [prep_after]; against [prep_after]; on [prep_after]; exercise [verb]; reserve [verb]; trust [verb]"
+    "collocations": "professional [adj]; summary [adj]; subjective [adj]; call [noun_after]; forfeiture [noun_before]; news [noun_before]; value [noun_before]; about [prep_after]; against [prep_after]; on [prep_after]; exercise [verb]; reserve [verb]; trust [verb]",
+    "meanings_fa": "قضاوت؛ داوری؛ تشخیص؛ نظر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "manufacturing",
@@ -30965,7 +31020,12 @@
     "exampleFa": "این کارخانه در تولید لباس تخصص دارد. | آنها این ماشین را از قطعات مختلف ساختند. | او یک عذر دروغی برای غیبت خود ساخت.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "critical [adj]; initial [adj]; knowledge [noun_after]; process [noun_after]; sector [noun_after]; apparel [noun_before]; of [prep_after]; capture [verb]; identify [verb]; establish [verb]"
+    "collocations": "critical [adj]; initial [adj]; knowledge [noun_after]; process [noun_after]; sector [noun_after]; apparel [noun_before]; of [prep_after]; capture [verb]; identify [verb]; establish [verb]",
+    "meanings_fa": "تولید؛ ساخت صنعتی؛ فرایند تولید",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "reply",
@@ -30979,7 +31039,12 @@
     "exampleFa": "پاسخ او به سؤال معلم بسیار دقیق بود. | او با لبخند به سلام من پاسخ داد. | من به نامه‌ی دوستم فردا پاسخ خواهم داد.",
     "synonymsAntonyms": "",
     "wordFamily": "replied (past); replies (3rd_present); replying (gerund)",
-    "collocations": "envelope [noun_after]; card [noun_after]; comment [noun_after]; to [prep_after]; write [verb]; get [verb]; only [adv]; not [adv]; that [prep_after]; with [prep_after]; by [prep_after]"
+    "collocations": "envelope [noun_after]; card [noun_after]; comment [noun_after]; to [prep_after]; write [verb]; get [verb]; only [adv]; not [adv]; that [prep_after]; with [prep_after]; by [prep_after]",
+    "meanings_fa": "پاسخ؛ جواب؛ پاسخ دادن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "blue",
@@ -30993,7 +31058,12 @@
     "exampleFa": "آبی رنگ آسمان صافی است. | دریا در این روز آبی و شفاف است. | او یک پیراهن آبی رنگ پوشیده است. | سربازان آبی در جنگ داخلی آمریکا جنگیدند.",
     "synonymsAntonyms": "",
     "wordFamily": "blueer (comparative); blueest (superlative); blues (plural)",
-    "collocations": "jean [noun]; tile [noun]; velvet [noun]; navy [adj]; deep [adj]; bright [adj]; suit [noun_after]; to [prep_after]; wear [verb]"
+    "collocations": "jean [noun]; tile [noun]; velvet [noun]; navy [adj]; deep [adj]; bright [adj]; suit [noun_after]; to [prep_after]; wear [verb]",
+    "meanings_fa": "آبی؛ کبود",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "burden",
@@ -31007,7 +31077,12 @@
     "exampleFa": "مسئولیت های زیادی بر دوش او است. | او بار سنگینی را روی شانه های خود حمل می کند.",
     "synonymsAntonyms": "",
     "wordFamily": "burdens (plural)",
-    "collocations": "annual [adj]; administrative [adj]; heavy [adj]; hour [noun_after]; estimate [noun_after]; debt [noun_before]; tax [noun_before]; on [prep_after]; of [prep_after]; for [prep_after]; minimize [verb]; shift [verb]; impose [verb]"
+    "collocations": "annual [adj]; administrative [adj]; heavy [adj]; hour [noun_after]; estimate [noun_after]; debt [noun_before]; tax [noun_before]; on [prep_after]; of [prep_after]; for [prep_after]; minimize [verb]; shift [verb]; impose [verb]",
+    "meanings_fa": "بار؛ مسئولیت سنگین؛ فشار؛ سربار",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "reasonable",
@@ -31021,7 +31096,12 @@
     "exampleFa": "او یک فرد منطقی است و همیشه تصمیمات خوبی می‌گیرد. | قیمت این محصول بسیار معقول است و همه می‌توانند آن را بخرند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "perfectly [adv]; very [adv]; more [adv]; assurance [noun]; proxy [noun]; doubt [noun]; to [prep_after]; that [prep_after]"
+    "collocations": "perfectly [adv]; very [adv]; more [adv]; assurance [noun]; proxy [noun]; doubt [noun]; to [prep_after]; that [prep_after]",
+    "meanings_fa": "منطقی؛ معقول؛ منصفانه؛ مناسب",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "succeed",
@@ -31035,7 +31115,12 @@
     "exampleFa": "او در امتحان ریاضی موفق شد. | پسر پادشاه جانشین او شد.",
     "synonymsAntonyms": "",
     "wordFamily": "succeeding (gerund); succeeded (past); succeeds (3rd_present)",
-    "collocations": "ultimately [adv]; only [adv]; not [adv]; year [noun_object]; because [prep_after]; in [prep_after]; by [prep_after]"
+    "collocations": "ultimately [adv]; only [adv]; not [adv]; year [noun_object]; because [prep_after]; in [prep_after]; by [prep_after]",
+    "meanings_fa": "موفق شدن؛ به نتیجه رسیدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "university",
@@ -31049,7 +31134,12 @@
     "exampleFa": "دانشگاه ما یک جامعه متنوع و پویا دارد. | دانشگاه تهران یکی از بزرگ‌ترین مراکز آموزش عالی است.",
     "synonymsAntonyms": "",
     "wordFamily": "universities (plural)",
-    "collocations": "top [adj]; major [adj]; american [adj]; administrator [noun_after]; admission [noun_after]; degree [noun_after]; state [noun_before]; in [prep_after]; to [prep_after]; for [prep_after]"
+    "collocations": "top [adj]; major [adj]; american [adj]; administrator [noun_after]; admission [noun_after]; degree [noun_after]; state [noun_before]; in [prep_after]; to [prep_after]; for [prep_after]",
+    "meanings_fa": "دانشگاه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "advise",
@@ -31063,7 +31153,12 @@
     "exampleFa": "معلم من را مشاوره داد که بیشتر مطالعه کنم. | شرکت کارمندان را از تغییر جدید مطلع کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "advises (3rd_present); advising (gerund); advised (past)",
-    "collocations": "strongly [adv]; well [adv]; also [adv]; client [noun_object]; office [noun_object]; that [prep_after]; to [prep_after]; by [prep_after]"
+    "collocations": "strongly [adv]; well [adv]; also [adv]; client [noun_object]; office [noun_object]; that [prep_after]; to [prep_after]; by [prep_after]",
+    "meanings_fa": "توصیه کردن؛ راهنمایی کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "depict",
@@ -31077,7 +31172,12 @@
     "exampleFa": "این نقاشی زندگی روستایی را به تصویر می‌کشد. | نویسنده شخصیت‌های رمان را به خوبی توصیف کرده است.",
     "synonymsAntonyms": "",
     "wordFamily": "depicted (past); depicts (3rd_present); depicting (gerund)",
-    "collocations": "often [adv]; god [noun_object]; scene [noun_object]; life [noun_object]; as [prep_after]; in [prep_after]; on [prep_after]"
+    "collocations": "often [adv]; god [noun_object]; scene [noun_object]; life [noun_object]; as [prep_after]; in [prep_after]; on [prep_after]",
+    "meanings_fa": "به تصویر کشیدن؛ نمایش دادن؛ توصیف کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "feeling",
@@ -31091,7 +31191,12 @@
     "exampleFa": "احساس شادی من پس از شنیدن خبر خوب بسیار شدید بود. | وقتی موسیقی را شنیدم، احساس صلح و آرامش کردم. | من احساسی دارم که او دروغ می‌گوید. | من احساس می‌کنم که این تصمیم درست است.",
     "synonymsAntonyms": "",
     "wordFamily": "feelings (plural)",
-    "collocations": "mixed [adj]; warm [adj]; strong [adj]; about [prep_after]; that [prep_after]; of [prep_after]; hurt [verb]; get [verb]"
+    "collocations": "mixed [adj]; warm [adj]; strong [adj]; about [prep_after]; that [prep_after]; of [prep_after]; hurt [verb]; get [verb]",
+    "meanings_fa": "احساس؛ عاطفه؛ حس",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "positive",
@@ -31105,7 +31210,12 @@
     "exampleFa": "او یک نگاه مثبت به آینده دارد. | من مطمئن هستم که او فردا خواهد آمد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "overwhelmingly [adv]; more [adv]; less [adv]; feedback [noun]; outcome [noun]; proof [noun]; for [prep_after]"
+    "collocations": "overwhelmingly [adv]; more [adv]; less [adv]; feedback [noun]; outcome [noun]; proof [noun]; for [prep_after]",
+    "meanings_fa": "مثبت؛ امیدوارکننده؛ سازنده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "spirit",
@@ -31119,7 +31229,12 @@
     "exampleFa": "روح انسان پس از مرگ جاودانه است. | روح شاد‌تری در این جشن حاکم است.",
     "synonymsAntonyms": "",
     "wordFamily": "spirits (plural)",
-    "collocations": "evil [adj]; independent [adj]; entrepreneurial [adj]; of [prep_after]; in [prep_after]; with [prep_after]; capture [verb]; keep [verb]"
+    "collocations": "evil [adj]; independent [adj]; entrepreneurial [adj]; of [prep_after]; in [prep_after]; with [prep_after]; capture [verb]; keep [verb]",
+    "meanings_fa": "روح؛ جان؛ روحیه؛ حال‌وهوا",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ultimately",
@@ -31133,7 +31248,12 @@
     "exampleFa": "او سال‌ها تلاش کرد و در نهایت موفق شد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "succeed [verb]; prove [verb]; determine [verb]"
+    "collocations": "succeed [verb]; prove [verb]; determine [verb]",
+    "meanings_fa": "در نهایت؛ سرانجام؛ در آخر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "actor",
@@ -31147,7 +31267,12 @@
     "exampleFa": "این بازیگر در فیلم جدید بازی می‌کند. | او یک بازیگر مؤثر در توسعه شرکت است.",
     "synonymsAntonyms": "",
     "wordFamily": "actors (plural)",
-    "collocations": "nonstate [adj]; comic [adj]; male [adj]; into [prep_after]; from [prep_after]; in [prep_after]"
+    "collocations": "nonstate [adj]; comic [adj]; male [adj]; into [prep_after]; from [prep_after]; in [prep_after]",
+    "meanings_fa": "بازیگر؛ هنرپیشه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "horse",
@@ -31161,7 +31286,12 @@
     "exampleFa": "اسب سفید در میدان چرا می‌کند. | ورزشکار روی اسب چوبی حرکات آکروباتیکی انجام داد.",
     "synonymsAntonyms": "",
     "wordFamily": "horses (plural)",
-    "collocations": "dark [adj]; wild [adj]; white [adj]; racing [noun_after]; race [noun_after]; show [noun_after]; at [prep_after]; in [prep_after]; with [prep_after]; ride [verb]; rent [verb]; see [verb]"
+    "collocations": "dark [adj]; wild [adj]; white [adj]; racing [noun_after]; race [noun_after]; show [noun_after]; at [prep_after]; in [prep_after]; with [prep_after]; ride [verb]; rent [verb]; see [verb]",
+    "meanings_fa": "اسب",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "pursue",
@@ -31175,7 +31305,12 @@
     "exampleFa": "او تحصیل را با جدیت دنبال می‌کند. | پلیس مجرم را در خیابان تعقیب کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "pursues (3rd_present); pursued (past); pursuing (gerund)",
-    "collocations": "not [adv]; career [noun_object]; goal [noun_object]; strategy [noun_object]; by [prep_after]; with [prep_after]; to [prep_after]"
+    "collocations": "not [adv]; career [noun_object]; goal [noun_object]; strategy [noun_object]; by [prep_after]; with [prep_after]; to [prep_after]",
+    "meanings_fa": "دنبال کردن؛ پیگیری کردن؛ تعقیب کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "consist",
@@ -31189,7 +31324,12 @@
     "exampleFa": "موفقیت این پروژه در همکاری تیم منشأ یافته است. | این کتاب از سه فصل اصلی تشکیل شده است.",
     "synonymsAntonyms": "",
     "wordFamily": "consisting (gerund); consists (3rd_present); consisted (past)",
-    "collocations": "of [prep_after]; mainly [adv]; primarily [adv]; entirely [adv]; in [prep_after]"
+    "collocations": "of [prep_after]; mainly [adv]; primarily [adv]; entirely [adv]; in [prep_after]",
+    "meanings_fa": "تشکیل شدن از؛ شامل بودن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "honor",
@@ -31203,7 +31343,12 @@
     "exampleFa": "او مدال افتخار را از دولت دریافت کرد. | ما از میهمانان خود با میزبانی خوب تکریم می‌کنیم. | دفاع از شرف خانواده برای او بسیار مهم است. | باید از تلاش‌های دوستت احترام بگذاری.",
     "synonymsAntonyms": "",
     "wordFamily": "honored (past); honoring (gerund); honors (3rd_present)",
-    "collocations": "sacred [adj]; great [adj]; high [adj]; of [prep_after]; with [prep_after]; to [prep_after]; memory [noun_object]; god [noun_object]; by [prep_after]; for [prep_after]"
+    "collocations": "sacred [adj]; great [adj]; high [adj]; of [prep_after]; with [prep_after]; to [prep_after]; memory [noun_object]; god [noun_object]; by [prep_after]; for [prep_after]",
+    "meanings_fa": "افتخار؛ احترام؛ گرامی داشتن؛ شرافت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "illegal",
@@ -31217,7 +31362,12 @@
     "exampleFa": "واردات این کالا غیرقانونی است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "not [adv]; act [noun]; immigrant [noun]; drug [noun]; under [prep_after]; to [prep_after]; for [prep_after]"
+    "collocations": "not [adv]; act [noun]; immigrant [noun]; drug [noun]; under [prep_after]; to [prep_after]; for [prep_after]",
+    "meanings_fa": "غیرقانونی؛ خلاف قانون",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "literature",
@@ -31231,7 +31381,12 @@
     "exampleFa": "ادبیات فارسی آثار زیبایی از شاعران بزرگ را شامل می‌شود. | او درس ادبیات انگلیسی را در دانشگاه تحصیل می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "literatures (plural)",
-    "collocations": "scientific [adj]; german [adj]; professional [adj]; search [noun_after]; valuation [noun_before]; economic [noun_before]; about [prep_after]; on [prep_after]; from [prep_after]; publish [verb]; review [verb]; read [verb]"
+    "collocations": "scientific [adj]; german [adj]; professional [adj]; search [noun_after]; valuation [noun_before]; economic [noun_before]; about [prep_after]; on [prep_after]; from [prep_after]; publish [verb]; review [verb]; read [verb]",
+    "meanings_fa": "ادبیات؛ آثار ادبی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "long-term",
@@ -31245,7 +31400,12 @@
     "exampleFa": "ما یک برنامه بلندمدت برای رشد شرکت داریم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "exposure [noun]; implication [noun]; trend [noun]"
+    "collocations": "exposure [noun]; implication [noun]; trend [noun]",
+    "meanings_fa": "بلندمدت؛ درازمدت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "rare",
@@ -31259,7 +31419,12 @@
     "exampleFa": "این سکه نادر است و ارزش زیادی دارد. | برفی که در این شهر می‌بارد به ندرت اتفاق می‌افتد.",
     "synonymsAntonyms": "",
     "wordFamily": "rarer (comparative); rarest (superlative)",
-    "collocations": "extremely [adv]; relatively [adv]; very [adv]; exception [noun]; occasion [noun]; occurrence [noun]; as [prep_after]; for [prep_after]; in [prep_after]"
+    "collocations": "extremely [adv]; relatively [adv]; very [adv]; exception [noun]; occasion [noun]; occurrence [noun]; as [prep_after]; for [prep_after]; in [prep_after]",
+    "meanings_fa": "نادر؛ کمیاب؛ غیرمعمول",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "symbol",
@@ -31273,7 +31438,12 @@
     "exampleFa": "علامت راهنمایی یک نشانه مهم در جادهاست. | کبوتر نماد صلح و آرامش است.",
     "synonymsAntonyms": "",
     "wordFamily": "symbols (plural)",
-    "collocations": "binary [adj]; powerful [adj]; other [adj]; string [noun_after]; status [noun_before]; of [prep_after]; for [prep_after]; from [prep_after]; become [verb]"
+    "collocations": "binary [adj]; powerful [adj]; other [adj]; string [noun_after]; status [noun_before]; of [prep_after]; for [prep_after]; from [prep_after]; become [verb]",
+    "meanings_fa": "نماد؛ نشانه؛ سمبل",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "belief",
@@ -31287,7 +31457,12 @@
     "exampleFa": "باور به خدا یکی از معتقدات مذهبی است. | من باور دارم که فردا هوا خوب خواهد بود.",
     "synonymsAntonyms": "",
     "wordFamily": "beliefs (plural)",
-    "collocations": "religious [adj]; widespread [adj]; false [adj]; tale [noun_after]; system [noun_after]; core [noun_before]; folk [noun_before]; that [prep_after]; about [prep_after]; in [prep_after]; express [verb]; reflect [verb]; hold [verb]"
+    "collocations": "religious [adj]; widespread [adj]; false [adj]; tale [noun_after]; system [noun_after]; core [noun_before]; folk [noun_before]; that [prep_after]; about [prep_after]; in [prep_after]; express [verb]; reflect [verb]; hold [verb]",
+    "meanings_fa": "باور؛ اعتقاد؛ عقیده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "extremely",
@@ -31301,7 +31476,12 @@
     "exampleFa": "او بسیار درس می‌خواند و نتایج بسیار خوب است. | این فیلم بسیار ترسناک بود و من نتوانستم تماشایش کنم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "unlikely [adj]; difficult [adj]; popular [adj]; complicate [verb]; become [verb]"
+    "collocations": "unlikely [adj]; difficult [adj]; popular [adj]; complicate [verb]; become [verb]",
+    "meanings_fa": "بسیار؛ فوق‌العاده؛ به‌شدت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "impossible",
@@ -31315,7 +31495,12 @@
     "exampleFa": "رفتن به ماه با پای پیاده غیرممکن است. | اینکه او در این آزمون شرکت نکند کاملاً غیرقابل تصور است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "virtually [adv]; almost [adv]; nearly [adv]; task [noun]; to [prep_after]; for [prep_after]; in [prep_after]"
+    "collocations": "virtually [adv]; almost [adv]; nearly [adv]; task [noun]; to [prep_after]; for [prep_after]; in [prep_after]",
+    "meanings_fa": "غیرممکن؛ ناممکن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "lesson",
@@ -31329,7 +31514,12 @@
     "exampleFa": "امروز درس ریاضی خیلی سخت بود. | این تصادف برای او درسی بود که دوباره سرعت زیاد نگیرد.",
     "synonymsAntonyms": "",
     "wordFamily": "lessons (plural)",
-    "collocations": "object [adj]; moral [adj]; broad [adj]; plan [noun_after]; dance [noun_before]; flight [noun_before]; history [noun_before]; from [prep_after]; about [prep_after]; at [prep_after]; learn [verb]; draw [verb]; teach [verb]"
+    "collocations": "object [adj]; moral [adj]; broad [adj]; plan [noun_after]; dance [noun_before]; flight [noun_before]; history [noun_before]; from [prep_after]; about [prep_after]; at [prep_after]; learn [verb]; draw [verb]; teach [verb]",
+    "meanings_fa": "درس؛ جلسه آموزشی؛ پند",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "shot",
@@ -31343,7 +31533,12 @@
     "exampleFa": "شلیک تفنگ صدای بلندی را ایجاد کرد. | او به هدف شلیک کرد و آن را اصابت کرد. | گلوله‌های سرب در اسلحه قدیمی استفاده می‌شدند. | شکارچی آهو را شلیک کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "shots (plural)",
-    "collocations": "cheap [adj]; long [adj]; big [adj]; jump [noun_before]; color [noun_before]; head [noun_before]; across [prep_after]; at [prep_after]; of [prep_after]; fire [verb]; miss [verb]; take [verb]"
+    "collocations": "cheap [adj]; long [adj]; big [adj]; jump [noun_before]; color [noun_before]; head [noun_before]; across [prep_after]; at [prep_after]; of [prep_after]; fire [verb]; miss [verb]; take [verb]",
+    "meanings_fa": "شلیک؛ تیر؛ عکس؛ نما؛ دوز تزریقی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "alien",
@@ -31357,7 +31552,12 @@
     "exampleFa": "او یک بیگانه است که برای اقامت در این کشور باید مجوز بگیرد. | خشونت برای طبیعت انسانی غریب و بیگانه است. | او در این گروه یک بیگانه بود و احساس تنهایی می‌کرد. | او به رفتارهای بیگانه و عجیب عادت نکرده بود.",
     "synonymsAntonyms": "",
     "wordFamily": "aliens (plural)",
-    "collocations": "farmworker [noun]; client [noun]; eligible [adj]; resident [adj]; illegal [adj]; resident [noun_before]; commuter [noun_before]; from [prep_after]; with [prep_after]; in [prep_after]; detain [verb]; represent [verb]"
+    "collocations": "farmworker [noun]; client [noun]; eligible [adj]; resident [adj]; illegal [adj]; resident [noun_before]; commuter [noun_before]; from [prep_after]; with [prep_after]; in [prep_after]; detain [verb]; represent [verb]",
+    "meanings_fa": "بیگانه؛ موجود فضایی؛ تبعه خارجی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ready",
@@ -31371,7 +31571,12 @@
     "exampleFa": "من برای سفر فردا آماده هستم. | پول برای خرید این خانه در دسترس است.",
     "synonymsAntonyms": "",
     "wordFamily": "readiest (superlative); readier (comparative)",
-    "collocations": "finally [adv]; always [adv]; not [adv]; cash [noun]; access [noun]; to [prep_after]; for [prep_after]"
+    "collocations": "finally [adv]; always [adv]; not [adv]; cash [noun]; access [noun]; to [prep_after]; for [prep_after]",
+    "meanings_fa": "آماده؛ مهیا",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "acquisition",
@@ -31385,7 +31590,12 @@
     "exampleFa": "کسب‌وکار یک مهارت جدید نیاز به تمرین دارد. | این نقاشی یکی از بهترین دستاوردهای موزه است.",
     "synonymsAntonyms": "",
     "wordFamily": "acquisitions (plural)",
-    "collocations": "evolutionary [adj]; unauthorized [adj]; planned [adj]; process [noun_after]; environment [noun_after]; cost [noun_after]; facility [noun_before]; technology [noun_before]; land [noun_before]; by [prep_after]; of [prep_after]; to [prep_after]; include [verb]"
+    "collocations": "evolutionary [adj]; unauthorized [adj]; planned [adj]; process [noun_after]; environment [noun_after]; cost [noun_after]; facility [noun_before]; technology [noun_before]; land [noun_before]; by [prep_after]; of [prep_after]; to [prep_after]; include [verb]",
+    "meanings_fa": "اکتساب؛ به‌دست‌آوردن؛ خرید و تملک",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "appearance",
@@ -31399,7 +31609,12 @@
     "exampleFa": "ظاهر او بسیار زیبا و جذاب است. | ظهور ماه در آسمان شب بسیار دیدنی است.",
     "synonymsAntonyms": "",
     "wordFamily": "appearances (plural)",
-    "collocations": "joint [adj]; public [adj]; jury [noun_before]; tv [noun_before]; campaign [noun_before]; before [prep_after]; of [prep_after]; at [prep_after]; avoid [verb]; make [verb]; create [verb]"
+    "collocations": "joint [adj]; public [adj]; jury [noun_before]; tv [noun_before]; campaign [noun_before]; before [prep_after]; of [prep_after]; at [prep_after]; avoid [verb]; make [verb]; create [verb]",
+    "meanings_fa": "ظاهر؛ قیافه؛ حضور؛ پیدایش",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "employ",
@@ -31413,7 +31628,12 @@
     "exampleFa": "او در حالت استخدام در یک شرکت بزرگ است. | آنها از این ابزار برای ساختن میز استفاده کردند. | شرکت قصد دارد صد نفر را استخدام کند.",
     "synonymsAntonyms": "",
     "wordFamily": "employs (3rd_present); employing (gerund); employed (past)",
-    "collocations": "army [noun_object]; worker [noun_object]; people [noun_object]; by [prep_after]; at [prep_after]; in [prep_after]"
+    "collocations": "army [noun_object]; worker [noun_object]; people [noun_object]; by [prep_after]; at [prep_after]; in [prep_after]",
+    "meanings_fa": "استخدام کردن؛ به‌کار گرفتن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "essential",
@@ -31427,7 +31647,12 @@
     "exampleFa": "خواب کافی برای سلامتی ضروری است. | مهارت های اساسی در ریاضیات برای درس فیزیک لازم است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "not [adv]; ingredient [noun]; element [noun]; component [noun]; to [prep_after]; for [prep_after]; that [prep_after]"
+    "collocations": "not [adv]; ingredient [noun]; element [noun]; component [noun]; to [prep_after]; for [prep_after]; that [prep_after]",
+    "meanings_fa": "ضروری؛ اساسی؛ لازم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "package",
@@ -31441,7 +31666,12 @@
     "exampleFa": "من یک بسته شامل کتاب‌ها و دفترچه‌ها دریافت کردم. | این بسته را با احتیاط باز کن زیرا محتویات آن شکننده است.",
     "synonymsAntonyms": "",
     "wordFamily": "packages (plural)",
-    "collocations": "cover [adj]; tour [noun_after]; tourist [noun_after]; deal [noun_after]; cover [noun_before]; severance [noun_before]; compensation [noun_before]; of [prep_after]; on [prep_after]; for [prep_after]; with [prep_after]"
+    "collocations": "cover [adj]; tour [noun_after]; tourist [noun_after]; deal [noun_after]; cover [noun_before]; severance [noun_before]; compensation [noun_before]; of [prep_after]; on [prep_after]; for [prep_after]; with [prep_after]",
+    "meanings_fa": "بسته؛ مرسوله؛ بسته‌بندی؛ پکیج",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "video",
@@ -31455,7 +31685,12 @@
     "exampleFa": "کیفیت ویدیو این برنامه تلویزیونی بسیار خوب است. | من یک ویدیو از کنسرت را دانلود کردم.",
     "synonymsAntonyms": "",
     "wordFamily": "videos (plural)",
-    "collocations": "lottery [noun]; clip [noun]; game [noun]; digital [adj]; violent [adj]; short [adj]; poker [noun_after]; footage [noun_after]; teleconference [noun_after]; music [noun_before]; about [prep_after]; with [prep_after]; of [prep_after]; stimulate [verb]; watch [verb]; play [verb]"
+    "collocations": "lottery [noun]; clip [noun]; game [noun]; digital [adj]; violent [adj]; short [adj]; poker [noun_after]; footage [noun_after]; teleconference [noun_after]; music [noun_before]; about [prep_after]; with [prep_after]; of [prep_after]; stimulate [verb]; watch [verb]; play [verb]",
+    "meanings_fa": "ویدئو؛ فیلم؛ محتوای تصویری",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "edge",
@@ -31469,7 +31704,12 @@
     "exampleFa": "از لبه میز احتیاط کنید. | ما در حاشیه شهر زندگی می‌کنیم.",
     "synonymsAntonyms": "",
     "wordFamily": "edges (plural)",
-    "collocations": "eastern [adj]; northern [adj]; rough [adj]; cutting [noun_before]; over [prep_after]; of [prep_after]; to [prep_after]; skirt [verb]; lose [verb]"
+    "collocations": "eastern [adj]; northern [adj]; rough [adj]; cutting [noun_before]; over [prep_after]; of [prep_after]; to [prep_after]; skirt [verb]; lose [verb]",
+    "meanings_fa": "لبه؛ کناره؛ مرز؛ برتری",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "text",
@@ -31483,7 +31723,12 @@
     "exampleFa": "متن این کتاب بسیار جالب و آموزنده است. | کاهن آن آیه را برای موعظه انتخاب کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "texts (plural)",
-    "collocations": "descriptive [adj]; full [adj]; original [adj]; box [noun_after]; from [prep_after]; of [prep_after]; as [prep_after]; read [verb]; contain [verb]"
+    "collocations": "descriptive [adj]; full [adj]; original [adj]; box [noun_after]; from [prep_after]; of [prep_after]; as [prep_after]; read [verb]; contain [verb]",
+    "meanings_fa": "متن؛ پیام متنی؛ پیامک دادن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "percentage",
@@ -31497,7 +31742,12 @@
     "exampleFa": "نمره دانش‌آموز ۸۵ درصد از کل امتحان بود. | هر شریک یک درصد معینی از سود شرکت را دریافت می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "percentages (plural)",
-    "collocations": "large [adj]; small [adj]; high [adj]; point [noun_after]; increase [noun_after]; term [noun_after]; cost [noun_before]; of [prep_after]; for [prep_after]; compare [verb]; show [verb]"
+    "collocations": "large [adj]; small [adj]; high [adj]; point [noun_after]; increase [noun_after]; term [noun_after]; cost [noun_before]; of [prep_after]; for [prep_after]; compare [verb]; show [verb]",
+    "meanings_fa": "درصد؛ نسبت درصدی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "root",
@@ -31511,7 +31761,12 @@
     "exampleFa": "ریشه‌های درخت در خاک عمیق فرو رفته‌اند. | بذر در خاک مرطوب ریشه دواند. | ریشه این مسئله به سال‌های گذشته برمی‌گردد. | این رسم از فرهنگ باستانی ریشه گرفته است.",
     "synonymsAntonyms": "",
     "wordFamily": "roots (3rd_present); rooted (past); rooting (gerund)",
-    "collocations": "square [adj]; dark [adj]; deep [adj]; function [noun_after]; cause [noun_after]; sense [noun_after]; of [prep_after]; in [prep_after]; to [prep_after]; trace [verb]; take [verb]; deeply [adv]; out [prep_after]; for [prep_after]"
+    "collocations": "square [adj]; dark [adj]; deep [adj]; function [noun_after]; cause [noun_after]; sense [noun_after]; of [prep_after]; in [prep_after]; to [prep_after]; trace [verb]; take [verb]; deeply [adv]; out [prep_after]; for [prep_after]",
+    "meanings_fa": "ریشه؛ اصل؛ منشأ؛ ریشه‌دار کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "confirm",
@@ -31525,7 +31780,12 @@
     "exampleFa": "شواهد جدید این نظریه را تایید کردند. | این تجربه اعتقادات او را محکم‌تر کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "confirming (gerund); confirmed (past); confirms (3rd_present)",
-    "collocations": "overwhelmingly [adv]; also [adv]; not [adv]; identification [noun_object]; identity [noun_object]; location [noun_object]; that [prep_after]; by [prep_after]; as [prep_after]"
+    "collocations": "overwhelmingly [adv]; also [adv]; not [adv]; identification [noun_object]; identity [noun_object]; location [noun_object]; that [prep_after]; by [prep_after]; as [prep_after]",
+    "meanings_fa": "تأیید کردن؛ قطعی کردن؛ تصدیق کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "expectation",
@@ -31539,7 +31799,12 @@
     "exampleFa": "انتظارات او از این پروژه بسیار بالا بود. | او با انتظار و امید برای نتیجه مثبت منتظر ماند.",
     "synonymsAntonyms": "",
     "wordFamily": "expectations (plural)",
-    "collocations": "balanced [adj]; rational [adj]; reasonable [adj]; performance [noun_before]; executive [noun_before]; for [prep_after]; that [prep_after]; about [prep_after]; fulfill [verb]; meet [verb]; set [verb]"
+    "collocations": "balanced [adj]; rational [adj]; reasonable [adj]; performance [noun_before]; executive [noun_before]; for [prep_after]; that [prep_after]; about [prep_after]; fulfill [verb]; meet [verb]; set [verb]",
+    "meanings_fa": "انتظار؛ توقع؛ پیش‌بینی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "guarantee",
@@ -31553,7 +31818,12 @@
     "exampleFa": "این محصول دو سال گارانتی دارد. | بانک برای بازپرداخت وام ضمانت می‌دهد. | من به تو تضمین می‌دهم که او به وقت خواهد رسید. | کیفیت این محصول تضمین شده است.",
     "synonymsAntonyms": "",
     "wordFamily": "guarantees (3rd_present); guaranteed (past); guaranteeing (gerund)",
-    "collocations": "federal [adj]; liability [noun_after]; loan [noun_before]; that [prep_after]; on [prep_after]; of [prep_after]; federally [adv]; virtually [adv]; almost [adv]; admission [noun_object]; right [noun_object]; to [prep_after]"
+    "collocations": "federal [adj]; liability [noun_after]; loan [noun_before]; that [prep_after]; on [prep_after]; of [prep_after]; federally [adv]; virtually [adv]; almost [adv]; admission [noun_object]; right [noun_object]; to [prep_after]",
+    "meanings_fa": "تضمین؛ ضمانت؛ تضمین کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "joke",
@@ -31567,7 +31837,12 @@
     "exampleFa": "او یک لطیفه خوب تعریف کرد که همه خندیدند. | او دوست دارد در مورد همه چیز شوخی کند. | فضای شام پر از شوخی و خنده بود. | او فقط شوخی می‌کرد و جدی نبود.",
     "synonymsAntonyms": "",
     "wordFamily": "joked (past); jokes (3rd_present); joking (gerund)",
-    "collocations": "fat [adj]; bad [adj]; good [adj]; about [prep_after]; like [prep_after]; that [prep_after]; tell [verb]; make [verb]"
+    "collocations": "fat [adj]; bad [adj]; good [adj]; about [prep_after]; like [prep_after]; that [prep_after]; tell [verb]; make [verb]",
+    "meanings_fa": "شوخی؛ لطیفه؛ شوخی کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "origin",
@@ -31581,7 +31856,12 @@
     "exampleFa": "منشأ این رودخانه در کوهستان است. | او از تبار اصیل و معروف است.",
     "synonymsAntonyms": "",
     "wordFamily": "origins (plural)",
-    "collocations": "humble [adj]; ethnic [adj]; european [adj]; word [noun_before]; of [prep_after]; in [prep_after]; as [prep_after]; trace [verb]; determine [verb]"
+    "collocations": "humble [adj]; ethnic [adj]; european [adj]; word [noun_before]; of [prep_after]; in [prep_after]; as [prep_after]; trace [verb]; determine [verb]",
+    "meanings_fa": "منشأ؛ خاستگاه؛ ریشه؛ مبدأ",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "outcome",
@@ -31595,7 +31875,12 @@
     "exampleFa": "نتیجه‌ی آزمایش بسیار مثبت بود. | بیماری یک نتیجه‌ی مستقیم از آلودگی هوا بود.",
     "synonymsAntonyms": "",
     "wordFamily": "outcomes (plural)",
-    "collocations": "successful [adj]; desired [adj]; positive [adj]; measurement [noun_after]; measure [noun_after]; schedule [noun_before]; performance [noun_before]; quality [noun_before]; from [prep_after]; of [prep_after]; for [prep_after]; desire [verb]; predict [verb]; affect [verb]"
+    "collocations": "successful [adj]; desired [adj]; positive [adj]; measurement [noun_after]; measure [noun_after]; schedule [noun_before]; performance [noun_before]; quality [noun_before]; from [prep_after]; of [prep_after]; for [prep_after]; desire [verb]; predict [verb]; affect [verb]",
+    "meanings_fa": "نتیجه؛ پیامد؛ حاصل",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "retirement",
@@ -31609,7 +31894,12 @@
     "exampleFa": "او پس از چهل سال کار، بازنشستگی را انتخاب کرد. | بازنشستگی او از پست مدیر شرکت، تاثیر زیادی بر سازمان گذاشت.",
     "synonymsAntonyms": "",
     "wordFamily": "retirements (plural)",
-    "collocations": "early [adj]; own [adj]; other [adj]; income [noun_after]; age [noun_after]; security [noun_after]; in [prep_after]; of [prep_after]; to [prep_after]; raise [verb]; delay [verb]; finance [verb]"
+    "collocations": "early [adj]; own [adj]; other [adj]; income [noun_after]; age [noun_after]; security [noun_after]; in [prep_after]; of [prep_after]; to [prep_after]; raise [verb]; delay [verb]; finance [verb]",
+    "meanings_fa": "بازنشستگی؛ دوران بازنشستگی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "scientist",
@@ -31623,7 +31913,12 @@
     "exampleFa": "دانشمند ایرانی یک کشف مهم در زمینه شیمی انجام داد.",
     "synonymsAntonyms": "",
     "wordFamily": "scientists (plural)",
-    "collocations": "social [adj]; mad [adj]; political [adj]; research [noun_before]; at [prep_after]; to [prep_after]; of [prep_after]; help [verb]"
+    "collocations": "social [adj]; mad [adj]; political [adj]; research [noun_before]; at [prep_after]; to [prep_after]; of [prep_after]; help [verb]",
+    "meanings_fa": "دانشمند؛ پژوهشگر علوم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "derive",
@@ -31637,7 +31932,12 @@
     "exampleFa": "از این شواهد می‌توان نتیجه گرفت که او در منزل بوده است. | این کلمه از زبان لاتین به‌دست آمده است.",
     "synonymsAntonyms": "",
     "wordFamily": "derives (3rd_present); deriving (gerund); derived (past)",
-    "collocations": "not [adv]; benefit [noun_object]; name [noun_object]; from [prep_after]; by [prep_after]"
+    "collocations": "not [adv]; benefit [noun_object]; name [noun_object]; from [prep_after]; by [prep_after]",
+    "meanings_fa": "استخراج کردن؛ به‌دست آوردن؛ ناشی شدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "multiple",
@@ -31651,7 +31951,12 @@
     "exampleFa": "این پروژه دارای چندین هدف متعدد است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "when [adv]; absorber [noun]; boiler [noun]; birth [noun]"
+    "collocations": "when [adv]; absorber [noun]; boiler [noun]; birth [noun]",
+    "meanings_fa": "چندگانه؛ متعدد؛ چند برابر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "repeat",
@@ -31665,7 +31970,12 @@
     "exampleFa": "این یک تکرار از اتفاقات گذشته است. | لطفاً آن جمله را دوباره بگو. | من باید این آزمایش را دوباره انجام دهم.",
     "synonymsAntonyms": "",
     "wordFamily": "repeating (gerund); repeated (past); repeats (3rd_present)",
-    "collocations": "offender [noun_after]; of [prep_after]; immediately [adv]; then [adv]; not [adv]; warning [noun_object]; attempt [noun_object]; word [noun_object]; across [prep_after]; over [prep_after]; with [prep_after]"
+    "collocations": "offender [noun_after]; of [prep_after]; immediately [adv]; then [adv]; not [adv]; warning [noun_object]; attempt [noun_object]; word [noun_object]; across [prep_after]; over [prep_after]; with [prep_after]",
+    "meanings_fa": "تکرار کردن؛ تکرار؛ بازگو کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "slightly",
@@ -31679,7 +31989,12 @@
     "exampleFa": "دمای هوا امروز کمی از دیروز گرمتر است. | او یک دختر باریک‌اندام و لاغر است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "different [adj]; less [adj]; high [adj]; decrease [verb]; decline [verb]; increase [verb]"
+    "collocations": "different [adj]; less [adj]; high [adj]; decrease [verb]; decline [verb]; increase [verb]",
+    "meanings_fa": "کمی؛ اندکی؛ تا حدی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "advertising",
@@ -31693,7 +32008,12 @@
     "exampleFa": "او در حوزه تبلیغات کار می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "false [adj]; political [adj]; free [adj]; mail [noun_after]; revenue [noun_after]; carrier [noun_after]; tobacco [noun_before]; cigarette [noun_before]; route [noun_before]; than [prep_after]; in [prep_after]; on [prep_after]; include [verb]"
+    "collocations": "false [adj]; political [adj]; free [adj]; mail [noun_after]; revenue [noun_after]; carrier [noun_after]; tobacco [noun_before]; cigarette [noun_before]; route [noun_before]; than [prep_after]; in [prep_after]; on [prep_after]; include [verb]",
+    "meanings_fa": "تبلیغات؛ آگهی‌دهی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "essentially",
@@ -31707,7 +32027,12 @@
     "exampleFa": "این دو نظریه اساساً یکی هستند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "identical [adj]; similar [adj]; invent [verb]; ignore [verb]; remain [verb]"
+    "collocations": "identical [adj]; similar [adj]; invent [verb]; ignore [verb]; remain [verb]",
+    "meanings_fa": "اساساً؛ در اصل؛ عملاً",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ethnic",
@@ -31721,7 +32046,12 @@
     "exampleFa": "موسیقی سنتی ایرانی یکی از بهترین نمونه‌های فرهنگ ethnic ایران است. | در دوران باستان، مردم ethnic اطراف اسلام را تحت تأثیر قرار دادند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "cleansing [noun]; albanian [noun]; group [noun]"
+    "collocations": "cleansing [noun]; albanian [noun]; group [noun]",
+    "meanings_fa": "قومی؛ مربوط به قومیت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "personnel",
@@ -31735,7 +32065,12 @@
     "exampleFa": "فرمانده از پرسنل خود خواست که برای ماموریت آماده شوند. | بخش پرسنل شرکت مسئول استخدام و آموزش کارمندان است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "military [adj]; medical [adj]; technical [adj]; policy [noun_after]; decision [noun_after]; office [noun_after]; laboratory [noun_before]; security [noun_before]; building [noun_before]; at [prep_after]; from [prep_after]; on [prep_after]"
+    "collocations": "military [adj]; medical [adj]; technical [adj]; policy [noun_after]; decision [noun_after]; office [noun_after]; laboratory [noun_before]; security [noun_before]; building [noun_before]; at [prep_after]; from [prep_after]; on [prep_after]",
+    "meanings_fa": "کارکنان؛ پرسنل؛ نیروی انسانی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "rent",
@@ -31749,7 +32084,12 @@
     "exampleFa": "او هر ماه پنجصد دلار اجاره خانه می‌پردازد. | او خانه‌اش را برای درآمد اضافی اجاره می‌دهد. | در اثر انفجار، یک شکاف بزرگ در دیوار ایجاد شد. | شرکت ماشین‌های را به مسافران اجاره می‌دهد.",
     "synonymsAntonyms": "",
     "wordFamily": "renting (gerund); rented (past); rents (3rd_present)",
-    "collocations": "economic [adj]; control [noun_after]; by [prep_after]; of [prep_after]; afford [verb]; pay [verb]; canoe [noun_object]; rowboat [noun_object]; bike [noun_object]; out [prep_after]; at [prep_after]; for [prep_after]"
+    "collocations": "economic [adj]; control [noun_after]; by [prep_after]; of [prep_after]; afford [verb]; pay [verb]; canoe [noun_object]; rowboat [noun_object]; bike [noun_object]; out [prep_after]; at [prep_after]; for [prep_after]",
+    "meanings_fa": "اجاره؛ اجاره‌بها؛ اجاره کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "fan",
@@ -31763,7 +32103,12 @@
     "exampleFa": "در تابستان، پنکه را روشن می‌کنم تا هوا خنک شود. | پرتاب‌کننده توانست سه بازیکن را خارج کند. | او یک هوادار شدید تیم فوتبال است. | شایعات خشم مردم را تشدید کردند.",
     "synonymsAntonyms": "",
     "wordFamily": "fanned (past); fans (3rd_present); fanning (gerund)",
-    "collocations": "big [adj]; many [adj]; club [noun_after]; football [noun_before]; sport [noun_before]; baseball [noun_before]; of [prep_after]; by [prep_after]; from [prep_after]; attract [verb]"
+    "collocations": "big [adj]; many [adj]; club [noun_after]; football [noun_before]; sport [noun_before]; baseball [noun_before]; of [prep_after]; by [prep_after]; from [prep_after]; attract [verb]",
+    "meanings_fa": "پنکه؛ بادبزن؛ طرفدار؛ هوادار",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "gene",
@@ -31777,7 +32122,12 @@
     "exampleFa": "ژن‌های ما از والدین به ما منتقل می‌شوند.",
     "synonymsAntonyms": "",
     "wordFamily": "genes (plural)",
-    "collocations": "structural [adj]; eukaryotic [adj]; single [adj]; therapy [noun_after]; pool [noun_after]; activity [noun_after]; per [prep_after]; into [prep_after]; for [prep_after]; get [verb]"
+    "collocations": "structural [adj]; eukaryotic [adj]; single [adj]; therapy [noun_after]; pool [noun_after]; activity [noun_after]; per [prep_after]; into [prep_after]; for [prep_after]; get [verb]",
+    "meanings_fa": "ژن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "protest",
@@ -31791,7 +32141,12 @@
     "exampleFa": "دولت علیه این تصمیم اعتراض رسمی کرد. | او علیه تصمیم ناعادلانه اعتراض کرد. | هزاران نفر در خیابان برای اعتراض به قانون جدید جمع شدند. | مردم به صورت صلح‌آمیز علیه سیاست‌های دولت اعتراض کردند.",
     "synonymsAntonyms": "",
     "wordFamily": "protests (3rd_present); protesting (gerund); protested (past)",
-    "collocations": "violent [adj]; political [adj]; street [noun_before]; student [noun_before]; against [prep_after]; from [prep_after]; at [prep_after]; stage [verb]; that [prep_after]; in [prep_after]"
+    "collocations": "violent [adj]; political [adj]; street [noun_before]; student [noun_before]; against [prep_after]; from [prep_after]; at [prep_after]; stage [verb]; that [prep_after]; in [prep_after]",
+    "meanings_fa": "اعتراض؛ تظاهرات؛ اعتراض کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "scenario",
@@ -31805,7 +32160,12 @@
     "exampleFa": "نویسنده ابتدا سناریوی فیلم را برای کارگردان توضیح داد. | سناریوی این رمان در شهر تهران در دهه‌ی ۱۹۵۰ است.",
     "synonymsAntonyms": "",
     "wordFamily": "scenarios (plural)",
-    "collocations": "advanced [adj]; assumption [noun_after]; nightmare [noun_before]; baseline [noun_before]; policy [noun_before]; for [prep_after]; in [prep_after]; with [prep_after]"
+    "collocations": "advanced [adj]; assumption [noun_after]; nightmare [noun_before]; baseline [noun_before]; policy [noun_before]; for [prep_after]; in [prep_after]; with [prep_after]",
+    "meanings_fa": "سناریو؛ وضعیت فرضی؛ موقعیت احتمالی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "specifically",
@@ -31819,7 +32179,12 @@
     "exampleFa": "من به طور خاص می‌خواهم در مورد این موضوع صحبت کنم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "design [verb]; request [verb]; address [verb]"
+    "collocations": "design [verb]; request [verb]; address [verb]",
+    "meanings_fa": "به‌طور مشخص؛ مشخصاً؛ به‌ویژه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "typically",
@@ -31833,7 +32198,12 @@
     "exampleFa": "او معمولاً هر روز صبح ورزش می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "take [verb]; include [verb]"
+    "collocations": "take [verb]; include [verb]",
+    "meanings_fa": "معمولاً؛ به‌طور معمول؛ نوعاً",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "beauty",
@@ -31847,7 +32217,12 @@
     "exampleFa": "زیبایی این گلها دید را به خود جلب می‌کند. | او یک زیبایی حقیقی است که همه نگاه‌های را به خود جلب می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "beauties (plural)",
-    "collocations": "natural [adj]; great [adj]; such [adj]; contest [noun_after]; queen [noun_after]; industry [noun_after]; of [prep_after]; with [prep_after]; in [prep_after]; retain [verb]; enjoy [verb]; find [verb]"
+    "collocations": "natural [adj]; great [adj]; such [adj]; contest [noun_after]; queen [noun_after]; industry [noun_after]; of [prep_after]; with [prep_after]; in [prep_after]; retain [verb]; enjoy [verb]; find [verb]",
+    "meanings_fa": "زیبایی؛ جمال؛ زیبایی‌پسندی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "fair",
@@ -31861,7 +32236,12 @@
     "exampleFa": "او یک داور منصفانه است که همیشه تصمیمات درستی می‌گیرد. | این قیمت برای کیفیت محصول منطقی و معقول است.",
     "synonymsAntonyms": "",
     "wordFamily": "fairest (superlative); fairer (comparative)",
-    "collocations": "only [adv]; not [adv]; share [noun]; amount [noun]; game [noun]; to [prep_after]; country [noun_before]; in [prep_after]"
+    "collocations": "only [adv]; not [adv]; share [noun]; amount [noun]; game [noun]; to [prep_after]; country [noun_before]; in [prep_after]",
+    "meanings_fa": "منصفانه؛ عادلانه؛ نمایشگاه؛ نسبتاً روشن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "implementation",
@@ -31875,7 +32255,12 @@
     "exampleFa": "اجرای این پروژه بزرگ نیاز به تیم متخصصی دارد. | پیاده‌سازی این استراتژی جدید سه ماه طول کشید.",
     "synonymsAntonyms": "",
     "wordFamily": "implementations (plural)",
-    "collocations": "effective [adj]; full [adj]; initial [adj]; schedule [noun_after]; phase [noun_after]; project [noun_after]; technology [noun_before]; program [noun_before]; state [noun_before]; of [prep_after]; to [prep_after]; ensure [verb]; promote [verb]; consider [verb]"
+    "collocations": "effective [adj]; full [adj]; initial [adj]; schedule [noun_after]; phase [noun_after]; project [noun_after]; technology [noun_before]; program [noun_before]; state [noun_before]; of [prep_after]; to [prep_after]; ensure [verb]; promote [verb]; consider [verb]",
+    "meanings_fa": "اجرا؛ پیاده‌سازی؛ عملیاتی‌سازی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "aware",
@@ -31889,7 +32274,12 @@
     "exampleFa": "او از مسائل سیاسی کشور آگاه است. | او همیشه در حضور دیگران مراقب رفتار خود است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "fully [adv]; well [adv]; more [adv]; that [prep_after]; of [prep_after]"
+    "collocations": "fully [adv]; well [adv]; more [adv]; that [prep_after]; of [prep_after]",
+    "meanings_fa": "آگاه؛ مطلع؛ باخبر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "contemporary",
@@ -31903,7 +32293,12 @@
     "exampleFa": "هنر معاصر انعکاس‌دهنده نگاه‌های امروزی هنرمندان است. | موسیقی معاصر ترکیبی از سبک‌های مختلف است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "very [adv]; art [noun]; artist [noun]; speech [noun]; with [prep_after]; of [prep_after]"
+    "collocations": "very [adv]; art [noun]; artist [noun]; speech [noun]; with [prep_after]; of [prep_after]",
+    "meanings_fa": "معاصر؛ امروزی؛ هم‌دوره",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "criterion",
@@ -31917,7 +32312,12 @@
     "exampleFa": "کیفیت محصول بر اساس معیارهای بین‌المللی ارزیابی می‌شود. | موفقیت او به عنوان معیار برای دیگران در نظر گرفته می‌شود.",
     "synonymsAntonyms": "",
     "wordFamily": "criterions (plural); criteria (plural)",
-    "collocations": "darwinian [adj]; obvious [adj]; specific [adj]; acceptability [noun_before]; exit [noun_before]; variability [noun_before]; for [prep_after]; that [prep_after]; in [prep_after]; meet [verb]; lack [verb]; apply [verb]"
+    "collocations": "darwinian [adj]; obvious [adj]; specific [adj]; acceptability [noun_before]; exit [noun_before]; variability [noun_before]; for [prep_after]; that [prep_after]; in [prep_after]; meet [verb]; lack [verb]; apply [verb]",
+    "meanings_fa": "معیار؛ ملاک؛ شاخص",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ordinary",
@@ -31931,7 +32331,12 @@
     "exampleFa": "این یک روز معمولی مثل روزهای دیگر بود. | او یک شخص عادی است که هیچ چیز غیرمعمولی درباره او نیست.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "citizen [noun]; mortal [noun]; fellow [noun]"
+    "collocations": "citizen [noun]; mortal [noun]; fellow [noun]",
+    "meanings_fa": "معمولی؛ عادی؛ روزمره",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "surface",
@@ -31945,7 +32350,12 @@
     "exampleFa": "سطح میز صاف و براق است. | سطح کره زمین آب و خاک را شامل می‌شود.",
     "synonymsAntonyms": "",
     "wordFamily": "surfaces (plural)",
-    "collocations": "transportation [noun_after]; water [noun_after]; of [prep_after]; in [prep_after]; scratch [verb]"
+    "collocations": "transportation [noun_after]; water [noun_after]; of [prep_after]; in [prep_after]; scratch [verb]",
+    "meanings_fa": "سطح؛ رویه؛ ظاهر؛ ظاهر شدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "dark",
@@ -31959,7 +32369,12 @@
     "exampleFa": "در تاریکی شب نمی‌توانستم راه را ببینم. | اتاق تاریک بود و فقط یک شمع روشن بود. | او درون خود تاریکی اخلاقی پنهان داشت. | او یک پیراهن رنگ تیره پوشیده بود.",
     "synonymsAntonyms": "",
     "wordFamily": "darker (comparative); darkest (superlative)",
-    "collocations": "very [adv]; so [adv]; brown [noun]; root [noun]; side [noun]; about [prep_after]; as [prep_after]"
+    "collocations": "very [adv]; so [adv]; brown [noun]; root [noun]; side [noun]; about [prep_after]; as [prep_after]",
+    "meanings_fa": "تاریک؛ تیره؛ تاریکی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "desire",
@@ -31973,7 +32388,12 @@
     "exampleFa": "او میل شدیدی برای سفر داشت. | او یک فنجان چای می‌خواست. | بچه‌ها همیشه تمایل به بازی دارند. | ما می‌خواهیم که او موفق شود.",
     "synonymsAntonyms": "",
     "wordFamily": "desired (past); desiring (gerund); desires (3rd_present)",
-    "collocations": "sexual [adj]; strong [adj]; personal [adj]; to [prep_after]; for [prep_after]; of [prep_after]; express [verb]; outcome [noun_object]; by [prep_after]"
+    "collocations": "sexual [adj]; strong [adj]; personal [adj]; to [prep_after]; for [prep_after]; of [prep_after]; express [verb]; outcome [noun_object]; by [prep_after]",
+    "meanings_fa": "میل؛ خواسته؛ آرزو؛ خواستن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "diversity",
@@ -31987,7 +32407,12 @@
     "exampleFa": "تنوع فرهنگی در این شهر بسیار زیاد است. | تنوع آب و هوا در طول سال باعث سختی زندگی می‌شود.",
     "synonymsAntonyms": "",
     "wordFamily": "diversities (plural)",
-    "collocations": "molecular [adj]; cultural [adj]; ethnic [adj]; initiative [noun_after]; goal [noun_after]; speci [noun_before]; product [noun_before]; program [noun_before]; of [prep_after]; in [prep_after]; increase [verb]; reflect [verb]"
+    "collocations": "molecular [adj]; cultural [adj]; ethnic [adj]; initiative [noun_after]; goal [noun_after]; speci [noun_before]; product [noun_before]; program [noun_before]; of [prep_after]; in [prep_after]; increase [verb]; reflect [verb]",
+    "meanings_fa": "تنوع؛ گوناگونی؛ تفاوت‌های فردی و فرهنگی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "enemy",
@@ -32001,7 +32426,12 @@
     "exampleFa": "ارتش دشمن از مرز عبور کرد. | سربازان با دشمن در میدان جنگ روبرو شدند.",
     "synonymsAntonyms": "",
     "wordFamily": "enemies (plural)",
-    "collocations": "common [adj]; natural [adj]; foreign [adj]; list [noun_after]; of [prep_after]; as [prep_after]; for [prep_after]; make [verb]"
+    "collocations": "common [adj]; natural [adj]; foreign [adj]; list [noun_after]; of [prep_after]; as [prep_after]; for [prep_after]; make [verb]",
+    "meanings_fa": "دشمن؛ خصم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "equally",
@@ -32015,7 +32445,12 @@
     "exampleFa": "هر دو بازیکن به یک اندازه مهم هستند. | ما باید منابع را به طور مساوی بین همه تقسیم کنیم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "sensitive [adj]; impressive [adj]; important [adj]; divide [verb]; apply [verb]; seem [verb]"
+    "collocations": "sensitive [adj]; impressive [adj]; important [adj]; divide [verb]; apply [verb]; seem [verb]",
+    "meanings_fa": "به‌طور برابر؛ به یک اندازه؛ به‌طور یکسان",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "escape",
@@ -32029,7 +32464,12 @@
     "exampleFa": "فرار از زندان یک طرح پیچیده بود. | او توانست از دست دشمنان بگریزد. | تماشای فیلم یک راه فرار از واقعیت‌های ناخوشایند است. | خوشبختانه از این بیماری در امان ماندم.",
     "synonymsAntonyms": "",
     "wordFamily": "escaped (past); escapes (3rd_present); escaping (gerund)",
-    "collocations": "route [noun_after]; from [prep_after]; to [prep_after]; not [adv]; crowds [noun_object]; heat [noun_object]; persecution [noun_object]; into [prep_after]"
+    "collocations": "route [noun_after]; from [prep_after]; to [prep_after]; not [adv]; crowds [noun_object]; heat [noun_object]; persecution [noun_object]; into [prep_after]",
+    "meanings_fa": "فرار کردن؛ گریختن؛ فرار؛ رهایی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "heavy",
@@ -32043,7 +32483,12 @@
     "exampleFa": "این کیف خیلی سنگین است. | امسال بارش باران بسیار زیاد بود.",
     "synonymsAntonyms": "",
     "wordFamily": "heaviest (superlative); heavier (comparative)",
-    "collocations": "too [adv]; rain [noun]; snowfall [noun]; dose [noun]; with [prep_after]; on [prep_after]; to [prep_after]"
+    "collocations": "too [adv]; rain [noun]; snowfall [noun]; dose [noun]; with [prep_after]; on [prep_after]; to [prep_after]",
+    "meanings_fa": "سنگین؛ شدید؛ پرحجم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "bird",
@@ -32057,7 +32502,12 @@
     "exampleFa": "پرنده ای زیبا روی شاخه نشسته است. | برای شام گوشت پرنده پخت کردم.",
     "synonymsAntonyms": "",
     "wordFamily": "birds (plural)",
-    "collocations": "tropical [adj]; exotic [adj]; native [adj]; sanctuary [noun_after]; speci [noun_after]; around [prep_after]; in [prep_after]; for [prep_after]; spin [verb]; watch [verb]; kill [verb]"
+    "collocations": "tropical [adj]; exotic [adj]; native [adj]; sanctuary [noun_after]; speci [noun_after]; around [prep_after]; in [prep_after]; for [prep_after]; spin [verb]; watch [verb]; kill [verb]",
+    "meanings_fa": "پرنده؛ مرغ",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "environmental",
@@ -32071,7 +32521,12 @@
     "exampleFa": "شرایط محیطی این منطقه برای کشاورزی مناسب است. | سازمان‌های محیط‌زیستی برای حفاظت از جنگل‌ها تلاش می‌کنند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "protection [noun]; degradation [noun]; optimism [noun]"
+    "collocations": "protection [noun]; degradation [noun]; optimism [noun]",
+    "meanings_fa": "زیست‌محیطی؛ مربوط به محیط زیست",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "opposite",
@@ -32085,7 +32540,12 @@
     "exampleFa": "آنها در دو طرف مقابل خیابان ایستاده بودند. | برگ‌های این گیاه به صورت متقابل بر روی ساقه رشد می‌کنند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "direction [noun]; extreme [noun]; side [noun]; polar [adj]; exact [adj]; of [prep_after]; in [prep_after]"
+    "collocations": "direction [noun]; extreme [noun]; side [noun]; polar [adj]; exact [adj]; of [prep_after]; in [prep_after]",
+    "meanings_fa": "مخالف؛ روبه‌رو؛ متضاد؛ طرف مقابل",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "assist",
@@ -32099,7 +32559,12 @@
     "exampleFa": "او با کمک خود باعث موفقیت پروژه شد. | من برای حل این مسئله تو را کمک خواهم کرد. | بازیکن یک پاس گل زیبا برای هدف دوم ثبت کرد. | او در این شرکت به عنوان دستیار کار می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "assisting (gerund); assists (3rd_present); assisted (past)",
-    "collocations": "also [adv]; when [adv]; suicide [noun_object]; civilian [noun_object]; litigant [noun_object]; by [prep_after]; in [prep_after]; with [prep_after]"
+    "collocations": "also [adv]; when [adv]; suicide [noun_object]; civilian [noun_object]; litigant [noun_object]; by [prep_after]; in [prep_after]; with [prep_after]",
+    "meanings_fa": "کمک کردن؛ یاری رساندن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "beginning",
@@ -32113,7 +32578,12 @@
     "exampleFa": "آغاز پروژه جدید فردا خواهد بود. | ما امروز درس جدید را شروع کردیم. | زمان شروع کلاس ساعت نه صبح است. | سال جدید از اول ژانویه شروع می‌شود.",
     "synonymsAntonyms": "",
     "wordFamily": "beginnings (plural)",
-    "collocations": "new [adj]; of [prep_after]; in [prep_after]; to [prep_after]; mark [verb]"
+    "collocations": "new [adj]; of [prep_after]; in [prep_after]; to [prep_after]; mark [verb]",
+    "meanings_fa": "آغاز؛ شروع؛ ابتدای",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "brother",
@@ -32127,7 +32597,12 @@
     "exampleFa": "برادرم از من بزرگتر است. | برادران کلیسا برای کمک به فقرا جمع شدند.",
     "synonymsAntonyms": "",
     "wordFamily": "brothers (plural)",
-    "collocations": "young [adj]; old [adj]; younger [noun_before]; elder [noun_before]; of [prep_after]; that [prep_after]; in [prep_after]; love [verb]"
+    "collocations": "young [adj]; old [adj]; younger [noun_before]; elder [noun_before]; of [prep_after]; that [prep_after]; in [prep_after]; love [verb]",
+    "meanings_fa": "برادر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "cave",
@@ -32141,7 +32616,12 @@
     "exampleFa": "آنها یک غار بزرگ در کوه کشف کردند.",
     "synonymsAntonyms": "",
     "wordFamily": "caves (plural)",
-    "collocations": "large [adj]; entrance [noun_after]; wall [noun_after]; system [noun_after]; limestone [noun_before]; at [prep_after]; in [prep_after]; with [prep_after]; include [verb]; system [noun_object]; to [prep_after]"
+    "collocations": "large [adj]; entrance [noun_after]; wall [noun_after]; system [noun_after]; limestone [noun_before]; at [prep_after]; in [prep_after]; with [prep_after]; include [verb]; system [noun_object]; to [prep_after]",
+    "meanings_fa": "غار؛ حفره طبیعی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "crowd",
@@ -32155,7 +32635,12 @@
     "exampleFa": "در کنسرت، جمع بزرگی از مردم حضور داشتند. | او همیشه با جمع دوستانش وقت می‌گذراند.",
     "synonymsAntonyms": "",
     "wordFamily": "crowds (plural)",
-    "collocations": "large [adj]; young [adj]; old [adj]; control [noun_after]; at [prep_after]; of [prep_after]; for [prep_after]; tell [verb]; less [adv]; often [adv]; very [adv]; street [noun_object]; out [prep_after]; with [prep_after]; in [prep_after]"
+    "collocations": "large [adj]; young [adj]; old [adj]; control [noun_after]; at [prep_after]; of [prep_after]; for [prep_after]; tell [verb]; less [adv]; often [adv]; very [adv]; street [noun_object]; out [prep_after]; with [prep_after]; in [prep_after]",
+    "meanings_fa": "جمعیت؛ ازدحام؛ شلوغ کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "eastern",
@@ -32169,7 +32654,12 @@
     "exampleFa": "ساحل شرقی دریا بسیار زیبا است. | او از یک شهر شرقی امریکا می‌آید.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "shore [noun]; edge [noun]; tip [noun]"
+    "collocations": "shore [noun]; edge [noun]; tip [noun]",
+    "meanings_fa": "شرقی؛ واقع در شرق",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "gate",
@@ -32183,7 +32673,12 @@
     "exampleFa": "دروازه باغ را باز کردم و وارد شدم. | این گیت منطقی دو ورودی دارد و یک خروجی تولید می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "gates (plural)",
-    "collocations": "ceremonial [adj]; front [adj]; main [adj]; entrance [noun_before]; city [noun_before]; into [prep_after]; at [prep_after]; on [prep_after]; open [verb]; entry [noun_object]; rate [noun_object]"
+    "collocations": "ceremonial [adj]; front [adj]; main [adj]; entrance [noun_before]; city [noun_before]; into [prep_after]; at [prep_after]; on [prep_after]; open [verb]; entry [noun_object]; rate [noun_object]",
+    "meanings_fa": "دروازه؛ گیت؛ ورودی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "king",
@@ -32197,7 +32692,12 @@
     "exampleFa": "پادشاه انگلیس بر سلطنت‌اش حکومت می‌کند. | او پادشاه بوکس در این دهه بود.",
     "synonymsAntonyms": "",
     "wordFamily": "kings (plural)",
-    "collocations": "scottish [adj]; spanish [adj]; first [adj]; of [prep_after]; in [prep_after]; crown [verb]; become [verb]"
+    "collocations": "scottish [adj]; spanish [adj]; first [adj]; of [prep_after]; in [prep_after]; crown [verb]; become [verb]",
+    "meanings_fa": "پادشاه؛ شاه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "retailer",
@@ -32211,7 +32711,12 @@
     "exampleFa": "این خردہ فروش روزانه صدها مشتری را خدمت می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "retailers (plural)",
-    "collocations": "lean [adj]; traditional [adj]; net [adj]; apparel [noun_before]; discount [noun_before]; with [prep_after]; in [prep_after]; to [prep_after]; supply [verb]"
+    "collocations": "lean [adj]; traditional [adj]; net [adj]; apparel [noun_before]; discount [noun_before]; with [prep_after]; in [prep_after]; to [prep_after]; supply [verb]",
+    "meanings_fa": "خرده‌فروش؛ فروشنده کالا به مصرف‌کننده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "attractive",
@@ -32225,7 +32730,12 @@
     "exampleFa": "این نقاشی بسیار جذاب و زیبا است. | این پیشنهاد برای من بسیار جالب و توجه‌جلب است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "most [adv]; less [adv]; extremely [adv]; proposition [noun]; alternative [noun]; beach [noun]; than [prep_after]; to [prep_after]; in [prep_after]"
+    "collocations": "most [adv]; less [adv]; extremely [adv]; proposition [noun]; alternative [noun]; beach [noun]; than [prep_after]; to [prep_after]; in [prep_after]",
+    "meanings_fa": "جذاب؛ دلنشین؛ گیرا",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "bottom",
@@ -32239,7 +32749,12 @@
     "exampleFa": "کتاب را از پایین صندوق بیرون کشیدم. | دکمه‌های پیراهن از بالا تا پایین باز بود.",
     "synonymsAntonyms": "",
     "wordFamily": "bottoms (plural)",
-    "collocations": "thread [noun]; feeder [noun]; ply [noun]; line [noun_after]; valley [noun_before]; of [prep_after]; in [prep_after]"
+    "collocations": "thread [noun]; feeder [noun]; ply [noun]; line [noun_after]; valley [noun_before]; of [prep_after]; in [prep_after]",
+    "meanings_fa": "پایین؛ ته؛ کف؛ بخش زیرین",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "frame",
@@ -32253,7 +32768,12 @@
     "exampleFa": "فریم عینکم از طلا ساخته شده است. | هر فریم از این فیلم بسیار زیبا و هنرمندانه است.",
     "synonymsAntonyms": "",
     "wordFamily": "frames (plural)",
-    "collocations": "game [noun_after]; freeze [noun_before]; window [noun_before]; door [noun_before]; of [prep_after]; for [prep_after]; debate [noun_object]; question [noun_object]; issue [noun_object]; by [prep_after]; as [prep_after]"
+    "collocations": "game [noun_after]; freeze [noun_before]; window [noun_before]; door [noun_before]; of [prep_after]; for [prep_after]; debate [noun_object]; question [noun_object]; issue [noun_object]; by [prep_after]; as [prep_after]",
+    "meanings_fa": "قاب؛ چارچوب؛ فریم؛ تنظیم کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "hijacker",
@@ -32267,7 +32787,12 @@
     "exampleFa": "رباینده بازداشت شد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "future [adj]; other [adj]; muscle [noun_before]; pilot [noun_before]; candidate [noun_before]; at [prep_after]; on [prep_after]; to [prep_after]; meet [verb]; include [verb]"
+    "collocations": "future [adj]; other [adj]; muscle [noun_before]; pilot [noun_before]; candidate [noun_before]; at [prep_after]; on [prep_after]; to [prep_after]; meet [verb]; include [verb]",
+    "meanings_fa": "هواپیماربا؛ رباینده وسیله نقلیه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "label",
@@ -32281,7 +32806,12 @@
     "exampleFa": "برچسب قیمت روی محصول چسبانده شده است. | این خواننده با برچسب موسیقی معروفی قرارداد امضا کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "labels (plural)",
-    "collocations": "record [noun_before]; like [prep_after]; on [prep_after]; for [prep_after]; warn [verb]; carry [verb]; adequately [adv]; not [adv]; as [prep_after]; to [prep_after]; in [prep_after]"
+    "collocations": "record [noun_before]; like [prep_after]; on [prep_after]; for [prep_after]; warn [verb]; carry [verb]; adequately [adv]; not [adv]; as [prep_after]; to [prep_after]; in [prep_after]",
+    "meanings_fa": "برچسب؛ عنوان؛ برچسب زدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "welcome",
@@ -32295,7 +32825,12 @@
     "exampleFa": "استقبال گرم از مهمان انجام شد. | من این پیشنهاد را با کمال میل پذیرفتم. | این خبر برای همه دلخواه بود. | با یک سلام دوستانه از او استقبال کردم. | در ورودی از مهمانان خوش‌آمد گفتیم.",
     "synonymsAntonyms": "",
     "wordFamily": "welcoming (gerund); welcomed (past); welcomes (3rd_present)",
-    "collocations": "very [adv]; most [adv]; visitor [noun]; change [noun]; at [prep_after]; to [prep_after]; warm [adj]; warmly [adv]; visitor [noun_object]; opportunity [noun_object]; by [prep_after]; on [prep_after]; in [prep_after]"
+    "collocations": "very [adv]; most [adv]; visitor [noun]; change [noun]; at [prep_after]; to [prep_after]; warm [adj]; warmly [adv]; visitor [noun_object]; opportunity [noun_object]; by [prep_after]; on [prep_after]; in [prep_after]",
+    "meanings_fa": "خوشامد؛ استقبال؛ خوشامد گفتن؛ مورد استقبال",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ideal",
@@ -32309,7 +32844,12 @@
     "exampleFa": "آرمان او این است که روزی یک معلم خوب شود. | این یک شرایط ایده‌آل برای یادگیری است. | او یک ایده‌آل برای تمام دانشجویان دانشگاه است. | این جهان ایده‌آل تنها در ذهن فیلسوف وجود دارد.",
     "synonymsAntonyms": "",
     "wordFamily": "ideals (plural)",
-    "collocations": "place [noun]; test [noun]; for [prep_after]; of [prep_after]; to [prep_after]; make [verb]"
+    "collocations": "place [noun]; test [noun]; for [prep_after]; of [prep_after]; to [prep_after]; make [verb]",
+    "meanings_fa": "ایده‌آل؛ مطلوب؛ آرمانی؛ نمونه کامل",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "moreover",
@@ -32323,7 +32863,12 @@
     "exampleFa": "او دانشجوی خوبی است؛ علاوه بر این، بسیار پرتلاش است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": ""
+    "collocations": "",
+    "meanings_fa": "علاوه بر این؛ همچنین؛ افزون بر آن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "pair",
@@ -32337,7 +32882,12 @@
     "exampleFa": "یک جفت کفش خریدم. | این جفت جوراب کاملاً یکسان است.",
     "synonymsAntonyms": "",
     "wordFamily": "pairs (plural)",
-    "collocations": "new [adj]; good [adj]; au [noun_before]; of [prep_after]; on [prep_after]; in [prep_after]; wear [verb]; make [verb]; with [prep_after]"
+    "collocations": "new [adj]; good [adj]; au [noun_before]; of [prep_after]; on [prep_after]; in [prep_after]; wear [verb]; make [verb]; with [prep_after]",
+    "meanings_fa": "جفت؛ یک جفت؛ دو عدد مرتبط",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "pose",
@@ -32351,7 +32901,12 @@
     "exampleFa": "او همیشه برای تاثیر گذاشتن بر دیگران نمایش می‌دهد. | او یک سوال دشوار را مطرح کرد. | مدل برای عکاس در یک حالت زیبا ایستاد. | دانشجوان برای کلاس هنر یک حالت خاص فرض کردند.",
     "synonymsAntonyms": "",
     "wordFamily": "posing (gerund); poses (3rd_present); posed (past)",
-    "collocations": "of [prep_after]; not [adv]; threat [noun_object]; danger [noun_object]; question [noun_object]; by [prep_after]; as [prep_after]; at [prep_after]"
+    "collocations": "of [prep_after]; not [adv]; threat [noun_object]; danger [noun_object]; question [noun_object]; by [prep_after]; as [prep_after]; at [prep_after]",
+    "meanings_fa": "ژست گرفتن؛ مطرح کردن؛ ایجاد کردن؛ حالت بدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "autonomous",
@@ -32365,7 +32920,12 @@
     "exampleFa": "منطقه خودمختار می‌تواند قوانین خود را تدوین کند. | سیستم خودکار می‌تواند بدون دخالت انسان کار کند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "agent [noun]"
+    "collocations": "agent [noun]",
+    "meanings_fa": "خودمختار؛ مستقل؛ خودگردان",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "cast",
@@ -32379,7 +32939,12 @@
     "exampleFa": "فیلم این هفته یک گروه بازیگر خوب دارد. | ماهیگیر تور خود را به آب انداخت. | فلز را در قالب داغ ریختند تا شکل بگیرد. | شهروندان در انتخابات رای خود را دادند.",
     "synonymsAntonyms": "",
     "wordFamily": "casting (gerund); casts (3rd_present)",
-    "collocations": "ensemble [adj]; iron [noun_after]; of [prep_after]; ballot [noun_object]; shadow [noun_object]; doubt [noun_object]; off [prep_after]; as [prep_after]; by [prep_after]"
+    "collocations": "ensemble [adj]; iron [noun_after]; of [prep_after]; ballot [noun_object]; shadow [noun_object]; doubt [noun_object]; off [prep_after]; as [prep_after]; by [prep_after]",
+    "meanings_fa": "بازیگران؛ قالب؛ گچ؛ انداختن یا پرتاب کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "elsewhere",
@@ -32393,7 +32958,12 @@
     "exampleFa": "اگر این کتاب اینجا نیست، شاید جای دیگری باشد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": ""
+    "collocations": "",
+    "meanings_fa": "جای دیگر؛ در مکان دیگری",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "evening",
@@ -32407,7 +32977,12 @@
     "exampleFa": "من هر عصر برای پیاده روی می روم. | در عصر زندگی‌اش به فکر بازنشستگی بود.",
     "synonymsAntonyms": "",
     "wordFamily": "evenings (plural)",
-    "collocations": "early [adj]; special [adj]; last [adj]; meal [noun_after]; weekend [noun_before]; summer [noun_before]; at [prep_after]; on [prep_after]; of [prep_after]; spend [verb]; take [verb]"
+    "collocations": "early [adj]; special [adj]; last [adj]; meal [noun_after]; weekend [noun_before]; summer [noun_before]; at [prep_after]; on [prep_after]; of [prep_after]; spend [verb]; take [verb]",
+    "meanings_fa": "عصر؛ غروب؛ اوایل شب",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "gallery",
@@ -32421,7 +32996,12 @@
     "exampleFa": "تماشاچیان در حاشیه زمین گلف ایستاده بودند. | خانه قدیمی یک ایوان زیبا در طرف شمالی داشت.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "art [adj]; small [adj]; art [noun_before]; picture [noun_before]; with [prep_after]; at [prep_after]; of [prep_after]"
+    "collocations": "art [adj]; small [adj]; art [noun_before]; picture [noun_before]; with [prep_after]; at [prep_after]; of [prep_after]",
+    "meanings_fa": "گالری؛ نگارخانه؛ تالار نمایش",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "pilot",
@@ -32435,7 +33015,12 @@
     "exampleFa": "خلبان هواپیما با مهارت فرودگاه را فرود آمد. | کشتی‌رانِ راهنما کشتی را از میان تنگه‌ها عبور داد.",
     "synonymsAntonyms": "",
     "wordFamily": "pilots (plural)",
-    "collocations": "commercial [adj]; private [adj]; other [adj]; project [noun_after]; training [noun_after]; hijacker [noun_after]; helicopter [noun_before]; fighter [noun_before]; lead [noun_before]; on [prep_after]; in [prep_after]; to [prep_after]; become [verb]"
+    "collocations": "commercial [adj]; private [adj]; other [adj]; project [noun_after]; training [noun_after]; hijacker [noun_after]; helicopter [noun_before]; fighter [noun_before]; lead [noun_before]; on [prep_after]; in [prep_after]; to [prep_after]; become [verb]",
+    "meanings_fa": "خلبان؛ آزمایشی؛ هدایت کردن هواپیما",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "tough",
@@ -32449,7 +33034,12 @@
     "exampleFa": "او یک مربی سخت‌گیر است که هرگز به بازیکنان عذرخواهی نمی‌کند. | این امتحان برای همه دانش‌آموزان بسیار سخت بود.",
     "synonymsAntonyms": "",
     "wordFamily": "toughest (superlative); tougher (comparative)",
-    "collocations": "as [adv]; so [adv]; not [adv]; guy [noun]; stance [noun]; love [noun]; on [prep_after]; than [prep_after]; as [prep_after]"
+    "collocations": "as [adv]; so [adv]; not [adv]; guy [noun]; stance [noun]; love [noun]; on [prep_after]; than [prep_after]; as [prep_after]",
+    "meanings_fa": "سخت؛ دشوار؛ سرسخت؛ مقاوم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "urban",
@@ -32463,7 +33053,12 @@
     "exampleFa": "زندگی شهری بسیار متفاوت از زندگی روستایی است. | او یک آپارتمان در یک منطقه شهری اجاره کرده است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "sprawl [noun]; renewal [noun]; area [noun]"
+    "collocations": "sprawl [noun]; renewal [noun]; area [noun]",
+    "meanings_fa": "شهری؛ مربوط به شهر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "busy",
@@ -32477,7 +33072,12 @@
     "exampleFa": "او امروز بسیار مشغول است و نمی‌تواند تماس بگیرد. | این نقاشی با رنگ‌های زیادی پر و شلوغ است.",
     "synonymsAntonyms": "",
     "wordFamily": "busiest (superlative); busier (comparative)",
-    "collocations": "extremely [adv]; too [adv]; very [adv]; intersection [noun]; port [noun]; schedule [noun]; with [prep_after]; at [prep_after]; for [prep_after]"
+    "collocations": "extremely [adv]; too [adv]; very [adv]; intersection [noun]; port [noun]; schedule [noun]; with [prep_after]; at [prep_after]; for [prep_after]",
+    "meanings_fa": "مشغول؛ پرکار؛ شلوغ",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "fellow",
@@ -32491,7 +33091,12 @@
     "exampleFa": "او یک پسر خوبی است. | او با همرزمانش وقت زیادی می‌گذراند.",
     "synonymsAntonyms": "",
     "wordFamily": "fellows (plural)",
-    "collocations": "countrymen [noun]; traveler [noun]; citizen [noun]; ordinary [adj]; at [prep_after]; in [prep_after]; of [prep_after]"
+    "collocations": "countrymen [noun]; traveler [noun]; citizen [noun]; ordinary [adj]; at [prep_after]; in [prep_after]; of [prep_after]",
+    "meanings_fa": "همکار؛ همراه؛ هم‌نوع؛ شخص",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "gather",
@@ -32505,7 +33110,12 @@
     "exampleFa": "دوستان برای جشن تولد در خانه جمع شدند. | او تمام کتاب‌های خود را از روی میز جمع کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "gathers (3rd_present); gathered (past); gathering (gerund)",
-    "collocations": "intelligence [noun_object]; information [noun_object]; data [noun_object]; outside [prep_after]; around [prep_after]; up [prep_after]"
+    "collocations": "intelligence [noun_object]; information [noun_object]; data [noun_object]; outside [prep_after]; around [prep_after]; up [prep_after]",
+    "meanings_fa": "جمع کردن؛ گردآوردن؛ جمع شدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "impressive",
@@ -32519,7 +33129,12 @@
     "exampleFa": "آن ساختمان معماری واقعاً تأثیرگذار است. | عملکرد بازیکن جوان در بازی بسیار مؤثر بود.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "most [adv]; equally [adv]; less [adv]; sight [noun]; collection [noun]; view [noun]; as [prep_after]; for [prep_after]; of [prep_after]"
+    "collocations": "most [adv]; equally [adv]; less [adv]; sight [noun]; collection [noun]; view [noun]; as [prep_after]; for [prep_after]; of [prep_after]",
+    "meanings_fa": "تأثیرگذار؛ چشمگیر؛ قابل توجه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "latter",
@@ -32533,7 +33148,12 @@
     "exampleFa": "بین دو گزینه، من دومی را ترجیح می‌دهم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "half [noun]; category [noun]; type [noun]; with [prep_after]; in [prep_after]; of [prep_after]"
+    "collocations": "half [noun]; category [noun]; type [noun]; with [prep_after]; in [prep_after]; of [prep_after]",
+    "meanings_fa": "دومی؛ مورد آخر؛ بخش پایانی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "neighbor",
@@ -32547,7 +33167,12 @@
     "exampleFa": "همسایه من فردا به من کمک خواهد کرد. | این خانه همسایه ای از خانه بزرگتر است.",
     "synonymsAntonyms": "",
     "wordFamily": "neighbors (plural)",
-    "collocations": "next-door [adj]; american [adj]; new [adj]; ecosystem [noun_before]; in [prep_after]; to [prep_after]; of [prep_after]; help [verb]; tribe [noun_object]; country [noun_object]"
+    "collocations": "next-door [adj]; american [adj]; new [adj]; ecosystem [noun_before]; in [prep_after]; to [prep_after]; of [prep_after]; help [verb]; tribe [noun_object]; country [noun_object]",
+    "meanings_fa": "همسایه؛ همسایه بودن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "presence",
@@ -32561,7 +33186,12 @@
     "exampleFa": "حضور او در جلسه بسیار مهم بود. | در حضور پدرم احساس امنیت می‌کنم.",
     "synonymsAntonyms": "",
     "wordFamily": "presences (plural)",
-    "collocations": "physical [adj]; military [adj]; mere [adj]; requirement [noun_after]; security [noun_before]; of [prep_after]; in [prep_after]; at [prep_after]; maintain [verb]; increase [verb]"
+    "collocations": "physical [adj]; military [adj]; mere [adj]; requirement [noun_after]; security [noun_before]; of [prep_after]; in [prep_after]; at [prep_after]; maintain [verb]; increase [verb]",
+    "meanings_fa": "حضور؛ وجود؛ موجودیت؛ حضور مؤثر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "regime",
@@ -32575,7 +33205,12 @@
     "exampleFa": "رژیم جدید سیاست‌های بسیاری را تغییر داد. | پزشک یک رژیم غذایی سخت‌گیرانه برای او تجویز کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "regimes (plural)",
-    "collocations": "ordered [adj]; chaotic [adj]; survivable [adj]; corrupt [noun_before]; peak [noun_before]; inspection [noun_before]; near [prep_after]; at [prep_after]; for [prep_after]"
+    "collocations": "ordered [adj]; chaotic [adj]; survivable [adj]; corrupt [noun_before]; peak [noun_before]; inspection [noun_before]; near [prep_after]; at [prep_after]; for [prep_after]",
+    "meanings_fa": "رژیم؛ نظام حکومتی؛ شیوه یا برنامه منظم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "birth",
@@ -32589,7 +33224,12 @@
     "exampleFa": "تولد جهان با انفجار بزرگ آغاز شد. | تولد نوزاد پس از نه ماه بارداری رخ داد.",
     "synonymsAntonyms": "",
     "wordFamily": "births (plural)",
-    "collocations": "out-of-wedlock [adj]; partial [adj]; multiple [adj]; defect [noun_after]; control [noun_after]; rate [noun_after]; of [prep_after]; to [prep_after]; in [prep_after]; give [verb]; celebrate [verb]"
+    "collocations": "out-of-wedlock [adj]; partial [adj]; multiple [adj]; defect [noun_after]; control [noun_after]; rate [noun_after]; of [prep_after]; to [prep_after]; in [prep_after]; give [verb]; celebrate [verb]",
+    "meanings_fa": "تولد؛ زایش؛ زادروز",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "characteristic",
@@ -32603,7 +33243,12 @@
     "exampleFa": "یکی از ویژگی‌های برجسته این شهر آب و هوای معتدل است. | بارش باران در پاییز یک پدیدۀ مشخصۀ این منطقه است. | رنگ قرمز یک خصوصیت متمایز این محصول است.",
     "synonymsAntonyms": "",
     "wordFamily": "characteristics (plural)",
-    "collocations": "of [prep_after]; geographical [adj]; demographic [adj]; key [adj]; draft [noun_before]; performance [noun_before]; technology [noun_before]; as [prep_after]; on [prep_after]; identify [verb]; describe [verb]"
+    "collocations": "of [prep_after]; geographical [adj]; demographic [adj]; key [adj]; draft [noun_before]; performance [noun_before]; technology [noun_before]; as [prep_after]; on [prep_after]; identify [verb]; describe [verb]",
+    "meanings_fa": "ویژگی؛ خصوصیت؛ مشخصه؛ شاخص",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "combination",
@@ -32617,7 +33262,12 @@
     "exampleFa": "این رنگ‌ها یک ترکیب زیبا را تشکیل می‌دهند. | او یک ترکیب هوشمندانه‌ای در بازی شطرنج انجام داد.",
     "synonymsAntonyms": "",
     "wordFamily": "combinations (plural)",
-    "collocations": "various [adj]; possible [adj]; different [adj]; thereof [noun_after]; of [prep_after]; with [prep_after]; in [prep_after]; use [verb]"
+    "collocations": "various [adj]; possible [adj]; different [adj]; thereof [noun_after]; of [prep_after]; with [prep_after]; in [prep_after]; use [verb]",
+    "meanings_fa": "ترکیب؛ آمیزه؛ مجموعه‌ای از چند چیز",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "dinner",
@@ -32631,7 +33281,12 @@
     "exampleFa": "ما هر شب ساعت هفت شام می‌خوریم. | آنها یک شام رسمی برای مهمانان خارجی برگزار کردند.",
     "synonymsAntonyms": "",
     "wordFamily": "dinners (plural)",
-    "collocations": "black-tie [adj]; table [noun_after]; party [noun_after]; plate [noun_after]; family [noun_before]; at [prep_after]; with [prep_after]; on [prep_after]; eat [verb]"
+    "collocations": "black-tie [adj]; table [noun_after]; party [noun_after]; plate [noun_after]; family [noun_before]; at [prep_after]; with [prep_after]; on [prep_after]; eat [verb]",
+    "meanings_fa": "شام؛ وعده اصلی غذا",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "draft",
@@ -32645,7 +33300,12 @@
     "exampleFa": "او یک حواله‌ی پول به بانک فرستاد. | جریان هوای سردی از دری وارد اتاق شد.",
     "synonymsAntonyms": "",
     "wordFamily": "drafts (plural)",
-    "collocations": "rough [adj]; first [adj]; early [adj]; characteristic [noun_after]; report [noun_after]; exposure [noun_before]; of [prep_after]; in [prep_after]; dodge [verb]; transmit [verb]; release [verb]; document [noun_object]; into [prep_after]; by [prep_after]"
+    "collocations": "rough [adj]; first [adj]; early [adj]; characteristic [noun_after]; report [noun_after]; exposure [noun_before]; of [prep_after]; in [prep_after]; dodge [verb]; transmit [verb]; release [verb]; document [noun_object]; into [prep_after]; by [prep_after]",
+    "meanings_fa": "پیش‌نویس؛ طرح اولیه؛ جریان هوا؛ سربازگیری",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "dramatic",
@@ -32659,7 +33319,12 @@
     "exampleFa": "این یک اثر درام‌اتیک است که احساسات عمیق را بیان می‌کند. | تغییر دراماتیک در آب‌و‌هوا باعث بارش شدید شد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "most [adv]; less [adv]; more [adv]; shift [noun]; increase [noun]; scenery [noun]; than [prep_after]"
+    "collocations": "most [adv]; less [adv]; more [adv]; shift [noun]; increase [noun]; scenery [noun]; than [prep_after]",
+    "meanings_fa": "دراماتیک؛ چشمگیر؛ ناگهانی و شدید",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "formal",
@@ -32673,7 +33338,12 @@
     "exampleFa": "او برای مراسم رسمی لباس مناسب پوشید. | رئیس با لحن رسمی دستورات خود را اعلام کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "less [adv]; more [adv]; too [adv]; garden [noun]; training [noun]; impeachment [noun]; than [prep_after]"
+    "collocations": "less [adv]; more [adv]; too [adv]; garden [noun]; training [noun]; impeachment [noun]; than [prep_after]",
+    "meanings_fa": "رسمی؛ تشریفاتی؛ مطابق قواعد",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "monument",
@@ -32687,7 +33357,12 @@
     "exampleFa": "این یادبود برای قهرمانان جنگ ساخته شده است. | تخت جمشید یکی از مهم‌ترین اثار باستانی ایران است.",
     "synonymsAntonyms": "",
     "wordFamily": "monuments (plural)",
-    "collocations": "historic [adj]; elegant [adj]; national [adj]; to [prep_after]; than [prep_after]; from [prep_after]"
+    "collocations": "historic [adj]; elegant [adj]; national [adj]; to [prep_after]; than [prep_after]; from [prep_after]",
+    "meanings_fa": "بنای یادبود؛ اثر تاریخی؛ یادمان",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "surplus",
@@ -32701,7 +33376,12 @@
     "exampleFa": "ما یک مازاد بزرگ از گندم داریم. | این تجهیزات اضافی را می‌توانیم بفروشیم.",
     "synonymsAntonyms": "",
     "wordFamily": "surpluses (plural)",
-    "collocations": "unified [adj]; anticipated [adj]; entire [adj]; budget [noun_before]; trade [noun_before]; producer [noun_before]; over [prep_after]; for [prep_after]; on [prep_after]; preserve [verb]; run [verb]; spend [verb]"
+    "collocations": "unified [adj]; anticipated [adj]; entire [adj]; budget [noun_before]; trade [noun_before]; producer [noun_before]; over [prep_after]; for [prep_after]; on [prep_after]; preserve [verb]; run [verb]; spend [verb]",
+    "meanings_fa": "مازاد؛ اضافه؛ مازاد تولید یا درآمد",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "vehicle",
@@ -32715,7 +33395,12 @@
     "exampleFa": "او هر روز با وسیله نقلیه شخصی به محل کار می‌رود. | هنر یک وسیله قدرتمند برای بیان احساسات است.",
     "synonymsAntonyms": "",
     "wordFamily": "vehicles (plural)",
-    "collocations": "rental [adj]; other [adj]; crash [noun_after]; cost [noun_after]; motor [noun_before]; utility [noun_before]; participation [noun_before]; for [prep_after]; as [prep_after]; that [prep_after]; use [verb]; make [verb]"
+    "collocations": "rental [adj]; other [adj]; crash [noun_after]; cost [noun_after]; motor [noun_before]; utility [noun_before]; participation [noun_before]; for [prep_after]; as [prep_after]; that [prep_after]; use [verb]; make [verb]",
+    "meanings_fa": "وسیله نقلیه؛ خودرو؛ وسیله انتقال",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "accompany",
@@ -32729,7 +33414,12 @@
     "exampleFa": "موسیقی زیبایی را همراه خود می‌آورد. | او می‌خواست دوستش را به سینما همراهی کند.",
     "synonymsAntonyms": "",
     "wordFamily": "accompanies (3rd_present); accompanied (past); accompanying (gerund)",
-    "collocations": "often [adv]; even [adv]; not [adv]; statement [noun_object]; article [noun_object]; piece [noun_object]; by [prep_after]"
+    "collocations": "often [adv]; even [adv]; not [adv]; statement [noun_object]; article [noun_object]; piece [noun_object]; by [prep_after]",
+    "meanings_fa": "همراهی کردن؛ همراه کسی رفتن؛ توأم بودن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "along",
@@ -32743,7 +33433,12 @@
     "exampleFa": "او در خیابان به جلو راه می‌رفت. | او همراه با دوستش به سینما رفت.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "ideological [adj]; come [verb]"
+    "collocations": "ideological [adj]; come [verb]",
+    "meanings_fa": "در امتداد؛ همراه؛ به جلو؛ در طول",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "assess",
@@ -32757,7 +33452,12 @@
     "exampleFa": "معلم توانایی دانش‌آموزان را در امتحان ارزیابی کرد. | دولت برای این ملک مالیاتی را تعیین کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "assesses (3rd_present); assessed (past); assessing (gerund)",
-    "collocations": "also [adv]; reliability [noun_object]; validity [noun_object]; progress [noun_object]; whether [prep_after]; by [prep_after]; to [prep_after]"
+    "collocations": "also [adv]; reliability [noun_object]; validity [noun_object]; progress [noun_object]; whether [prep_after]; by [prep_after]; to [prep_after]",
+    "meanings_fa": "ارزیابی کردن؛ سنجیدن؛ بررسی کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "dangerous",
@@ -32771,7 +33471,12 @@
     "exampleFa": "رانندگی در جاده برفانی بسیار خطرناک است. | صدای عجیب در شب برایش خطرناک و ترسناک بود.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "potentially [adv]; extremely [adv]; more [adv]; place [noun]; idea [noun]; level [noun]; than [prep_after]; for [prep_after]; as [prep_after]"
+    "collocations": "potentially [adv]; extremely [adv]; more [adv]; place [noun]; idea [noun]; level [noun]; than [prep_after]; for [prep_after]; as [prep_after]",
+    "meanings_fa": "خطرناک؛ پرخطر",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "massive",
@@ -32785,7 +33490,12 @@
     "exampleFa": "آن ساختمان بزرگ و حجیم دید را جلب می‌کند. | این سنگ از یک ماده جامد و یکپارچه تشکیل شده است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "stone [noun]; scale [noun]; growth [noun]"
+    "collocations": "stone [noun]; scale [noun]; growth [noun]",
+    "meanings_fa": "بسیار بزرگ؛ عظیم؛ گسترده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "occasion",
@@ -32799,7 +33509,12 @@
     "exampleFa": "این فرصت به مناسبت تولد پدر بوجود آمد. | ما برای این مناسبت خاص دعوت‌نامه فرستادیم.",
     "synonymsAntonyms": "",
     "wordFamily": "occasions (plural)",
-    "collocations": "ceremonial [adj]; rare [adj]; festive [adj]; to [prep_after]; for [prep_after]; as [prep_after]; mark [verb]; use [verb]; take [verb]"
+    "collocations": "ceremonial [adj]; rare [adj]; festive [adj]; to [prep_after]; for [prep_after]; as [prep_after]; mark [verb]; use [verb]; take [verb]",
+    "meanings_fa": "مناسبت؛ موقعیت؛ فرصت؛ رویداد",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "reject",
@@ -32813,7 +33528,12 @@
     "exampleFa": "او پیشنهاد شغلی را رد کرد. | دولت درخواست تجدید نظر را رد کند.",
     "synonymsAntonyms": "",
     "wordFamily": "rejects (3rd_present); rejecting (gerund); rejected (past)",
-    "collocations": "alternative [noun_object]; notion [noun_object]; proposal [noun_object]; because [prep_after]; by [prep_after]; as [prep_after]"
+    "collocations": "alternative [noun_object]; notion [noun_object]; proposal [noun_object]; because [prep_after]; by [prep_after]; as [prep_after]",
+    "meanings_fa": "رد کردن؛ نپذیرفتن؛ مردود کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ten",
@@ -32827,7 +33547,12 @@
     "exampleFa": "کلاس ساعت ده شروع می‌شود.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "about [adv]; only [adv]; minute [noun]; day [noun]; year [noun]; top [adj]; past [adj]; next [adj]; year [noun_after]; of [prep_after]; spend [verb]"
+    "collocations": "about [adv]; only [adv]; minute [noun]; day [noun]; year [noun]; top [adj]; past [adj]; next [adj]; year [noun_after]; of [prep_after]; spend [verb]",
+    "meanings_fa": "ده؛ عدد ۱۰",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "dream",
@@ -32841,7 +33566,12 @@
     "exampleFa": "دیشب رویایی عجیب دیدم که هنوز یادم مانده است. | در کلاس درس، علی داشت خیال پردازی می‌کرد و به معلم گوش نمی‌داد. | او همیشه درباره آینده‌ای بهتر خیال می‌کند. | امشب رویا دیدم که پرواز می‌کنم در آسمان.",
     "synonymsAntonyms": "",
     "wordFamily": "dreams (3rd_present); dreamed (past); dreaming (gerund); dreamt (past)",
-    "collocations": "american [adj]; long [adj]; house [noun_after]; world [noun_after]; state [noun_after]; of [prep_after]; for [prep_after]; that [prep_after]; fulfill [verb]; realize [verb]; achieve [verb]; never [adv]; ever [adv]; only [adv]; up [prep_after]; about [prep_after]"
+    "collocations": "american [adj]; long [adj]; house [noun_after]; world [noun_after]; state [noun_after]; of [prep_after]; for [prep_after]; that [prep_after]; fulfill [verb]; realize [verb]; achieve [verb]; never [adv]; ever [adv]; only [adv]; up [prep_after]; about [prep_after]",
+    "meanings_fa": "رویا؛ خواب؛ آرزو؛ خواب دیدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "fishing",
@@ -32855,7 +33585,12 @@
     "exampleFa": "او در آخر هفته برای ماهیگیری به رودخانه می‌رود. | او برای تعریف‌های تملق‌آمیز در صحبت‌های دوستانش ماهیگیری می‌کند. | پدرش سال‌ها در ماهیگیری کار کرده است. | ما دیروز در دریا ماهیگیری کردیم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "deep-sea [adj]; colorful [adj]; pretty [adj]; village [noun_after]; boat [noun_after]; fleet [noun_after]; deep-sea [noun_before]; picturesque [noun_before]; sport [noun_before]; for [prep_after]; in [prep_after]; go [verb]; find [verb]"
+    "collocations": "deep-sea [adj]; colorful [adj]; pretty [adj]; village [noun_after]; boat [noun_after]; fleet [noun_after]; deep-sea [noun_before]; picturesque [noun_before]; sport [noun_before]; for [prep_after]; in [prep_after]; go [verb]; find [verb]",
+    "meanings_fa": "ماهیگیری؛ صید ماهی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "giant",
@@ -32869,7 +33604,12 @@
     "exampleFa": "در افسانه‌ها، غول‌ها موجوداتی بسیار بزرگ و قدرتمند هستند. | آن ساختمان غول‌پیکر با بلندی‌ای فوق‌العاده تاثیر‌گذار است. | آلبرت اینشتین یکی از غول‌های علم و فیزیک در قرن بیستم بود.",
     "synonymsAntonyms": "",
     "wordFamily": "giants (plural)",
-    "collocations": "panda [noun]; leap [noun]; company [noun]; telecom [noun_before]; software [noun_before]; industry [noun_before]; like [prep_after]; of [prep_after]"
+    "collocations": "panda [noun]; leap [noun]; company [noun]; telecom [noun_before]; software [noun_before]; industry [noun_before]; like [prep_after]; of [prep_after]",
+    "meanings_fa": "غول؛ بسیار بزرگ؛ عظیم",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "odd",
@@ -32883,7 +33623,12 @@
     "exampleFa": "عدد ۵ یک عدد فرد است. | رفتار او امروز خیلی عجیب بود.",
     "synonymsAntonyms": "",
     "wordFamily": "oddest (superlative); odder (comparative)",
-    "collocations": "very [adv]; thing [noun]; time [noun]; to [prep_after]; long [adj]; little [adj]; with [prep_after]; for [prep_after]; of [prep_after]; post [verb]; offer [verb]; seem [verb]"
+    "collocations": "very [adv]; thing [noun]; time [noun]; to [prep_after]; long [adj]; little [adj]; with [prep_after]; for [prep_after]; of [prep_after]; post [verb]; offer [verb]; seem [verb]",
+    "meanings_fa": "عجیب؛ غیرعادی؛ فرد؛ تک",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "remind",
@@ -32897,7 +33642,12 @@
     "exampleFa": "لطفاً مرا یادآوری کن که امروز قرار ملاقات دارم. | معلم دانش‌آموز را یادآوری کرد که بقیه شعر را ادامه دهد.",
     "synonymsAntonyms": "",
     "wordFamily": "reminds (3rd_present); reminding (gerund); reminded (past)",
-    "collocations": "frequently [adv]; also [adv]; reader [noun_object]; viewer [noun_object]; audience [noun_object]; that [prep_after]; of [prep_after]"
+    "collocations": "frequently [adv]; also [adv]; reader [noun_object]; viewer [noun_object]; audience [noun_object]; that [prep_after]; of [prep_after]",
+    "meanings_fa": "یادآوری کردن؛ به یاد کسی آوردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "restriction",
@@ -32911,7 +33661,12 @@
     "exampleFa": "این قانون محدودیت‌هایی بر استفاده از منابع طبیعی قائم می‌کند. | دولت برای کنترل آلودگی محدودیت‌های جدیدی اعمال کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "restrictions (plural)",
-    "collocations": "legal [adj]; new [adj]; such [adj]; export [noun_before]; marketing [noun_before]; advertising [noun_before]; on [prep_after]; at [prep_after]; in [prep_after]; lift [verb]; place [verb]; impose [verb]"
+    "collocations": "legal [adj]; new [adj]; such [adj]; export [noun_before]; marketing [noun_before]; advertising [noun_before]; on [prep_after]; at [prep_after]; in [prep_after]; lift [verb]; place [verb]; impose [verb]",
+    "meanings_fa": "محدودیت؛ ممنوعیت؛ قید",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "vision",
@@ -32925,7 +33680,12 @@
     "exampleFa": "او یک دید روشن از آینده داشت. | چشمان او تیز بود و دید خوبی داشت.",
     "synonymsAntonyms": "",
     "wordFamily": "visions (plural)",
-    "collocations": "shared [adj]; common [adj]; broad [adj]; of [prep_after]; for [prep_after]; on [prep_after]; develop [verb]"
+    "collocations": "shared [adj]; common [adj]; broad [adj]; of [prep_after]; for [prep_after]; on [prep_after]; develop [verb]",
+    "meanings_fa": "بینایی؛ دید؛ چشم‌انداز؛ تصور آینده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "foundation",
@@ -32939,7 +33699,12 @@
     "exampleFa": "ریاضیات بنیاد علوم است. | این بنیاد خیریه برای کمک به بیماران سرطانی فعالیت می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "foundations (plural)",
-    "collocations": "charitable [adj]; strong [adj]; private [adj]; grant [noun_after]; gift [noun_after]; for [prep_after]; of [prep_after]; as [prep_after]; lay [verb]; form [verb]; provide [verb]"
+    "collocations": "charitable [adj]; strong [adj]; private [adj]; grant [noun_after]; gift [noun_after]; for [prep_after]; of [prep_after]; as [prep_after]; lay [verb]; form [verb]; provide [verb]",
+    "meanings_fa": "بنیاد؛ اساس؛ پی؛ شالوده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "regular",
@@ -32953,7 +33718,12 @@
     "exampleFa": "او هر روز به طور منظم ورزش می‌کند. | این یک قهوه معمولی است، نه قهوه خاص.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "also [adv]; interval [noun]; basis [noun]; columnist [noun]"
+    "collocations": "also [adv]; interval [noun]; basis [noun]; columnist [noun]",
+    "meanings_fa": "منظم؛ مرتب؛ معمولی؛ ثابت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "stuff",
@@ -32967,7 +33737,12 @@
     "exampleFa": "این لباس از پارچه نرم ساخته شده است. | همه اشیاء مربوط به من را در کوله پشتی گذاشتم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "bad [adj]; old [adj]; good [adj]; like [prep_after]; about [prep_after]; out [prep_after]; get [verb]; become [verb]; story [noun_object]; with [prep_after]; in [prep_after]"
+    "collocations": "bad [adj]; old [adj]; good [adj]; like [prep_after]; about [prep_after]; out [prep_after]; get [verb]; become [verb]; story [noun_object]; with [prep_after]; in [prep_after]",
+    "meanings_fa": "چیزها؛ وسایل؛ مواد؛ پر کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "complain",
@@ -32981,7 +33756,12 @@
     "exampleFa": "او از سرویس بد رستوران شکایت کرد. | او به پلیس علیه همسایه‌اش شکایت رسمی کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "complains (3rd_present); complaining (gerund); complained (past)",
-    "collocations": "about [prep_after]; that [prep_after]; of [prep_after]"
+    "collocations": "about [prep_after]; that [prep_after]; of [prep_after]",
+    "meanings_fa": "شکایت کردن؛ گله کردن؛ اعتراض کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "currency",
@@ -32995,7 +33775,12 @@
     "exampleFa": "دلار ارز رسمی ایالات متحده است. | این ایده اخیراً بین جوانان رواج یافته است.",
     "synonymsAntonyms": "",
     "wordFamily": "currencies (plural)",
-    "collocations": "european [adj]; decimal [adj]; single [adj]; crisis [noun_after]; exchange [noun_after]; board [noun_after]; into [prep_after]; at [prep_after]; in [prep_after]; devalue [verb]; adopt [verb]; let [verb]"
+    "collocations": "european [adj]; decimal [adj]; single [adj]; crisis [noun_after]; exchange [noun_after]; board [noun_after]; into [prep_after]; at [prep_after]; in [prep_after]; devalue [verb]; adopt [verb]; let [verb]",
+    "meanings_fa": "ارز؛ واحد پول؛ پول رایج",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "inventory",
@@ -33009,7 +33794,12 @@
     "exampleFa": "مدیر فروشگاه هر ماه موجودی کالاها را بررسی می‌کند. | موجودی این فروشگاه شامل لباس‌های زمستانی و تابستانی است.",
     "synonymsAntonyms": "",
     "wordFamily": "inventories (plural)",
-    "collocations": "retail [adj]; large [adj]; more [adj]; carrying [noun_after]; level [noun_after]; management [noun_after]; good [noun_before]; target [noun_before]; emission [noun_before]; for [prep_after]; of [prep_after]; in [prep_after]; hold [verb]; carry [verb]; set [verb]"
+    "collocations": "retail [adj]; large [adj]; more [adj]; carrying [noun_after]; level [noun_after]; management [noun_after]; good [noun_before]; target [noun_before]; emission [noun_before]; for [prep_after]; of [prep_after]; in [prep_after]; hold [verb]; carry [verb]; set [verb]",
+    "meanings_fa": "موجودی کالا؛ فهرست دارایی‌ها؛ انبارگردانی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "obviously",
@@ -33023,7 +33813,12 @@
     "exampleFa": "او بدیهی‌طور می‌دانست که چه کار باید انجام دهد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "need [verb]"
+    "collocations": "need [verb]",
+    "meanings_fa": "واضح است؛ آشکارا؛ بدیهی است",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "cool",
@@ -33037,7 +33832,12 @@
     "exampleFa": "لطفاً آب را در یخچال خنک کن. | امروز هوای خنکی داریم که خیلی خوب است. | چای داغ به تدریج سرد می‌شود. | او حتی در شرایط دشوار نیز آرام و متعادل ماند.",
     "synonymsAntonyms": "",
     "wordFamily": "cooler (comparative); coolest (superlative); cooling (gerund); cooled (past); cools (3rd_present)",
-    "collocations": "really [adv]; than [prep_after]; of [prep_after]; off [prep_after]; down [prep_after]; in [prep_after]"
+    "collocations": "really [adv]; than [prep_after]; of [prep_after]; off [prep_after]; down [prep_after]; in [prep_after]",
+    "meanings_fa": "خنک؛ باحال؛ عالی؛ آرام و خونسرد",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "governor",
@@ -33051,7 +33851,12 @@
     "exampleFa": "فرماندار ایالت تصمیمات مهمی برای توسعه اقتصادی گرفت. | گورنر موتور سرعت آن را در حد ثابتی نگه می‌دارد.",
     "synonymsAntonyms": "",
     "wordFamily": "governors (plural)",
-    "collocations": "lieutenant [adj]; republican [adj]; former [adj]; of [prep_after]; in [prep_after]; to [prep_after]; elect [verb]"
+    "collocations": "lieutenant [adj]; republican [adj]; former [adj]; of [prep_after]; in [prep_after]; to [prep_after]; elect [verb]",
+    "meanings_fa": "فرماندار؛ حاکم؛ رئیس یک نهاد",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "mainly",
@@ -33065,7 +33870,12 @@
     "exampleFa": "او عمدتاً در خانه وقت می‌گذراند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "british [adj]; consist [verb]; focus [verb]; draw [verb]"
+    "collocations": "british [adj]; consist [verb]; focus [verb]; draw [verb]",
+    "meanings_fa": "عمدتاً؛ بیشتر؛ در درجه اول",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "master",
@@ -33079,7 +33889,12 @@
     "exampleFa": "او یک استادِ ماهر در نقاشی است. | معلم استادِ کلاس و داشتن اختیار بر دانش‌آموزان است.",
     "synonymsAntonyms": "",
     "wordFamily": "masters (plural)",
-    "collocations": "dutch [adj]; handset [noun_after]; builder [noun_after]; of [prep_after]; at [prep_after]; in [prep_after]; art [noun_object]; by [prep_after]"
+    "collocations": "dutch [adj]; handset [noun_after]; builder [noun_after]; of [prep_after]; at [prep_after]; in [prep_after]; art [noun_object]; by [prep_after]",
+    "meanings_fa": "استاد؛ ماهر؛ ارباب؛ تسلط یافتن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "principal",
@@ -33093,7 +33908,12 @@
     "exampleFa": "بهره بر اساس principal محاسبه می‌شود. | هدف principal این پروژه افزایش فروش است. | principal امروز با والدین دانش‌آموزان ملاقات کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "principals (plural)",
-    "collocations": "adviser [noun]; architect [noun]; goal [noun]; meeting [noun_after]; school [noun_before]; on [prep_after]; in [prep_after]; to [prep_after]"
+    "collocations": "adviser [noun]; architect [noun]; goal [noun]; meeting [noun_after]; school [noun_before]; on [prep_after]; in [prep_after]; to [prep_after]",
+    "meanings_fa": "مدیر مدرسه؛ اصلی؛ عمده؛ اصل سرمایه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "seriously",
@@ -33107,7 +33927,12 @@
     "exampleFa": "او به طور جدی درباره این پروژه صحبت می‌کرد. | او به شدت مریض است و نمی‌تواند کار کند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "injured [adj]; injure [verb]; flaw [verb]; damage [verb]"
+    "collocations": "injured [adj]; injure [verb]; flaw [verb]; damage [verb]",
+    "meanings_fa": "جدی؛ به‌طور جدی؛ واقعاً",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "speed",
@@ -33121,7 +33946,12 @@
     "exampleFa": "سرعت اتومبیل در بزرگراه ۱۲۰ کیلومتر در ساعت است. | با تندی زیاد کار را تمام کردیم.",
     "synonymsAntonyms": "",
     "wordFamily": "speeds (plural)",
-    "collocations": "high [adj]; national [adj]; same [adj]; limit [noun_after]; creep [noun_after]; at [prep_after]; with [prep_after]; of [prep_after]; increase [verb]; up [prep_after]"
+    "collocations": "high [adj]; national [adj]; same [adj]; limit [noun_after]; creep [noun_after]; at [prep_after]; with [prep_after]; of [prep_after]; increase [verb]; up [prep_after]",
+    "meanings_fa": "سرعت؛ شتاب؛ سرعت گرفتن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "active",
@@ -33135,7 +33965,12 @@
     "exampleFa": "بیماری فعال است و به سرعت پیشرفت می‌کند. | نیروهای فعال در منطقه برای درگیری آماده هستند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "sexually [adv]; particularly [adv]; very [adv]; duty [noun]; role [noun]; volcano [noun]; in [prep_after]; at [prep_after]"
+    "collocations": "sexually [adv]; particularly [adv]; very [adv]; duty [noun]; role [noun]; volcano [noun]; in [prep_after]; at [prep_after]",
+    "meanings_fa": "فعال؛ پرتحرک؛ در حال فعالیت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "ahead",
@@ -33149,7 +33984,12 @@
     "exampleFa": "او همیشه از بقیه جلو است. | سال های بسیاری در پیش رو داریم.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": ""
+    "collocations": "",
+    "meanings_fa": "جلو؛ پیش رو؛ جلوتر؛ در آینده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "essay",
@@ -33163,7 +34003,12 @@
     "exampleFa": "او یک مقاله درباره ادبیات معاصر نوشت. | این اولین تلاش من برای یادگیری نقاشی است.",
     "synonymsAntonyms": "",
     "wordFamily": "essays (plural)",
-    "collocations": "famous [adj]; catalog [noun_before]; photo [noun_before]; cover [noun_before]; about [prep_after]; on [prep_after]; by [prep_after]; submit [verb]; write [verb]; publish [verb]"
+    "collocations": "famous [adj]; catalog [noun_before]; photo [noun_before]; cover [noun_before]; about [prep_after]; on [prep_after]; by [prep_after]; submit [verb]; write [verb]; publish [verb]",
+    "meanings_fa": "مقاله؛ انشا؛ جستار",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "holiday",
@@ -33177,7 +34022,12 @@
     "exampleFa": "من این تابستان یک هفته تعطیلات گرفتم. | روز شنبه یک روز تعطیل رسمی است.",
     "synonymsAntonyms": "",
     "wordFamily": "holidays (plural)",
-    "collocations": "happy [adj]; national [adj]; public [adj]; season [noun_after]; resort [noun_after]; shopping [noun_after]; family [noun_before]; from [prep_after]; with [prep_after]; on [prep_after]; celebrate [verb]; spend [verb]; take [verb]"
+    "collocations": "happy [adj]; national [adj]; public [adj]; season [noun_after]; resort [noun_after]; shopping [noun_after]; family [noun_before]; from [prep_after]; with [prep_after]; on [prep_after]; celebrate [verb]; spend [verb]; take [verb]",
+    "meanings_fa": "تعطیلات؛ روز تعطیل؛ مناسبت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "incident",
@@ -33191,7 +34041,12 @@
     "exampleFa": "این یک واقعه مهم در تاریخ کشور بود. | زاویه تابش نور بر سطح آینه مهم است. | پلیس به سایت حادثه سریع رفت. | این نکات جزئی برای بحث اصلی مرتبط هستند.",
     "synonymsAntonyms": "",
     "wordFamily": "incidents (plural)",
-    "collocations": "terrorist [adj]; historical [adj]; major [adj]; command [noun_after]; commander [noun_after]; response [noun_after]; security [noun_before]; at [prep_after]; as [prep_after]; on [prep_after]; report [verb]"
+    "collocations": "terrorist [adj]; historical [adj]; major [adj]; command [noun_after]; commander [noun_after]; response [noun_after]; security [noun_before]; at [prep_after]; as [prep_after]; on [prep_after]; report [verb]",
+    "meanings_fa": "حادثه؛ رویداد؛ واقعه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "invest",
@@ -33205,7 +34060,12 @@
     "exampleFa": "او در بازار سهام سرمایه‌گذاری می‌کند. | والدین اعتماد را به فرزندان خود سرمایه‌گذاری می‌کنند.",
     "synonymsAntonyms": "",
     "wordFamily": "invested (past); invests (3rd_present); investing (gerund)",
-    "collocations": "heavily [adv]; not [adv]; saving [noun_object]; dollar [noun_object]; money [noun_object]; in [prep_after]; with [prep_after]; for [prep_after]"
+    "collocations": "heavily [adv]; not [adv]; saving [noun_object]; dollar [noun_object]; money [noun_object]; in [prep_after]; with [prep_after]; for [prep_after]",
+    "meanings_fa": "سرمایه‌گذاری کردن؛ صرف کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "substantial",
@@ -33219,7 +34079,12 @@
     "exampleFa": "او مقدار قابل‌توجهی پول برای خیریه کمک کرد. | این کتاب بهبود‌های اساسی در روش تدریس ارائه می‌دهد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "very [adv]; more [adv]; portion [noun]; reduction [noun]; degree [noun]"
+    "collocations": "very [adv]; more [adv]; portion [noun]; reduction [noun]; degree [noun]",
+    "meanings_fa": "قابل توجه؛ چشمگیر؛ اساسی؛ قابل ملاحظه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "transaction",
@@ -33233,7 +34098,12 @@
     "exampleFa": "این معامله بانکی در صبح امروز انجام شد.",
     "synonymsAntonyms": "",
     "wordFamily": "transactions (plural)",
-    "collocations": "nonexchange [adj]; financial [adj]; individual [adj]; processing [noun_after]; cost [noun_after]; exchange [noun_before]; business [noun_before]; with [prep_after]; in [prep_after]; to [prep_after]; process [verb]"
+    "collocations": "nonexchange [adj]; financial [adj]; individual [adj]; processing [noun_after]; cost [noun_after]; exchange [noun_before]; business [noun_before]; with [prep_after]; in [prep_after]; to [prep_after]; process [verb]",
+    "meanings_fa": "تراکنش؛ معامله؛ دادوستد",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "typical",
@@ -33247,7 +34117,12 @@
     "exampleFa": "این یک مثال نمونه‌ای از معماری ایرانی سنتی است. | لبخند‌های نمونه‌ای او همیشه مردم را خوشحال می‌کند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "more [adv]; example [noun]; of [prep_after]; for [prep_after]; in [prep_after]"
+    "collocations": "more [adv]; example [noun]; of [prep_after]; for [prep_after]; in [prep_after]",
+    "meanings_fa": "معمول؛ نمونه‌وار؛ رایج",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "winter",
@@ -33261,7 +34136,12 @@
     "exampleFa": "زمستان سردترین فصل سال است.",
     "synonymsAntonyms": "",
     "wordFamily": "winters (plural)",
-    "collocations": "cold [adj]; mild [adj]; harsh [adj]; wind [noun_after]; sport [noun_after]; month [noun_after]; on [prep_after]; of [prep_after]; in [prep_after]; spend [verb]"
+    "collocations": "cold [adj]; mild [adj]; harsh [adj]; wind [noun_after]; sport [noun_after]; month [noun_after]; on [prep_after]; of [prep_after]; in [prep_after]; spend [verb]",
+    "meanings_fa": "زمستان؛ فصل سرما",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "compete",
@@ -33275,7 +34155,12 @@
     "exampleFa": "دو تیم برای قهرمانی با یکدیگر رقابت می‌کنند.",
     "synonymsAntonyms": "",
     "wordFamily": "competes (3rd_present); competed (past); competing (gerund)",
-    "collocations": "successfully [adv]; also [adv]; not [adv]; priority [noun_object]; against [prep_after]; with [prep_after]; for [prep_after]"
+    "collocations": "successfully [adv]; also [adv]; not [adv]; priority [noun_object]; against [prep_after]; with [prep_after]; for [prep_after]",
+    "meanings_fa": "رقابت کردن؛ مسابقه دادن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "nice",
@@ -33289,7 +34174,12 @@
     "exampleFa": "این روز هوای خیلی دلپذیری است. | او یک خانم بسیار باادب و شریف است.",
     "synonymsAntonyms": "",
     "wordFamily": "nicer (comparative); nicest (superlative)",
-    "collocations": "very [adv]; really [adv]; too [adv]; guy [noun]; thing [noun]; hotel [noun]; if [prep_after]; to [prep_after]; with [prep_after]"
+    "collocations": "very [adv]; really [adv]; too [adv]; guy [noun]; thing [noun]; hotel [noun]; if [prep_after]; to [prep_after]; with [prep_after]",
+    "meanings_fa": "خوب؛ خوشایند؛ مهربان؛ زیبا",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "sculpture",
@@ -33303,7 +34193,12 @@
     "exampleFa": "این مجسمه‌ی سنگی یکی از بهترین نمونه‌های هنر باستان است. | او از سال‌های جوانی به مجسمه‌سازی علاقه‌مند بوده است.",
     "synonymsAntonyms": "",
     "wordFamily": "sculptures (plural)",
-    "collocations": "modern [adj]; garden [noun_after]; stone [noun_before]; from [prep_after]; by [prep_after]; at [prep_after]; feature [verb]"
+    "collocations": "modern [adj]; garden [noun_after]; stone [noun_before]; from [prep_after]; by [prep_after]; at [prep_after]; feature [verb]",
+    "meanings_fa": "مجسمه؛ تندیس؛ پیکره‌سازی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "circumstance",
@@ -33317,7 +34212,12 @@
     "exampleFa": "در این شرایط، تصمیم گیری برای او سخت بود. | با توجه به تمام شرایط و حقایق، او بی گناه است.",
     "synonymsAntonyms": "",
     "wordFamily": "circumstances (plural)",
-    "collocations": "mysterious [adj]; extreme [adj]; certain [adj]; under [prep_after]; in [prep_after]; of [prep_after]"
+    "collocations": "mysterious [adj]; extreme [adj]; certain [adj]; under [prep_after]; in [prep_after]; of [prep_after]",
+    "meanings_fa": "شرایط؛ اوضاع؛ موقعیت؛ وضعیت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "compliance",
@@ -33331,7 +34231,12 @@
     "exampleFa": "شرکت برای رعایت قوانین محیط‌زیست تلاش می‌کند. | فرزند با اطاعت و تابعیت از دستورات والدینش پیروی کرد.",
     "synonymsAntonyms": "",
     "wordFamily": "compliances (plural)",
-    "collocations": "full [adj]; other [adj]; requirement [noun_after]; testing [noun_after]; date [noun_after]; permit [noun_before]; grantee [noun_before]; with [prep_after]; in [prep_after]; monitor [verb]; ensure [verb]; determine [verb]"
+    "collocations": "full [adj]; other [adj]; requirement [noun_after]; testing [noun_after]; date [noun_after]; permit [noun_before]; grantee [noun_before]; with [prep_after]; in [prep_after]; monitor [verb]; ensure [verb]; determine [verb]",
+    "meanings_fa": "رعایت؛ تبعیت؛ انطباق با مقررات",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "farm",
@@ -33345,7 +34250,12 @@
     "exampleFa": "پدرم یک مزرعه بزرگ در حومه شهر دارد.",
     "synonymsAntonyms": "",
     "wordFamily": "farms (plural)",
-    "collocations": "migrant [adj]; old [adj]; small [adj]; worker [noun_after]; subsidy [noun_after]; animal [noun_after]; dairy [noun_before]; family [noun_before]; at [prep_after]; in [prep_after]; to [prep_after]; community [noun_object]"
+    "collocations": "migrant [adj]; old [adj]; small [adj]; worker [noun_after]; subsidy [noun_after]; animal [noun_after]; dairy [noun_before]; family [noun_before]; at [prep_after]; in [prep_after]; to [prep_after]; community [noun_object]",
+    "meanings_fa": "مزرعه؛ دامداری؛ مزرعه‌داری کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "fresh",
@@ -33359,7 +34269,12 @@
     "exampleFa": "این نان تازه از فر بیرون آمد. | هر روز یک چرخه تازه برای من شروع می‌شود.",
     "synonymsAntonyms": "",
     "wordFamily": "freshest (superlative); fresher (comparative)",
-    "collocations": "fish [noun]; seafood [noun]; produce [noun]; out [prep_after]"
+    "collocations": "fish [noun]; seafood [noun]; produce [noun]; out [prep_after]",
+    "meanings_fa": "تازه؛ باطراوت؛ نو؛ خنک",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "listen",
@@ -33373,7 +34288,12 @@
     "exampleFa": "من به موسیقی گوش می‌دهم. | لطفاً به حرف‌های من گوش کن.",
     "synonymsAntonyms": "",
     "wordFamily": "listened (past); listens (3rd_present); listening (gerund)",
-    "collocations": "ever [adv]; just [adv]; not [adv]; to [prep_after]; for [prep_after]; in [prep_after]"
+    "collocations": "ever [adv]; just [adv]; not [adv]; to [prep_after]; for [prep_after]; in [prep_after]",
+    "meanings_fa": "گوش دادن؛ شنیدن با دقت",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "cable",
@@ -33387,7 +34307,12 @@
     "exampleFa": "او یک کابل به دوستش در خارج از کشور فرستاد. | آنها تصمیم خود را از طریق تلگراف اطلاع دادند. | کابل برق را به دستگاه متصل کنید. | دکل را با کابل‌های فولادی محکم کردند.",
     "synonymsAntonyms": "",
     "wordFamily": "cables (3rd_present); cabling (gerund); cabled (past)",
-    "collocations": "aerial [adj]; car [noun_after]; tv [noun_after]; television [noun_after]; steel [noun_before]; from [prep_after]; to [prep_after]; take [verb]"
+    "collocations": "aerial [adj]; car [noun_after]; tv [noun_after]; television [noun_after]; steel [noun_before]; from [prep_after]; to [prep_after]; take [verb]",
+    "meanings_fa": "کابل؛ سیم؛ شبکه کابلی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "constitute",
@@ -33401,7 +34326,12 @@
     "exampleFa": "این عناصر کل سیستم را تشکیل می‌دهند. | دولت یک کمیسیون جدید را برای بررسی این موضوع تشکیل داد.",
     "synonymsAntonyms": "",
     "wordFamily": "constitutes (3rd_present); constituted (past); constituting (gerund)",
-    "collocations": "not [adv]; now [adv]; only [adv]; drain [noun_object]; constraint [noun_object]; agent [noun_object]; by [prep_after]"
+    "collocations": "not [adv]; now [adv]; only [adv]; drain [noun_object]; constraint [noun_object]; agent [noun_object]; by [prep_after]",
+    "meanings_fa": "تشکیل دادن؛ به شمار آمدن؛ محسوب شدن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "dedicate",
@@ -33415,7 +34345,12 @@
     "exampleFa": "او زمانی را به مطالعه اختصاص داد.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "not [adv]; to [prep_after]; by [prep_after]"
+    "collocations": "not [adv]; to [prep_after]; by [prep_after]",
+    "meanings_fa": "اختصاص دادن؛ وقف کردن؛ تقدیم کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "deserve",
@@ -33429,7 +34364,12 @@
     "exampleFa": "او برای این جایزه شایسته است.",
     "synonymsAntonyms": "",
     "wordFamily": "deserving (gerund); deserved (past); deserves (3rd_present)",
-    "collocations": "not [adv]; also [adv]; credit [noun_object]; sympathy [noun_object]; praise [noun_object]; to [prep_after]; of [prep_after]"
+    "collocations": "not [adv]; also [adv]; credit [noun_object]; sympathy [noun_object]; praise [noun_object]; to [prep_after]; of [prep_after]",
+    "meanings_fa": "شایسته بودن؛ سزاوار بودن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "negative",
@@ -33443,7 +34383,12 @@
     "exampleFa": "نگرش منفی او باعث شد که پروژه را رها کند. | پاسخ منفی استاد به درخواست دانشجو مایوس‌کننده بود.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "more [adv]; consequence [noun]; campaigning [noun]; impact [noun]; about [prep_after]"
+    "collocations": "more [adv]; consequence [noun]; campaigning [noun]; impact [noun]; about [prep_after]",
+    "meanings_fa": "منفی؛ نامطلوب؛ بدبینانه؛ پاسخ منفی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "notion",
@@ -33457,7 +34402,12 @@
     "exampleFa": "من یک ایده‌ی مبهم درباره‌ی این پروژه دارم. | مفهوم عدالت یک notion کلی است که در بسیاری از فرهنگ‌ها وجود دارد.",
     "synonymsAntonyms": "",
     "wordFamily": "notions (plural)",
-    "collocations": "very [adj]; such [adj]; that [prep_after]; of [prep_after]; reject [verb]"
+    "collocations": "very [adj]; such [adj]; that [prep_after]; of [prep_after]; reject [verb]",
+    "meanings_fa": "تصور؛ مفهوم؛ عقیده؛ پندار",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "stick",
@@ -33471,7 +34421,12 @@
     "exampleFa": "او یک چوب بلند را برای آتش جمع کرد. | پوستر را با میخ به دیوار چسباند. | شاخه‌های کوچک روی زمین پراکنده بودند. | او در خانه ماند و از بیرون نرفت.",
     "synonymsAntonyms": "",
     "wordFamily": "stuck (past); sticks (3rd_present); sticking (gerund)",
-    "collocations": "with [prep_after]; to [prep_after]; in [prep_after]; walk [verb]; not [adv]; around [prep_after]; out [prep_after]; up [prep_after]"
+    "collocations": "with [prep_after]; to [prep_after]; in [prep_after]; walk [verb]; not [adv]; around [prep_after]; out [prep_after]; up [prep_after]",
+    "meanings_fa": "چوب؛ چوب‌دستی؛ چسباندن؛ گیر کردن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "employer",
@@ -33485,7 +34440,12 @@
     "exampleFa": "کارفرمای من از کارمندانش بسیار راضی است.",
     "synonymsAntonyms": "",
     "wordFamily": "employers (plural)",
-    "collocations": "agricultural [adj]; potential [adj]; private [adj]; entity [noun_after]; contribution [noun_after]; to [prep_after]; from [prep_after]; with [prep_after]; require [verb]"
+    "collocations": "agricultural [adj]; potential [adj]; private [adj]; entity [noun_after]; contribution [noun_after]; to [prep_after]; from [prep_after]; with [prep_after]; require [verb]",
+    "meanings_fa": "کارفرما؛ استخدام‌کننده",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "everybody",
@@ -33499,7 +34459,12 @@
     "exampleFa": "همه به مدرک شناسایی نیاز دارند.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "from [prep_after]; in [prep_after]"
+    "collocations": "from [prep_after]; in [prep_after]",
+    "meanings_fa": "همه؛ همه افراد؛ هر کسی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "exception",
@@ -33513,7 +34478,12 @@
     "exampleFa": "این قانون بدون استثنا برای همه اعمال می‌شود. | او استثنایی است؛ بیشتر افراد این کار را نمی‌کنند.",
     "synonymsAntonyms": "",
     "wordFamily": "exceptions (plural)",
-    "collocations": "notable [adj]; rare [adj]; sole [adj]; of [prep_after]; to [prep_after]; for [prep_after]; take [verb]; make [verb]"
+    "collocations": "notable [adj]; rare [adj]; sole [adj]; of [prep_after]; to [prep_after]; for [prep_after]; take [verb]; make [verb]",
+    "meanings_fa": "استثنا؛ مورد خاص",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "proper",
@@ -33527,7 +34497,12 @@
     "exampleFa": "این روش صحیح برای حل مسئله است. | این یک خانه مناسب و معمولی است.",
     "synonymsAntonyms": "",
     "wordFamily": "",
-    "collocations": "noun [noun]; adjective [noun]; verb [noun]; for [prep_after]"
+    "collocations": "noun [noun]; adjective [noun]; verb [noun]; for [prep_after]",
+    "meanings_fa": "مناسب؛ درست؛ صحیح؛ واقعی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "scholar",
@@ -33541,7 +34516,12 @@
     "exampleFa": "این استاد یک محقق برجسته و یک دانشمند در زمینه تاریخ است. | او یک دانش‌آموز خوب است که هر روز درس‌های خود را با دقت یاد می‌گیرد.",
     "synonymsAntonyms": "",
     "wordFamily": "scholars (plural)",
-    "collocations": "legal [adj]; serious [adj]; american [adj]; from [prep_after]; as [prep_after]; to [prep_after]"
+    "collocations": "legal [adj]; serious [adj]; american [adj]; from [prep_after]; as [prep_after]; to [prep_after]",
+    "meanings_fa": "پژوهشگر؛ محقق؛ دانشمند؛ دانش‌پژوه",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "valley",
@@ -33555,7 +34535,12 @@
     "exampleFa": "رودخانه از میان دره عمیق جریان می‌یابد.",
     "synonymsAntonyms": "",
     "wordFamily": "valleys (plural)",
-    "collocations": "fertile [adj]; narrow [adj]; remote [adj]; bottom [noun_after]; floor [noun_after]; river [noun_before]; below [prep_after]; beyond [prep_after]; near [prep_after]; overlook [verb]; follow [verb]"
+    "collocations": "fertile [adj]; narrow [adj]; remote [adj]; bottom [noun_after]; floor [noun_after]; river [noun_before]; below [prep_after]; beyond [prep_after]; near [prep_after]; overlook [verb]; follow [verb]",
+    "meanings_fa": "دره؛ وادی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "consideration",
@@ -33569,7 +34554,12 @@
     "exampleFa": "بعد از تأمل درباره این موضوع، تصمیم گرفت. | یکی از ملاحظات مهم در انتخاب شغل، حقوق و مزایا است.",
     "synonymsAntonyms": "",
     "wordFamily": "considerations (plural)",
-    "collocations": "careful [adj]; serious [adj]; special [adj]; of [prep_after]; into [prep_after]; by [prep_after]; give [verb]; include [verb]"
+    "collocations": "careful [adj]; serious [adj]; special [adj]; of [prep_after]; into [prep_after]; by [prep_after]; give [verb]; include [verb]",
+    "meanings_fa": "توجه؛ ملاحظه؛ بررسی؛ مدنظر قرار دادن",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "exhibition",
@@ -33583,7 +34573,12 @@
     "exampleFa": "نمایش این آثار هنری به مدت سه ماه ادامه خواهد داشت. | نمایشگاه نقاشی‌های معاصر در موزه شهر برگزار شد.",
     "synonymsAntonyms": "",
     "wordFamily": "exhibitions (plural)",
-    "collocations": "temporary [adj]; permanent [adj]; upcoming [adj]; catalog [noun_after]; hall [noun_after]; space [noun_after]; art [noun_before]; at [prep_after]; of [prep_after]; on [prep_after]; change [verb]; hold [verb]; see [verb]"
+    "collocations": "temporary [adj]; permanent [adj]; upcoming [adj]; catalog [noun_after]; hall [noun_after]; space [noun_after]; art [noun_before]; at [prep_after]; of [prep_after]; on [prep_after]; change [verb]; hold [verb]; see [verb]",
+    "meanings_fa": "نمایشگاه؛ نمایش؛ ارائه عمومی",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "graduate",
@@ -33597,7 +34592,12 @@
     "exampleFa": "او یک فارغ‌التحصیل دانشگاه تهران است. | او سال آینده از دانشگاه فارغ‌التحصیل می‌شود. | برای تحقیقات graduate باید به دوره ماستری بروی. | شیمی‌دان از مایع را با استوانه مدرج اندازه گرفت. | دانشگاه دیپلم‌های خود را در مراسم تحویل داد.",
     "synonymsAntonyms": "",
     "wordFamily": "graduated (past); graduates (3rd_present); graduating (gerund)",
-    "collocations": "recent [adj]; new [adj]; student [noun_after]; program [noun_after]; school [noun_after]; college [noun_before]; school [noun_before]; of [prep_after]; from [prep_after]; with [prep_after]; school [noun_object]; in [prep_after]; to [prep_after]"
+    "collocations": "recent [adj]; new [adj]; student [noun_after]; program [noun_after]; school [noun_after]; college [noun_before]; school [noun_before]; of [prep_after]; from [prep_after]; with [prep_after]; school [noun_object]; in [prep_after]; to [prep_after]",
+    "meanings_fa": "فارغ‌التحصیل؛ فارغ‌التحصیل شدن؛ دانش‌آموخته",
+    "review_status": "Persian meaning completed; editorial verification pending",
+    "ready_flag": false,
+    "release_decision": null,
+    "qa_note": "Persian meaning supplied. US IPA, part of speech, English definition and bilingual example still require completion and review."
   },
   {
     "word": "guidance",
