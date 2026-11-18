@@ -3,7 +3,7 @@ package com.ieamericanenglish.app
 import android.content.Context
 import org.json.JSONArray
 import org.json.JSONObject
-import java.time.LocalDate
+import java.text.SimpleDateFormat\nimport java.util.Date
 import java.util.Locale
 
 /**
@@ -62,7 +62,7 @@ class LearningStore(context: Context) {
      * A word can only occur once in the plan.
      */
     fun buildDailyPlan(words: List<VocabularyWord>, level: String, limit: Int = DAILY_NEW_WORD_GOAL): DailyLearningPlan {
-        val today = LocalDate.now().toString()
+        val today = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
         val progress = wordProgress()
         val eligible = words.asSequence()
             .filter { it.cefr.equals(level, true) }
