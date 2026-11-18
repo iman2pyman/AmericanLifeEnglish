@@ -41,6 +41,9 @@ fun ScreenHeader(title: String, onBack: () -> Unit) {
 @Composable
 fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit) {
     var query by remember { mutableStateOf("") }
+    val uniqueWordCount = remember(words) {
+        words.map { it.word.trim().lowercase() }.distinct().size
+    }
     val results = remember(query, words) {
         if (query.isBlank()) emptyList()
         else {
@@ -60,7 +63,7 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
             colors = OutlinedTextFieldDefaults.colors(focusedBorderColor = Color(0xFF2563EB), focusedLabelColor = Color(0xFF2563EB))
         )
         Spacer(Modifier.height(10.dp))
-        Text(if (query.isBlank()) "جستجو در ۱۰۰۰ واژه" else results.size.toString() + " نتیجه", color = Color(0xFF718096), fontSize = 12.sp)
+        Text(if (query.isBlank()) "جستجو در " + uniqueWordCount + " واژه" else results.size.toString() + " نتیجه", color = Color(0xFF718096), fontSize = 12.sp)
         LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
             items(results, key = { it.word }) { word -> WordRow(word, onSpeak) { onWord(word) } }
         }
