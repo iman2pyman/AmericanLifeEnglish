@@ -59,13 +59,13 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
         Surface(Modifier.fillMaxSize(), color = Page) {
             when {
-                selectedWord != null -> WordDetailScreen(selectedWord!!, onSpeak) { selectedWord = null }
+                selectedWord != null -> WordDetailScreen(\n                    selectedWord!!, onSpeak, { selectedWord = null },\n                    isBookmarked = LearningStore.wordId(selectedWord!!.word) in bookmarkedWords,\n                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ }\n                )
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
                     onGrammar = { page = "grammar" }, onHelp = { dialog = "help" }, onAbout = { dialog = "about" }
                 )
-                page == "search" -> SearchScreen(words, onSpeak, { page = "home" }) { selectedWord = it }
-                page == "vocabulary" -> LearningScreen(words, onSpeak, { page = "home" }) { selectedWord = it }
+                page == "search" -> SearchScreen(\n                    words, onSpeak, { page = "home" }, { selectedWord = it },\n                    bookmarks = bookmarkedWords,\n                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }\n                )
+                page == "vocabulary" -> LearningScreen(\n                    words, onSpeak, { page = "home" }, { selectedWord = it },\n                    initialLevel = selectedLevel,\n                    onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },\n                    bookmarks = bookmarkedWords,\n                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }\n                )
                 else -> GrammarScreen { page = "home" }
             }
         }
