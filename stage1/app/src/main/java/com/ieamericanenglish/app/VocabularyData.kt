@@ -4,6 +4,7 @@ import android.content.Context
 import android.speech.tts.TextToSpeech
 import android.widget.Toast
 import org.json.JSONArray
+import org.json.JSONObject
 import java.util.Locale
 
 data class VocabularyWord(
@@ -25,11 +26,14 @@ fun loadVocabulary(context: Context): List<VocabularyWord> {
     val json = context.assets.open("vocabulary_1000.json")
         .bufferedReader(Charsets.UTF_8).use { it.readText() }
     val array = JSONArray(json)
+    val levelJson = context.assets.open("cefr_levels.json")
+        .bufferedReader(Charsets.UTF_8).use { it.readText() }
+    val levelOverrides = JSONObject(levelJson)
     return List(array.length()) { i ->
         val o = array.getJSONObject(i)
         VocabularyWord(
             o.optString("word"), o.optString("meanings_fa"), o.optString("part_of_speech"),
-            o.optString("ipa_us"), o.optString("cefr"), o.optString("category"),
+            o.optString("ipa_us"), levelOverrides.optString(o.optString("word").lowercase(Locale.US), o.optString("cefr")), o.optString("category"),
             o.optString("definition_en"), o.optString("example_en"), o.optString("example_fa"),
             o.optString("synonyms_antonyms"), o.optString("word_family"), o.optString("collocations")
         )
