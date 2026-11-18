@@ -71,8 +71,9 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
 }
 
 @Composable
-fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit) {
-    var level by remember { mutableStateOf("A1") }
+fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+    var level by remember { mutableStateOf(initialLevel) }
+    LaunchedEffect(initialLevel) { level = initialLevel }
     val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) } }
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
@@ -142,7 +143,10 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
                         Text(word.word, color = accent, fontSize = 29.sp, fontWeight = FontWeight.ExtraBold)
                         Text(word.ipaUs, color = Color(0xFF718096), fontSize = 15.sp)
                     }
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {\n                        TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = Color(0xFF2563EB), fontWeight = FontWeight.Bold) }\n                        TextButton(onClick = onToggleBookmark) { Text(if (isBookmarked) "★ نشان‌دار" else "☆ نشان‌دار", color = if (isBookmarked) Color(0xFFB7791F) else Color(0xFF2563EB), fontWeight = FontWeight.Bold) }\n                    }
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = Color(0xFF2563EB), fontWeight = FontWeight.Bold) }
+                        TextButton(onClick = onToggleBookmark) { Text(if (isBookmarked) "★ نشان‌دار" else "☆ نشان‌دار", color = if (isBookmarked) Color(0xFFB7791F) else Color(0xFF2563EB), fontWeight = FontWeight.Bold) }
+                    }
                 }
                 Spacer(Modifier.height(8.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
