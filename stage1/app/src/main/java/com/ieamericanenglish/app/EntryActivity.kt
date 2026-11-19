@@ -86,9 +86,12 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
                 )
                 page == "vocabulary-level" -> VocabularyLevelScreen(
                     words = words,
-                    selectedLevel = selectedLevel,
-                    onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
-                    onBack = { page = "vocabulary" }
+                    initialLevel = selectedLevel,
+                    onWord = { selectedWord = it },
+                    onSpeak = onSpeak,
+                    onBack = { page = "vocabulary" },
+                    bookmarks = bookmarkedWords,
+                    onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
                 )
                 page == "vocabulary-practice" -> LearningScreen(
                     words, onSpeak, { page = "vocabulary" }, { selectedWord = it },
