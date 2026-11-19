@@ -148,7 +148,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
         }
         if (welcomeVisible) {
             WelcomeDialog(
-                version = BuildConfig.VERSION_NAME,
+                version = context.packageManager.getPackageInfo(context.packageName, 0).versionName ?: "نامشخص",
                 onClose = { welcomeVisible = false },
                 onNeverShow = {
                     preferences.edit().putBoolean("hide_welcome", true).apply()
