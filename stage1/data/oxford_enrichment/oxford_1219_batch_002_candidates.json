@@ -1,0 +1,1224 @@
+{
+  "batch": 2,
+  "status": "selected_from_exact_1219_oxford_remaining_list",
+  "source": "stage1/data/oxford_1219_remaining.json",
+  "source_ref": "oxford-1219-recovered-list",
+  "source_counts": {
+    "total_remaining": 1219,
+    "oxford_3000_missing": 41,
+    "oxford_5000_supplementary_missing": 1178
+  },
+  "selection": {
+    "start_index_zero_based": 200,
+    "end_index_exclusive": 400,
+    "count": 200,
+    "previous_batch": "batch_007.json (positions 1-200)"
+  },
+  "validation": {
+    "unique_count": 200,
+    "duplicates_with_previous_batch": 0,
+    "all_present_in_1219_source": true
+  },
+  "words": [
+    {
+      "order": 201,
+      "word": "declaration",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 202,
+      "word": "dedicated",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 203,
+      "word": "dedication",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 204,
+      "word": "deed",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 205,
+      "word": "default",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 206,
+      "word": "defect",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 207,
+      "word": "defender",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 208,
+      "word": "defensive",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 209,
+      "word": "deficiency",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 210,
+      "word": "defy",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 211,
+      "word": "delegation",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 212,
+      "word": "demon",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 213,
+      "word": "demonstration",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 214,
+      "word": "denial",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 215,
+      "word": "dense",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 216,
+      "word": "density",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 217,
+      "word": "dependence",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 218,
+      "word": "deploy",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 219,
+      "word": "deployment",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 220,
+      "word": "deprive",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 221,
+      "word": "descent",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 222,
+      "word": "desirable",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 223,
+      "word": "desktop",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 224,
+      "word": "desperately",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 225,
+      "word": "destructive",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 226,
+      "word": "detain",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 227,
+      "word": "detection",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 228,
+      "word": "detention",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 229,
+      "word": "deteriorate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 230,
+      "word": "determination",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 231,
+      "word": "devil",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 232,
+      "word": "devise",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 233,
+      "word": "diagnose",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 234,
+      "word": "diagnosis",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 235,
+      "word": "dictate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 236,
+      "word": "differ",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 237,
+      "word": "differentiate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 238,
+      "word": "dilemma",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 239,
+      "word": "dime",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 240,
+      "word": "dimension",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 241,
+      "word": "diminish",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 242,
+      "word": "dip",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 243,
+      "word": "directory",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 244,
+      "word": "disagreement",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 245,
+      "word": "disappoint",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 246,
+      "word": "disappointment",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 247,
+      "word": "discard",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 248,
+      "word": "disclose",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 249,
+      "word": "disclosure",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 250,
+      "word": "discourse",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 251,
+      "word": "discretion",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 252,
+      "word": "dismissal",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 253,
+      "word": "disorder",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 254,
+      "word": "displace",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 255,
+      "word": "disposal",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 256,
+      "word": "dispose",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 257,
+      "word": "disrupt",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 258,
+      "word": "disruption",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 259,
+      "word": "dissolve",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 260,
+      "word": "distinctive",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 261,
+      "word": "distort",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 262,
+      "word": "distress",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 263,
+      "word": "disturbing",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 264,
+      "word": "divert",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 265,
+      "word": "divine",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 266,
+      "word": "doctrine",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 267,
+      "word": "domain",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 268,
+      "word": "dominance",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 269,
+      "word": "dominant",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 270,
+      "word": "dose",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 271,
+      "word": "dot",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 272,
+      "word": "drain",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 273,
+      "word": "drift",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 274,
+      "word": "drought",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 275,
+      "word": "drown",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 276,
+      "word": "dual",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 277,
+      "word": "dub",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 278,
+      "word": "dull",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 279,
+      "word": "dumb",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 280,
+      "word": "duo",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 281,
+      "word": "dynamic",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 282,
+      "word": "earnings",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 283,
+      "word": "echo",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 284,
+      "word": "ecological",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 285,
+      "word": "economics",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 286,
+      "word": "educator",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 287,
+      "word": "effectiveness",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 288,
+      "word": "ego",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 289,
+      "word": "elaborate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 290,
+      "word": "elbow",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 291,
+      "word": "electoral",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 292,
+      "word": "electronics",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 293,
+      "word": "elevate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 294,
+      "word": "embark",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 295,
+      "word": "embarrassment",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 296,
+      "word": "embassy",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 297,
+      "word": "embed",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 298,
+      "word": "emergence",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 299,
+      "word": "emission",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 300,
+      "word": "emotionally",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 301,
+      "word": "empirical",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 302,
+      "word": "empower",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 303,
+      "word": "enact",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 304,
+      "word": "encompass",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 305,
+      "word": "encouragement",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 306,
+      "word": "encouraging",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 307,
+      "word": "endeavor",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 308,
+      "word": "endorsement",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 309,
+      "word": "endure",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 310,
+      "word": "engaging",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 311,
+      "word": "enjoyable",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 312,
+      "word": "enrich",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 313,
+      "word": "enroll",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 314,
+      "word": "ensue",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 315,
+      "word": "entertaining",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 316,
+      "word": "enthusiast",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 317,
+      "word": "epidemic",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 318,
+      "word": "equation",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 319,
+      "word": "equip",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 320,
+      "word": "erupt",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 321,
+      "word": "escalate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 322,
+      "word": "essence",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 323,
+      "word": "eternal",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 324,
+      "word": "ethic",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 325,
+      "word": "evacuate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 326,
+      "word": "evident",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 327,
+      "word": "evoke",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 328,
+      "word": "evolution",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 329,
+      "word": "evolutionary",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 330,
+      "word": "exaggerate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 331,
+      "word": "exceed",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 332,
+      "word": "excellence",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 333,
+      "word": "exceptional",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 334,
+      "word": "excess",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 335,
+      "word": "excessive",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 336,
+      "word": "exclusion",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 337,
+      "word": "exclusively",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 338,
+      "word": "execution",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 339,
+      "word": "exert",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 340,
+      "word": "exile",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 341,
+      "word": "experimental",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 342,
+      "word": "expire",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 343,
+      "word": "explicit",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 344,
+      "word": "explicitly",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 345,
+      "word": "exploit",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 346,
+      "word": "exploitation",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 347,
+      "word": "explosive",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 348,
+      "word": "exposure",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 349,
+      "word": "extension",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 350,
+      "word": "extensively",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 351,
+      "word": "extract",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 352,
+      "word": "extremist",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 353,
+      "word": "fabric",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 354,
+      "word": "fabulous",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 355,
+      "word": "facilitate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 356,
+      "word": "faction",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 357,
+      "word": "fade",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 358,
+      "word": "failed",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 359,
+      "word": "fairness",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 360,
+      "word": "fare",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 361,
+      "word": "fatal",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 362,
+      "word": "feat",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 363,
+      "word": "felony",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 364,
+      "word": "feminist",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 365,
+      "word": "fiber",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 366,
+      "word": "fierce",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 367,
+      "word": "filmmaker",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 368,
+      "word": "filter",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 369,
+      "word": "firearm",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 370,
+      "word": "firefighter",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 371,
+      "word": "firework",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 372,
+      "word": "firmly",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 373,
+      "word": "flaw",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 374,
+      "word": "flawed",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 375,
+      "word": "flesh",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 376,
+      "word": "flexibility",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 377,
+      "word": "flourish",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 378,
+      "word": "fluid",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 379,
+      "word": "fond",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 380,
+      "word": "fool",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 381,
+      "word": "footage",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 382,
+      "word": "forbid",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 383,
+      "word": "forecast",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 384,
+      "word": "forge",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 385,
+      "word": "format",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 386,
+      "word": "formerly",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 387,
+      "word": "formula",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 388,
+      "word": "formulate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 389,
+      "word": "forth",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 390,
+      "word": "forthcoming",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 391,
+      "word": "fortunate",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 392,
+      "word": "forum",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 393,
+      "word": "fossil",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 394,
+      "word": "foster",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 395,
+      "word": "fragile",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 396,
+      "word": "fragment",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 397,
+      "word": "franchise",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 398,
+      "word": "frankly",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 399,
+      "word": "freshman",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    },
+    {
+      "order": 400,
+      "word": "frustrated",
+      "source_section": "Oxford 5000 supplementary missing",
+      "status": "selected_pending_full_enrichment"
+    }
+  ]
+}
