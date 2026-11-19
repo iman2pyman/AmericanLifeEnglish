@@ -78,6 +78,10 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     val dailyPlan = learningStore?.buildDailyPlan(words, level)
     var practiceQueue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
     var practiceIndex by remember { mutableIntStateOf(0) }
+    var quizQuestions by remember { mutableStateOf<List<VocabularyQuizQuestion>>(emptyList()) }
+    var quizIndex by remember { mutableIntStateOf(0) }
+    var quizAnswer by remember { mutableStateOf<String?>(null) }
+    var quizScore by remember { mutableIntStateOf(0) }
     val currentPracticeWord = practiceQueue.getOrNull(practiceIndex)
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
@@ -116,8 +120,74 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                 }
             }
         }
+        Spacer(Modifier.height(8.dp))
+        OutlinedButton(
+            onClick = {
+                quizQuestions = VocabularyQuizEngine.createQuiz(words, level, 10)
+                quizIndex = 0
+                quizAnswer = null
+                quizScore = 0
+                practiceQueue = emptyList()
+            },
+            modifier = Modifier.fillMaxWidth(),
+            enabled = levelWords.size >= 4,
+            shape = RoundedCornerShape(12.dp)
+        ) { Text("شروع آزمون هوشمند ۱۰ سؤالی") }
         Spacer(Modifier.height(10.dp))
-        if (currentPracticeWord != null) {
+        if (quizQuestions.isNotEmpty()) {
+            if (quizIndex >= quizQuestions.size) {
+                Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
+                    Column(Modifier.padding(18.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text("آزمون به پایان رسید", color = Color(0xFF14213D), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+                        Text("$quizScore از ${quizQuestions.size} پاسخ درست", color = Color(0xFF0F9D91), fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                        Text("نتیجه‌ها به‌صورت آفلاین ذخیره شدند.", color = Color(0xFF718096), fontSize = 12.sp)
+                        Spacer(Modifier.height(10.dp))
+                        Button(onClick = { quizQuestions = emptyList(); quizIndex = 0; quizAnswer = null }) { Text("بازگشت به آموزش") }
+                    }
+                }
+            } else {
+                val question = quizQuestions[quizIndex]
+                Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text("آزمون ${quizIndex + 1} از ${quizQuestions.size}  •  ${question.type.titleFa}", color = Color(0xFF2563EB), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(10.dp))
+                        Text(question.prompt, color = Color(0xFF14213D), fontSize = 16.sp, fontWeight = FontWeight.Bold, lineHeight = 25.sp)
+                        Spacer(Modifier.height(12.dp))
+                        question.options.forEach { option ->
+                            val chosen = quizAnswer == option
+                            OutlinedButton(
+                                onClick = {
+                                    if (quizAnswer == null) {
+                                        quizAnswer = option
+                                        val correct = option == question.correctAnswer
+                                        if (correct) quizScore++
+                                        learningStore?.recordQuizAnswer(question.targetWord, question.type.name, correct)
+                                        learningStore?.recordAnswer(question.targetWord, if (correct) "good" else "again")
+                                    }
+                                },
+                                enabled = quizAnswer == null,
+                                modifier = Modifier.fillMaxWidth().padding(bottom = 5.dp),
+                                shape = RoundedCornerShape(11.dp),
+                                colors = ButtonDefaults.outlinedButtonColors(
+                                    contentColor = if (quizAnswer != null && option == question.correctAnswer) Color(0xFF0F9D91) else Color(0xFF26364D)
+                                )
+                            ) { Text(option, modifier = Modifier.fillMaxWidth()) }
+                        }
+                        if (quizAnswer != null) {
+                            val correct = quizAnswer == question.correctAnswer
+                            Text(if (correct) "آفرین، پاسخ درست است." else "پاسخ درست: ${question.correctAnswer}",
+                                color = if (correct) Color(0xFF0F9D91) else Color(0xFFBE4778),
+                                fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                            Text(question.explanation, color = Color(0xFF718096), fontSize = 12.sp, lineHeight = 20.sp)
+                            Spacer(Modifier.height(10.dp))
+                            Button(onClick = { quizIndex++; quizAnswer = null }, modifier = Modifier.fillMaxWidth()) {
+                                Text(if (quizIndex + 1 == quizQuestions.size) "دیدن نتیجه" else "سؤال بعدی")
+                            }
+                        }
+                    }
+                }
+            }
+        } else if (currentPracticeWord != null) {
             Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
                 Column(Modifier.padding(16.dp)) {
                     Text("تمرین ${practiceIndex + 1} از ${practiceQueue.size}", color = Color(0xFF718096), fontSize = 12.sp)
