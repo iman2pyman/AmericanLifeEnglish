@@ -135,22 +135,25 @@ class LearningStore(context: Context) {
 
     fun quizStats(words: List<VocabularyWord>, level: String): QuizStats {
         val history = quizHistory()
+        val levelIds = words.asSequence().filter { it.cefr.equals(level, true) }
+            .map { wordId(it.word) }.toSet()
+        var answered = 0
         var correct = 0
         val typeTotals = mutableMapOf<String, Pair<Int, Int>>()
         val wordTotals = mutableMapOf<String, Pair<Int, Int>>()
         for (index in 0 until history.length()) {
             val item = history.optJSONObject(index) ?: continue
             val word = item.optString("word")
+            if (word !in levelIds) continue
             val type = item.optString("type")
             val isCorrect = item.optBoolean("correct", false)
+            answered++
             if (isCorrect) correct++
             val typeOld = typeTotals[type] ?: (0 to 0)
             typeTotals[type] = (typeOld.first + 1) to (typeOld.second + if (isCorrect) 1 else 0)
             val wordOld = wordTotals[word] ?: (0 to 0)
             wordTotals[word] = (wordOld.first + 1) to (wordOld.second + if (isCorrect) 1 else 0)
         }
-        val levelIds = words.asSequence().filter { it.cefr.equals(level, true) }
-            .map { wordId(it.word) }.toSet()
         val weak = wordTotals.entries.asSequence()
             .filter { it.key in levelIds && it.value.first >= 2 && it.value.second * 100 / it.value.first < 60 }
             .sortedBy { it.value.second.toDouble() / it.value.first }
@@ -158,7 +161,7 @@ class LearningStore(context: Context) {
         val typeStats = typeTotals.map { (type, totals) ->
             QuizTypeStat(type, totals.first, totals.second)
         }.sortedBy { it.type }
-        return QuizStats(history.length(), correct, typeStats, weak)
+        return QuizStats(answered, correct, typeStats, weak)
     }
 
     fun weakWords(words: List<VocabularyWord>, level: String): List<VocabularyWord> {
