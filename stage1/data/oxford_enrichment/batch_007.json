@@ -33,9 +33,10 @@
     "all_required_fields_populated": true,
     "no_duplicate_headwords": true,
     "production_ready": false,
-    "ready_flags_false": true
+    "ready_flags_false": true,
+    "antonym_coverage": 77
   },
-  "review_policy": "Persian glosses, US IPA, official Oxford CEFR/POS where available, English definitions, bilingual examples, synonyms, word families and collocations are populated. Entries remain staged for final editorial/native-speaker review.",
+  "review_policy": "Persian glosses, US IPA, official Oxford CEFR/POS where available, English definitions, bilingual examples, synonyms, word families and collocations are populated. Entries remain staged for final editorial/native-speaker review. Antonyms are included only where a meaningful, context-appropriate opposite exists.",
   "words": [
     {
       "word": "a",
@@ -155,7 +156,9 @@
           "later",
           "subsequently"
         ],
-        "antonyms": []
+        "antonyms": [
+          "beforehand"
+        ]
       },
       "word_family": [],
       "collocations": [
@@ -465,7 +468,9 @@
         "synonyms": [
           "backwards (variant)"
         ],
-        "antonyms": []
+        "antonyms": [
+          "forward"
+        ]
       },
       "word_family": [
         "backwardness (noun)"
@@ -536,7 +541,10 @@
         "synonyms": [
           "fair-haired"
         ],
-        "antonyms": []
+        "antonyms": [
+          "dark-haired",
+          "brunette"
+        ]
       },
       "word_family": [
         "blondish (adjective, uncommon)"
@@ -1082,7 +1090,9 @@
           "downhill",
           "declining"
         ],
-        "antonyms": []
+        "antonyms": [
+          "upward"
+        ]
       },
       "word_family": [
         "downwardly (adverb, uncommon)"
@@ -1677,7 +1687,10 @@
           "savage",
           "harsh"
         ],
-        "antonyms": []
+        "antonyms": [
+          "gentle",
+          "humane"
+        ]
       },
       "word_family": [
         "brutality (noun)",
@@ -2303,7 +2316,10 @@
           "wary",
           "prudent"
         ],
-        "antonyms": []
+        "antonyms": [
+          "reckless",
+          "careless"
+        ]
       },
       "word_family": [
         "caution (noun/verb)",
@@ -2462,7 +2478,10 @@
           "appealing",
           "attractive"
         ],
-        "antonyms": []
+        "antonyms": [
+          "unpleasant",
+          "unattractive"
+        ]
       },
       "word_family": [
         "charm (noun/verb)",
@@ -2701,7 +2720,9 @@
           "long-term",
           "recurring"
         ],
-        "antonyms": []
+        "antonyms": [
+          "acute"
+        ]
       },
       "word_family": [
         "chronically (adverb)",
@@ -2935,7 +2956,9 @@
           "make clear",
           "illuminate"
         ],
-        "antonyms": []
+        "antonyms": [
+          "confuse"
+        ]
       },
       "word_family": [
         "clarification (noun)",
@@ -2975,7 +2998,9 @@
           "lucidity",
           "transparency"
         ],
-        "antonyms": []
+        "antonyms": [
+          "confusion"
+        ]
       },
       "word_family": [
         "clear (adjective/verb)",
@@ -3015,7 +3040,10 @@
           "collision",
           "disagreement"
         ],
-        "antonyms": []
+        "antonyms": [
+          "agreement",
+          "harmony"
+        ]
       },
       "word_family": [
         "clashing (adjective)",
@@ -3054,7 +3082,10 @@
           "group",
           "sort"
         ],
-        "antonyms": []
+        "antonyms": [
+          "mix",
+          "unclassify"
+        ]
       },
       "word_family": [
         "classification (noun)",
@@ -3095,7 +3126,10 @@
           "stick to",
           "adhere"
         ],
-        "antonyms": []
+        "antonyms": [
+          "release",
+          "let go"
+        ]
       },
       "word_family": [
         "clung (past/participle)",
@@ -3175,7 +3209,9 @@
           "shutdown",
           "conclusion"
         ],
-        "antonyms": []
+        "antonyms": [
+          "opening"
+        ]
       },
       "word_family": [
         "close (verb/noun)",
@@ -3215,7 +3251,9 @@
           "bunch",
           "collection"
         ],
-        "antonyms": []
+        "antonyms": [
+          "scatter"
+        ]
       },
       "word_family": [
         "clustered (adjective/verb)",
@@ -3331,7 +3369,9 @@
           "overlap",
           "correspond"
         ],
-        "antonyms": []
+        "antonyms": [
+          "differ"
+        ]
       },
       "word_family": [
         "coincidence (noun)",
@@ -3411,7 +3451,9 @@
           "work together",
           "partner"
         ],
-        "antonyms": []
+        "antonyms": [
+          "compete"
+        ]
       },
       "word_family": [
         "collaboration (noun)",
@@ -3451,7 +3493,9 @@
           "partnership",
           "teamwork"
         ],
-        "antonyms": []
+        "antonyms": [
+          "conflict"
+        ]
       },
       "word_family": [
         "collaborate (verb)",
@@ -3532,7 +3576,9 @@
           "impact",
           "conflict"
         ],
-        "antonyms": []
+        "antonyms": [
+          "separation"
+        ]
       },
       "word_family": [
         "collide (verb)",
@@ -3570,7 +3616,9 @@
           "imperial",
           "colonist-related"
         ],
-        "antonyms": []
+        "antonyms": [
+          "independent"
+        ]
       },
       "word_family": [
         "colony (noun)",
@@ -3611,7 +3659,9 @@
           "vivid",
           "lively"
         ],
-        "antonyms": []
+        "antonyms": [
+          "colorless"
+        ]
       },
       "word_family": [
         "color (noun/verb)",
@@ -3691,7 +3741,9 @@
           "humorous",
           "comedic"
         ],
-        "antonyms": []
+        "antonyms": [
+          "serious"
+        ]
       },
       "word_family": [
         "comical (adjective)",
@@ -3731,7 +3783,10 @@
           "start",
           "initiate"
         ],
-        "antonyms": []
+        "antonyms": [
+          "end",
+          "finish"
+        ]
       },
       "word_family": [
         "commencement (noun)",
@@ -4045,7 +4100,10 @@
           "oblige",
           "pressure"
         ],
-        "antonyms": []
+        "antonyms": [
+          "allow",
+          "permit"
+        ]
       },
       "word_family": [
         "compelled (adjective/verb)",
@@ -4085,7 +4143,9 @@
           "persuasive",
           "gripping"
         ],
-        "antonyms": []
+        "antonyms": [
+          "unconvincing"
+        ]
       },
       "word_family": [
         "compel (verb)",
@@ -4164,7 +4224,9 @@
           "capability",
           "proficiency"
         ],
-        "antonyms": []
+        "antonyms": [
+          "incompetence"
+        ]
       },
       "word_family": [
         "competent (adjective)",
@@ -4204,7 +4266,9 @@
           "qualified",
           "skilled"
         ],
-        "antonyms": []
+        "antonyms": [
+          "incompetent"
+        ]
       },
       "word_family": [
         "competence (noun)",
@@ -4363,7 +4427,9 @@
           "problem",
           "obstacle"
         ],
-        "antonyms": []
+        "antonyms": [
+          "simplification"
+        ]
       },
       "word_family": [
         "complicate (verb)",
@@ -4522,7 +4588,9 @@
           "combination",
           "complex"
         ],
-        "antonyms": []
+        "antonyms": [
+          "element"
+        ]
       },
       "word_family": [
         "compounded (adjective/verb)",
@@ -4561,7 +4629,9 @@
           "settlement",
           "middle ground"
         ],
-        "antonyms": []
+        "antonyms": [
+          "refusal"
+        ]
       },
       "word_family": [
         "compromised (adjective/verb)",
@@ -4764,7 +4834,9 @@
           "specific",
           "definite"
         ],
-        "antonyms": []
+        "antonyms": [
+          "abstract"
+        ]
       },
       "word_family": [
         "concretely (adverb)",
@@ -4965,7 +5037,9 @@
           "clash",
           "dispute"
         ],
-        "antonyms": []
+        "antonyms": [
+          "avoidance"
+        ]
       },
       "word_family": [
         "confront (verb)",
@@ -5005,7 +5079,9 @@
           "compliment",
           "felicitate"
         ],
-        "antonyms": []
+        "antonyms": [
+          "criticize"
+        ]
       },
       "word_family": [
         "congratulation (noun)",
@@ -5084,7 +5160,9 @@
           "overcome",
           "subdue"
         ],
-        "antonyms": []
+        "antonyms": [
+          "surrender"
+        ]
       },
       "word_family": [
         "conqueror (noun)",
@@ -5164,7 +5242,9 @@
           "alertness",
           "perception"
         ],
-        "antonyms": []
+        "antonyms": [
+          "unconsciousness"
+        ]
       },
       "word_family": [
         "conscious (adjective)",
@@ -5204,7 +5284,9 @@
           "sequential",
           "continuous"
         ],
-        "antonyms": []
+        "antonyms": [
+          "nonconsecutive"
+        ]
       },
       "word_family": [
         "consecutively (adverb)",
@@ -5243,7 +5325,9 @@
           "accord",
           "common understanding"
         ],
-        "antonyms": []
+        "antonyms": [
+          "disagreement"
+        ]
       },
       "word_family": [
         "consensual (adjective)",
@@ -5282,7 +5366,10 @@
           "approval",
           "agreement"
         ],
-        "antonyms": []
+        "antonyms": [
+          "refusal",
+          "dissent"
+        ]
       },
       "word_family": [
         "consensual (adjective)",
@@ -5322,7 +5409,10 @@
           "protect",
           "save"
         ],
-        "antonyms": []
+        "antonyms": [
+          "waste",
+          "use up"
+        ]
       },
       "word_family": [
         "conservation (noun)",
@@ -5402,7 +5492,9 @@
           "steadiness",
           "reliability"
         ],
-        "antonyms": []
+        "antonyms": [
+          "inconsistency"
+        ]
       },
       "word_family": [
         "consistent (adjective)",
@@ -5443,7 +5535,10 @@
           "merge",
           "strengthen"
         ],
-        "antonyms": []
+        "antonyms": [
+          "separate",
+          "divide"
+        ]
       },
       "word_family": [
         "consolidation (noun)",
@@ -5562,7 +5657,10 @@
           "disdain",
           "disrespect"
         ],
-        "antonyms": []
+        "antonyms": [
+          "respect",
+          "admiration"
+        ]
       },
       "word_family": [
         "contemptuous (adjective)",
@@ -5721,7 +5819,9 @@
           "constantly",
           "regularly"
         ],
-        "antonyms": []
+        "antonyms": [
+          "occasionally"
+        ]
       },
       "word_family": [
         "continual (adjective)",
@@ -5761,7 +5861,10 @@
           "conflict",
           "opposition"
         ],
-        "antonyms": []
+        "antonyms": [
+          "agreement",
+          "consistency"
+        ]
       },
       "word_family": [
         "contradict (verb)",
@@ -5801,7 +5904,10 @@
           "opposing",
           "conflicting"
         ],
-        "antonyms": []
+        "antonyms": [
+          "similar",
+          "consistent"
+        ]
       },
       "word_family": [
         "contrarily (adverb)",
@@ -5882,7 +5988,9 @@
           "sentence",
           "prisoner (noun sense)"
         ],
-        "antonyms": []
+        "antonyms": [
+          "acquit"
+        ]
       },
       "word_family": [
         "conviction (noun)",
@@ -5922,7 +6030,9 @@
           "credible",
           "compelling"
         ],
-        "antonyms": []
+        "antonyms": [
+          "unconvincing"
+        ]
       },
       "word_family": [
         "convince (verb)",
@@ -5963,7 +6073,9 @@
           "collaborative",
           "accommodating"
         ],
-        "antonyms": []
+        "antonyms": [
+          "uncooperative"
+        ]
       },
       "word_family": [
         "cooperate (verb)",
@@ -6163,7 +6275,9 @@
           "amendment",
           "adjustment"
         ],
-        "antonyms": []
+        "antonyms": [
+          "error"
+        ]
       },
       "word_family": [
         "correct (verb/adjective)",
@@ -6204,7 +6318,9 @@
           "correspond",
           "be associated"
         ],
-        "antonyms": []
+        "antonyms": [
+          "be unrelated"
+        ]
       },
       "word_family": [
         "correlation (noun)",
@@ -6244,7 +6360,9 @@
           "association",
           "connection"
         ],
-        "antonyms": []
+        "antonyms": [
+          "lack of relationship"
+        ]
       },
       "word_family": [
         "correlate (verb)",
@@ -6284,7 +6402,9 @@
           "agree",
           "correspond with"
         ],
-        "antonyms": []
+        "antonyms": [
+          "differ"
+        ]
       },
       "word_family": [
         "correspondence (noun)",
@@ -6406,7 +6526,9 @@
           "equivalent",
           "related"
         ],
-        "antonyms": []
+        "antonyms": [
+          "unrelated"
+        ]
       },
       "word_family": [
         "correspond (verb)",
@@ -6446,7 +6568,10 @@
           "high-priced",
           "damaging"
         ],
-        "antonyms": []
+        "antonyms": [
+          "inexpensive",
+          "cheap"
+        ]
       },
       "word_family": [
         "cost (noun/verb)",
@@ -6645,7 +6770,10 @@
           "countless numbers of",
           "numerous"
         ],
-        "antonyms": []
+        "antonyms": [
+          "few",
+          "limited"
+        ]
       },
       "word_family": [
         "count (noun/verb)",
@@ -6722,7 +6850,10 @@
           "respect",
           "consideration"
         ],
-        "antonyms": []
+        "antonyms": [
+          "rudeness",
+          "discourtesy"
+        ]
       },
       "word_family": [
         "courteous (adjective)",
@@ -6883,7 +7014,9 @@
           "inventor",
           "originator"
         ],
-        "antonyms": []
+        "antonyms": [
+          "destroyer"
+        ]
       },
       "word_family": [
         "create (verb)",
@@ -6924,7 +7057,10 @@
           "trustworthy",
           "reliable"
         ],
-        "antonyms": []
+        "antonyms": [
+          "unbelievable",
+          "implausible"
+        ]
       },
       "word_family": [
         "credibility (noun)",
@@ -7005,7 +7141,9 @@
           "crucially",
           "analytically"
         ],
-        "antonyms": []
+        "antonyms": [
+          "uncritically"
+        ]
       },
       "word_family": [
         "critical (adjective)",
@@ -7046,7 +7184,9 @@
           "evaluation",
           "assessment"
         ],
-        "antonyms": []
+        "antonyms": [
+          "praise"
+        ]
       },
       "word_family": [
         "critical (adjective)",
@@ -7088,7 +7228,10 @@
           "rough",
           "vulgar"
         ],
-        "antonyms": []
+        "antonyms": [
+          "refined",
+          "sophisticated"
+        ]
       },
       "word_family": [
         "crudely (adverb)",
@@ -7128,7 +7271,9 @@
           "flatten",
           "infatuation (noun sense)"
         ],
-        "antonyms": []
+        "antonyms": [
+          "release"
+        ]
       },
       "word_family": [
         "crusher (noun)",
@@ -7207,7 +7352,9 @@
           "prompt",
           "hint"
         ],
-        "antonyms": []
+        "antonyms": [
+          "misdirection"
+        ]
       },
       "word_family": [
         "cued (adjective/verb)",
@@ -7286,7 +7433,9 @@
           "interest",
           "wonder"
         ],
-        "antonyms": []
+        "antonyms": [
+          "indifference"
+        ]
       },
       "word_family": [
         "curious (adjective)",
@@ -7364,7 +7513,9 @@
           "care",
           "detention"
         ],
-        "antonyms": []
+        "antonyms": [
+          "freedom"
+        ]
       },
       "word_family": [
         "custodian (noun)",
@@ -7442,7 +7593,9 @@
           "milk products",
           "dairy farm"
         ],
-        "antonyms": []
+        "antonyms": [
+          "nondairy"
+        ]
       },
       "word_family": [
         "dairyman (noun)",
@@ -7481,7 +7634,10 @@
           "water barrier",
           "reservoir structure"
         ],
-        "antonyms": []
+        "antonyms": [
+          "opening",
+          "breach"
+        ]
       },
       "word_family": [
         "dammed (adjective/verb)",
@@ -7520,7 +7676,10 @@
           "destructive",
           "detrimental"
         ],
-        "antonyms": []
+        "antonyms": [
+          "beneficial",
+          "harmless"
+        ]
       },
       "word_family": [
         "damage (noun/verb)",
@@ -7560,7 +7719,10 @@
           "gloom",
           "lack of light"
         ],
-        "antonyms": []
+        "antonyms": [
+          "light",
+          "brightness"
+        ]
       },
       "word_family": [
         "dark (adjective/noun/verb)",
@@ -7600,7 +7762,10 @@
           "lethal",
           "dangerous"
         ],
-        "antonyms": []
+        "antonyms": [
+          "harmless",
+          "nonfatal"
+        ]
       },
       "word_family": [
         "deadliness (noun)",
@@ -7678,7 +7843,9 @@
           "launch",
           "premiere"
         ],
-        "antonyms": []
+        "antonyms": [
+          "finale"
+        ]
       },
       "word_family": [
         "debuted (verb)",
@@ -7718,7 +7885,9 @@
           "judgment",
           "choice"
         ],
-        "antonyms": []
+        "antonyms": [
+          "indecision"
+        ]
       },
       "word_family": [
         "decision (noun)",
@@ -7760,7 +7929,10 @@
           "conclusive",
           "crucial"
         ],
-        "antonyms": []
+        "antonyms": [
+          "hesitant",
+          "indecisive"
+        ]
       },
       "word_family": [
         "decide (verb)",
