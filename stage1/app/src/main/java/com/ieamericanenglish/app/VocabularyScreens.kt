@@ -75,7 +75,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     var level by remember { mutableStateOf(initialLevel) }
     LaunchedEffect(initialLevel) { level = initialLevel }
     val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) }.distinctBy { LearningStore.wordId(it.word) } }
-    val dailyPlan = remember(level, words, bookmarks, learningStore) { learningStore?.buildDailyPlan(words, level) }
+    val dailyPlan = learningStore?.buildDailyPlan(words, level)
     var practiceQueue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
     var practiceIndex by remember { mutableIntStateOf(0) }
     val currentPracticeWord = practiceQueue.getOrNull(practiceIndex)
@@ -134,7 +134,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                         listOf("again" to "دوباره", "hard" to "سخت", "good" to "خوب", "easy" to "آسان").forEach { (rating, label) ->
                             OutlinedButton(onClick = {
                                 learningStore?.recordAnswer(currentPracticeWord.word, rating)
-                                learningStore?.markDailyWordCompleted(currentPracticeWord.word)
+                                if (dailyPlan?.newWords?.any { LearningStore.wordId(it.word) == LearningStore.wordId(currentPracticeWord.word) } == true) learningStore?.markDailyWordCompleted(currentPracticeWord.word)
                                 if (practiceIndex + 1 < practiceQueue.size) practiceIndex++ else { practiceQueue = emptyList(); practiceIndex = 0 }
                             }, modifier = Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 2.dp, vertical = 7.dp)) { Text(label, fontSize = 11.sp) }
                         }
