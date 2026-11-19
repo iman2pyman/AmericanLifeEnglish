@@ -189,6 +189,37 @@ class LearningStore(context: Context) {
             ?: if (level.isNullOrBlank()) 0 else completed.optJSONArray(todayKey())?.length() ?: 0
     }
 
+    fun learningAnalytics(words: List<VocabularyWord>, level: String): LearningAnalytics {
+        val unique = words.asSequence().filter { it.cefr.equals(level, true) }.distinctBy { wordId(it.word) }.toList()
+        val progress = wordProgress()
+        val learned = unique.count { (progress[wordId(it.word)] ?: "new") != "new" }
+        val mastered = unique.count { (progress[wordId(it.word)] ?: "new") == "mastered" }
+        val review = unique.count { (progress[wordId(it.word)] ?: "new") == "review" }
+        val learning = unique.count { (progress[wordId(it.word)] ?: "new") == "learning" }
+        val due = dueReviewCount(unique, level)
+        val completed = readJson(KEY_COMPLETED)
+        val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+        val today = Date()
+        val daily = (6 downTo 0).map { offset ->
+            val date = Date(today.time - offset * DAY_MS)
+            val key = dateFormat.format(date)
+            val ids = completed.optJSONArray("$key:$level") ?: JSONArray()
+            LearningDayStat(SimpleDateFormat("EEE", Locale.US).format(date),
+                (0 until ids.length()).map { ids.optString(it) }.distinct().size)
+        }
+        val monthPrefix = currentMonthPrefix()
+        val monthIds = mutableSetOf<String>()
+        val keys = completed.keys()
+        while (keys.hasNext()) {
+            val key = keys.next()
+            if (key.startsWith("$monthPrefix-") && key.endsWith(":$level")) {
+                val ids = completed.optJSONArray(key) ?: continue
+                for (i in 0 until ids.length()) monthIds += ids.optString(i)
+            }
+        }
+        return LearningAnalytics(unique.size, learned, mastered, learning, review, due, monthIds.size, daily)
+    }
+
     /** Persist every quiz response locally; keep a bounded history to protect storage. */
     fun recordQuizAnswer(word: String, questionType: String, selectedAnswer: String, correctAnswer: String, correct: Boolean) {
         val id = wordId(word)
@@ -300,4 +331,14 @@ data class QuizStats(
     val weakWordIds: List<String>
 ) {
     val accuracyPercent: Int get() = if (answered == 0) 0 else correct * 100 / answered
+}
+
+
+data class LearningDayStat(val day: String, val completed: Int)
+data class LearningAnalytics(
+    val totalWords: Int, val learnedWords: Int, val masteredWords: Int,
+    val learningWords: Int, val reviewWords: Int, val dueReviews: Int,
+    val monthCompleted: Int, val lastSevenDays: List<LearningDayStat>
+) {
+    val learningPercent: Int get() = if (totalWords == 0) 0 else learnedWords * 100 / totalWords
 }
