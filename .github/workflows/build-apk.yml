@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   push:
     branches: [ main, master ]
+    paths-ignore:
+      - 'stage1/app/src/main/assets/vocabulary_additional_*.json'
+      - 'stage1/data/oxford_enrichment/**'
 
 permissions:
   contents: read
