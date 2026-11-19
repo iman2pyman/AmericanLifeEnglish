@@ -86,6 +86,11 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     var quizAnswer by remember { mutableStateOf<String?>(null) }
     var quizScore by remember { mutableIntStateOf(0) }
     var quizUnavailable by remember { mutableStateOf(false) }
+    var quizScope by remember { mutableStateOf("level") }
+    val bookmarkedLevelWords = remember(levelWords, bookmarks) {
+        levelWords.filter { LearningStore.wordId(it.word) in bookmarks }
+    }
+    val allUniqueWords = remember(words) { words.distinctBy { LearningStore.wordId(it.word) } }
     val quizStats = remember(level, words, learningStore, quizAnswer, quizIndex) {
         learningStore?.quizStats(words, level)
     }
@@ -156,10 +161,31 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                 }
             }
         }
+        Text("محدوده آزمون", color = Color(0xFF18243A), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(7.dp)) {
+            listOf(
+                "level" to "سطح فعلی",
+                "bookmarks" to "نشان‌دارها",
+                "weak" to "واژه‌های ضعیف",
+                "all" to "جامع همه سطوح"
+            ).forEach { (scope, label) ->
+                FilterChip(
+                    selected = quizScope == scope,
+                    onClick = { quizScope = scope },
+                    label = { Text(label, fontSize = 11.sp) }
+                )
+            }
+        }
         Spacer(Modifier.height(8.dp))
         OutlinedButton(
             onClick = {
-                quizQuestions = VocabularyQuizEngine.createQuiz(words, level, 10)
+                val quizPool = when (quizScope) {
+                    "bookmarks" -> bookmarkedLevelWords
+                    "weak" -> weakWords
+                    "all" -> allUniqueWords
+                    else -> levelWords
+                }
+                quizQuestions = VocabularyQuizEngine.createQuizFromPool(quizPool, 10)
                 quizUnavailable = quizQuestions.isEmpty()
                 quizIndex = 0
                 quizAnswer = null
@@ -167,10 +193,15 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                 practiceQueue = emptyList()
             },
             modifier = Modifier.fillMaxWidth(),
-            enabled = levelWords.size >= 4,
+            enabled = when (quizScope) {
+                "bookmarks" -> bookmarkedLevelWords.size >= 4
+                "weak" -> weakWords.size >= 4
+                "all" -> allUniqueWords.size >= 4
+                else -> levelWords.size >= 4
+            },
             shape = RoundedCornerShape(12.dp)
         ) { Text("شروع آزمون هوشمند (تا ۱۰ سؤال)") }
-        if (quizUnavailable) Text("برای این سطح داده کافی جهت ساخت سؤال معتبر وجود ندارد.", color = Color(0xFFBE4778), fontSize = 12.sp)
+        if (quizUnavailable) Text("در محدوده انتخاب‌شده داده کافی برای ساخت سؤال معتبر وجود ندارد.", color = Color(0xFFBE4778), fontSize = 12.sp)
         Spacer(Modifier.height(10.dp))
         if (quizQuestions.isNotEmpty()) {
             if (quizIndex >= quizQuestions.size) {
