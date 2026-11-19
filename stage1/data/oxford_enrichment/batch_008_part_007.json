@@ -1,0 +1,796 @@
+{
+  "batch": 8,
+  "part": 7,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "exposure",
+      "source_candidate": "exposure",
+      "meanings_fa": "مواجهه؛ در معرض قرار گرفتن؛ افشا؛ میزان نوردهی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ɪkˈspoʊʒɚ/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The state of being affected by something, such as light, danger, or information; the act of revealing something.",
+      "example_en": "Long exposure to sunlight can damage your skin.",
+      "example_fa": "قرار گرفتن طولانی‌مدت در معرض نور خورشید می‌تواند به پوست آسیب بزند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "contact",
+          "disclosure",
+          "visibility"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "expose (verb)",
+        "exposed (adjective)",
+        "exposé (noun)"
+      ],
+      "collocations": [
+        "exposure to risk",
+        "media exposure",
+        "sun exposure"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "gambling",
+      "source_candidate": "gambling",
+      "meanings_fa": "قمار؛ شرط‌بندی؛ بازی با پول بر پایهٔ شانس",
+      "part_of_speech": "NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈɡæmblɪŋ/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The activity of risking money on games or events in the hope of winning more money.",
+      "example_en": "The state has strict laws regulating gambling.",
+      "example_fa": "این ایالت قوانین سخت‌گیرانه‌ای برای تنظیم قمار دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "betting",
+          "wagering"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "gamble (verb/noun)",
+        "gambler (noun)"
+      ],
+      "collocations": [
+        "online gambling",
+        "gambling addiction",
+        "gambling laws"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "circuit",
+      "source_candidate": "circuit",
+      "meanings_fa": "مدار؛ مسیر بسته؛ دور مسابقه؛ مدار الکتریکی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsɝːkɪt/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "A closed path through which electricity flows; or a route that goes around a place or series of locations.",
+      "example_en": "An electrician checked the circuit after the power went out.",
+      "example_fa": "پس از قطع برق، برق‌کار مدار را بررسی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "loop",
+          "route",
+          "electrical pathway"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "circuitous (adjective)",
+        "circuitry (noun)"
+      ],
+      "collocations": [
+        "electric circuit",
+        "circuit breaker",
+        "racing circuit"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "trademark",
+      "source_candidate": "trademark",
+      "meanings_fa": "علامت تجاری؛ نشان ثبت‌شدهٔ یک محصول یا شرکت",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈtreɪdˌmɑːrk/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "A legally protected name, symbol, or design that identifies a company's goods or services.",
+      "example_en": "The company registered its name as a trademark.",
+      "example_fa": "شرکت نام خود را به‌عنوان علامت تجاری ثبت کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "brand mark",
+          "registered mark"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "trademarked (adjective/verb)",
+        "trademarking (noun/verb)"
+      ],
+      "collocations": [
+        "trademark law",
+        "trademark registration",
+        "trademark symbol"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "hip",
+      "source_candidate": "hip",
+      "meanings_fa": "باسن؛ مفصل ران؛ به‌روز و مُد روز",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/hɪp/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The area at the side of the body between the waist and thigh; informally, fashionable or aware of current trends.",
+      "example_en": "She felt pain in her right hip after the hike.",
+      "example_fa": "او پس از پیاده‌روی در مفصل ران راست خود احساس درد کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "pelvis (related anatomical area)",
+          "trendy (fashion sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "hipbone (noun)",
+        "hipster (noun)"
+      ],
+      "collocations": [
+        "hip joint",
+        "hip pain",
+        "hip replacement"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "optical",
+      "source_candidate": "optical",
+      "meanings_fa": "بصری؛ مربوط به چشم یا نور؛ نوری",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈɑːptɪkəl/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "Related to sight, the eyes, or the behavior and use of light.",
+      "example_en": "The device uses an optical sensor to detect movement.",
+      "example_fa": "این دستگاه برای تشخیص حرکت از حسگر نوری استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "visual",
+          "light-based"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "optically (adverb)",
+        "optics (noun)",
+        "optician (noun)"
+      ],
+      "collocations": [
+        "optical illusion",
+        "optical fiber",
+        "optical sensor"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "promotion",
+      "source_candidate": "promotion",
+      "meanings_fa": "ترفیع؛ ارتقا؛ تبلیغ؛ پیشنهاد فروش ویژه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/prəˈmoʊʃən/",
+      "cefr": "B1",
+      "category": "Business, technology, health and society",
+      "definition_en": "The act of moving someone to a higher job or rank; advertising; or a special offer to encourage sales.",
+      "example_en": "She received a promotion after leading the project successfully.",
+      "example_fa": "او پس از هدایت موفق پروژه ترفیع گرفت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "advancement",
+          "advertising",
+          "special offer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "promote (verb)",
+        "promotional (adjective)",
+        "promoter (noun)"
+      ],
+      "collocations": [
+        "job promotion",
+        "sales promotion",
+        "promotion campaign"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "dot",
+      "source_candidate": "dot",
+      "meanings_fa": "نقطه؛ خال؛ نشانهٔ کوچک؛ نقطه‌گذاری کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/dɑːt/",
+      "cefr": "A2",
+      "category": "Business, technology, health and society",
+      "definition_en": "A small round mark; also used for the symbol separating parts of an internet address.",
+      "example_en": "Type a dot between the two parts of the email address.",
+      "example_fa": "بین دو بخش نشانی ایمیل یک نقطه تایپ کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "spot",
+          "speck",
+          "point"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dotted (adjective)",
+        "dotting (noun/verb)"
+      ],
+      "collocations": [
+        "dot on the page",
+        "dot-com",
+        "connect the dots"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "conversion",
+      "source_candidate": "conversion",
+      "meanings_fa": "تبدیل؛ تغییر شکل یا وضعیت؛ تبدیل واحد یا فایل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈvɝːʒən/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The process of changing something from one form, use, or system to another.",
+      "example_en": "The software supports conversion of documents into PDF files.",
+      "example_fa": "این نرم‌افزار از تبدیل اسناد به فایل‌های PDF پشتیبانی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "transformation",
+          "change",
+          "adaptation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "convert (verb)",
+        "convertible (adjective)",
+        "converter (noun)"
+      ],
+      "collocations": [
+        "currency conversion",
+        "file conversion",
+        "conversion rate"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "serial",
+      "source_candidate": "serial",
+      "meanings_fa": "سریالی؛ متوالی؛ زنجیره‌ای؛ شمارهٔ سریال",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈsɪriəl/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "Arranged or happening in a series; a story released in separate parts; or a unique identifying number.",
+      "example_en": "Write down the serial number before registering the device.",
+      "example_fa": "پیش از ثبت دستگاه، شمارهٔ سریال را یادداشت کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "sequential",
+          "successive"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "serially (adverb)",
+        "serialization (noun)",
+        "serialize (verb)"
+      ],
+      "collocations": [
+        "serial number",
+        "serial killer",
+        "serial publication"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "revision",
+      "source_candidate": "revision",
+      "meanings_fa": "بازنگری؛ اصلاح؛ مرور دوبارهٔ مطالب درسی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/rɪˈvɪʒən/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The act of changing or improving something; in education, reviewing material before an exam.",
+      "example_en": "The editor made a final revision to the report.",
+      "example_fa": "ویراستار بازنگری نهایی را روی گزارش انجام داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "review",
+          "amendment",
+          "update"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "revise (verb)",
+        "revised (adjective)",
+        "revisable (adjective)"
+      ],
+      "collocations": [
+        "final revision",
+        "revision history",
+        "revision process"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "ratio",
+      "source_candidate": "ratio",
+      "meanings_fa": "نسبت؛ رابطهٔ عددی میان دو مقدار",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈreɪʃioʊ/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The relationship between two amounts, expressed by how many times one contains the other.",
+      "example_en": "The student-to-teacher ratio is lower in this school.",
+      "example_fa": "نسبت دانش‌آموز به معلم در این مدرسه کمتر است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "proportion",
+          "rate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "rational (related adjective)",
+        "ratio-based (adjective)"
+      ],
+      "collocations": [
+        "debt-to-income ratio",
+        "ratio of X to Y",
+        "high ratio"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "prescription",
+      "source_candidate": "prescription",
+      "meanings_fa": "نسخهٔ پزشک؛ دستور مصرف دارو؛ تجویز",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/prɪˈskrɪpʃən/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "A written instruction from a medical professional authorizing a medicine or treatment.",
+      "example_en": "You need a prescription to buy this medication.",
+      "example_fa": "برای خرید این دارو به نسخهٔ پزشک نیاز داری.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "doctor's order",
+          "medication order"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "prescribe (verb)",
+        "prescriber (noun)",
+        "prescriptive (adjective)"
+      ],
+      "collocations": [
+        "fill a prescription",
+        "prescription drug",
+        "prescription glasses"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "marketplace",
+      "source_candidate": "marketplace",
+      "meanings_fa": "بازار؛ محل دادوستد؛ فضای تجاری آنلاین",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈmɑːrkɪtˌpleɪs/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "A place or system where buyers and sellers exchange goods or services.",
+      "example_en": "Small businesses can reach more customers through an online marketplace.",
+      "example_fa": "کسب‌وکارهای کوچک می‌توانند از طریق یک بازارگاه آنلاین به مشتریان بیشتری دسترسی پیدا کنند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "market",
+          "trading platform"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "marketplace-based (adjective)"
+      ],
+      "collocations": [
+        "online marketplace",
+        "competitive marketplace",
+        "marketplace seller"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "evolution",
+      "source_candidate": "evolution",
+      "meanings_fa": "تکامل؛ تحول تدریجی؛ فرایند تغییر در طول زمان",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌɛvəˈluːʃən/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The gradual development or change of something over time; in biology, the process by which species change.",
+      "example_en": "The evolution of mobile phones has changed how people communicate.",
+      "example_fa": "تکامل تلفن‌های همراه شیوهٔ ارتباط مردم را تغییر داده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "development",
+          "progression",
+          "change"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "evolve (verb)",
+        "evolutionary (adjective)",
+        "evolutionarily (adverb)"
+      ],
+      "collocations": [
+        "human evolution",
+        "evolution of technology",
+        "evolutionary process"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "remains",
+      "source_candidate": "remains",
+      "meanings_fa": "باقی‌مانده‌ها؛ بقایا؛ آنچه از چیزی باقی می‌ماند",
+      "part_of_speech": "NOUN (PLURAL); VERB",
+      "ipa_us": "/rɪˈmeɪnz/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "What is left after the rest has been used, removed, or destroyed; also the third-person form of remain.",
+      "example_en": "The remains of the old building were removed safely.",
+      "example_fa": "بقایای ساختمان قدیمی با ایمنی برداشته شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "leftovers",
+          "residue",
+          "ruins"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "remain (verb)",
+        "remainder (noun)",
+        "remaining (adjective)"
+      ],
+      "collocations": [
+        "human remains",
+        "food remains",
+        "archaeological remains"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "generic",
+      "source_candidate": "generic",
+      "meanings_fa": "عمومی؛ غیرانحصاری؛ بدون نام تجاری؛ داروی ژنریک",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/dʒəˈnɛrɪk/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "Not specific to one brand or example; describing a product sold without a particular brand name.",
+      "example_en": "The pharmacist offered a generic version of the medicine.",
+      "example_fa": "داروساز نسخهٔ ژنریک دارو را پیشنهاد داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "non-branded",
+          "general",
+          "standard"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "generically (adverb)",
+        "genericness (noun, rare)"
+      ],
+      "collocations": [
+        "generic drug",
+        "generic brand",
+        "generic term"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "usage",
+      "source_candidate": "usage",
+      "meanings_fa": "کاربرد؛ نحوهٔ استفاده؛ شیوهٔ رایج به‌کارگیری واژه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈjuːsɪdʒ/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The way something is used, especially a word, expression, or resource.",
+      "example_en": "The dictionary explains the usage of this phrase in American English.",
+      "example_fa": "این فرهنگ لغت کاربرد این عبارت را در انگلیسی آمریکایی توضیح می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "use",
+          "application",
+          "practice"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "use (noun/verb)",
+        "usable (adjective)",
+        "user (noun)"
+      ],
+      "collocations": [
+        "common usage",
+        "language usage",
+        "data usage"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "ink",
+      "source_candidate": "ink",
+      "meanings_fa": "جوهر؛ مرکب؛ جوهر چاپگر یا قلم",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ɪŋk/",
+      "cefr": "B1",
+      "category": "Business, technology, health and society",
+      "definition_en": "A colored liquid or paste used for writing, drawing, or printing.",
+      "example_en": "The printer is out of black ink.",
+      "example_fa": "جوهر سیاه چاپگر تمام شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "dye",
+          "printing fluid"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "inky (adjective)",
+        "inked (adjective/verb)",
+        "inking (noun/verb)"
+      ],
+      "collocations": [
+        "ink cartridge",
+        "black ink",
+        "ink stain"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "transit",
+      "source_candidate": "transit",
+      "meanings_fa": "حمل‌ونقل عمومی؛ عبور؛ گذر از یک مسیر یا منطقه",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB",
+      "ipa_us": "/ˈtrænzɪt/",
+      "cefr": "B2",
+      "category": "Business, technology, health and society",
+      "definition_en": "The movement of people or goods from one place to another, especially by public transportation.",
+      "example_en": "The city is investing in public transit.",
+      "example_fa": "این شهر در حال سرمایه‌گذاری در حمل‌ونقل عمومی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "transportation",
+          "passage"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "transit-related (adjective)",
+        "transitory (related adjective)"
+      ],
+      "collocations": [
+        "public transit",
+        "transit system",
+        "in transit"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، فناوری، سلامت و جامعه",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
