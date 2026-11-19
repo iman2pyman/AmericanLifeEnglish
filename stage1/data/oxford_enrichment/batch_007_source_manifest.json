@@ -1,0 +1,1017 @@
+{
+  "batch": 7,
+  "source": "American Oxford 3000 and American Oxford 5000 supplementary wordlists, compared against production vocabulary",
+  "comparison": {
+    "missing_oxford_3000": 41,
+    "missing_oxford_5000_supplementary": 1178,
+    "total_missing": 1219
+  },
+  "selection": {
+    "first_200_from_1219": 200,
+    "oxford_3000": 41,
+    "oxford_5000_supplementary": 159
+  },
+  "status": "locked_corrected_selection",
+  "words": [
+    {
+      "order": 1,
+      "word": "a",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 2,
+      "word": "an",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 3,
+      "word": "according",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 4,
+      "word": "afterward",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 5,
+      "word": "ah",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 6,
+      "word": "all",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 7,
+      "word": "and",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 8,
+      "word": "anymore",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 9,
+      "word": "april",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 10,
+      "word": "at",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 11,
+      "word": "august",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 12,
+      "word": "awesome",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 13,
+      "word": "backward",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 14,
+      "word": "billion",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 15,
+      "word": "blond",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 16,
+      "word": "but",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 17,
+      "word": "by",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 18,
+      "word": "can",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 19,
+      "word": "candy",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 20,
+      "word": "cd",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 21,
+      "word": "clerk",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 22,
+      "word": "closet",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 23,
+      "word": "congress",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 24,
+      "word": "cookie",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 25,
+      "word": "corn",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 26,
+      "word": "could",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 27,
+      "word": "december",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 28,
+      "word": "dessert",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 29,
+      "word": "disk",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 30,
+      "word": "downward",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 31,
+      "word": "fever",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 32,
+      "word": "garbage",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 33,
+      "word": "grocery",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 34,
+      "word": "overseas",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 35,
+      "word": "policeman",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 36,
+      "word": "railroad",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 37,
+      "word": "refrigerator",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 38,
+      "word": "senate",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 39,
+      "word": "smartphone",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 40,
+      "word": "sneaker",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 41,
+      "word": "stove",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 42,
+      "word": "athletic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 43,
+      "word": "bankruptcy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 44,
+      "word": "behavioral",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 45,
+      "word": "beverage",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 46,
+      "word": "brutal",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 47,
+      "word": "buck",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 48,
+      "word": "buddy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 49,
+      "word": "buffer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 50,
+      "word": "bureaucracy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 51,
+      "word": "burial",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 52,
+      "word": "cabinet",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 53,
+      "word": "calculation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 54,
+      "word": "canal",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 55,
+      "word": "candle",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 56,
+      "word": "canvas",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 57,
+      "word": "capitalism",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 58,
+      "word": "cargo",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 59,
+      "word": "carriage",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 60,
+      "word": "cater",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 61,
+      "word": "caution",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 62,
+      "word": "cautious",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 63,
+      "word": "certainty",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 64,
+      "word": "championship",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 65,
+      "word": "chaos",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 66,
+      "word": "charming",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 67,
+      "word": "chase",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 68,
+      "word": "cheek",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 69,
+      "word": "cheer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 70,
+      "word": "choir",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 71,
+      "word": "chop",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 72,
+      "word": "chronic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 73,
+      "word": "chunk",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 74,
+      "word": "circuit",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 75,
+      "word": "circulate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 76,
+      "word": "circulation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 77,
+      "word": "citizenship",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 78,
+      "word": "clarify",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 79,
+      "word": "clarity",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 80,
+      "word": "clash",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 81,
+      "word": "classify",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 82,
+      "word": "cling",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 83,
+      "word": "clinical",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 84,
+      "word": "closure",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 85,
+      "word": "cluster",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 86,
+      "word": "cocktail",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 87,
+      "word": "cognitive",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 88,
+      "word": "coincide",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 89,
+      "word": "coincidence",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 90,
+      "word": "collaborate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 91,
+      "word": "collaboration",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 92,
+      "word": "collector",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 93,
+      "word": "collision",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 94,
+      "word": "colonial",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 95,
+      "word": "colorful",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 96,
+      "word": "columnist",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 97,
+      "word": "comic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 98,
+      "word": "commence",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 99,
+      "word": "commentary",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 100,
+      "word": "commentator",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 101,
+      "word": "commissioner",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 102,
+      "word": "commodity",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 103,
+      "word": "communist",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 104,
+      "word": "companion",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 105,
+      "word": "comparative",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 106,
+      "word": "compel",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 107,
+      "word": "compelling",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 108,
+      "word": "compensate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 109,
+      "word": "competence",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 110,
+      "word": "competent",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 111,
+      "word": "compile",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 112,
+      "word": "complement",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 113,
+      "word": "completion",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 114,
+      "word": "complication",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 115,
+      "word": "compose",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 116,
+      "word": "composer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 117,
+      "word": "composition",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 118,
+      "word": "compound",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 119,
+      "word": "compromise",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 120,
+      "word": "compute",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 121,
+      "word": "concede",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 122,
+      "word": "conceive",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 123,
+      "word": "conception",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 124,
+      "word": "concrete",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 125,
+      "word": "confer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 126,
+      "word": "confess",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 127,
+      "word": "confession",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 128,
+      "word": "confirmation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 129,
+      "word": "confrontation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 130,
+      "word": "congratulate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 131,
+      "word": "congregation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 132,
+      "word": "conquer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 133,
+      "word": "conscience",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 134,
+      "word": "consciousness",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 135,
+      "word": "consecutive",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 136,
+      "word": "consensus",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 137,
+      "word": "consent",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 138,
+      "word": "conserve",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 139,
+      "word": "considerably",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 140,
+      "word": "consistency",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 141,
+      "word": "consolidate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 142,
+      "word": "consultation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 143,
+      "word": "contemplate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 144,
+      "word": "contempt",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 145,
+      "word": "contend",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 146,
+      "word": "contender",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 147,
+      "word": "contention",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 148,
+      "word": "continually",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 149,
+      "word": "contradiction",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 150,
+      "word": "contrary",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 151,
+      "word": "conversion",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 152,
+      "word": "convict",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 153,
+      "word": "convincing",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 154,
+      "word": "cooperative",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 155,
+      "word": "coordinate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 156,
+      "word": "coordination",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 157,
+      "word": "coordinator",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 158,
+      "word": "copyright",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 159,
+      "word": "correction",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 160,
+      "word": "correlate",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 161,
+      "word": "correlation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 162,
+      "word": "correspond",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 163,
+      "word": "correspondence",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 164,
+      "word": "correspondent",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 165,
+      "word": "corresponding",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 166,
+      "word": "costly",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 167,
+      "word": "councilor",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 168,
+      "word": "counseling",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 169,
+      "word": "counselor",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 170,
+      "word": "counterpart",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 171,
+      "word": "countless",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 172,
+      "word": "coup",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 173,
+      "word": "courtesy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 174,
+      "word": "cowboy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 175,
+      "word": "crawl",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 176,
+      "word": "creativity",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 177,
+      "word": "creator",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 178,
+      "word": "credible",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 179,
+      "word": "creep",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 180,
+      "word": "critically",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 181,
+      "word": "critique",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 182,
+      "word": "crude",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 183,
+      "word": "crush",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 184,
+      "word": "crystal",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 185,
+      "word": "cue",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 186,
+      "word": "cult",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 187,
+      "word": "curiosity",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 188,
+      "word": "curriculum",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 189,
+      "word": "custody",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 190,
+      "word": "cutting",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 191,
+      "word": "dairy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 192,
+      "word": "dam",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 193,
+      "word": "damaging",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 194,
+      "word": "darkness",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 195,
+      "word": "deadly",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 196,
+      "word": "debris",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 197,
+      "word": "debut",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 198,
+      "word": "decision-making",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 199,
+      "word": "decisive",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 200,
+      "word": "deck",
+      "source_list": "Oxford 5000 supplementary"
+    }
+  ]
+}
