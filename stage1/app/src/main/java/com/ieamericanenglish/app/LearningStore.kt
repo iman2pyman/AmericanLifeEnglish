@@ -115,7 +115,7 @@ class LearningStore(context: Context) {
         val todaysUnfinished = if (storedToday == null) emptyList() else
             (0 until storedToday.length()).mapNotNull { byId[storedToday.optString(it)] }
                 .filter { (progress[wordId(it.word)] ?: "new") == "learning" }
-        val selected = (today'sUnfinished + backlog + freshMarked + freshOther)
+        val selected = (todaysUnfinished + backlog + freshMarked + freshOther)
             .distinctBy { wordId(it.word) }.take(limit.coerceAtLeast(0))
 
         daily.put(dailyKey, JSONArray(selected.map { wordId(it.word) }))
