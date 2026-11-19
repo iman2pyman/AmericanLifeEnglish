@@ -100,7 +100,7 @@ fun LearningHubScreen(
         Spacer(Modifier.height(16.dp))
         LearningEntryCard(
             title = "۲. آموزش و تمرین لغات",
-            subtitle = "برنامه روزانه، فلش‌کارت، مرور و آزمون هوشمند",
+            subtitle = "برنامه روزانه، فلش‌کارت و مرور زمان‌بندی‌شده",
             detail = "هدف روزانه ۱۵ واژه • هدف ماهانه ۴۵۰ واژه",
             accent = Color(0xFF0F9D91),
             symbol = "✦",
