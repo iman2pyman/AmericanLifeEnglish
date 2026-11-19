@@ -24,9 +24,9 @@ private fun normalizeSearchText(value: String): String = value.lowercase()
     .replace('ي', 'ی').replace('ك', 'ک').replace('ى', 'ی')
 
 private val LevelColors = mapOf(
-    "A1" to appColor(Color(0xFF0F9D91)), "A2" to appColor(Color(0xFF2563EB)),
-    "B1" to appColor(Color(0xFF8B5CF6)), "B2" to appColor(Color(0xFFB7791F)),
-    "C1" to appColor(Color(0xFFDB6B35)), "C2" to appColor(Color(0xFFBE4778))
+    "A1" to Color(0xFF0F9D91), "A2" to Color(0xFF2563EB),
+    "B1" to Color(0xFF8B5CF6), "B2" to Color(0xFFB7791F),
+    "C1" to Color(0xFFDB6B35), "C2" to Color(0xFFBE4778)
 )
 
 @Composable
@@ -163,7 +163,7 @@ fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit
         Text("با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود.", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
         Spacer(Modifier.height(16.dp))
         listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
-            val tint = LevelColors[item] ?: appColor(Color(0xFF2563EB))
+            val tint = appColor(LevelColors[item] ?: Color(0xFF2563EB))
             Surface(onClick = { onLevel(item) }, modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp), shape = RoundedCornerShape(18.dp), color = appColor(Color.White), shadowElevation = 2.dp) {
                 Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
                     Box(Modifier.size(48.dp).clip(RoundedCornerShape(14.dp)).background(tint), contentAlignment = Alignment.Center) { Text(item, color = appColor(Color.White), fontWeight = FontWeight.ExtraBold, fontSize = 16.sp) }
@@ -189,7 +189,7 @@ fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, onWor
             levelWords.filter { normalizeSearchText(it.word).contains(needle) || normalizeSearchText(it.meaningsFa).contains(needle) }
         }
     }
-    val tint = LevelColors[level] ?: appColor(Color(0xFF2563EB))
+    val tint = appColor(LevelColors[level] ?: Color(0xFF2563EB))
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("واژگان سطح $level", onBack)
         Text("${levelWords.size} واژه در این سطح", color = tint, fontSize = 13.sp, fontWeight = FontWeight.Bold)
@@ -233,7 +233,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     }
     val current = queue.getOrNull(index)
     val isNew = current != null && plan?.newWords?.any { LearningStore.wordId(it.word) == LearningStore.wordId(current.word) } == true
-    val tint = LevelColors[level] ?: appColor(Color(0xFF2563EB))
+    val tint = appColor(LevelColors[level] ?: Color(0xFF2563EB))
     val done = plan?.completedToday ?: 0
 
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
