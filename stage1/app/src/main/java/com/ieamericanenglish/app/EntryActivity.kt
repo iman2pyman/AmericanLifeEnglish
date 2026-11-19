@@ -181,6 +181,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
             )
         }
     }
+    }
 }
 
 @Composable
