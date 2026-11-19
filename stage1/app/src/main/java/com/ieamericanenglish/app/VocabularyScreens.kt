@@ -242,7 +242,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
         Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(7.dp)) {
             listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
-                val color = LevelColors[item] ?: tint
+                val color = appColor(LevelColors[item] ?: tint)
                 FilterChip(selected = level == item, onClick = {
                     level = item; onLevelChanged(item); queue = emptyList(); index = 0; finished = false; learningStore?.clearPracticeSession()
                 }, label = { Text(item, fontWeight = FontWeight.Bold) },
@@ -293,7 +293,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                     Spacer(Modifier.height(9.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
-                            Text(current.word, color = LevelColors[current.cefr] ?: tint, fontSize = 30.sp, fontWeight = FontWeight.ExtraBold)
+                            Text(current.word, color = appColor(LevelColors[current.cefr] ?: tint), fontSize = 30.sp, fontWeight = FontWeight.ExtraBold)
                             Text(current.ipaUs.ifBlank { "تلفظ ثبت نشده" }, color = appColor(Color(0xFF718096)), fontSize = 14.sp)
                         }
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
@@ -376,7 +376,7 @@ private fun PracticeMetric(label: String, value: String, tint: Color, modifier: 
 
 @Composable
 fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}, onClick: () -> Unit) {
-    val accent = LevelColors[word.cefr] ?: appColor(Color(0xFF2563EB))
+    val accent = appColor(LevelColors[word.cefr] ?: Color(0xFF2563EB))
     Surface(
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
         shape = RoundedCornerShape(16.dp), color = appColor(Color.White), shadowElevation = 2.dp
