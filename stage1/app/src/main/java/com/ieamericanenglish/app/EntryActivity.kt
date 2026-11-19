@@ -77,8 +77,21 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
                     bookmarks = bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
                 )
-                page == "vocabulary" -> LearningScreen(
-                    words, onSpeak, { page = "home" }, { selectedWord = it },
+                page == "vocabulary" -> LearningHubScreen(
+                    selectedLevel = selectedLevel,
+                    wordCount = words.distinctBy { LearningStore.wordId(it.word) }.size,
+                    onBack = { page = "home" },
+                    onLevels = { page = "vocabulary-level" },
+                    onPractice = { page = "vocabulary-practice" }
+                )
+                page == "vocabulary-level" -> VocabularyLevelScreen(
+                    words = words,
+                    selectedLevel = selectedLevel,
+                    onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
+                    onBack = { page = "vocabulary" }
+                )
+                page == "vocabulary-practice" -> LearningScreen(
+                    words, onSpeak, { page = "vocabulary" }, { selectedWord = it },
                     initialLevel = selectedLevel,
                     onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
                     bookmarks = bookmarkedWords,
