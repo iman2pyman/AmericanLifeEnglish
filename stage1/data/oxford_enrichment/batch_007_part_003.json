@@ -1,0 +1,808 @@
+{
+  "batch": 7,
+  "part": 3,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 21–40 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "cautious",
+      "source_candidate": "cautious",
+      "meanings_fa": "محتاط؛ دوراندیش؛ مراقب خطر یا اشتباه",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkɔːʃəs/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "Careful to avoid danger, mistakes, or unnecessary risks.",
+      "example_en": "Be cautious when sharing personal information online.",
+      "example_fa": "هنگام به‌اشتراک‌گذاری اطلاعات شخصی در اینترنت محتاط باش.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "careful",
+          "wary",
+          "prudent"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "caution (noun/verb)",
+        "cautiously (adverb)",
+        "cautiousness (noun)"
+      ],
+      "collocations": [
+        "cautious approach",
+        "be cautious",
+        "cautious optimism"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "certainty",
+      "source_candidate": "certainty",
+      "meanings_fa": "قطعیت؛ اطمینان؛ یقین",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsɝːtənti/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "The state of being sure that something is true or will happen.",
+      "example_en": "There is no certainty that the flight will leave on time.",
+      "example_fa": "هیچ اطمینانی وجود ندارد که پرواز سر وقت انجام شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "confidence",
+          "assurance",
+          "surety"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "certain (adjective)",
+        "certainly (adverb)",
+        "uncertain (adjective)",
+        "uncertainty (noun)"
+      ],
+      "collocations": [
+        "absolute certainty",
+        "degree of certainty",
+        "with certainty"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "championship",
+      "source_candidate": "championship",
+      "meanings_fa": "مسابقات قهرمانی؛ عنوان قهرمانی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈtʃæmpiənˌʃɪp/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "A competition to decide who is the best in a sport or activity; the title awarded to the winner.",
+      "example_en": "The team won the state championship for the first time.",
+      "example_fa": "تیم برای نخستین بار قهرمانی ایالت را به دست آورد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "title",
+          "tournament",
+          "competition"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "champion (noun/verb)",
+        "championship-level (adjective)"
+      ],
+      "collocations": [
+        "win a championship",
+        "championship game",
+        "national championship"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "chaos",
+      "source_candidate": "chaos",
+      "meanings_fa": "هرج‌ومرج؛ آشفتگی؛ بی‌نظمی کامل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkeɪɑːs/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "A state of complete confusion and lack of order.",
+      "example_en": "The power outage caused chaos across the city.",
+      "example_fa": "قطع برق در سراسر شهر هرج‌ومرج ایجاد کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "disorder",
+          "confusion",
+          "turmoil"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "chaotic (adjective)",
+        "chaotically (adverb)"
+      ],
+      "collocations": [
+        "complete chaos",
+        "cause chaos",
+        "chaos theory"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "charming",
+      "source_candidate": "charming",
+      "meanings_fa": "دلنشین؛ جذاب؛ خوشایند و دوست‌داشتنی",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈtʃɑːrmɪŋ/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "Pleasant and attractive in a way that makes people like someone or something.",
+      "example_en": "They stayed in a charming little hotel near the lake.",
+      "example_fa": "آن‌ها در هتل کوچک و دلنشینی نزدیک دریاچه اقامت کردند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "delightful",
+          "appealing",
+          "attractive"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "charm (noun/verb)",
+        "charmed (adjective)",
+        "charmingly (adverb)"
+      ],
+      "collocations": [
+        "charming personality",
+        "charming town",
+        "absolutely charming"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "chase",
+      "source_candidate": "chase",
+      "meanings_fa": "تعقیب کردن؛ دنبال چیزی رفتن؛ تعقیب و گریز",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/tʃeɪs/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "To run or move after someone or something to catch them; an attempt to catch or obtain something.",
+      "example_en": "The dog chased a ball across the yard.",
+      "example_fa": "سگ توپی را در سراسر حیاط دنبال کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "pursue",
+          "follow",
+          "track"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "chaser (noun)",
+        "chased (adjective/verb)",
+        "chasing (noun/verb)"
+      ],
+      "collocations": [
+        "chase a dream",
+        "police chase",
+        "chase after"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cheek",
+      "source_candidate": "cheek",
+      "meanings_fa": "گونه؛ گستاخی و پررویی؛ بی‌ادبی کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/tʃiːk/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "Either side of the face below the eye; informally, rude or disrespectful behavior.",
+      "example_en": "She had a small cut on her left cheek.",
+      "example_fa": "او روی گونهٔ چپش بریدگی کوچکی داشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "face",
+          "impudence",
+          "nerve"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cheeky (adjective)",
+        "cheekily (adverb)",
+        "cheekiness (noun)"
+      ],
+      "collocations": [
+        "cheek bone",
+        "cheek to cheek",
+        "have the cheek to"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cheer",
+      "source_candidate": "cheer",
+      "meanings_fa": "تشویق کردن؛ هورا کشیدن؛ شادی و روحیه",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/tʃɪr/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "To shout encouragement or approval; a shout expressing support or happiness.",
+      "example_en": "The fans cheered when the home team scored.",
+      "example_fa": "هواداران وقتی تیم میزبان گل زد هورا کشیدند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "applaud",
+          "encourage",
+          "celebrate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cheerful (adjective)",
+        "cheerfully (adverb)",
+        "cheerfulness (noun)",
+        "cheering (noun)"
+      ],
+      "collocations": [
+        "cheer loudly",
+        "cheer for a team",
+        "cheer someone up"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "choir",
+      "source_candidate": "choir",
+      "meanings_fa": "گروه کُر؛ گروه هم‌خوانی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkwaɪr/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "A group of people who sing together, especially in a church, school, or concert.",
+      "example_en": "My daughter sings in the school choir.",
+      "example_fa": "دخترم در گروه کُر مدرسه آواز می‌خواند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "chorus",
+          "singing group"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "choirboy (noun)",
+        "choirgirl (noun)"
+      ],
+      "collocations": [
+        "school choir",
+        "church choir",
+        "choir practice"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "chop",
+      "source_candidate": "chop",
+      "meanings_fa": "خرد کردن؛ تکه یا راستهٔ گوشت؛ ضربهٔ تند",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/tʃɑːp/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "To cut something into pieces with repeated downward movements; a piece of meat cut across the ribs.",
+      "example_en": "Chop the onions before adding them to the pan.",
+      "example_fa": "پیش از اضافه کردن پیازها به ماهیتابه، آن‌ها را خرد کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cut",
+          "dice",
+          "mince"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "chopped (adjective)",
+        "chopping (noun/verb)",
+        "chopper (noun)"
+      ],
+      "collocations": [
+        "chop vegetables",
+        "pork chop",
+        "chop into pieces"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "chronic",
+      "source_candidate": "chronic",
+      "meanings_fa": "مزمن؛ طولانی‌مدت؛ همیشگی و مداوم",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkrɑːnɪk/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "Continuing for a long time or occurring repeatedly, especially of a medical condition.",
+      "example_en": "He receives treatment for chronic back pain.",
+      "example_fa": "او برای درد مزمن کمر تحت درمان است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "persistent",
+          "long-term",
+          "recurring"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "chronically (adverb)",
+        "chronicity (noun)"
+      ],
+      "collocations": [
+        "chronic illness",
+        "chronic pain",
+        "chronic condition"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "chunk",
+      "source_candidate": "chunk",
+      "meanings_fa": "تکهٔ بزرگ؛ قطعه؛ بخش قابل‌توجه",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/tʃʌŋk/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "A thick or substantial piece of something; an amount or section of something.",
+      "example_en": "A large chunk of the budget goes toward employee training.",
+      "example_fa": "بخش بزرگی از بودجه صرف آموزش کارکنان می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "piece",
+          "lump",
+          "portion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "chunky (adjective)",
+        "chunkiness (noun)"
+      ],
+      "collocations": [
+        "a chunk of time",
+        "large chunk",
+        "chunk of data"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "circuit",
+      "source_candidate": "circuit",
+      "meanings_fa": "مدار الکتریکی؛ مسیر بسته؛ پیست",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsɝːkɪt/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "A closed path through which electricity flows; or a route around a place or series of locations.",
+      "example_en": "An electrician checked the circuit after the power went out.",
+      "example_fa": "پس از قطع برق، برق‌کار مدار را بررسی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "loop",
+          "electrical pathway",
+          "route"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "circuitous (adjective)",
+        "circuitry (noun)"
+      ],
+      "collocations": [
+        "electric circuit",
+        "circuit breaker",
+        "racing circuit"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "circulate",
+      "source_candidate": "circulate",
+      "meanings_fa": "گردش کردن؛ پخش شدن؛ دست‌به‌دست یا میان افراد منتشر کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈsɝːkjəˌleɪt/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "To move continuously around an area or system; to distribute information or objects among people.",
+      "example_en": "Please circulate the updated schedule to the whole team.",
+      "example_fa": "لطفاً برنامهٔ به‌روزشده را برای تمام اعضای تیم بفرست.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "spread",
+          "distribute",
+          "flow"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "circulation (noun)",
+        "circulatory (adjective)",
+        "circulating (adjective)"
+      ],
+      "collocations": [
+        "circulate information",
+        "circulate a memo",
+        "blood circulates"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "circulation",
+      "source_candidate": "circulation",
+      "meanings_fa": "گردش خون؛ گردش هوا یا پول؛ تیراژ و شمارگان",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌsɝːkjəˈleɪʃən/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "The movement of blood, air, or money through a system; the number of copies of a publication distributed.",
+      "example_en": "Regular exercise can improve blood circulation.",
+      "example_fa": "ورزش منظم می‌تواند گردش خون را بهبود دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "flow",
+          "movement",
+          "distribution"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "circulate (verb)",
+        "circulatory (adjective)"
+      ],
+      "collocations": [
+        "blood circulation",
+        "circulation system",
+        "newspaper circulation"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "citizenship",
+      "source_candidate": "citizenship",
+      "meanings_fa": "تابعیت؛ شهروندی؛ حقوق و مسئولیت‌های شهروند",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsɪtəzənˌʃɪp/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "The legal status of being a citizen of a country, with the rights and responsibilities that come with it.",
+      "example_en": "She applied for U.S. citizenship after meeting the residency requirements.",
+      "example_fa": "او پس از برآورده کردن شرایط اقامت، برای شهروندی آمریکا درخواست داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "nationality",
+          "civic status"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "citizen (noun)",
+        "citizenship test (noun phrase)"
+      ],
+      "collocations": [
+        "U.S. citizenship",
+        "citizenship application",
+        "dual citizenship"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "clarify",
+      "source_candidate": "clarify",
+      "meanings_fa": "روشن کردن؛ واضح ساختن؛ رفع ابهام کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈklærəˌfaɪ/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "To make something easier to understand by explaining it more clearly.",
+      "example_en": "Could you clarify the last point in your email?",
+      "example_fa": "ممکن است نکتهٔ آخر ایمیلت را روشن‌تر توضیح بدهی؟",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "explain",
+          "make clear",
+          "illuminate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clarification (noun)",
+        "clarified (adjective/verb)",
+        "clarifying (adjective)"
+      ],
+      "collocations": [
+        "clarify a point",
+        "clarify the situation",
+        "clarify instructions"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "clarity",
+      "source_candidate": "clarity",
+      "meanings_fa": "وضوح؛ روشنی بیان؛ شفافیت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈklɛrəti/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "The quality of being clear and easy to understand, see, or hear.",
+      "example_en": "The report explains the results with remarkable clarity.",
+      "example_fa": "گزارش نتایج را با وضوح چشمگیری توضیح می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "clearness",
+          "lucidity",
+          "transparency"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clear (adjective/verb)",
+        "clarify (verb)",
+        "clearly (adverb)"
+      ],
+      "collocations": [
+        "clarity of thought",
+        "for clarity",
+        "speak with clarity"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "clash",
+      "source_candidate": "clash",
+      "meanings_fa": "درگیری؛ برخورد؛ تضاد و ناسازگاری؛ تداخل برنامه‌ها",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/klæʃ/",
+      "cefr": "C1",
+      "category": "People, health, society and communication",
+      "definition_en": "A serious disagreement or fight; a situation in which two things conflict or do not fit together.",
+      "example_en": "The meeting was moved because it clashed with another appointment.",
+      "example_fa": "جلسه جابه‌جا شد چون با قرار دیگری تداخل داشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "conflict",
+          "collision",
+          "disagreement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clashing (adjective)",
+        "clashingly (adverb, rare)"
+      ],
+      "collocations": [
+        "clash of opinions",
+        "schedule clash",
+        "clash with"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "classify",
+      "source_candidate": "classify",
+      "meanings_fa": "طبقه‌بندی کردن؛ دسته‌بندی کردن؛ محرمانه اعلام کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈklæsəˌfaɪ/",
+      "cefr": "B2",
+      "category": "People, health, society and communication",
+      "definition_en": "To arrange people or things into groups according to shared features; to designate information as secret.",
+      "example_en": "The library classifies books by subject and author.",
+      "example_fa": "کتابخانه کتاب‌ها را بر اساس موضوع و نویسنده دسته‌بندی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "categorize",
+          "group",
+          "sort"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "classification (noun)",
+        "classified (adjective)",
+        "classifier (noun)",
+        "classifiable (adjective)"
+      ],
+      "collocations": [
+        "classify information",
+        "classify as",
+        "classify by category"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "مردم، سلامت، جامعه و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}
