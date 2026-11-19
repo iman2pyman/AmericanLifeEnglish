@@ -100,7 +100,7 @@ class LearningStore(context: Context) {
             }
         }
         return DailyLearningPlan(today, todaysNew, dueReviewWords(eligible, level), waiting,
-            MONTHLY_NEW_WORD_GOAL, completedThisMonth.size)
+            MONTHLY_NEW_WORD_GOAL, completedThisMonth.size, completedTodayCount())
     }
 
     fun markDailyWordCompleted(word: String) {
@@ -207,7 +207,8 @@ data class DailyLearningPlan(
     val reviewWords: List<VocabularyWord>,
     val bookmarkedWaiting: Int,
     val monthlyNewWordGoal: Int,
-    val monthCompleted: Int
+    val monthCompleted: Int,
+    val completedToday: Int
 )
 
 
