@@ -94,6 +94,45 @@
       "level_review_status": "dictionary_cross_checked"
     },
     {
+      "word": "crystal",
+      "source_candidate": "crystal",
+      "meanings_fa": "بلور؛ کریستال؛ شیشهٔ شفاف و سخت",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈkrɪstəl/",
+      "cefr": "C1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A clear, solid substance with a regular natural structure; glass of high quality or clarity.",
+      "example_en": "The award is made of clear crystal.",
+      "example_fa": "این جایزه از کریستال شفاف ساخته شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "quartz (specific mineral)",
+          "glass (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crystalline (adjective)",
+        "crystallize (verb)",
+        "crystallization (noun)"
+      ],
+      "collocations": [
+        "crystal clear",
+        "crystal glass",
+        "crystal structure"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
       "word": "cue",
       "source_candidate": "cue",
       "meanings_fa": "علامت؛ نشانه؛ سرنخ؛ اشاره برای شروع یا انجام کاری",
@@ -213,6 +252,44 @@
       "level_review_status": "dictionary_cross_checked"
     },
     {
+      "word": "curriculum",
+      "source_candidate": "curriculum",
+      "meanings_fa": "برنامهٔ درسی؛ سرفصل و محتوای آموزشی یک دوره",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈrɪkjələm/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The subjects and content taught in a school, college, or training program.",
+      "example_en": "The college updated its nursing curriculum this year.",
+      "example_fa": "کالج امسال برنامهٔ درسی پرستاری خود را به‌روزرسانی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "syllabus",
+          "course of study"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "curricular (adjective)",
+        "curriculum-based (adjective)"
+      ],
+      "collocations": [
+        "school curriculum",
+        "curriculum design",
+        "core curriculum"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
       "word": "custody",
       "source_candidate": "custody",
       "meanings_fa": "حضانت؛ سرپرستی قانونی؛ بازداشت و نگهداری پلیس",
@@ -250,6 +327,46 @@
       "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
       "level_source": "Oxford 5000 / Vajehyab cross-check",
       "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cutting",
+      "source_candidate": "cutting",
+      "meanings_fa": "برش؛ قطعهٔ بریده‌شده؛ قلمه؛ تند و نیش‌دار",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB (GERUND)",
+      "ipa_us": "/ˈkʌtɪŋ/",
+      "cefr": "C1",
+      "category": "Work, health, education and technology",
+      "definition_en": "The act of cutting; a piece removed from something; or a remark that is sharply critical.",
+      "example_en": "The gardener planted a rose cutting in the spring.",
+      "example_fa": "باغبان در بهار یک قلمهٔ رز کاشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "clipping",
+          "trimming",
+          "cutting piece"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cut (verb/noun)",
+        "cutter (noun)",
+        "cuttable (adjective)"
+      ],
+      "collocations": [
+        "cutting edge",
+        "newspaper cutting",
+        "rose cutting"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
     },
     {
       "word": "dairy",
@@ -648,123 +765,6 @@
       "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
       "level_source": "Oxford 5000 / Vajehyab cross-check",
       "level_review_status": "dictionary_cross_checked"
-    },
-    {
-      "word": "crystal",
-      "source_candidate": "crystal",
-      "meanings_fa": "بلور؛ کریستال؛ شیشهٔ شفاف و سخت",
-      "part_of_speech": "NOUN; ADJECTIVE",
-      "ipa_us": "/ˈkrɪstəl/",
-      "cefr": "C1",
-      "category": "Technology, health, business and everyday life",
-      "definition_en": "A clear, solid substance with a regular natural structure; glass of high quality or clarity.",
-      "example_en": "The award is made of clear crystal.",
-      "example_fa": "این جایزه از کریستال شفاف ساخته شده است.",
-      "synonyms_antonyms": {
-        "synonyms": [
-          "quartz (specific mineral)",
-          "glass (context-dependent)"
-        ],
-        "antonyms": []
-      },
-      "word_family": [
-        "crystalline (adjective)",
-        "crystallize (verb)",
-        "crystallization (noun)"
-      ],
-      "collocations": [
-        "crystal clear",
-        "crystal glass",
-        "crystal structure"
-      ],
-      "frequency": "common_or_useful",
-      "openjam_frequency_rank": null,
-      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
-      "review_status": "dictionary_checked_editorial_draft",
-      "quality_flag": "Staging only; final native-speaker review recommended before production.",
-      "release_decision": "staging_only",
-      "ready_flag": false,
-      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
-    },
-    {
-      "word": "curriculum",
-      "source_candidate": "curriculum",
-      "meanings_fa": "برنامهٔ درسی؛ سرفصل و محتوای آموزشی یک دوره",
-      "part_of_speech": "NOUN",
-      "ipa_us": "/kəˈrɪkjələm/",
-      "cefr": "B2",
-      "category": "Education, technology, travel and daily life",
-      "definition_en": "The subjects and content taught in a school, college, or training program.",
-      "example_en": "The college updated its nursing curriculum this year.",
-      "example_fa": "کالج امسال برنامهٔ درسی پرستاری خود را به‌روزرسانی کرد.",
-      "synonyms_antonyms": {
-        "synonyms": [
-          "syllabus",
-          "course of study"
-        ],
-        "antonyms": []
-      },
-      "word_family": [
-        "curricular (adjective)",
-        "curriculum-based (adjective)"
-      ],
-      "collocations": [
-        "school curriculum",
-        "curriculum design",
-        "core curriculum"
-      ],
-      "frequency": "common_or_useful",
-      "openjam_frequency_rank": null,
-      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
-      "review_status": "dictionary_checked_editorial_draft",
-      "quality_flag": "Staging only; final native-speaker review recommended before production.",
-      "release_decision": "staging_only",
-      "ready_flag": false,
-      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
-    },
-    {
-      "word": "cutting",
-      "source_candidate": "cutting",
-      "meanings_fa": "برش؛ قطعهٔ بریده‌شده؛ قلمه؛ تند و نیش‌دار",
-      "part_of_speech": "NOUN; ADJECTIVE; VERB (GERUND)",
-      "ipa_us": "/ˈkʌtɪŋ/",
-      "cefr": "C1",
-      "category": "Work, health, education and technology",
-      "definition_en": "The act of cutting; a piece removed from something; or a remark that is sharply critical.",
-      "example_en": "The gardener planted a rose cutting in the spring.",
-      "example_fa": "باغبان در بهار یک قلمهٔ رز کاشت.",
-      "synonyms_antonyms": {
-        "synonyms": [
-          "clipping",
-          "trimming",
-          "cutting piece"
-        ],
-        "antonyms": []
-      },
-      "word_family": [
-        "cut (verb/noun)",
-        "cutter (noun)",
-        "cuttable (adjective)"
-      ],
-      "collocations": [
-        "cutting edge",
-        "newspaper cutting",
-        "rose cutting"
-      ],
-      "frequency": "common_or_useful",
-      "openjam_frequency_rank": null,
-      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
-      "review_status": "dictionary_checked_editorial_draft",
-      "quality_flag": "Staging only; final native-speaker review recommended before production.",
-      "release_decision": "staging_only",
-      "ready_flag": false,
-      "category_fa": "کار، سلامت، آموزش و فناوری",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
     }
   ]
 }
