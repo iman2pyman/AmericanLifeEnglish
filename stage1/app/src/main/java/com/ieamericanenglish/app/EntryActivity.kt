@@ -59,6 +59,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
     var selectedLevel by remember { mutableStateOf(learningStore.selectedLevel()) }
     var page by remember { mutableStateOf("home") }
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
+    var browsedLevel by remember { mutableStateOf("A1") }
     var dialog by remember { mutableStateOf<String?>(null) }
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
         Surface(Modifier.fillMaxSize(), color = Page) {
@@ -86,10 +87,13 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
                 )
                 page == "vocabulary-level" -> VocabularyLevelScreen(
                     words = words,
-                    initialLevel = selectedLevel,
-                    onWord = { selectedWord = it },
-                    onSpeak = onSpeak,
-                    onBack = { page = "vocabulary" },
+                    onLevel = { browsedLevel = it; page = "vocabulary-level-words" },
+                    onBack = { page = "vocabulary" }
+                )
+                page == "vocabulary-level-words" -> VocabularyLevelWordsScreen(
+                    words = words, level = browsedLevel,
+                    onWord = { selectedWord = it }, onSpeak = onSpeak,
+                    onBack = { page = "vocabulary-level" },
                     bookmarks = bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
                 )
