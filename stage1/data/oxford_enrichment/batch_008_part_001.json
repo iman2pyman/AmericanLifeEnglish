@@ -1,0 +1,723 @@
+{
+  "batch": 8,
+  "status": "partial_staging_only",
+  "candidate_source": "Reconstructed exact 1,219-word difference between the repository's 4,000 unique headwords and American Oxford 3000/5000 lists",
+  "source_note": "First 200 selection = all 41 missing Oxford 3000 entries followed by first 159 missing Oxford 5000 supplementary entries. This file contains the first 20 enriched records only; remaining 180 are pending. Do not import into production.",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "review_policy": "AI-authored editorial drafts; meanings and usage cross-checked against available learner-dictionary references where possible. IPA and CEFR are editorial estimates and require final dictionary review.",
+  "words": [
+    {
+      "word": "and",
+      "source_candidate": "and",
+      "meanings_fa": "و؛ همچنین؛ به‌علاوه",
+      "part_of_speech": "CONJUNCTION",
+      "ipa_us": "/ænd/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used to connect words, phrases, or clauses of equal grammatical function.",
+      "example_en": "We bought apples and oranges.",
+      "example_fa": "ما سیب و پرتقال خریدیم.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "you and me",
+        "bread and butter",
+        "and so on"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "a",
+      "source_candidate": "a",
+      "meanings_fa": "یک؛ حرف تعریف نامعین پیش از اسم مفرد قابل‌شمارش",
+      "part_of_speech": "INDEFINITE ARTICLE",
+      "ipa_us": "/ə/; strong /eɪ/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used before a singular countable noun when it is not already known or is mentioned for the first time.",
+      "example_en": "I need a new phone.",
+      "example_fa": "من به یک گوشی جدید نیاز دارم.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "a few",
+        "a lot of",
+        "a little"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "by",
+      "source_candidate": "by",
+      "meanings_fa": "توسط؛ به‌وسیلهٔ؛ با؛ کنار؛ تا (زمان مشخص)",
+      "part_of_speech": "PREPOSITION; ADVERB",
+      "ipa_us": "/baɪ/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used to show an agent, method, nearby position, or deadline.",
+      "example_en": "Please send the application by Friday.",
+      "example_fa": "لطفاً درخواست را تا جمعه ارسال کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "beside (location)",
+          "before (deadline)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "by car",
+        "by hand",
+        "by Friday"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "at",
+      "source_candidate": "at",
+      "meanings_fa": "در؛ نزد؛ ساعت؛ به‌سمت؛ در وضعیت",
+      "part_of_speech": "PREPOSITION",
+      "ipa_us": "/æt/; weak /ət/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used to identify a particular place, time, direction, rate, or activity.",
+      "example_en": "The interview is at 9 a.m. at the downtown office.",
+      "example_fa": "مصاحبه ساعت ۹ صبح در دفتر مرکز شهر برگزار می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "at home",
+        "at work",
+        "at the moment"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "all",
+      "source_candidate": "all",
+      "meanings_fa": "همه؛ تمام؛ سراسر؛ کاملاً",
+      "part_of_speech": "DETERMINER; PRONOUN; ADVERB",
+      "ipa_us": "/ɔːl/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "The whole amount or every member of a group; as an adverb, completely.",
+      "example_en": "All employees must wear their ID badges.",
+      "example_fa": "همهٔ کارکنان باید کارت شناسایی خود را همراه داشته باشند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "everybody",
+          "everything",
+          "entire"
+        ],
+        "antonyms": [
+          "none",
+          "no one"
+        ]
+      },
+      "word_family": [],
+      "collocations": [
+        "all day",
+        "all of them",
+        "after all"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "an",
+      "source_candidate": "an",
+      "meanings_fa": "یک؛ حرف تعریف نامعین پیش از واژه‌ای با صدای آغازین واکه",
+      "part_of_speech": "INDEFINITE ARTICLE",
+      "ipa_us": "/ən/; strong /æn/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "The form of the indefinite article used before a singular countable noun beginning with a vowel sound.",
+      "example_en": "She has an appointment this afternoon.",
+      "example_fa": "او امروز بعدازظهر یک قرار ملاقات دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "an hour",
+        "an idea",
+        "an opportunity"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "can",
+      "source_candidate": "can",
+      "meanings_fa": "توانستن؛ ممکن بودن؛ اجازه داشتن؛ قوطی فلزی",
+      "part_of_speech": "MODAL VERB; NOUN",
+      "ipa_us": "/kæn/; weak /kən/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "As a modal, expresses ability, possibility, or permission; as a noun, a metal container.",
+      "example_en": "Can I pay by card? Put the empty can in the recycling bin.",
+      "example_fa": "می‌توانم با کارت پرداخت کنم؟ قوطی خالی را در سطل بازیافت بینداز.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "be able to (verb sense)"
+        ],
+        "antonyms": [
+          "cannot (opposite modal form)"
+        ]
+      },
+      "word_family": [
+        "canned (adjective)",
+        "canning (noun/verb)"
+      ],
+      "collocations": [
+        "can do",
+        "can afford",
+        "a can of soda"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "but",
+      "source_candidate": "but",
+      "meanings_fa": "اما؛ ولی؛ به‌جز؛ جز اینکه",
+      "part_of_speech": "CONJUNCTION; PREPOSITION",
+      "ipa_us": "/bʌt/; weak /bət/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used to introduce a contrast or an exception.",
+      "example_en": "I called twice, but nobody answered.",
+      "example_fa": "دو بار تماس گرفتم، اما کسی پاسخ نداد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "however",
+          "yet"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "but also",
+        "anything but",
+        "not only ... but also"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "could",
+      "source_candidate": "could",
+      "meanings_fa": "می‌توانست؛ ممکن بود؛ می‌شود (درخواست مؤدبانه)",
+      "part_of_speech": "MODAL VERB",
+      "ipa_us": "/kʊd/; weak /kəd/",
+      "cefr": "A2",
+      "category": "Grammar and function words",
+      "definition_en": "The past form of can, also used to express possibility or make polite requests and suggestions.",
+      "example_en": "Could you email me the updated schedule?",
+      "example_fa": "ممکن است برنامهٔ به‌روزشده را برایم ایمیل کنید؟",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "was able to (past ability)",
+          "might (possibility)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "could you please",
+        "could be",
+        "could have"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "CD",
+      "source_candidate": "CD",
+      "meanings_fa": "سی‌دی؛ لوح فشردهٔ ذخیره یا پخش اطلاعات دیجیتال",
+      "part_of_speech": "NOUN; ABBREVIATION",
+      "ipa_us": "/ˌsiːˈdiː/",
+      "cefr": "A2",
+      "category": "Time and calendar",
+      "definition_en": "A compact disc used to store or play digital information, especially music or computer data.",
+      "example_en": "The old car has a CD player but no USB port.",
+      "example_fa": "خودروی قدیمی دستگاه پخش سی‌دی دارد، اما درگاه USB ندارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "compact disc"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compact disc (noun phrase)"
+      ],
+      "collocations": [
+        "CD player",
+        "burn a CD",
+        "audio CD"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "December",
+      "source_candidate": "December",
+      "meanings_fa": "دسامبر؛ ماه دوازدهم سال میلادی",
+      "part_of_speech": "PROPER NOUN",
+      "ipa_us": "/dɪˈsɛmbɚ/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "The twelfth and final month of the year.",
+      "example_en": "Our lease ends on December 31.",
+      "example_fa": "قرارداد اجارهٔ ما در ۳۱ دسامبر تمام می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "early December",
+        "in December",
+        "December 31"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "April",
+      "source_candidate": "April",
+      "meanings_fa": "آوریل؛ ماه چهارم سال میلادی",
+      "part_of_speech": "PROPER NOUN",
+      "ipa_us": "/ˈeɪprəl/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "The fourth month of the year.",
+      "example_en": "The semester starts in April.",
+      "example_fa": "نیم‌سال تحصیلی در آوریل شروع می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "early April",
+        "in April",
+        "April Fools' Day"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "August",
+      "source_candidate": "August",
+      "meanings_fa": "اوت؛ ماه هشتم سال میلادی",
+      "part_of_speech": "PROPER NOUN",
+      "ipa_us": "/ˈɔːɡəst/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "The eighth month of the year.",
+      "example_en": "Many families take vacations in August.",
+      "example_fa": "بسیاری از خانواده‌ها در ماه اوت به تعطیلات می‌روند.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "early August",
+        "in August",
+        "August weather"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "according",
+      "source_candidate": "according",
+      "meanings_fa": "مطابق؛ طبق؛ بر اساس (معمولاً در عبارت according to)",
+      "part_of_speech": "ADJECTIVE/PARTICIPLE; PHRASE ELEMENT",
+      "ipa_us": "/əˈkɔɹdɪŋ/",
+      "cefr": "B1",
+      "category": "Grammar and communication",
+      "definition_en": "Used mainly in the phrase according to, meaning as stated by or in a way that agrees with something.",
+      "example_en": "According to the email, the deadline is Monday.",
+      "example_fa": "طبق ایمیل، مهلت نهایی روز دوشنبه است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "as stated by",
+          "in line with"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "accord (noun/verb)",
+        "accordingly (adverb)"
+      ],
+      "collocations": [
+        "according to the report",
+        "according to policy",
+        "according to plan"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و ارتباط",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "Congress",
+      "source_candidate": "Congress",
+      "meanings_fa": "کنگرهٔ ایالات متحده؛ قوهٔ مقننهٔ فدرال آمریکا",
+      "part_of_speech": "PROPER NOUN; NOUN",
+      "ipa_us": "/ˈkɑŋɡɹəs/",
+      "cefr": "B2",
+      "category": "Government and civics",
+      "definition_en": "The national legislature of the United States, consisting of the House of Representatives and the Senate.",
+      "example_en": "Congress passed a bill to fund the transportation project.",
+      "example_fa": "کنگره لایحه‌ای برای تأمین بودجهٔ پروژهٔ حمل‌ونقل تصویب کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "U.S. legislature"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "congressional (adjective)",
+        "congressperson (noun)"
+      ],
+      "collocations": [
+        "Congress passed",
+        "member of Congress",
+        "congressional hearing"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دولت و حقوق شهروندی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "Senate",
+      "source_candidate": "Senate",
+      "meanings_fa": "مجلس سنا؛ یکی از دو مجلس کنگرهٔ ایالات متحده",
+      "part_of_speech": "PROPER NOUN; NOUN",
+      "ipa_us": "/ˈsɛnət/",
+      "cefr": "B2",
+      "category": "Government and civics",
+      "definition_en": "The upper chamber of the United States Congress, with two senators representing each state.",
+      "example_en": "The Senate voted on the proposed immigration bill.",
+      "example_fa": "مجلس سنا دربارهٔ لایحهٔ پیشنهادی مهاجرت رأی‌گیری کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "upper chamber"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "senator (noun)",
+        "senatorial (adjective)"
+      ],
+      "collocations": [
+        "U.S. Senate",
+        "Senate committee",
+        "Senate hearing"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دولت و حقوق شهروندی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "disk",
+      "source_candidate": "disk",
+      "meanings_fa": "دیسک؛ صفحه یا قطعهٔ گرد؛ دیسک ذخیره‌سازی رایانه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪsk/",
+      "cefr": "B1",
+      "category": "Technology and objects",
+      "definition_en": "A flat, usually circular object; in computing, a device or medium used to store data.",
+      "example_en": "Save a backup copy to an external disk.",
+      "example_fa": "یک نسخهٔ پشتیبان روی دیسک خارجی ذخیره کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "disc",
+          "storage drive (computing context)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disk-based (adjective)",
+        "diskette (noun; older term)"
+      ],
+      "collocations": [
+        "hard disk",
+        "external disk",
+        "disk space"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری و اشیا",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "billion",
+      "source_candidate": "billion",
+      "meanings_fa": "یک میلیارد؛ عدد ۱٬۰۰۰٬۰۰۰٬۰۰۰",
+      "part_of_speech": "NUMBER; NOUN",
+      "ipa_us": "/ˈbɪljən/",
+      "cefr": "A2",
+      "category": "Numbers and quantities",
+      "definition_en": "The number 1,000,000,000; one thousand million.",
+      "example_en": "The project is expected to cost two billion dollars.",
+      "example_fa": "پیش‌بینی می‌شود این پروژه دو میلیارد دلار هزینه داشته باشد.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [
+        "billionaire (noun)",
+        "billionth (ordinal number)"
+      ],
+      "collocations": [
+        "a billion dollars",
+        "several billion people",
+        "billion-dollar industry"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "اعداد و کمیت",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "awesome",
+      "source_candidate": "awesome",
+      "meanings_fa": "عالی؛ فوق‌العاده؛ شگفت‌انگیز (در گفتار آمریکایی)",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈɔsəm/",
+      "cefr": "A1",
+      "category": "Feelings and opinions",
+      "definition_en": "Extremely good, impressive, or enjoyable; common in informal American English.",
+      "example_en": "That was an awesome concert.",
+      "example_fa": "آن کنسرت فوق‌العاده بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "amazing",
+          "fantastic",
+          "excellent"
+        ],
+        "antonyms": [
+          "awful",
+          "terrible"
+        ]
+      },
+      "word_family": [
+        "awesomely (adverb)",
+        "awesomeness (noun)"
+      ],
+      "collocations": [
+        "awesome job",
+        "awesome experience",
+        "look awesome"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "احساسات و دیدگاه‌ها",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "overseas",
+      "source_candidate": "overseas",
+      "meanings_fa": "آن‌سوی دریاها؛ خارج از کشور؛ در خارج از کشور",
+      "part_of_speech": "ADVERB; ADJECTIVE",
+      "ipa_us": "/ˌoʊvɚˈsiːz/",
+      "cefr": "B2",
+      "category": "Travel and geography",
+      "definition_en": "In or to a foreign country, especially one across the sea.",
+      "example_en": "She moved overseas for a two-year work assignment.",
+      "example_fa": "او برای یک مأموریت کاری دوساله به خارج از کشور نقل مکان کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "abroad"
+        ],
+        "antonyms": [
+          "domestic"
+        ]
+      },
+      "word_family": [],
+      "collocations": [
+        "overseas travel",
+        "overseas market",
+        "work overseas"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; meanings and usage cross-checked with Oxford/Cambridge/Glosbe references where available; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify all senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "سفر و جغرافیا",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
