@@ -266,6 +266,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                     }
                     LinearProgressIndicator(progress = { (done / 15f).coerceIn(0f, 1f) }, modifier = Modifier.fillMaxWidth().padding(top = 6.dp).height(8.dp).clip(CircleShape), color = Color(0xFF0F9D91), trackColor = Color(0xFFE8EEF6))
                     Text("پیشرفت ماهانه: ${p.monthCompleted} از ${p.monthlyNewWordGoal}", color = Color(0xFF718096), fontSize = 11.sp, modifier = Modifier.padding(top = 7.dp))
+                    if (p.reviewBacklogCount > 0) Text("${p.reviewBacklogCount} مرور دیگر موعددار است و به‌تدریج در برنامه روزهای بعد قرار می‌گیرد؛ سقف مرور روزانه ۳۰ واژه است.", color = Color(0xFFB7791F), fontSize = 11.sp, lineHeight = 18.sp)
                     if (p.bookmarkedWaiting > 0) Text("${p.bookmarkedWaiting} واژه نشان‌دار در صف روزهای آینده است.", color = Color(0xFFB7791F), fontSize = 11.sp)
                     Spacer(Modifier.height(12.dp))
                     Button(onClick = {
@@ -330,7 +331,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                         listOf(Triple("again", "فراموش", Color(0xFFBE4778)), Triple("hard", "سخت", Color(0xFFB7791F)), Triple("good", "خوب", Color(0xFF2563EB)), Triple("easy", "آسان", Color(0xFF0F9D91))).forEach { (rating, label, color) ->
                             OutlinedButton(onClick = {
                                 learningStore?.recordAnswer(current.word, rating)
-                                if (isNew) learningStore?.markDailyWordCompleted(current.word)
+                                if (isNew) learningStore?.markDailyWordCompleted(current.word, level)
                                 val next = index + 1
                                 index = next
                                 if (next < queue.size) learningStore?.savePracticeSession(level, queue, next)
