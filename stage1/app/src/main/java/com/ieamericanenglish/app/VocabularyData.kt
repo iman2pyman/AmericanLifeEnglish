@@ -26,14 +26,10 @@ fun loadVocabulary(context: Context): List<VocabularyWord> {
     val arrays = mutableListOf<JSONArray>()
     arrays += JSONArray(context.assets.open("vocabulary_1000.json")
         .bufferedReader(Charsets.UTF_8).use { it.readText() })
-    for (name in listOf(
-        "vocabulary_additional_001.json",
-        "vocabulary_additional_002.json",
-        "vocabulary_additional_003.json",
-        "vocabulary_additional_004.json",
-        "vocabulary_additional_005.json",
-        "vocabulary_additional_006.json"
-    )) {
+    val additionalFiles = context.assets.list("") .orEmpty()
+        .filter { it.matches(Regex("vocabulary_additional_\\d{3}\\.json")) }
+        .sorted()
+    for (name in additionalFiles) {
         arrays += JSONArray(context.assets.open(name)
             .bufferedReader(Charsets.UTF_8).use { it.readText() })
     }
