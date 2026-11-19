@@ -92,7 +92,7 @@ class LearningStore(context: Context) {
         val keys = completed.keys()
         while (keys.hasNext()) {
             val key = keys.next()
-            if (key.startsWith(month)) monthCompleted += completed.optInt(key, 0)
+            if (key.startsWith(month)) monthCompleted += completed.optJSONArray(key)?.length() ?: 0
         }
         return DailyLearningPlan(today, todaysNew, dueReviewWords(eligible, level), waiting,
             limit.coerceAtLeast(0) * 30, monthCompleted)
