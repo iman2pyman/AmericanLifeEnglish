@@ -187,7 +187,6 @@ fun VocabularyLevelScreen(words: List<VocabularyWord>, initialLevel: String, onW
 fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null) {
     var level by remember { mutableStateOf(initialLevel) }
     LaunchedEffect(initialLevel) { level = initialLevel }
-    val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) }.distinctBy { LearningStore.wordId(it.word) } }
     var plan by remember { mutableStateOf<DailyLearningPlan?>(null) }
     var queue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
     var index by remember { mutableIntStateOf(0) }
@@ -225,7 +224,6 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                     colors = FilterChipDefaults.filterChipColors(selectedContainerColor = color, selectedLabelColor = Color.White))
             }
         }
-        Text("$level  •  ${levelWords.size} واژه یکتا", color = Color(0xFF718096), fontSize = 12.sp)
         plan?.let { p ->
             Spacer(Modifier.height(12.dp))
             Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = Color.White, shadowElevation = 3.dp) {
@@ -337,14 +335,6 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                     Button(onClick = { queue = emptyList(); index = 0; finished = false }) { Text("بازگشت به برنامه") }
                 }
             }
-        } else {
-            Spacer(Modifier.height(14.dp))
-            Text("واژه‌های سطح $level", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.Bold)
-            levelWords.take(60).forEach { word ->
-                WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) }
-                Spacer(Modifier.height(8.dp))
-            }
-            if (levelWords.size > 60) Text("برای یافتن واژه‌های دیگر از جستجوی واژگان استفاده کن.", color = Color(0xFF718096), fontSize = 11.sp)
         }
     }
 }
