@@ -1,0 +1,772 @@
+{
+  "batch": 8,
+  "part": 3,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "sneaker",
+      "source_candidate": "sneaker",
+      "meanings_fa": "کفش ورزشی؛ کتانی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsniːkɚ/",
+      "cefr": "A2",
+      "category": "Technology, services and public life",
+      "definition_en": "A comfortable shoe designed for sports or casual everyday use.",
+      "example_en": "I bought a new pair of sneakers for walking.",
+      "example_fa": "برای پیاده‌روی یک جفت کفش ورزشی جدید خریدم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "athletic shoe",
+          "trainer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "sneakers (plural)"
+      ],
+      "collocations": [
+        "pair of sneakers",
+        "running sneakers",
+        "sneaker store"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "copyright",
+      "source_candidate": "copyright",
+      "meanings_fa": "حق نشر؛ حق تکثیر و بهره‌برداری قانونی از اثر",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈkɑːpiˌraɪt/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "The legal right to control the copying, publishing, or use of an original work.",
+      "example_en": "You need permission to use that image because it is protected by copyright.",
+      "example_fa": "برای استفاده از آن تصویر به اجازه نیاز داری، چون تحت حمایت حق نشر است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "intellectual property right"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "copyrighted (adjective)",
+        "copyrighting (verb)"
+      ],
+      "collocations": [
+        "copyright law",
+        "copyright notice",
+        "hold the copyright"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "info",
+      "source_candidate": "info",
+      "meanings_fa": "اطلاعات؛ خبر (صورت غیررسمی information)",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈɪnfoʊ/",
+      "cefr": "A2",
+      "category": "Technology, services and public life",
+      "definition_en": "Informal short form of information.",
+      "example_en": "For more info, visit the college website.",
+      "example_fa": "برای اطلاعات بیشتر به وب‌سایت کالج مراجعه کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "information",
+          "details"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "inform (verb)",
+        "information (noun)"
+      ],
+      "collocations": [
+        "more info",
+        "contact info",
+        "info page"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "terms",
+      "source_candidate": "terms",
+      "meanings_fa": "شرایط؛ مفاد؛ اصطلاحات؛ روابط",
+      "part_of_speech": "NOUN (PLURAL)",
+      "ipa_us": "/tɝːmz/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "Conditions of an agreement, or words used with a particular meaning in a subject or activity.",
+      "example_en": "Read the terms of service before creating an account.",
+      "example_fa": "پیش از ساخت حساب، شرایط استفاده از خدمات را بخوانید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "conditions",
+          "provisions",
+          "terminology"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "term (singular noun/verb)"
+      ],
+      "collocations": [
+        "terms and conditions",
+        "payment terms",
+        "technical terms"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "shipping",
+      "source_candidate": "shipping",
+      "meanings_fa": "حمل‌ونقل کالا؛ ارسال مرسوله؛ کشتیرانی",
+      "part_of_speech": "NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈʃɪpɪŋ/",
+      "cefr": "B1",
+      "category": "Technology, services and public life",
+      "definition_en": "The process of transporting goods from one place to another, especially to customers.",
+      "example_en": "Shipping is free on orders over fifty dollars.",
+      "example_fa": "ارسال سفارش‌های بیش از پنجاه دلار رایگان است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "delivery",
+          "transport"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "ship (verb/noun)",
+        "shipper (noun)",
+        "shipment (noun)"
+      ],
+      "collocations": [
+        "free shipping",
+        "shipping address",
+        "shipping cost"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "forum",
+      "source_candidate": "forum",
+      "meanings_fa": "انجمن؛ تالار گفت‌وگو؛ نشست عمومی برای بحث",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈfɔːrəm/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "A place, meeting, or online space where people discuss ideas or ask questions.",
+      "example_en": "I found the answer in an online support forum.",
+      "example_fa": "پاسخ را در یک انجمن پشتیبانی آنلاین پیدا کردم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "discussion group",
+          "platform"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "forums (plural)"
+      ],
+      "collocations": [
+        "online forum",
+        "public forum",
+        "discussion forum"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "directory",
+      "source_candidate": "directory",
+      "meanings_fa": "فهرست راهنما؛ دفترچهٔ اطلاعات؛ پوشهٔ رایانه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dəˈrɛktəri/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "An organized list of names, addresses, or other information; in computing, a folder that stores files.",
+      "example_en": "The clinic is listed in the online business directory.",
+      "example_fa": "نام درمانگاه در فهرست آنلاین کسب‌وکارها ثبت شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "index",
+          "listing",
+          "folder (computing)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "directories (plural)"
+      ],
+      "collocations": [
+        "phone directory",
+        "business directory",
+        "file directory"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "rating",
+      "source_candidate": "rating",
+      "meanings_fa": "امتیاز؛ رتبه‌بندی؛ درجه‌بندی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈreɪtɪŋ/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "A score or level that shows how good, popular, safe, or suitable something is considered to be.",
+      "example_en": "The hotel has a high customer rating.",
+      "example_fa": "این هتل از نظر مشتریان امتیاز بالایی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "score",
+          "ranking",
+          "evaluation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "rate (verb/noun)",
+        "rated (adjective)",
+        "rater (noun)"
+      ],
+      "collocations": [
+        "customer rating",
+        "five-star rating",
+        "safety rating"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "password",
+      "source_candidate": "password",
+      "meanings_fa": "گذرواژه؛ رمز عبور",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈpæsˌwɝːd/",
+      "cefr": "A2",
+      "category": "Technology, services and public life",
+      "definition_en": "A secret word or combination of characters used to prove identity and access a system.",
+      "example_en": "Choose a strong password and don't share it.",
+      "example_fa": "یک گذرواژهٔ قوی انتخاب کن و آن را با کسی به اشتراک نگذار.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "passcode",
+          "access code"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "password-protected (adjective)"
+      ],
+      "collocations": [
+        "strong password",
+        "reset a password",
+        "password manager"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "id",
+      "source_candidate": "id",
+      "meanings_fa": "شناسه؛ مدرک شناسایی (مخفف identification)",
+      "part_of_speech": "NOUN; ABBREVIATION; VERB",
+      "ipa_us": "/ˌaɪˈdiː/",
+      "cefr": "A2",
+      "category": "Technology, services and public life",
+      "definition_en": "A document or number used to identify a person; also a short form of identification.",
+      "example_en": "Please show your ID at the front desk.",
+      "example_fa": "لطفاً مدرک شناسایی خود را در پذیرش نشان دهید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "identification",
+          "identity document"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "identify (verb)",
+        "identification (noun)",
+        "identity (noun)"
+      ],
+      "collocations": [
+        "photo ID",
+        "ID card",
+        "employee ID"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "format",
+      "source_candidate": "format",
+      "meanings_fa": "قالب؛ ساختار؛ شکل ارائه؛ قالب‌بندی کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈfɔːrˌmæt/",
+      "cefr": "B1",
+      "category": "Technology, services and public life",
+      "definition_en": "The arrangement or design of information, or to arrange information in a particular way.",
+      "example_en": "Please submit your résumé in PDF format.",
+      "example_fa": "لطفاً رزومهٔ خود را در قالب PDF ارسال کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "layout",
+          "structure",
+          "style"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "formatted (adjective)",
+        "formatting (noun/verb)"
+      ],
+      "collocations": [
+        "file format",
+        "digital format",
+        "format a document"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "log",
+      "source_candidate": "log",
+      "meanings_fa": "گزارش ثبت‌شده؛ سیاهه؛ الوار؛ ثبت کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/lɔːɡ/",
+      "cefr": "B1",
+      "category": "Technology, services and public life",
+      "definition_en": "A record of events or activities; as a verb, to record information or enter a system.",
+      "example_en": "The app keeps a log of your daily activity.",
+      "example_fa": "این برنامه گزارشی از فعالیت روزانهٔ شما نگه می‌دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "record",
+          "journal",
+          "register"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "logging (noun/verb)",
+        "logger (noun)"
+      ],
+      "collocations": [
+        "activity log",
+        "log in",
+        "log a complaint"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "electronics",
+      "source_candidate": "electronics",
+      "meanings_fa": "الکترونیک؛ دستگاه‌ها و تجهیزات الکترونیکی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ɪˌlɛkˈtrɑːnɪks/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "The science and technology of circuits and devices that control electric current; electronic equipment as a category.",
+      "example_en": "This store sells computers and other consumer electronics.",
+      "example_fa": "این فروشگاه رایانه و دیگر لوازم الکترونیکی مصرفی می‌فروشد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "electronic equipment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "electronic (adjective)",
+        "electronically (adverb)",
+        "electrician (related noun)"
+      ],
+      "collocations": [
+        "consumer electronics",
+        "electronics store",
+        "electronics industry"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "newsletter",
+      "source_candidate": "newsletter",
+      "meanings_fa": "خبرنامه؛ بولتن خبری",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈnuːzˌlɛtɚ/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "A regular publication sent to a group of people, often by email, with news and updates.",
+      "example_en": "Sign up for our monthly newsletter to receive updates.",
+      "example_fa": "برای دریافت خبرها و به‌روزرسانی‌ها در خبرنامهٔ ماهانهٔ ما ثبت‌نام کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "bulletin",
+          "update"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "email newsletter",
+        "monthly newsletter",
+        "subscribe to a newsletter"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "domain",
+      "source_candidate": "domain",
+      "meanings_fa": "دامنه؛ حوزه؛ قلمرو؛ نام دامنهٔ اینترنتی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/doʊˈmeɪn/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "An area of knowledge or activity; on the internet, the main part of a website address.",
+      "example_en": "Education is one domain where technology has changed daily life.",
+      "example_fa": "آموزش یکی از حوزه‌هایی است که فناوری زندگی روزمره را تغییر داده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "field",
+          "area",
+          "realm"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "domain-specific (adjective)"
+      ],
+      "collocations": [
+        "domain name",
+        "public domain",
+        "area of expertise"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "hardware",
+      "source_candidate": "hardware",
+      "meanings_fa": "سخت‌افزار؛ ابزار و یراق‌آلات",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈhɑːrdˌwɛr/",
+      "cefr": "B1",
+      "category": "Technology, services and public life",
+      "definition_en": "The physical parts of a computer or other machine; tools and equipment used for practical work.",
+      "example_en": "The software is fine, but the computer hardware needs an upgrade.",
+      "example_fa": "نرم‌افزار مشکلی ندارد، اما سخت‌افزار رایانه به ارتقا نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "equipment",
+          "machinery"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "hardware-based (adjective)"
+      ],
+      "collocations": [
+        "computer hardware",
+        "hardware store",
+        "hardware upgrade"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "mortgage",
+      "source_candidate": "mortgage",
+      "meanings_fa": "وام مسکن؛ رهن؛ وثیقه گذاشتن ملک",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈmɔːrɡɪdʒ/",
+      "cefr": "B2",
+      "category": "Technology, services and public life",
+      "definition_en": "A loan used to buy property, with the property serving as security for repayment.",
+      "example_en": "They applied for a thirty-year mortgage to buy their first home.",
+      "example_fa": "آن‌ها برای خرید اولین خانه‌شان درخواست وام مسکن سی‌ساله دادند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "home loan",
+          "property loan"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "mortgagee (noun)",
+        "mortgagor (noun)"
+      ],
+      "collocations": [
+        "mortgage payment",
+        "mortgage rate",
+        "apply for a mortgage"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "lesbian",
+      "source_candidate": "lesbian",
+      "meanings_fa": "همجنس‌گرای زن؛ مربوط به زنان همجنس‌گرا",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈlɛzbiən/",
+      "cefr": "C1",
+      "category": "Technology, services and public life",
+      "definition_en": "A woman who is romantically or sexually attracted to women; relating to lesbian women or communities.",
+      "example_en": "The center offers support services for lesbian and bisexual women.",
+      "example_fa": "این مرکز خدمات حمایتی برای زنان همجنس‌گرا و دوجنس‌گرا ارائه می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "gay woman (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "lesbian community",
+        "lesbian couple",
+        "lesbian rights"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "logo",
+      "source_candidate": "logo",
+      "meanings_fa": "نشان‌واره؛ آرم؛ نماد تصویری یک سازمان یا برند",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈloʊɡoʊ/",
+      "cefr": "B1",
+      "category": "Technology, services and public life",
+      "definition_en": "A symbol or design used by a company or organization to identify itself.",
+      "example_en": "The company redesigned its logo last year.",
+      "example_fa": "شرکت سال گذشته نشان‌وارهٔ خود را بازطراحی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "emblem",
+          "symbol",
+          "mark"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "logotype (noun)"
+      ],
+      "collocations": [
+        "company logo",
+        "brand logo",
+        "logo design"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "registration",
+      "source_candidate": "registration",
+      "meanings_fa": "ثبت‌نام؛ ثبت رسمی؛ شماره یا گواهی ثبت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌrɛdʒɪˈstreɪʃən/",
+      "cefr": "B1",
+      "category": "Technology, services and public life",
+      "definition_en": "The act of officially recording information or signing up for an event, service, or organization.",
+      "example_en": "Online registration closes at midnight.",
+      "example_fa": "ثبت‌نام آنلاین در نیمه‌شب بسته می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "enrollment",
+          "sign-up",
+          "record"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "register (verb/noun)",
+        "registered (adjective)",
+        "registrar (noun)"
+      ],
+      "collocations": [
+        "online registration",
+        "vehicle registration",
+        "registration fee"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
