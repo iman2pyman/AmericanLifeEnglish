@@ -86,7 +86,8 @@ class LearningStore(context: Context) {
             selected.forEach { setWordStatus(it.word, "learning") }
             selected
         }
-        val waiting = freshMarked.size
+        val scheduledIds = todaysNew.map { wordId(it.word) }.toSet()
+        val waiting = freshMarked.count { wordId(it.word) !in scheduledIds }
         val month = currentMonthPrefix()
         val completed = readJson(KEY_COMPLETED)
         val completedThisMonth = mutableSetOf<String>()
