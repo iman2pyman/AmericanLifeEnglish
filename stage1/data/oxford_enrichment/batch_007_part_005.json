@@ -1,0 +1,810 @@
+{
+  "batch": 7,
+  "part": 5,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 61–80 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "commodity",
+      "source_candidate": "commodity",
+      "meanings_fa": "کالا؛ کالای پایه یا مادهٔ خام قابل معامله",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈmɑːdəti/",
+      "cefr": "B2",
+      "category": "Business, education, communication and society",
+      "definition_en": "A product or raw material that can be bought and sold, especially in large quantities.",
+      "example_en": "Oil is an important commodity in the global market.",
+      "example_fa": "نفت کالای مهمی در بازار جهانی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "product",
+          "goods",
+          "raw material"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "commodities (plural)",
+        "commoditize (verb)",
+        "commodification (noun)"
+      ],
+      "collocations": [
+        "commodity prices",
+        "agricultural commodity",
+        "commodity market"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "communist",
+      "source_candidate": "communist",
+      "meanings_fa": "کمونیست؛ فرد یا جریان طرفدار کمونیسم",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈkɑːmjənɪst/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "A person who supports communism, or related to the political and economic system of communism.",
+      "example_en": "The book examines the history of communist movements in Europe.",
+      "example_fa": "این کتاب تاریخ جنبش‌های کمونیستی در اروپا را بررسی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "Marxist",
+          "communist supporter"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "communism (noun)",
+        "communistic (adjective)"
+      ],
+      "collocations": [
+        "communist party",
+        "communist government",
+        "communist movement"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "companion",
+      "source_candidate": "companion",
+      "meanings_fa": "همراه؛ هم‌سفر؛ یار و همدم؛ کتاب راهنما",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəmˈpænjən/",
+      "cefr": "B2",
+      "category": "Business, education, communication and society",
+      "definition_en": "A person or animal that spends time with someone; someone who accompanies another person.",
+      "example_en": "A friendly dog became her constant companion during the trip.",
+      "example_fa": "یک سگ مهربان در طول سفر همیشه همراه او بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "friend",
+          "partner",
+          "associate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "companionship (noun)",
+        "companionable (adjective)"
+      ],
+      "collocations": [
+        "travel companion",
+        "constant companion",
+        "companion animal"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "comparative",
+      "source_candidate": "comparative",
+      "meanings_fa": "تطبیقی؛ نسبی؛ صفت یا قید تفضیلی",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/kəmˈpærətɪv/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "Involving the comparison of two or more things; measured in relation to something else.",
+      "example_en": "The report provides a comparative analysis of housing costs in five cities.",
+      "example_fa": "گزارش، تحلیل تطبیقی هزینه‌های مسکن در پنج شهر را ارائه می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "relative",
+          "comparative",
+          "contrastive"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compare (verb)",
+        "comparison (noun)",
+        "comparatively (adverb)"
+      ],
+      "collocations": [
+        "comparative analysis",
+        "comparative study",
+        "comparative advantage"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compel",
+      "source_candidate": "compel",
+      "meanings_fa": "مجبور کردن؛ وادار کردن؛ ملزم ساختن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kəmˈpɛl/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "To force or strongly persuade someone to do something.",
+      "example_en": "The evidence compelled the company to change its policy.",
+      "example_fa": "شواهد شرکت را وادار کرد سیاست خود را تغییر دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "force",
+          "oblige",
+          "pressure"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compelled (adjective/verb)",
+        "compelling (adjective)",
+        "compulsion (noun)"
+      ],
+      "collocations": [
+        "compel someone to act",
+        "feel compelled",
+        "compelling reason"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compelling",
+      "source_candidate": "compelling",
+      "meanings_fa": "قانع‌کننده؛ گیرا؛ بسیار جذاب یا تأثیرگذار",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/kəmˈpɛlɪŋ/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "Very interesting or convincing, so that people want to pay attention or agree.",
+      "example_en": "She made a compelling case for expanding the public library.",
+      "example_fa": "او استدلال قانع‌کننده‌ای برای گسترش کتابخانهٔ عمومی ارائه کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "convincing",
+          "persuasive",
+          "gripping"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compel (verb)",
+        "compellingly (adverb)",
+        "compulsion (noun)"
+      ],
+      "collocations": [
+        "compelling evidence",
+        "compelling argument",
+        "compelling story"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compensate",
+      "source_candidate": "compensate",
+      "meanings_fa": "جبران کردن؛ غرامت دادن؛ خسارت پرداخت کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈkɑːmpənˌseɪt/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "To pay someone for loss or damage, or to make up for something undesirable.",
+      "example_en": "The airline agreed to compensate passengers for the long delay.",
+      "example_fa": "شرکت هواپیمایی موافقت کرد بابت تأخیر طولانی به مسافران غرامت بدهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "reimburse",
+          "make up for",
+          "offset"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compensation (noun)",
+        "compensatory (adjective)"
+      ],
+      "collocations": [
+        "compensate for a loss",
+        "compensate employees",
+        "financially compensate"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "competence",
+      "source_candidate": "competence",
+      "meanings_fa": "شایستگی؛ توانایی؛ صلاحیت و مهارت لازم",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːmpətəns/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "The ability and knowledge needed to do something successfully.",
+      "example_en": "The job requires strong communication and technical competence.",
+      "example_fa": "این شغل به توانایی قوی در ارتباطات و مهارت فنی نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "ability",
+          "capability",
+          "proficiency"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "competent (adjective)",
+        "competency (noun)",
+        "incompetence (noun)"
+      ],
+      "collocations": [
+        "professional competence",
+        "core competence",
+        "demonstrate competence"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "competent",
+      "source_candidate": "competent",
+      "meanings_fa": "توانا؛ کاردان؛ شایسته؛ دارای صلاحیت",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkɑːmpɪtənt/",
+      "cefr": "B2",
+      "category": "Business, education, communication and society",
+      "definition_en": "Having the skills and knowledge needed to do a job or task well.",
+      "example_en": "We need a competent technician to repair the network.",
+      "example_fa": "برای تعمیر شبکه به یک تکنسین کاردان نیاز داریم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "capable",
+          "qualified",
+          "skilled"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "competence (noun)",
+        "competently (adverb)",
+        "competency (noun)"
+      ],
+      "collocations": [
+        "competent employee",
+        "competent professional",
+        "fully competent"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compile",
+      "source_candidate": "compile",
+      "meanings_fa": "گردآوری کردن؛ تدوین کردن؛ کامپایل کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kəmˈpaɪl/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "To collect information from different sources and arrange it in one document or list; in computing, to translate source code.",
+      "example_en": "The research team compiled a list of affordable housing programs.",
+      "example_fa": "تیم پژوهشی فهرستی از برنامه‌های مسکن مقرون‌به‌صرفه گردآوری کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "collect",
+          "assemble",
+          "put together"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compiler (noun)",
+        "compilation (noun)",
+        "compiled (adjective)"
+      ],
+      "collocations": [
+        "compile a report",
+        "compile data",
+        "compile a program"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "complement",
+      "source_candidate": "complement",
+      "meanings_fa": "مکمل؛ چیزی که چیز دیگری را کامل می‌کند؛ تکمیل کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈkɑːmpləmənt/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "Something that completes or improves another thing; to add something that makes a whole better.",
+      "example_en": "The fresh salad is a perfect complement to the grilled fish.",
+      "example_fa": "سالاد تازه مکمل بسیار خوبی برای ماهی کبابی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "supplement",
+          "counterpart",
+          "complete"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "complementary (adjective)",
+        "complementarily (adverb)"
+      ],
+      "collocations": [
+        "perfect complement",
+        "complement each other",
+        "complement a design"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "completion",
+      "source_candidate": "completion",
+      "meanings_fa": "تکمیل؛ اتمام؛ پایان موفق یک کار یا فرایند",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəmˈpliːʃən/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "The act of finishing something or the state of being finished.",
+      "example_en": "Payment is due upon completion of the project.",
+      "example_fa": "پرداخت پس از تکمیل پروژه انجام می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "finish",
+          "conclusion",
+          "fulfillment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "complete (verb/adjective)",
+        "completely (adverb)",
+        "completeness (noun)"
+      ],
+      "collocations": [
+        "project completion",
+        "completion date",
+        "certificate of completion"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "complication",
+      "source_candidate": "complication",
+      "meanings_fa": "پیچیدگی؛ مشکل اضافی؛ عارضهٔ پزشکی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːmplɪˈkeɪʃən/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "A problem or difficulty that makes a situation more complicated; an additional medical problem.",
+      "example_en": "The doctor explained the possible complications of the surgery.",
+      "example_fa": "پزشک عوارض احتمالی جراحی را توضیح داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "difficulty",
+          "problem",
+          "obstacle"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "complicate (verb)",
+        "complicated (adjective)",
+        "complicating (adjective)"
+      ],
+      "collocations": [
+        "medical complication",
+        "without complications",
+        "unexpected complication"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compose",
+      "source_candidate": "compose",
+      "meanings_fa": "نوشتن؛ ساختن موسیقی؛ تشکیل دادن؛ آرام کردن خود",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kəmˈpoʊz/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "To create a piece of writing or music; to form or make up something; to calm oneself.",
+      "example_en": "She composed an email to the hiring manager.",
+      "example_fa": "او ایمیلی برای مدیر استخدام نوشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "write",
+          "create",
+          "constitute"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "composer (noun)",
+        "composition (noun)",
+        "composed (adjective)",
+        "composure (noun)"
+      ],
+      "collocations": [
+        "compose a song",
+        "compose an email",
+        "be composed of"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "composer",
+      "source_candidate": "composer",
+      "meanings_fa": "آهنگ‌ساز؛ پدیدآورندهٔ قطعهٔ موسیقی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəmˈpoʊzɚ/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "A person who writes music, especially classical music or music for films.",
+      "example_en": "The composer wrote the soundtrack for the documentary.",
+      "example_fa": "آهنگ‌ساز موسیقی متن مستند را نوشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "songwriter",
+          "musician"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compose (verb)",
+        "composition (noun)"
+      ],
+      "collocations": [
+        "film composer",
+        "classical composer",
+        "famous composer"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "composition",
+      "source_candidate": "composition",
+      "meanings_fa": "ترکیب؛ ساختار؛ قطعهٔ موسیقی؛ انشا",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːmpəˈzɪʃən/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "The way something is made up of parts; a piece of music or writing.",
+      "example_en": "The composition of the committee changed after the election.",
+      "example_fa": "ترکیب اعضای کمیته پس از انتخابات تغییر کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "structure",
+          "makeup",
+          "arrangement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compose (verb)",
+        "composer (noun)",
+        "compositional (adjective)"
+      ],
+      "collocations": [
+        "chemical composition",
+        "musical composition",
+        "written composition"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compound",
+      "source_candidate": "compound",
+      "meanings_fa": "ترکیب؛ مادهٔ مرکب؛ چندبخشی؛ محوطهٔ محصور؛ تشدید کردن",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB",
+      "ipa_us": "/ˈkɑːmˌpaʊnd/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "A substance made from two or more elements; something made of several parts; or to make a problem worse.",
+      "example_en": "Water is a chemical compound made of hydrogen and oxygen.",
+      "example_fa": "آب یک ترکیب شیمیایی از هیدروژن و اکسیژن است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "mixture",
+          "combination",
+          "complex"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compounded (adjective/verb)",
+        "compounding (noun/verb)"
+      ],
+      "collocations": [
+        "chemical compound",
+        "compound interest",
+        "compound problem"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compromise",
+      "source_candidate": "compromise",
+      "meanings_fa": "مصالحه؛ توافق میانه؛ کوتاه آمدن؛ به خطر انداختن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈkɑːmprəˌmaɪz/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "An agreement in which each side gives up something; to weaken or put something at risk.",
+      "example_en": "Both sides reached a compromise after several hours of negotiation.",
+      "example_fa": "هر دو طرف پس از چند ساعت مذاکره به مصالحه رسیدند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "agreement",
+          "settlement",
+          "middle ground"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compromised (adjective/verb)",
+        "compromising (adjective)",
+        "uncompromising (adjective)"
+      ],
+      "collocations": [
+        "reach a compromise",
+        "compromise on a price",
+        "compromise security"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "compute",
+      "source_candidate": "compute",
+      "meanings_fa": "محاسبه کردن؛ حساب کردن با روش ریاضی یا رایانه‌ای",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kəmˈpjuːt/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "To calculate an amount or result, especially by using a computer.",
+      "example_en": "The system can compute monthly costs in seconds.",
+      "example_fa": "سامانه می‌تواند هزینه‌های ماهانه را در چند ثانیه محاسبه کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "calculate",
+          "work out",
+          "figure out"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "computer (noun)",
+        "computation (noun)",
+        "computational (adjective)",
+        "computing (noun)"
+      ],
+      "collocations": [
+        "compute the total",
+        "compute data",
+        "computing power"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "concede",
+      "source_candidate": "concede",
+      "meanings_fa": "پذیرفتن؛ اعتراف کردن؛ واگذار کردن یا امتیاز دادن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈsiːd/",
+      "cefr": "C1",
+      "category": "Business, education, communication and society",
+      "definition_en": "To admit that something is true, often unwillingly; or to give something up after resisting.",
+      "example_en": "The manager conceded that the original estimate was too low.",
+      "example_fa": "مدیر پذیرفت که برآورد اولیه بیش از حد پایین بوده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "admit",
+          "acknowledge",
+          "yield"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "concession (noun)",
+        "conceded (adjective/verb)",
+        "conceding (noun/verb)"
+      ],
+      "collocations": [
+        "concede a point",
+        "concede defeat",
+        "concede that"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کسب‌وکار، آموزش، ارتباطات و جامعه",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}
