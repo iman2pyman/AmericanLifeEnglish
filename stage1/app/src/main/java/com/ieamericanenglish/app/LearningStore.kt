@@ -20,7 +20,7 @@ class LearningStore(context: Context) {
         val id = wordId(word)
         if (id.isBlank()) return false
         val updated = bookmarks().toMutableSet()
-        val added = if (id in updated) updated.add(id) else { updated.remove(id); false }
+        val added = if (id in updated) { updated.remove(id); false } else { updated.add(id); true }
         prefs.edit().putStringSet(KEY_BOOKMARKS, updated).apply()
         return added
     }
