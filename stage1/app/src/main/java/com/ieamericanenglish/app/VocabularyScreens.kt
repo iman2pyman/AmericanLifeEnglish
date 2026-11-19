@@ -76,6 +76,9 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     LaunchedEffect(initialLevel) { level = initialLevel }
     val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) }.distinctBy { LearningStore.wordId(it.word) } }
     val dailyPlan = remember(level, words, bookmarks, learningStore) { learningStore?.buildDailyPlan(words, level) }
+    var practiceQueue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
+    var practiceIndex by remember { mutableIntStateOf(0) }
+    val currentPracticeWord = practiceQueue.getOrNull(practiceIndex)
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
         Text("سطح یادگیری را انتخاب کن", color = Color(0xFF18243A), fontSize = 15.sp, fontWeight = FontWeight.Bold)
@@ -102,14 +105,46 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                 Column(Modifier.padding(13.dp)) {
                     Text("برنامه امروز", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
                     Spacer(Modifier.height(5.dp))
-                    Text("${plan.newWords.size} واژه جدید از هدف ۱۵تایی  •  ${plan.reviewWords.size} واژه برای مرور", color = Color(0xFF2563EB), fontSize = 12.sp)
-                    Text("هدف ماهانه: ${plan.monthlyNewWordGoal} واژه${if (plan.bookmarkedWaiting > 0) "  •  ${plan.bookmarkedWaiting} نشان‌دار در صف" else ""}", color = Color(0xFF718096), fontSize = 11.sp)
+                    Text("${plan.newWords.size} واژه جدید • ${plan.reviewWords.size} مرور موعددار", color = Color(0xFF2563EB), fontSize = 12.sp)
+                    Text("پیشرفت ماه: ${plan.monthCompleted} از ${plan.monthlyNewWordGoal} • هدف روزانه ۱۵ واژه", color = Color(0xFF718096), fontSize = 11.sp)
+                    if (plan.bookmarkedWaiting > 0) Text("${plan.bookmarkedWaiting} واژه نشان‌دار در صف انتظار", color = Color(0xFFB7791F), fontSize = 11.sp)
+                    Spacer(Modifier.height(8.dp))
+                    Button(onClick = { practiceQueue = plan.newWords + plan.reviewWords; practiceIndex = 0 },
+                        enabled = plan.newWords.isNotEmpty() || plan.reviewWords.isNotEmpty(),
+                        modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp)
+                    ) { Text("شروع تمرین امروز") }
                 }
             }
         }
         Spacer(Modifier.height(10.dp))
-        LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
-            items(levelWords, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
+        if (currentPracticeWord != null) {
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
+                Column(Modifier.padding(16.dp)) {
+                    Text("تمرین ${practiceIndex + 1} از ${practiceQueue.size}", color = Color(0xFF718096), fontSize = 12.sp)
+                    Text(currentPracticeWord.word, color = LevelColors[currentPracticeWord.cefr] ?: Color(0xFF2563EB), fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+                    Text(currentPracticeWord.ipaUs, color = Color(0xFF718096), fontSize = 13.sp)
+                    TextButton(onClick = { onSpeak(currentPracticeWord.word) }) { Text("🔊 شنیدن تلفظ") }
+                    Divider(color = Color(0xFFE5EAF2))
+                    Text(currentPracticeWord.meaningsFa, color = Color(0xFF18243A), fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                    Spacer(Modifier.height(7.dp))
+                    Text(currentPracticeWord.definitionEn, color = Color(0xFF4A5568), fontSize = 13.sp)
+                    Spacer(Modifier.height(10.dp))
+                    Text("این واژه را چقدر به خاطر داری؟", color = Color(0xFF14213D), fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                        listOf("again" to "دوباره", "hard" to "سخت", "good" to "خوب", "easy" to "آسان").forEach { (rating, label) ->
+                            OutlinedButton(onClick = {
+                                learningStore?.recordAnswer(currentPracticeWord.word, rating)
+                                learningStore?.markDailyWordCompleted(currentPracticeWord.word)
+                                if (practiceIndex + 1 < practiceQueue.size) practiceIndex++ else { practiceQueue = emptyList(); practiceIndex = 0 }
+                            }, modifier = Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 2.dp, vertical = 7.dp)) { Text(label, fontSize = 11.sp) }
+                        }
+                    }
+                }
+            }
+        } else {
+            LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
+                items(levelWords, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
+            }
         }
     }
 }
