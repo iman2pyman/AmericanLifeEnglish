@@ -103,6 +103,31 @@ class LearningStore(context: Context) {
             MONTHLY_NEW_WORD_GOAL, completedThisMonth.size, completedTodayCount())
     }
 
+    /** Save the current daily session so the learner can resume after closing the app. */
+    fun savePracticeSession(level: String, words: List<VocabularyWord>, index: Int) {
+        val state = JSONObject()
+            .put("level", level)
+            .put("date", todayKey())
+            .put("index", index.coerceAtLeast(0))
+            .put("words", JSONArray(words.map { wordId(it.word) }))
+        prefs.edit().putString(KEY_SESSION, state.toString()).apply()
+    }
+
+    /** Restore a same-day session, resolving saved word IDs against the current vocabulary bank. */
+    fun restorePracticeSession(words: List<VocabularyWord>, level: String): Pair<List<VocabularyWord>, Int>? {
+        val state = runCatching { JSONObject(prefs.getString(KEY_SESSION, "{}") ?: "{}") }.getOrNull() ?: return null
+        if (state.optString("level") != level || state.optString("date") != todayKey()) return null
+        val ids = state.optJSONArray("words") ?: return null
+        val byId = words.distinctBy { wordId(it.word) }.associateBy { wordId(it.word) }
+        val restored = (0 until ids.length()).mapNotNull { byId[ids.optString(it)] }
+        if (restored.isEmpty()) return null
+        return restored to state.optInt("index", 0).coerceIn(0, restored.size)
+    }
+
+    fun clearPracticeSession() {
+        prefs.edit().remove(KEY_SESSION).apply()
+    }
+
     fun markDailyWordCompleted(word: String) {
         val today = todayKey()
         val completed = readJson(KEY_COMPLETED)
@@ -196,6 +221,7 @@ class LearningStore(context: Context) {
         private const val KEY_SCHEDULE = "review_schedule"
         private const val KEY_COMPLETED = "completed_words_by_day"
         private const val KEY_QUIZ_HISTORY = "quiz_answer_history"
+        private const val KEY_SESSION = "daily_practice_session"
         private const val MAX_QUIZ_HISTORY = 5000
         fun wordId(word: String): String = word.trim().lowercase(Locale.US)
     }
