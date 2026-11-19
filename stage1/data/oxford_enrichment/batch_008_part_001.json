@@ -325,7 +325,7 @@
       "level_review_status": "needs_dictionary_review"
     },
     {
-      "word": "CD",
+      "word": "cd",
       "source_candidate": "CD",
       "meanings_fa": "سی‌دی؛ لوح فشردهٔ ذخیره یا پخش اطلاعات دیجیتال",
       "part_of_speech": "NOUN; ABBREVIATION",
@@ -361,7 +361,7 @@
       "level_review_status": "needs_dictionary_review"
     },
     {
-      "word": "December",
+      "word": "december",
       "source_candidate": "December",
       "meanings_fa": "دسامبر؛ ماه دوازدهم سال میلادی",
       "part_of_speech": "PROPER NOUN",
@@ -393,7 +393,7 @@
       "level_review_status": "needs_dictionary_review"
     },
     {
-      "word": "April",
+      "word": "april",
       "source_candidate": "April",
       "meanings_fa": "آوریل؛ ماه چهارم سال میلادی",
       "part_of_speech": "PROPER NOUN",
@@ -425,7 +425,7 @@
       "level_review_status": "needs_dictionary_review"
     },
     {
-      "word": "August",
+      "word": "august",
       "source_candidate": "August",
       "meanings_fa": "اوت؛ ماه هشتم سال میلادی",
       "part_of_speech": "PROPER NOUN",
@@ -495,7 +495,7 @@
       "level_review_status": "needs_dictionary_review"
     },
     {
-      "word": "Congress",
+      "word": "congress",
       "source_candidate": "Congress",
       "meanings_fa": "کنگرهٔ ایالات متحده؛ قوهٔ مقننهٔ فدرال آمریکا",
       "part_of_speech": "PROPER NOUN; NOUN",
@@ -532,7 +532,7 @@
       "level_review_status": "needs_dictionary_review"
     },
     {
-      "word": "Senate",
+      "word": "senate",
       "source_candidate": "Senate",
       "meanings_fa": "مجلس سنا؛ یکی از دو مجلس کنگرهٔ ایالات متحده",
       "part_of_speech": "PROPER NOUN; NOUN",
@@ -719,5 +719,6 @@
       "level_source": "editorial_estimate",
       "level_review_status": "needs_dictionary_review"
     }
-  ]
+  ],
+  "note": "Headwords normalized to the lowercase form used by the Oxford source list and app assets."
 }
