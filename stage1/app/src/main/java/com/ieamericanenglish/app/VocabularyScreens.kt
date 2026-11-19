@@ -82,6 +82,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     var quizIndex by remember { mutableIntStateOf(0) }
     var quizAnswer by remember { mutableStateOf<String?>(null) }
     var quizScore by remember { mutableIntStateOf(0) }
+    var quizUnavailable by remember { mutableStateOf(false) }
     val currentPracticeWord = practiceQueue.getOrNull(practiceIndex)
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
@@ -124,6 +125,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
         OutlinedButton(
             onClick = {
                 quizQuestions = VocabularyQuizEngine.createQuiz(words, level, 10)
+                quizUnavailable = quizQuestions.isEmpty()
                 quizIndex = 0
                 quizAnswer = null
                 quizScore = 0
@@ -132,7 +134,8 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
             modifier = Modifier.fillMaxWidth(),
             enabled = levelWords.size >= 4,
             shape = RoundedCornerShape(12.dp)
-        ) { Text("شروع آزمون هوشمند ۱۰ سؤالی") }
+        ) { Text("شروع آزمون هوشمند (تا ۱۰ سؤال)") }
+        if (quizUnavailable) Text("برای این سطح داده کافی جهت ساخت سؤال معتبر وجود ندارد.", color = Color(0xFFBE4778), fontSize = 12.sp)
         Spacer(Modifier.height(10.dp))
         if (quizQuestions.isNotEmpty()) {
             if (quizIndex >= quizQuestions.size) {
@@ -161,7 +164,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                                         quizAnswer = option
                                         val correct = option == question.correctAnswer
                                         if (correct) quizScore++
-                                        learningStore?.recordQuizAnswer(question.targetWord, question.type.name, correct)
+                                        learningStore?.recordQuizAnswer(question.targetWord, question.type.name, option, question.correctAnswer, correct)
                                         learningStore?.recordAnswer(question.targetWord, if (correct) "good" else "again")
                                     }
                                 },
