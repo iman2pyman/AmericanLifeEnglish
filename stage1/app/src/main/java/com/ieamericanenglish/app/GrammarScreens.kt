@@ -530,6 +530,48 @@ fun GrammarScreen(onBack: () -> Unit) {
 }
 
 @Composable
+private fun GrammarSourcesPanel() {
+    Surface(
+        modifier = Modifier.fillMaxWidth().padding(top = 7.dp, bottom = 10.dp),
+        shape = RoundedCornerShape(14.dp),
+        color = appColor(Color.White),
+        shadowElevation = 1.dp
+    ) {
+        Column(Modifier.padding(13.dp), verticalArrangement = Arrangement.spacedBy(7.dp)) {
+            Text(
+                "منابع و مراجع آموزشی",
+                color = appColor(Color(0xFF14213D)),
+                fontWeight = FontWeight.ExtraBold,
+                fontSize = 14.sp
+            )
+            Text(
+                "درس‌ها به‌صورت تألیفی و با مثال‌های متناسب با کاربرد روزمره انگلیسی آمریکایی نوشته شده‌اند. منابع زیر مراجع آموزشی برای تنظیم مسیر، بررسی قواعد و تکمیل مطالب هستند؛ متن درس‌ها نقل مستقیم از کتاب‌ها یا وب‌سایت‌ها نیست.",
+                color = appColor(Color(0xFF526174)),
+                fontSize = 11.sp,
+                lineHeight = 19.sp
+            )
+            Divider(color = appColor(Color(0xFFE2E8F0)))
+            Text("۱. English Grammar in Use — Raymond Murphy، Cambridge University Press",
+                color = appColor(Color(0xFF18243A)), fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+            Text("مرجع ساختارمند برای قواعد پایه تا متوسط، توضیح‌ها و تمرین‌های گرامری.",
+                color = appColor(Color(0xFF64748B)), fontSize = 11.sp)
+            Text("۲. British Council — LearnEnglish Grammar",
+                color = appColor(Color(0xFF18243A)), fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+            Text("مرجع مکمل برای سطح‌بندی CEFR و بررسی کاربرد قواعد در موقعیت‌های واقعی.",
+                color = appColor(Color(0xFF64748B)), fontSize = 11.sp)
+            Text("۳. Cambridge Dictionary — English Grammar",
+                color = appColor(Color(0xFF18243A)), fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+            Text("مرجع کمکی برای نکته‌های دستوری، مثال‌ها و کاربرد طبیعی ساختارها.",
+                color = appColor(Color(0xFF64748B)), fontSize = 11.sp)
+            Text("۴. Purdue OWL — Grammar and Mechanics",
+                color = appColor(Color(0xFF18243A)), fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+            Text("مرجع تکمیلی برای دستور زبان نوشتاری، نشانه‌گذاری و ساختارهای رسمی و دانشگاهی.",
+                color = appColor(Color(0xFF64748B)), fontSize = 11.sp)
+        }
+    }
+}
+
+@Composable
 private fun GrammarLessonDetail(lesson: GrammarLesson) {
     var answer by remember(lesson) { mutableStateOf<Int?>(null) }
     Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState())) {
