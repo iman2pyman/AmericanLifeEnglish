@@ -77,10 +77,11 @@ class LearningStore(context: Context) {
         val freshOther = eligible.filter { wordId(it.word) !in marks && (progress[wordId(it.word)] ?: "new") == "new" }
         val selected = (freshMarked + freshOther).distinctBy { wordId(it.word) }.take(limit.coerceAtLeast(0))
         val daily = readJson(KEY_DAILY)
-        val stored = daily.optJSONArray(today)
+        val dailyKey = "$today:$level"
+        val stored = daily.optJSONArray(dailyKey)
         val todaysNew = if (stored != null) (0 until stored.length()).mapNotNull { byId[stored.optString(it)] }
         else {
-            daily.put(today, JSONArray(selected.map { wordId(it.word) }))
+            daily.put(dailyKey, JSONArray(selected.map { wordId(it.word) }))
             prefs.edit().putString(KEY_DAILY, daily.toString()).apply()
             selected.forEach { setWordStatus(it.word, "learning") }
             selected
@@ -88,14 +89,17 @@ class LearningStore(context: Context) {
         val waiting = (freshMarked + freshOther).drop(todaysNew.size).count { wordId(it.word) in marks }
         val month = currentMonthPrefix()
         val completed = readJson(KEY_COMPLETED)
-        var monthCompleted = 0
+        val completedThisMonth = mutableSetOf<String>()
         val keys = completed.keys()
         while (keys.hasNext()) {
             val key = keys.next()
-            if (key.startsWith(month)) monthCompleted += completed.optJSONArray(key)?.length() ?: 0
+            if (key.startsWith(month)) {
+                val ids = completed.optJSONArray(key) ?: continue
+                for (index in 0 until ids.length()) completedThisMonth += ids.optString(index)
+            }
         }
         return DailyLearningPlan(today, todaysNew, dueReviewWords(eligible, level), waiting,
-            limit.coerceAtLeast(0) * 30, monthCompleted)
+            MONTHLY_NEW_WORD_GOAL, completedThisMonth.size)
     }
 
     fun markDailyWordCompleted(word: String) {
@@ -129,15 +133,44 @@ class LearningStore(context: Context) {
         prefs.edit().putString(KEY_QUIZ_HISTORY, bounded.toString()).apply()
     }
 
-    fun quizStats(): QuizStats {
-        val history = runCatching { JSONArray(prefs.getString(KEY_QUIZ_HISTORY, "[]") ?: "[]") }
-            .getOrElse { JSONArray() }
+    fun quizStats(words: List<VocabularyWord>, level: String): QuizStats {
+        val history = quizHistory()
         var correct = 0
+        val typeTotals = mutableMapOf<String, Pair<Int, Int>>()
+        val wordTotals = mutableMapOf<String, Pair<Int, Int>>()
         for (index in 0 until history.length()) {
-            if (history.optJSONObject(index)?.optBoolean("correct", false) == true) correct++
+            val item = history.optJSONObject(index) ?: continue
+            val word = item.optString("word")
+            val type = item.optString("type")
+            val isCorrect = item.optBoolean("correct", false)
+            if (isCorrect) correct++
+            val typeOld = typeTotals[type] ?: (0 to 0)
+            typeTotals[type] = (typeOld.first + 1) to (typeOld.second + if (isCorrect) 1 else 0)
+            val wordOld = wordTotals[word] ?: (0 to 0)
+            wordTotals[word] = (wordOld.first + 1) to (wordOld.second + if (isCorrect) 1 else 0)
         }
-        return QuizStats(history.length(), correct)
+        val levelIds = words.asSequence().filter { it.cefr.equals(level, true) }
+            .map { wordId(it.word) }.toSet()
+        val weak = wordTotals.entries.asSequence()
+            .filter { it.key in levelIds && it.value.first >= 2 && it.value.second * 100 / it.value.first < 60 }
+            .sortedBy { it.value.second.toDouble() / it.value.first }
+            .map { it.key }.toList()
+        val typeStats = typeTotals.map { (type, totals) ->
+            QuizTypeStat(type, totals.first, totals.second)
+        }.sortedBy { it.type }
+        return QuizStats(history.length(), correct, typeStats, weak)
     }
+
+    fun weakWords(words: List<VocabularyWord>, level: String): List<VocabularyWord> {
+        val weakIds = quizStats(words, level).weakWordIds.toSet()
+        return words.asSequence().filter { it.cefr.equals(level, true) }
+            .distinctBy { wordId(it.word) }
+            .filter { wordId(it.word) in weakIds }.toList()
+    }
+
+    private fun quizHistory(): JSONArray =
+        runCatching { JSONArray(prefs.getString(KEY_QUIZ_HISTORY, "[]") ?: "[]") }
+            .getOrElse { JSONArray() }
 
     private fun readJson(key: String): JSONObject =
         runCatching { JSONObject(prefs.getString(key, "{}") ?: "{}") }.getOrElse { JSONObject() }
@@ -147,6 +180,7 @@ class LearningStore(context: Context) {
 
     companion object {
         const val DAILY_NEW_WORD_GOAL = 15
+        const val MONTHLY_NEW_WORD_GOAL = 450
         val LEVELS = listOf("A1", "A2", "B1", "B2", "C1", "C2")
         private val STATUSES = setOf("new", "learning", "review", "mastered")
         private val RATINGS = setOf("again", "hard", "good", "easy")
@@ -173,4 +207,15 @@ data class DailyLearningPlan(
 )
 
 
-data class QuizStats(val answered: Int, val correct: Int)
+data class QuizTypeStat(val type: String, val answered: Int, val correct: Int) {
+    val accuracyPercent: Int get() = if (answered == 0) 0 else correct * 100 / answered
+}
+
+data class QuizStats(
+    val answered: Int,
+    val correct: Int,
+    val byType: List<QuizTypeStat>,
+    val weakWordIds: List<String>
+) {
+    val accuracyPercent: Int get() = if (answered == 0) 0 else correct * 100 / answered
+}
