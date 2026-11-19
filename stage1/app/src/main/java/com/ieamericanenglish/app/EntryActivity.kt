@@ -31,13 +31,13 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 
-private val Navy = appColor(Color(0xFF14213D))
-private val Blue = appColor(Color(0xFF2563EB))
-private val Teal = appColor(Color(0xFF0F9D91))
-private val Gold = appColor(Color(0xFFF2B84B))
-private val Ink = appColor(Color(0xFF18243A))
-private val Muted = appColor(Color(0xFF718096))
-private val Page = appColor(Color(0xFFF4F7FC))
+private val Navy = Color(0xFF14213D)
+private val Blue = Color(0xFF2563EB)
+private val Teal = Color(0xFF0F9D91)
+private val Gold = Color(0xFFF2B84B)
+private val Ink = Color(0xFF18243A)
+private val Muted = Color(0xFF718096)
+private val Page = Color(0xFFF4F7FC)
 
 class EntryActivity : ComponentActivity() {
     private lateinit var speech: AmericanSpeech
@@ -71,7 +71,8 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
 
     BackHandler(enabled = true) {
         when {
-            welcomeVisible -> welcomeVisible = false\n            dialog != null -> dialog = null
+            welcomeVisible -> welcomeVisible = false
+            dialog != null -> dialog = null
             selectedWord != null -> selectedWord = null
             page == "vocabulary-level-words" -> page = "vocabulary-level"
             page == "vocabulary-level" -> page = "vocabulary"
@@ -94,7 +95,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
         }
     }
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl, LocalAppDarkMode provides darkMode) {
-        Surface(Modifier.fillMaxSize(), color = Page) {
+        Surface(Modifier.fillMaxSize(), color = appColor(Page)) {
             when {
                 selectedWord != null -> WordDetailScreen(
                     selectedWord!!, onSpeak, { selectedWord = null },
@@ -186,7 +187,7 @@ private fun HomeScreen(
     onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar: () -> Unit,
     onHelp: () -> Unit, onAbout: () -> Unit
 ) {
-    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).background(Page), horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).background(appColor(Page)), horizontalAlignment = Alignment.CenterHorizontally) {
         Box(Modifier.fillMaxWidth().background(Brush.verticalGradient(listOf(Navy, appColor(Color(0xFF203D68))))).padding(horizontal = 22.dp, vertical = 30.dp)) {
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
@@ -208,9 +209,9 @@ private fun HomeScreen(
         }
         Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
             Spacer(Modifier.height(23.dp))
-            Text("از کجا شروع می‌کنی؟", color = Ink, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+            Text("از کجا شروع می‌کنی؟", color = appColor(Ink), fontSize = 20.sp, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(5.dp))
-            Text("بخش موردنظرت را انتخاب کن", color = Muted, fontSize = 13.sp)
+            Text("بخش موردنظرت را انتخاب کن", color = appColor(Muted), fontSize = 13.sp)
             Spacer(Modifier.height(19.dp))
             ActionCard("جستجوی واژگان", "واژه موردنظرت را سریع پیدا کن", "⌕", Blue, onSearch)
             Spacer(Modifier.height(12.dp))
@@ -220,9 +221,9 @@ private fun HomeScreen(
             Spacer(Modifier.height(24.dp))
             HorizontalDivider(color = appColor(Color(0xFFE1E7F0)))
             Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 12.dp), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
-                TextButton(onClick = onHelp) { Text("راهنمای برنامه", color = Blue, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
+                TextButton(onClick = onHelp) { Text("راهنمای برنامه", color = appColor(Blue), fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
                 Text("•", color = appColor(Color(0xFFB3BDCC)))
-                TextButton(onClick = onAbout) { Text("درباره برنامه و سازنده", color = Blue, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
+                TextButton(onClick = onAbout) { Text("درباره برنامه و سازنده", color = appColor(Blue), fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
             }
         }
     }
@@ -245,9 +246,9 @@ private fun ActionCard(title: String, subtitle: String, symbol: String, accent: 
             }
             Spacer(Modifier.width(13.dp))
             Column(Modifier.weight(1f)) {
-                Text(title, color = Ink, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                Text(title, color = appColor(Ink), fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(3.dp))
-                Text(subtitle, color = Muted, fontSize = 11.sp)
+                Text(subtitle, color = appColor(Muted), fontSize = 11.sp)
             }
             Box(Modifier.size(29.dp).clip(CircleShape).background(accent.copy(alpha = .10f)), contentAlignment = Alignment.Center) {
                 Text("‹", color = accent, fontSize = 24.sp, fontWeight = FontWeight.Bold)
@@ -261,9 +262,9 @@ private fun InfoDialog(title: String, body: String, onDismiss: () -> Unit) {
     Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         Surface(Modifier.fillMaxWidth(.88f), shape = RoundedCornerShape(24.dp), color = appColor(Color.White), shadowElevation = 18.dp) {
             Column(Modifier.padding(22.dp)) {
-                Text(title, color = Navy, fontSize = 19.sp, fontWeight = FontWeight.ExtraBold)
+                Text(title, color = appColor(Navy), fontSize = 19.sp, fontWeight = FontWeight.ExtraBold)
                 Spacer(Modifier.height(13.dp))
-                Text(body, color = Ink, fontSize = 14.sp, lineHeight = 25.sp)
+                Text(body, color = appColor(Ink), fontSize = 14.sp, lineHeight = 25.sp)
                 Spacer(Modifier.height(18.dp))
                 Button(onClick = onDismiss, Modifier.fillMaxWidth(), shape = RoundedCornerShape(13.dp), colors = ButtonDefaults.buttonColors(containerColor = Blue)) {
                     Text("متوجه شدم", fontWeight = FontWeight.Bold)
