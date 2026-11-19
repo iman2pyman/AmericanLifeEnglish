@@ -1,0 +1,819 @@
+{
+  "batch": 7,
+  "part": 8,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 121–140 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "correspond",
+      "source_candidate": "correspond",
+      "meanings_fa": "مطابقت داشتن؛ متناظر بودن؛ مکاتبه کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˌkɔːrəˈspɑːnd/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "To be similar or equal to something, or to communicate with someone by letters or email.",
+      "example_en": "The figures in the two reports do not correspond.",
+      "example_fa": "اعداد موجود در دو گزارش با هم مطابقت ندارند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "match",
+          "agree",
+          "correspond with"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correspondence (noun)",
+        "correspondent (noun)",
+        "corresponding (adjective)",
+        "correspondingly (adverb)"
+      ],
+      "collocations": [
+        "correspond to a number",
+        "correspond with a client",
+        "closely correspond"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "correspondence",
+      "source_candidate": "correspondence",
+      "meanings_fa": "مکاتبه؛ نامه‌نگاری؛ تطابق و تناظر",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɔːrəˈspɑːndəns/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Communication by letters or email; or a close similarity between two things.",
+      "example_en": "Please keep all correspondence related to your application.",
+      "example_fa": "لطفاً تمام مکاتبات مربوط به درخواست خود را نگه دارید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "communication",
+          "letters",
+          "match",
+          "similarity"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correspond (verb)",
+        "correspondent (noun)",
+        "corresponding (adjective)"
+      ],
+      "collocations": [
+        "business correspondence",
+        "email correspondence",
+        "in correspondence with"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "correspondent",
+      "source_candidate": "correspondent",
+      "meanings_fa": "خبرنگار؛ گزارشگر؛ مکاتبه‌کننده",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɔːrəˈspɑːndənt/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A journalist who reports news from a particular place or on a particular subject; someone who exchanges letters.",
+      "example_en": "The network sent its foreign correspondent to cover the election.",
+      "example_fa": "شبکه خبرنگار خارجی خود را برای پوشش انتخابات فرستاد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "reporter",
+          "journalist",
+          "writer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correspond (verb)",
+        "correspondence (noun)",
+        "corresponding (adjective)"
+      ],
+      "collocations": [
+        "foreign correspondent",
+        "war correspondent",
+        "special correspondent"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "corresponding",
+      "source_candidate": "corresponding",
+      "meanings_fa": "متناظر؛ مربوط؛ هم‌خوان؛ متناظر با موردی دیگر",
+      "part_of_speech": "ADJECTIVE; VERB (GERUND)",
+      "ipa_us": "/ˌkɔːrəˈspɑːndɪŋ/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Matching or connected to something else; having a similar position or function.",
+      "example_en": "Enter your name and the corresponding account number.",
+      "example_fa": "نام خود و شمارهٔ حساب متناظر را وارد کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "matching",
+          "equivalent",
+          "related"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correspond (verb)",
+        "correspondence (noun)",
+        "correspondent (noun)"
+      ],
+      "collocations": [
+        "corresponding number",
+        "corresponding author",
+        "corresponding period"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "costly",
+      "source_candidate": "costly",
+      "meanings_fa": "گران‌قیمت؛ پرهزینه؛ زیان‌بار و پرهزینه از نظر پیامد",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkɔːstli/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Costing a lot of money, or causing a large loss or expense.",
+      "example_en": "Replacing the damaged equipment was a costly mistake.",
+      "example_fa": "تعویض تجهیزات آسیب‌دیده اشتباه پرهزینه‌ای بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "expensive",
+          "high-priced",
+          "damaging"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cost (noun/verb)",
+        "costlier (comparative)",
+        "costliest (superlative)"
+      ],
+      "collocations": [
+        "costly mistake",
+        "costly repair",
+        "costly delay"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "councilor",
+      "source_candidate": "councilor",
+      "meanings_fa": "عضو شورا؛ نمایندهٔ منتخب یک شورای محلی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkaʊnsələr/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "An elected or appointed member of a local council.",
+      "example_en": "The city councilor met with residents to discuss traffic problems.",
+      "example_fa": "عضو شورای شهر با ساکنان برای بررسی مشکلات ترافیک دیدار کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "council member",
+          "representative",
+          "official"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "council (noun)",
+        "councilorship (noun)",
+        "councilwoman (noun)"
+      ],
+      "collocations": [
+        "city councilor",
+        "elected councilor",
+        "councilor-at-large"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "counseling",
+      "source_candidate": "counseling",
+      "meanings_fa": "مشاوره؛ راهنمایی حرفه‌ای یا روان‌شناختی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkaʊnsəlɪŋ/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Professional guidance or support that helps people deal with personal, educational, or emotional problems.",
+      "example_en": "The college offers free counseling to students.",
+      "example_fa": "کالج به دانشجویان مشاورهٔ رایگان ارائه می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "guidance",
+          "therapy",
+          "advising"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "counsel (noun/verb)",
+        "counselor (noun)",
+        "counseling-related (adjective)"
+      ],
+      "collocations": [
+        "career counseling",
+        "mental health counseling",
+        "marriage counseling"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "counselor",
+      "source_candidate": "counselor",
+      "meanings_fa": "مشاور؛ راهنما؛ مشاور روان‌شناختی؛ وکیل مشاور (در آمریکا)",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkaʊnsələr/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A person trained to give advice or support, especially about personal, educational, or emotional problems.",
+      "example_en": "A school counselor helped him choose his college courses.",
+      "example_fa": "مشاور مدرسه به او کمک کرد درس‌های کالجش را انتخاب کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "adviser",
+          "therapist",
+          "consultant"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "counsel (noun/verb)",
+        "counseling (noun)",
+        "counselorship (noun)"
+      ],
+      "collocations": [
+        "school counselor",
+        "guidance counselor",
+        "legal counselor"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "counterpart",
+      "source_candidate": "counterpart",
+      "meanings_fa": "همتا؛ طرف مقابل؛ شخص یا چیزی با نقش مشابه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkaʊntərˌpɑːrt/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A person or thing that has the same role or purpose as another in a different place or organization.",
+      "example_en": "The U.S. secretary met with her counterpart from Canada.",
+      "example_fa": "وزیر آمریکایی با همتای کانادایی خود دیدار کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "equivalent",
+          "match",
+          "opposite number"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "counterparties (plural in finance)",
+        "counter (noun/verb)"
+      ],
+      "collocations": [
+        "foreign counterpart",
+        "exact counterpart",
+        "counterpart agency"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "countless",
+      "source_candidate": "countless",
+      "meanings_fa": "بی‌شمار؛ بی‌حساب؛ بسیار زیاد",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkaʊntləs/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Too many to be counted; an extremely large number of something.",
+      "example_en": "The museum has countless photographs of the city's early history.",
+      "example_fa": "موزه عکس‌های بی‌شماری از تاریخ اولیهٔ شهر دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "innumerable",
+          "countless numbers of",
+          "numerous"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "count (noun/verb)",
+        "countlessly (adverb, rare)"
+      ],
+      "collocations": [
+        "countless opportunities",
+        "countless times",
+        "countless people"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "coup",
+      "source_candidate": "coup",
+      "meanings_fa": "کودتا؛ تصرف ناگهانی قدرت؛ موفقیت یا دستاورد بزرگ",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kuː/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A sudden and often violent seizure of political power; an unexpectedly successful action.",
+      "example_en": "The military coup forced the elected president from office.",
+      "example_fa": "کودتای نظامی رئیس‌جمهور منتخب را از قدرت کنار زد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "takeover",
+          "overthrow",
+          "sudden seizure"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "coup-related (adjective)"
+      ],
+      "collocations": [
+        "military coup",
+        "coup attempt",
+        "diplomatic coup"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "courtesy",
+      "source_candidate": "courtesy",
+      "meanings_fa": "ادب؛ نزاکت؛ احترام؛ لطف و امتیاز از روی ملاحظه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɝːtəsi/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Polite behavior and respect for others; something provided as a favor.",
+      "example_en": "The hotel offers complimentary coffee as a courtesy to guests.",
+      "example_fa": "هتل از روی لطف به مهمانان قهوهٔ رایگان ارائه می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "politeness",
+          "respect",
+          "consideration"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "courteous (adjective)",
+        "courteously (adverb)",
+        "courteousness (noun)"
+      ],
+      "collocations": [
+        "common courtesy",
+        "courtesy call",
+        "courtesy of"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cowboy",
+      "source_candidate": "cowboy",
+      "meanings_fa": "گاوچران؛ کابوی؛ (غیررسمی) فرد بی‌مبالات یا غیرحرفه‌ای",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkaʊˌbɔɪ/",
+      "cefr": "A2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A person who works with cattle on a ranch, especially in the western United States.",
+      "example_en": "The cowboy rode across the ranch to check the cattle.",
+      "example_fa": "گاوچران با اسب از مزرعه گذشت تا دام‌ها را بررسی کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "ranch hand",
+          "cattle herder",
+          "cowhand"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cowgirl (noun)",
+        "cowhand (noun)",
+        "cowboy-style (adjective)"
+      ],
+      "collocations": [
+        "cowboy hat",
+        "cowboy boots",
+        "rodeo cowboy"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "crawl",
+      "source_candidate": "crawl",
+      "meanings_fa": "خزیدن؛ چهار دست‌وپا رفتن؛ آهسته پیش رفتن؛ شنای کرال",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/krɔːl/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "To move on hands and knees or close to the ground; to move or progress very slowly.",
+      "example_en": "Traffic crawled along the highway after the accident.",
+      "example_fa": "پس از تصادف، ترافیک در بزرگراه به‌کندی حرکت می‌کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "creep",
+          "inch",
+          "move slowly"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crawler (noun)",
+        "crawling (noun/adjective)",
+        "crawlspace (noun)"
+      ],
+      "collocations": [
+        "crawl on the floor",
+        "traffic crawl",
+        "crawl through"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "creativity",
+      "source_candidate": "creativity",
+      "meanings_fa": "خلاقیت؛ توانایی ایجاد ایده‌ها یا آثار تازه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkriːeɪˈtɪvəti/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "The ability to produce original ideas or make new things using imagination.",
+      "example_en": "The job requires creativity and strong problem-solving skills.",
+      "example_fa": "این شغل به خلاقیت و مهارت قوی در حل مسئله نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "imagination",
+          "inventiveness",
+          "originality"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "create (verb)",
+        "creative (adjective)",
+        "creatively (adverb)",
+        "creator (noun)"
+      ],
+      "collocations": [
+        "creative thinking",
+        "encourage creativity",
+        "creativity skills"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "creator",
+      "source_candidate": "creator",
+      "meanings_fa": "آفریننده؛ سازنده؛ تولیدکنندهٔ محتوا",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kriˈeɪtər/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A person who makes or invents something; someone who produces online or media content.",
+      "example_en": "The creator of the app shared a new update with users.",
+      "example_fa": "سازندهٔ برنامه به‌روزرسانی جدیدی را با کاربران به اشتراک گذاشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "maker",
+          "inventor",
+          "originator"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "create (verb)",
+        "creation (noun)",
+        "creative (adjective)",
+        "creativity (noun)"
+      ],
+      "collocations": [
+        "content creator",
+        "original creator",
+        "creator economy"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "credible",
+      "source_candidate": "credible",
+      "meanings_fa": "باورپذیر؛ معتبر؛ قابل اعتماد",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkrɛdəbəl/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "Able to be believed or trusted because it seems reasonable or is supported by evidence.",
+      "example_en": "The journalist checked several sources before publishing the credible report.",
+      "example_fa": "روزنامه‌نگار پیش از انتشار گزارش معتبر، چند منبع را بررسی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "believable",
+          "trustworthy",
+          "reliable"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "credibility (noun)",
+        "credibly (adverb)",
+        "incredible (adjective)"
+      ],
+      "collocations": [
+        "credible source",
+        "credible evidence",
+        "highly credible"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "creep",
+      "source_candidate": "creep",
+      "meanings_fa": "یواشکی یا آهسته حرکت کردن؛ خزیدن؛ آدم چندش‌آور",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/kriːp/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "To move slowly and quietly, often close to the ground; informally, an unpleasant or unsettling person.",
+      "example_en": "A feeling of unease began to creep into the conversation.",
+      "example_fa": "احساس ناخوشایندی کم‌کم وارد گفت‌وگو شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "crawl",
+          "sneak",
+          "inch"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crept (past/participle)",
+        "creeping (adjective)",
+        "creepy (adjective)",
+        "creepiness (noun)"
+      ],
+      "collocations": [
+        "creep up on",
+        "creep into",
+        "give someone the creeps"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "critically",
+      "source_candidate": "critically",
+      "meanings_fa": "به‌طور انتقادی؛ به‌شدت؛ در وضعیت بحرانی؛ از نظر حیاتی",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/ˈkrɪtɪkli/",
+      "cefr": "B2",
+      "category": "Work, society, communication and culture",
+      "definition_en": "In a way that involves careful judgment; extremely or in a way that is essential; in a life-threatening condition.",
+      "example_en": "The patient was critically injured in the crash.",
+      "example_fa": "بیمار در تصادف به‌شدت آسیب دید و وضعیتش بحرانی بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "severely",
+          "crucially",
+          "analytically"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "critical (adjective)",
+        "critic (noun)",
+        "criticize (verb)",
+        "criticism (noun)"
+      ],
+      "collocations": [
+        "critically important",
+        "critically ill",
+        "think critically"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "critique",
+      "source_candidate": "critique",
+      "meanings_fa": "نقد؛ بررسی و ارزیابی انتقادی؛ نقد کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/krɪˈtiːk/",
+      "cefr": "C1",
+      "category": "Work, society, communication and culture",
+      "definition_en": "A careful analysis and evaluation of something, especially a piece of work or an idea.",
+      "example_en": "The professor asked students to write a critique of the article.",
+      "example_fa": "استاد از دانشجویان خواست نقدی دربارهٔ مقاله بنویسند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "review",
+          "evaluation",
+          "assessment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "critical (adjective)",
+        "criticize (verb)",
+        "criticism (noun)",
+        "critic (noun)"
+      ],
+      "collocations": [
+        "literary critique",
+        "critical critique",
+        "write a critique"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}
