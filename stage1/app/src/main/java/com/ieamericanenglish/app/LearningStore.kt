@@ -112,7 +112,7 @@ class LearningStore(context: Context) {
         val freshMarked = eligible.filter { wordId(it.word) in marks && (progress[wordId(it.word)] ?: "new") == "new" }
         val freshOther = eligible.filter { wordId(it.word) !in marks && (progress[wordId(it.word)] ?: "new") == "new" }
         val storedToday = daily.optJSONArray(dailyKey)
-        val today'sUnfinished = if (storedToday == null) emptyList() else
+        val todaysUnfinished = if (storedToday == null) emptyList() else
             (0 until storedToday.length()).mapNotNull { byId[storedToday.optString(it)] }
                 .filter { (progress[wordId(it.word)] ?: "new") == "learning" }
         val selected = (today'sUnfinished + backlog + freshMarked + freshOther)
