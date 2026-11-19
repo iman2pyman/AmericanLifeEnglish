@@ -185,9 +185,14 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
 @Composable
 private fun HomeScreen(
     onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar: () -> Unit,
-    onHelp: () -> Unit, onAbout: () -> Unit
+    onHelp: () -> Unit, onAbout: () -> Unit, darkMode: Boolean, onToggleDarkMode: () -> Unit
 ) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).background(appColor(Page)), horizontalAlignment = Alignment.CenterHorizontally) {
+        Row(Modifier.fillMaxWidth().padding(end = 14.dp, top = 6.dp), horizontalArrangement = Arrangement.End) {
+            TextButton(onClick = onToggleDarkMode) {
+                Text(if (darkMode) "☀️ حالت روز" else "🌙 تم شب", color = appColor(Blue), fontWeight = FontWeight.Bold)
+            }
+        }
         Box(Modifier.fillMaxWidth().background(Brush.verticalGradient(listOf(Navy, appColor(Color(0xFF203D68))))).padding(horizontal = 22.dp, vertical = 30.dp)) {
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
@@ -252,6 +257,33 @@ private fun ActionCard(title: String, subtitle: String, symbol: String, accent: 
             }
             Box(Modifier.size(29.dp).clip(CircleShape).background(accent.copy(alpha = .10f)), contentAlignment = Alignment.Center) {
                 Text("‹", color = accent, fontSize = 24.sp, fontWeight = FontWeight.Bold)
+            }
+        }
+    }
+}
+
+
+@Composable
+private fun WelcomeDialog(version: String, onClose: () -> Unit, onNeverShow: () -> Unit) {
+    Dialog(onDismissRequest = onClose, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Surface(Modifier.fillMaxWidth(.90f), shape = RoundedCornerShape(24.dp), color = appColor(Color.White), shadowElevation = 20.dp) {
+            Column(Modifier.padding(21.dp).heightIn(max = 620.dp).verticalScroll(rememberScrollState())) {
+                Text("به American Life English خوش آمدید", color = appColor(Navy), fontSize = 19.sp, fontWeight = FontWeight.ExtraBold)
+                Spacer(Modifier.height(10.dp))
+                Text("یادگیری انگلیسی آمریکایی برای زندگی، کار و تحصیل", color = appColor(Blue), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(14.dp))
+                Text("سازنده: ایمان محمدپور", color = appColor(Ink), fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                Text("نسخه: $version", color = appColor(Muted), fontSize = 12.sp)
+                Spacer(Modifier.height(14.dp))
+                Text("امکانات برنامه", color = appColor(Navy), fontSize = 15.sp, fontWeight = FontWeight.Bold)
+                Text("• جستجوی واژه‌ها با کلمه انگلیسی یا معنی فارسی\n• آموزش واژگان در شش سطح CEFR از A1 تا C2\n• معنی فارسی، تلفظ آمریکایی، تعریف انگلیسی، مثال، مترادف و خانواده واژگانی\n• تمرین روزانه، مرور زمان‌بندی‌شده و ثبت پیشرفت به‌صورت آفلاین\n• آموزش گرامر سطح‌بندی‌شده همراه با مثال و تمرین", color = appColor(Ink), fontSize = 13.sp, lineHeight = 23.sp)
+                Spacer(Modifier.height(12.dp))
+                Text("نحوه استفاده", color = appColor(Navy), fontSize = 15.sp, fontWeight = FontWeight.Bold)
+                Text("از صفحه اصلی، بخش موردنظر را انتخاب کنید. برای دیدن واژه‌های هر سطح، سطح موردنظر را لمس کنید. در تمرین روزانه سطح خود را انتخاب کرده و پس از مطالعه هر کارت، میزان یادآوری را مشخص کنید. برای شنیدن تلفظ، آیکون بلندگو را لمس کنید.", color = appColor(Ink), fontSize = 13.sp, lineHeight = 23.sp)
+                Spacer(Modifier.height(18.dp))
+                Button(onClick = onClose, Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp)) { Text("بستن") }
+                Spacer(Modifier.height(7.dp))
+                OutlinedButton(onClick = onNeverShow, Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp)) { Text("دیگر نمایش نده") }
             }
         }
     }
