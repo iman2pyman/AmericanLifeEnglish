@@ -108,6 +108,7 @@ object VocabularyQuizEngine {
                         .firstOrNull { it.contains(Regex("\\b" + Regex.escape(other.word) + "\\b", RegexOption.IGNORE_CASE)) }
                     example?.let { it to other.word }
                 }.filter { it.first != answer }
+                    .filter { !Regex("\\b" + Regex.escape(target.word) + "\\b", RegexOption.IGNORE_CASE).containsMatchIn(it.first) }
                     .distinctBy { it.first.lowercase(Locale.US) }
                     .shuffled().take(3).map { it.first }
                 if (distractors.size < 3) return null
