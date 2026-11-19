@@ -82,7 +82,8 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
                     wordCount = words.distinctBy { LearningStore.wordId(it.word) }.size,
                     onBack = { page = "home" },
                     onLevels = { page = "vocabulary-level" },
-                    onPractice = { page = "vocabulary-practice" }
+                    onPractice = { page = "vocabulary-practice" },
+                    onReports = { page = "vocabulary-report" }
                 )
                 page == "vocabulary-level" -> VocabularyLevelScreen(
                     words = words,
@@ -90,6 +91,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
                     onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
                     onBack = { page = "vocabulary" }
                 )
+                page == "vocabulary-report" -> LearningReportScreen(words, selectedLevel, learningStore) { page = "vocabulary" }
                 page == "vocabulary-practice" -> LearningScreen(
                     words, onSpeak, { page = "vocabulary" }, { selectedWord = it },
                     initialLevel = selectedLevel,
