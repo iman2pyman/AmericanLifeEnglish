@@ -20,11 +20,13 @@ data class VocabularyQuizQuestion(
 )
 
 object VocabularyQuizEngine {
-    fun createQuiz(words: List<VocabularyWord>, level: String, count: Int = 10): List<VocabularyQuizQuestion> {
+    fun createQuiz(words: List<VocabularyWord>, level: String, count: Int = 10): List<VocabularyQuizQuestion> =
+        createQuizFromPool(words.filter { it.cefr.equals(level, true) }, count)
+
+    fun createQuizFromPool(words: List<VocabularyWord>, count: Int = 10): List<VocabularyQuizQuestion> {
         val requestedCount = count.coerceAtLeast(0)
         if (requestedCount == 0) return emptyList()
         val pool = words.asSequence()
-            .filter { it.cefr.equals(level, true) }
             .filter { it.word.isNotBlank() && it.meaningsFa.isNotBlank() }
             .distinctBy { LearningStore.wordId(it.word) }
             .toList()
