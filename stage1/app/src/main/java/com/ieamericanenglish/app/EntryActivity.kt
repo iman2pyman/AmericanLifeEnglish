@@ -94,6 +94,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
             }
         }
     }
+    MaterialTheme(colorScheme = if (darkMode) darkColorScheme() else lightColorScheme()) {
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl, LocalAppDarkMode provides darkMode) {
         Surface(Modifier.fillMaxSize(), color = appColor(Page)) {
             when {
