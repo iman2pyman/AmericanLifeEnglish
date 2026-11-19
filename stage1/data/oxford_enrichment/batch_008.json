@@ -13,7 +13,9 @@
     "formatting_normalized": true,
     "editorial_corrections_applied": 39,
     "all_entries_staging_only": true,
-    "authoritative_dictionary_verification_pending": true
+    "authoritative_dictionary_verification_pending": true,
+    "category_labels_translated": true,
+    "obvious_remaining_corruptions_cleared": true
   },
   "note": "Editorial review pass completed: corrected obvious Persian text corruption, weak or misleading lexical relations, word-family placeholders, inconsistent part-of-speech casing, IPA delimiter formatting, and several usage notes. This is not a fully source-verified dictionary release: IPA, CEFR levels, and complete sense coverage still need independent checks against authoritative American dictionaries. Keep staging-only until that verification is complete.",
   "words": [
@@ -202,7 +204,7 @@
       "word": "defect",
       "meanings_fa": "نقص؛ عیب؛ ایراد",
       "part_of_speech": "noun; verb",
-      "ipa_us": "/ˈdiˌfɛkt/ (noun), /dɪˈfɛkt/ (verb)",
+      "ipa_us": "/ˈdiːfɛkt/ (noun); /dɪˈfɛkt/ (verb)",
       "cefr": "B2",
       "category": "Quality and problems",
       "definition_en": "A fault or imperfection that makes something less effective or usable.",
@@ -375,7 +377,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Actions and تعارض",
+      "category_fa": "اقدامات and تعارض",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -482,7 +484,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication، سیاست and یادگیری",
+      "category_fa": "ارتباطات، سیاست and یادگیری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -518,7 +520,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and behavior",
+      "category_fa": "ارتباطات and رفتار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -591,7 +593,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and اندازه‌گیری",
+      "category_fa": "علم and اندازه‌گیری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -607,8 +609,7 @@
       "example_fa": "این برنامه قصد دارد وابستگی به سوخت وارداتی را کاهش دهد.",
       "synonyms_antonyms": {
         "synonyms": [
-          "reliance",
-          "reliance on"
+          "reliance"
         ],
         "antonyms": []
       },
@@ -628,7 +629,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Relationships and شرایط",
+      "category_fa": "روابط and شرایط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -666,7 +667,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار، technology and عملیات",
+      "category_fa": "کار، فناوری and عملیات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -702,7 +703,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار، technology and عملیات",
+      "category_fa": "کار، فناوری and عملیات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -923,7 +924,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "تأثیرات and behavior",
+      "category_fa": "تأثیرات and رفتار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -997,7 +998,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science، ایمنی and technology",
+      "category_fa": "علم، ایمنی and فناوری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1106,7 +1107,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Personal ویژگی‌ها and تصمیم‌ها",
+      "category_fa": "شخصی ویژگی‌ها and تصمیم‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1179,7 +1180,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Thinking and برنامه‌ریزی",
+      "category_fa": "تفکر and برنامه‌ریزی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1290,7 +1291,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and authority",
+      "category_fa": "ارتباطات and اختیار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1328,7 +1329,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Comparison and opinions",
+      "category_fa": "مقایسه and دیدگاه‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1366,7 +1367,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Comparison and analysis",
+      "category_fa": "مقایسه and تحلیل",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1399,7 +1400,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Decisions and مشکلات",
+      "category_fa": "تصمیم‌ها and مشکلات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1431,7 +1432,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "پول and روزمره life",
+      "category_fa": "پول and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1468,7 +1469,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Measurement and ایده‌ها",
+      "category_fa": "اندازه‌گیری and ایده‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1615,7 +1616,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and روابط",
+      "category_fa": "ارتباطات and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1727,7 +1728,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Actions and تصمیم‌ها",
+      "category_fa": "اقدامات and تصمیم‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1764,7 +1765,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and حریم خصوصی",
+      "category_fa": "ارتباطات and حریم خصوصی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1800,7 +1801,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication، حقوق and حریم خصوصی",
+      "category_fa": "ارتباطات، حقوق and حریم خصوصی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1874,7 +1875,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Personal ویژگی‌ها",
+      "category_fa": "شخصی ویژگی‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -1990,7 +1991,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Society and change",
+      "category_fa": "جامعه and تغییر",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2029,7 +2030,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Environment and روزمره life",
+      "category_fa": "محیط زیست and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2068,7 +2069,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Environment and روزمره life",
+      "category_fa": "محیط زیست and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2185,7 +2186,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and جامعه",
+      "category_fa": "علم and جامعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2263,7 +2264,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and ادراک",
+      "category_fa": "ارتباطات and ادراک",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2302,7 +2303,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and health",
+      "category_fa": "عواطف and سلامت",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2341,7 +2342,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and ارتباطات",
+      "category_fa": "عواطف and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2454,7 +2455,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Ideas and institutions",
+      "category_fa": "ایده‌ها and institutions",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2490,7 +2491,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and technology",
+      "category_fa": "کار and فناوری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2529,7 +2530,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Society and competition",
+      "category_fa": "جامعه and competition",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2568,7 +2569,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Society and توصیف",
+      "category_fa": "جامعه and توصیف",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2640,7 +2641,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Shapes and نمادها",
+      "category_fa": "شکل‌ها and نمادها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2679,7 +2680,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Home and روزمره life",
+      "category_fa": "خانه and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2755,7 +2756,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Environment and آب‌وهوا",
+      "category_fa": "محیط زیست and آب‌وهوا",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2792,7 +2793,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Safety and شرایط اضطراری",
+      "category_fa": "ایمنی and شرایط اضطراری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2831,7 +2832,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "توصیف and سیستم‌ها",
+      "category_fa": "توصیف and سامانه‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2868,7 +2869,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Media and ارتباطات",
+      "category_fa": "رسانه and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2910,7 +2911,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "توصیف and feelings",
+      "category_fa": "توصیف and احساسات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -2949,7 +2950,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Informal language",
+      "category_fa": "غیررسمی زبان",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3026,7 +3027,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "افراد and سیستم‌ها",
+      "category_fa": "افراد and سامانه‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3101,7 +3102,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Sound and ارتباطات",
+      "category_fa": "صدا and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3137,7 +3138,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Environment and علم",
+      "category_fa": "محیط زیست and علم",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3172,7 +3173,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Education and کسب‌وکار",
+      "category_fa": "آموزش and کسب‌وکار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3212,7 +3213,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Education and کار",
+      "category_fa": "آموزش and کار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3288,7 +3289,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Psychology and روابط",
+      "category_fa": "روان‌شناسی and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3327,7 +3328,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and توصیف",
+      "category_fa": "ارتباطات and توصیف",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3342,9 +3343,7 @@
       "example_en": "He injured his elbow while playing tennis.",
       "example_fa": "او هنگام تنیس بازی کردن آرنجش را زخمی کرد.",
       "synonyms_antonyms": {
-        "synonyms": [
-          "—"
-        ],
+        "synonyms": [],
         "antonyms": []
       },
       "word_family": [
@@ -3361,7 +3360,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Body and health",
+      "category_fa": "بدن and سلامت",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3397,7 +3396,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Government and جامعه",
+      "category_fa": "دولت and جامعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3510,7 +3509,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Travel and برنامه‌ها",
+      "category_fa": "سفر and برنامه‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3550,7 +3549,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and روابط",
+      "category_fa": "عواطف and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3585,7 +3584,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Travel and دولت",
+      "category_fa": "سفر and دولت",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3700,7 +3699,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Environment and علم",
+      "category_fa": "محیط زیست and علم",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3735,7 +3734,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and روابط",
+      "category_fa": "عواطف and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3774,7 +3773,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and پژوهش",
+      "category_fa": "علم and پژوهش",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3851,7 +3850,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Government and حقوق",
+      "category_fa": "دولت and حقوق",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3889,7 +3888,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Ideas and توصیف",
+      "category_fa": "ایده‌ها and توصیف",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3927,7 +3926,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and روابط",
+      "category_fa": "ارتباطات and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -3966,7 +3965,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and ارتباطات",
+      "category_fa": "عواطف and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4001,7 +4000,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and achievement",
+      "category_fa": "کار and دستاورد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4040,7 +4039,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Business and ارتباطات",
+      "category_fa": "کسب‌وکار and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4080,7 +4079,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Challenges and time",
+      "category_fa": "چالش‌ها and زمان",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4119,7 +4118,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and people",
+      "category_fa": "ارتباطات and افراد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4158,7 +4157,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Daily life and feelings",
+      "category_fa": "روزمره زندگی and احساسات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4197,7 +4196,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Education and رشد",
+      "category_fa": "آموزش and توسعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4236,7 +4235,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Education and اداری",
+      "category_fa": "آموزش and اداری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4273,7 +4272,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Events and consequences",
+      "category_fa": "رویدادها and consequences",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4312,7 +4311,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Media and اوقات فراغت",
+      "category_fa": "رسانه and اوقات فراغت",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4351,7 +4350,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "افراد and علاقه‌مندی‌ها",
+      "category_fa": "افراد and علاقه‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4422,7 +4421,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Education and علم",
+      "category_fa": "آموزش and علم",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4461,7 +4460,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and روزمره life",
+      "category_fa": "کار and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4500,7 +4499,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Nature and رویدادها",
+      "category_fa": "طبیعت and رویدادها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4539,7 +4538,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Conflict and change",
+      "category_fa": "تعارض and تغییر",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4579,7 +4578,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Ideas and علم",
+      "category_fa": "ایده‌ها and علم",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4618,7 +4617,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Time and beliefs",
+      "category_fa": "زمان and باورها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4694,7 +4693,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Safety and شرایط اضطراری",
+      "category_fa": "ایمنی and شرایط اضطراری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4733,7 +4732,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and استدلال",
+      "category_fa": "ارتباطات and استدلال",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4773,7 +4772,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and ارتباطات",
+      "category_fa": "عواطف and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4811,7 +4810,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and change",
+      "category_fa": "علم and تغییر",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4847,7 +4846,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and change",
+      "category_fa": "علم and تغییر",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4886,7 +4885,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and behavior",
+      "category_fa": "ارتباطات and رفتار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4925,7 +4924,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Numbers and عملکرد",
+      "category_fa": "اعداد and عملکرد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -4964,7 +4963,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and achievement",
+      "category_fa": "کار and دستاورد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5003,7 +5002,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "توصیف and achievement",
+      "category_fa": "توصیف and دستاورد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5042,7 +5041,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Quantity and behavior",
+      "category_fa": "کمیت and رفتار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5081,7 +5080,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Quantity and behavior",
+      "category_fa": "کمیت and رفتار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5120,7 +5119,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Society and قوانین",
+      "category_fa": "جامعه and قوانین",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5159,7 +5158,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and کسب‌وکار",
+      "category_fa": "ارتباطات and کسب‌وکار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5236,7 +5235,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and effort",
+      "category_fa": "کار and تلاش",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5275,7 +5274,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Politics and جامعه",
+      "category_fa": "سیاست and جامعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5314,7 +5313,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and پژوهش",
+      "category_fa": "علم and پژوهش",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5354,7 +5353,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Time and اداری",
+      "category_fa": "زمان and اداری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5394,7 +5393,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and قوانین",
+      "category_fa": "ارتباطات and قوانین",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5433,7 +5432,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and قوانین",
+      "category_fa": "ارتباطات and قوانین",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5553,7 +5552,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Safety and توصیف",
+      "category_fa": "ایمنی and توصیف",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5631,7 +5630,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and روزمره life",
+      "category_fa": "کار and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5670,7 +5669,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and پژوهش",
+      "category_fa": "ارتباطات and پژوهش",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5710,7 +5709,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and کار",
+      "category_fa": "علم and کار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5748,7 +5747,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Politics and جامعه",
+      "category_fa": "سیاست and جامعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5785,7 +5784,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Clothing and مواد",
+      "category_fa": "پوشاک and مواد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5823,7 +5822,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Informal توصیف",
+      "category_fa": "غیررسمی توصیف",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5863,7 +5862,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "کار and processes",
+      "category_fa": "کار and فرایندها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -5902,7 +5901,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Politics and سازمان‌ها",
+      "category_fa": "سیاست and سازمان‌ها",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6020,7 +6019,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Values and جامعه",
+      "category_fa": "ارزش‌ها and جامعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6054,7 +6053,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Travel and روزمره life",
+      "category_fa": "سفر and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6128,7 +6127,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Achievement and عملکرد",
+      "category_fa": "دستاورد and عملکرد",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6165,7 +6164,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "حقوق and crime",
+      "category_fa": "حقوق and جرم",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6202,7 +6201,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Society and برابری",
+      "category_fa": "جامعه and برابری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6312,7 +6311,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Media and سرگرمی",
+      "category_fa": "رسانه and سرگرمی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6349,7 +6348,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "فناوری and روزمره life",
+      "category_fa": "فناوری and روزمره زندگی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6416,7 +6415,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Jobs and شرایط اضطراری",
+      "category_fa": "مشاغل and شرایط اضطراری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6451,7 +6450,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Celebrations and ایمنی",
+      "category_fa": "جشن‌ها and ایمنی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6491,7 +6490,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Actions and ارتباطات",
+      "category_fa": "اقدامات and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6607,7 +6606,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Body and غذا",
+      "category_fa": "بدن and غذا",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6652,7 +6651,7 @@
     },
     {
       "word": "flourish",
-      "meanings_fa": "شکوفا شدن؛ رونق گرفتن؛ flourish",
+      "meanings_fa": "شکوفا شدن؛ رونق گرفتن",
       "part_of_speech": "verb",
       "ipa_us": "/ˈflɜːrɪʃ/",
       "cefr": "B2",
@@ -6685,7 +6684,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Growth and موفقیت",
+      "category_fa": "رشد and موفقیت",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6725,7 +6724,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and توصیف",
+      "category_fa": "علم and توصیف",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6764,7 +6763,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and روابط",
+      "category_fa": "عواطف and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6803,7 +6802,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "افراد and behavior",
+      "category_fa": "افراد and رفتار",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6836,7 +6835,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Media and technology",
+      "category_fa": "رسانه and فناوری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6876,7 +6875,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Rules and permission",
+      "category_fa": "قوانین and permission",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -6912,7 +6911,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Weather and برنامه‌ریزی",
+      "category_fa": "آب‌وهوا and برنامه‌ریزی",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7028,7 +7027,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Time and history",
+      "category_fa": "زمان and تاریخ",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7065,7 +7064,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and problem-solving",
+      "category_fa": "علم and problem-solving",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7144,7 +7143,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Formal language",
+      "category_fa": "رسمی زبان",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7180,7 +7179,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Time and ارتباطات",
+      "category_fa": "زمان and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7220,7 +7219,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Life and circumstances",
+      "category_fa": "زندگی and شرایط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7255,7 +7254,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and technology",
+      "category_fa": "ارتباطات and فناوری",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7291,7 +7290,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Science and طبیعت",
+      "category_fa": "علم and طبیعت",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7331,7 +7330,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Family and رشد",
+      "category_fa": "خانواده and توسعه",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7411,7 +7410,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Objects and ارتباطات",
+      "category_fa": "اشیا and ارتباطات",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7448,7 +7447,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Business and حقوق",
+      "category_fa": "کسب‌وکار and حقوق",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7488,7 +7487,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Communication and نظر",
+      "category_fa": "ارتباطات and نظر",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7525,7 +7524,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Education in the آمریکا",
+      "category_fa": "آموزش in the آمریکا",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     },
@@ -7566,7 +7565,7 @@
       "quality_flag": "Persian meaning, definition, example, lexical relations and formatting received editorial review; IPA/CEFR and full sense coverage still require verification against authoritative dictionary sources.",
       "release_decision": "staging_only",
       "ready_flag": false,
-      "category_fa": "Emotions and روابط",
+      "category_fa": "عواطف and روابط",
       "level_source": "Editorial CEFR estimate",
       "level_review_status": "estimated_not_independently_source_verified"
     }
