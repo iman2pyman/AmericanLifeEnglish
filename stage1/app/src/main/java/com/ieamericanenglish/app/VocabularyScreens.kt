@@ -125,6 +125,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                     Text("برنامه امروز", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
                     Spacer(Modifier.height(5.dp))
                     Text("${plan.newWords.size} واژه جدید • ${plan.reviewWords.size} مرور موعددار", color = Color(0xFF2563EB), fontSize = 12.sp)
+                    Text("پیشرفت امروز: ${plan.completedToday} از ${plan.newWords.size} واژه جدید", color = Color(0xFF718096), fontSize = 11.sp)
                     Text("پیشرفت ماه: ${plan.monthCompleted} از ${plan.monthlyNewWordGoal} • هدف روزانه ۱۵ واژه", color = Color(0xFF718096), fontSize = 11.sp)
                     if (plan.bookmarkedWaiting > 0) Text("${plan.bookmarkedWaiting} واژه نشان‌دار در صف انتظار", color = Color(0xFFB7791F), fontSize = 11.sp)
                     Spacer(Modifier.height(8.dp))
@@ -171,7 +172,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
             ).forEach { (scope, label) ->
                 FilterChip(
                     selected = quizScope == scope,
-                    onClick = { quizScope = scope },
+                    onClick = { quizScope = scope; quizUnavailable = false },
                     label = { Text(label, fontSize = 11.sp) }
                 )
             }
@@ -273,7 +274,10 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                         listOf("again" to "دوباره", "hard" to "سخت", "good" to "خوب", "easy" to "آسان").forEach { (rating, label) ->
                             OutlinedButton(onClick = {
                                 learningStore?.recordAnswer(currentPracticeWord.word, rating)
-                                if (dailyPlan?.newWords?.any { LearningStore.wordId(it.word) == LearningStore.wordId(currentPracticeWord.word) } == true) learningStore?.markDailyWordCompleted(currentPracticeWord.word)
+                                if (dailyPlan?.newWords?.any { LearningStore.wordId(it.word) == LearningStore.wordId(currentPracticeWord.word) } == true) {
+                                    learningStore?.markDailyWordCompleted(currentPracticeWord.word)
+                                    dailyPlan = learningStore?.buildDailyPlan(words, level)
+                                }
                                 if (practiceIndex + 1 < practiceQueue.size) practiceIndex++ else { practiceQueue = emptyList(); practiceIndex = 0 }
                             }, modifier = Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 2.dp, vertical = 7.dp)) { Text(label, fontSize = 11.sp) }
                         }
