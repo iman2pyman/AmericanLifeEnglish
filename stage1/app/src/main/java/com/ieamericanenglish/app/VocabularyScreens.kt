@@ -154,32 +154,57 @@ private fun LearningEntryCard(
 }
 
 @Composable
-fun VocabularyLevelScreen(words: List<VocabularyWord>, initialLevel: String, onWord: (VocabularyWord) -> Unit, onSpeak: (String) -> Unit, onBack: () -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit, onBack: () -> Unit) {
     val uniqueWords = remember(words) { words.distinctBy { LearningStore.wordId(it.word) } }
-    val levelCounts = remember(uniqueWords) { uniqueWords.groupingBy { it.cefr.uppercase() }.eachCount() }
-    var browsedLevel by remember { mutableStateOf(initialLevel.uppercase().takeIf { it in listOf("A1","A2","B1","B2","C1","C2") } ?: "A1") }
-    val levelWords = remember(uniqueWords, browsedLevel) { uniqueWords.filter { it.cefr.equals(browsedLevel, true) }.sortedBy { it.word.lowercase() } }
-    Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
+    val counts = remember(uniqueWords) { uniqueWords.groupingBy { it.cefr.uppercase() }.eachCount() }
+    Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("سطح‌بندی لغات", onBack)
-        Text("برای مشاهده واژگان، یک سطح را لمس کن.", color = Color(0xFF18243A), fontSize = 15.sp, fontWeight = FontWeight.Bold)
-        Spacer(Modifier.height(12.dp))
+        Text("سطح موردنظرت را انتخاب کن", color = Color(0xFF18243A), fontSize = 17.sp, fontWeight = FontWeight.Bold)
+        Text("با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود.", color = Color(0xFF718096), fontSize = 12.sp)
+        Spacer(Modifier.height(16.dp))
         listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
             val tint = LevelColors[item] ?: Color(0xFF2563EB)
-            val count = levelCounts[item] ?: 0
-            Surface(onClick = { browsedLevel = item }, modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp), shape = RoundedCornerShape(15.dp), color = if (browsedLevel == item) tint.copy(alpha = .10f) else Color.White, border = if (browsedLevel == item) androidx.compose.foundation.BorderStroke(1.dp, tint) else null, shadowElevation = 1.dp) {
-                Row(Modifier.padding(13.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Box(Modifier.size(40.dp).clip(RoundedCornerShape(12.dp)).background(tint), contentAlignment = Alignment.Center) { Text(item, color = Color.White, fontWeight = FontWeight.ExtraBold) }
-                    Spacer(Modifier.width(12.dp))
-                    Column(Modifier.weight(1f)) { Text("سطح $item", color = Color(0xFF18243A), fontWeight = FontWeight.Bold, fontSize = 14.sp); Text("$count واژه", color = Color(0xFF718096), fontSize = 11.sp) }
-                    Text(if (browsedLevel == item) "در حال مشاهده" else "مشاهده واژگان  ←", color = tint, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+            Surface(onClick = { onLevel(item) }, modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 2.dp) {
+                Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(Modifier.size(48.dp).clip(RoundedCornerShape(14.dp)).background(tint), contentAlignment = Alignment.Center) { Text(item, color = Color.White, fontWeight = FontWeight.ExtraBold, fontSize = 16.sp) }
+                    Spacer(Modifier.width(13.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text("سطح $item", color = Color(0xFF18243A), fontWeight = FontWeight.Bold, fontSize = 15.sp)
+                        Text("${counts[item] ?: 0} واژه در این سطح", color = Color(0xFF718096), fontSize = 12.sp)
+                    }
+                    Text("مشاهده واژه‌ها  ←", color = tint, fontSize = 12.sp, fontWeight = FontWeight.Bold)
                 }
             }
         }
+    }
+}
+
+@Composable
+fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, onWord: (VocabularyWord) -> Unit, onSpeak: (String) -> Unit, onBack: () -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+    var query by remember(level) { mutableStateOf("") }
+    val levelWords = remember(words, level) { words.distinctBy { LearningStore.wordId(it.word) }.filter { it.cefr.equals(level, true) }.sortedBy { it.word.lowercase() } }
+    val results = remember(levelWords, query) {
+        if (query.isBlank()) levelWords else {
+            val needle = normalizeSearchText(query.trim())
+            levelWords.filter { normalizeSearchText(it.word).contains(needle) || normalizeSearchText(it.meaningsFa).contains(needle) }
+        }
+    }
+    val tint = LevelColors[level] ?: Color(0xFF2563EB)
+    Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
+        ScreenHeader("واژگان سطح $level", onBack)
+        Text("${levelWords.size} واژه در این سطح", color = tint, fontSize = 13.sp, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(10.dp))
-        Row(verticalAlignment = Alignment.CenterVertically) { Text("واژگان سطح $browsedLevel", color = Color(0xFF14213D), fontSize = 17.sp, fontWeight = FontWeight.ExtraBold, modifier = Modifier.weight(1f)); Text("${levelWords.size} واژه", color = LevelColors[browsedLevel] ?: Color(0xFF2563EB), fontSize = 12.sp, fontWeight = FontWeight.Bold) }
-        Spacer(Modifier.height(8.dp))
-        if (levelWords.isEmpty()) Text("برای این سطح هنوز واژه‌ای ثبت نشده است.", color = Color(0xFF718096), fontSize = 12.sp) else LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
-            items(levelWords, key = { LearningStore.wordId(it.word) }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
+        OutlinedTextField(value = query, onValueChange = { query = it }, modifier = Modifier.fillMaxWidth(), singleLine = true, label = { Text("جستجو در واژه‌های $level") }, placeholder = { Text("واژه انگلیسی یا معنی فارسی") }, shape = RoundedCornerShape(15.dp))
+        Spacer(Modifier.height(10.dp))
+        Text(if (query.isBlank()) "همه واژه‌ها" else "${results.size} نتیجه", color = Color(0xFF718096), fontSize = 11.sp)
+        if (results.isEmpty()) {
+            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(if (levelWords.isEmpty()) "برای این سطح هنوز واژه‌ای ثبت نشده است." else "واژه‌ای با این جستجو پیدا نشد.", color = Color(0xFF718096), fontSize = 13.sp) }
+        } else {
+            LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
+                items(results, key = { LearningStore.wordId(it.word) }) { word ->
+                    WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) }
+                }
+            }
         }
     }
 }
