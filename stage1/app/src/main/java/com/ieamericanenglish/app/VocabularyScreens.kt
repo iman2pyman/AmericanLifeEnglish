@@ -79,12 +79,6 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     LaunchedEffect(level, words, learningStore) {
         dailyPlan = learningStore?.buildDailyPlan(words, level)
     }
-    val quizStats = remember(level, words, learningStore, quizAnswer, quizIndex) {
-        learningStore?.quizStats(words, level)
-    }
-    val weakWords = remember(level, words, learningStore, quizAnswer, quizIndex) {
-        learningStore?.weakWords(words, level).orEmpty()
-    }
     var practiceQueue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
     var practiceIndex by remember { mutableIntStateOf(0) }
     var quizQuestions by remember { mutableStateOf<List<VocabularyQuizQuestion>>(emptyList()) }
@@ -92,6 +86,12 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     var quizAnswer by remember { mutableStateOf<String?>(null) }
     var quizScore by remember { mutableIntStateOf(0) }
     var quizUnavailable by remember { mutableStateOf(false) }
+    val quizStats = remember(level, words, learningStore, quizAnswer, quizIndex) {
+        learningStore?.quizStats(words, level)
+    }
+    val weakWords = remember(level, words, learningStore, quizAnswer, quizIndex) {
+        learningStore?.weakWords(words, level).orEmpty()
+    }
     val currentPracticeWord = practiceQueue.getOrNull(practiceIndex)
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
