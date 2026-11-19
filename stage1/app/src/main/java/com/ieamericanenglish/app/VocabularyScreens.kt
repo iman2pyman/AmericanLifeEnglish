@@ -39,7 +39,7 @@ fun ScreenHeader(title: String, onBack: () -> Unit) {
 }
 
 @Composable
-fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit) {
+fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember { mutableStateOf("") }
     val uniqueWordCount = remember(words) {
         words.map { it.word.trim().lowercase() }.distinct().size
@@ -65,15 +65,39 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
         Spacer(Modifier.height(10.dp))
         Text(if (query.isBlank()) "جستجو در " + uniqueWordCount + " واژه" else results.size.toString() + " نتیجه", color = Color(0xFF718096), fontSize = 12.sp)
         LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
-            items(results, key = { it.word }) { word -> WordRow(word, onSpeak) { onWord(word) } }
+            items(results, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
         }
     }
 }
 
 @Composable
-fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit) {
-    var level by remember { mutableStateOf("A1") }
-    val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) } }
+fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null) {
+    var level by remember { mutableStateOf(initialLevel) }
+    LaunchedEffect(initialLevel) { level = initialLevel }
+    val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) }.distinctBy { LearningStore.wordId(it.word) } }
+    var dailyPlan by remember { mutableStateOf<DailyLearningPlan?>(null) }
+    LaunchedEffect(level, words, learningStore) {
+        dailyPlan = learningStore?.buildDailyPlan(words, level)
+    }
+    var practiceQueue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
+    var practiceIndex by remember { mutableIntStateOf(0) }
+    var quizQuestions by remember { mutableStateOf<List<VocabularyQuizQuestion>>(emptyList()) }
+    var quizIndex by remember { mutableIntStateOf(0) }
+    var quizAnswer by remember { mutableStateOf<String?>(null) }
+    var quizScore by remember { mutableIntStateOf(0) }
+    var quizUnavailable by remember { mutableStateOf(false) }
+    var quizScope by remember { mutableStateOf("level") }
+    val bookmarkedLevelWords = remember(levelWords, bookmarks) {
+        levelWords.filter { LearningStore.wordId(it.word) in bookmarks }
+    }
+    val allUniqueWords = remember(words) { words.distinctBy { LearningStore.wordId(it.word) } }
+    val quizStats = remember(level, words, learningStore, quizAnswer, quizIndex) {
+        learningStore?.quizStats(words, level)
+    }
+    val weakWords = remember(level, words, learningStore, quizAnswer, quizIndex) {
+        learningStore?.weakWords(words, level).orEmpty()
+    }
+    val currentPracticeWord = practiceQueue.getOrNull(practiceIndex)
     Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("آموزش واژگان", onBack)
         Text("سطح یادگیری را انتخاب کن", color = Color(0xFF18243A), fontSize = 15.sp, fontWeight = FontWeight.Bold)
@@ -82,7 +106,7 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
             listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
                 val tint = LevelColors[item] ?: Color(0xFF2563EB)
                 FilterChip(
-                    selected = level == item, onClick = { level = item },
+                    selected = level == item, onClick = { level = item; onLevelChanged(item) },
                     label = { Text(item, fontWeight = FontWeight.Bold) },
                     colors = FilterChipDefaults.filterChipColors(selectedContainerColor = tint, selectedLabelColor = Color.White)
                 )
@@ -95,14 +119,181 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
             Text("سطح " + level + "  •  " + levelWords.size + " واژه", color = Color(0xFF718096), fontSize = 12.sp)
         }
         Spacer(Modifier.height(10.dp))
-        LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
-            items(levelWords, key = { it.word }) { word -> WordRow(word, onSpeak) { onWord(word) } }
+        dailyPlan?.let { plan ->
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 2.dp) {
+                Column(Modifier.padding(13.dp)) {
+                    Text("برنامه امروز", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                    Spacer(Modifier.height(5.dp))
+                    Text("${plan.newWords.size} واژه جدید • ${plan.reviewWords.size} مرور موعددار", color = Color(0xFF2563EB), fontSize = 12.sp)
+                    Text("پیشرفت امروز: ${plan.completedToday} از ${plan.newWords.size} واژه جدید", color = Color(0xFF718096), fontSize = 11.sp)
+                    Text("پیشرفت ماه: ${plan.monthCompleted} از ${plan.monthlyNewWordGoal} • هدف روزانه ۱۵ واژه", color = Color(0xFF718096), fontSize = 11.sp)
+                    if (plan.bookmarkedWaiting > 0) Text("${plan.bookmarkedWaiting} واژه نشان‌دار در صف انتظار", color = Color(0xFFB7791F), fontSize = 11.sp)
+                    Spacer(Modifier.height(8.dp))
+                    Button(onClick = { practiceQueue = plan.newWords + plan.reviewWords; practiceIndex = 0 },
+                        enabled = plan.newWords.isNotEmpty() || plan.reviewWords.isNotEmpty(),
+                        modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp)
+                    ) { Text("شروع تمرین امروز") }
+                }
+            }
+        }
+        quizStats?.let { stats ->
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 2.dp) {
+                Column(Modifier.padding(13.dp)) {
+                    Text("عملکرد آزمون‌ها", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                    Spacer(Modifier.height(5.dp))
+                    Text(
+                        if (stats.answered == 0) "هنوز پاسخی ثبت نشده است."
+                        else "درست: ${stats.correct} از ${stats.answered}  •  دقت: ${stats.accuracyPercent}٪",
+                        color = Color(0xFF2563EB), fontSize = 12.sp
+                    )
+                    stats.byType.forEach { item ->
+                        val title = QuizQuestionType.values().firstOrNull { it.name == item.type }?.titleFa ?: item.type
+                        Text("$title: ${item.accuracyPercent}٪ (${item.correct}/${item.answered})",
+                            color = Color(0xFF718096), fontSize = 11.sp)
+                    }
+                    if (weakWords.isNotEmpty()) {
+                        Spacer(Modifier.height(7.dp))
+                        Text("${weakWords.size} واژه نیازمند تمرین مجدد شناسایی شد.", color = Color(0xFFB7791F), fontSize = 12.sp)
+                        Button(
+                            onClick = { practiceQueue = weakWords; practiceIndex = 0; quizQuestions = emptyList() },
+                            modifier = Modifier.fillMaxWidth()
+                        ) { Text("تمرین واژه‌های ضعیف") }
+                    }
+                }
+            }
+        }
+        Text("محدوده آزمون", color = Color(0xFF18243A), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(7.dp)) {
+            listOf(
+                "level" to "سطح فعلی",
+                "bookmarks" to "نشان‌دارها",
+                "weak" to "واژه‌های ضعیف",
+                "all" to "جامع همه سطوح"
+            ).forEach { (scope, label) ->
+                FilterChip(
+                    selected = quizScope == scope,
+                    onClick = { quizScope = scope; quizUnavailable = false },
+                    label = { Text(label, fontSize = 11.sp) }
+                )
+            }
+        }
+        Spacer(Modifier.height(8.dp))
+        OutlinedButton(
+            onClick = {
+                val quizPool = when (quizScope) {
+                    "bookmarks" -> bookmarkedLevelWords
+                    "weak" -> weakWords
+                    "all" -> allUniqueWords
+                    else -> levelWords
+                }
+                quizQuestions = VocabularyQuizEngine.createQuizFromPool(quizPool, 10)
+                quizUnavailable = quizQuestions.isEmpty()
+                quizIndex = 0
+                quizAnswer = null
+                quizScore = 0
+                practiceQueue = emptyList()
+            },
+            modifier = Modifier.fillMaxWidth(),
+            enabled = when (quizScope) {
+                "bookmarks" -> bookmarkedLevelWords.size >= 4
+                "weak" -> weakWords.size >= 4
+                "all" -> allUniqueWords.size >= 4
+                else -> levelWords.size >= 4
+            },
+            shape = RoundedCornerShape(12.dp)
+        ) { Text("شروع آزمون هوشمند (تا ۱۰ سؤال)") }
+        if (quizUnavailable) Text("در محدوده انتخاب‌شده داده کافی برای ساخت سؤال معتبر وجود ندارد.", color = Color(0xFFBE4778), fontSize = 12.sp)
+        Spacer(Modifier.height(10.dp))
+        if (quizQuestions.isNotEmpty()) {
+            if (quizIndex >= quizQuestions.size) {
+                Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
+                    Column(Modifier.padding(18.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text("آزمون به پایان رسید", color = Color(0xFF14213D), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+                        Text("$quizScore از ${quizQuestions.size} پاسخ درست", color = Color(0xFF0F9D91), fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                        Text("نتیجه‌ها به‌صورت آفلاین ذخیره شدند.", color = Color(0xFF718096), fontSize = 12.sp)
+                        Spacer(Modifier.height(10.dp))
+                        Button(onClick = { quizQuestions = emptyList(); quizIndex = 0; quizAnswer = null }) { Text("بازگشت به آموزش") }
+                    }
+                }
+            } else {
+                val question = quizQuestions[quizIndex]
+                Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text("آزمون ${quizIndex + 1} از ${quizQuestions.size}  •  ${question.type.titleFa}", color = Color(0xFF2563EB), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(10.dp))
+                        Text(question.prompt, color = Color(0xFF14213D), fontSize = 16.sp, fontWeight = FontWeight.Bold, lineHeight = 25.sp)
+                        Spacer(Modifier.height(12.dp))
+                        question.options.forEach { option ->
+                            val chosen = quizAnswer == option
+                            OutlinedButton(
+                                onClick = {
+                                    if (quizAnswer == null) {
+                                        quizAnswer = option
+                                        val correct = option == question.correctAnswer
+                                        if (correct) quizScore++
+                                        learningStore?.recordQuizAnswer(question.targetWord, question.type.name, option, question.correctAnswer, correct)
+                                        learningStore?.recordAnswer(question.targetWord, if (correct) "good" else "again")
+                                    }
+                                },
+                                enabled = quizAnswer == null,
+                                modifier = Modifier.fillMaxWidth().padding(bottom = 5.dp),
+                                shape = RoundedCornerShape(11.dp),
+                                colors = ButtonDefaults.outlinedButtonColors(
+                                    contentColor = if (quizAnswer != null && option == question.correctAnswer) Color(0xFF0F9D91) else Color(0xFF26364D)
+                                )
+                            ) { Text(option, modifier = Modifier.fillMaxWidth()) }
+                        }
+                        if (quizAnswer != null) {
+                            val correct = quizAnswer == question.correctAnswer
+                            Text(if (correct) "آفرین، پاسخ درست است." else "پاسخ درست: ${question.correctAnswer}",
+                                color = if (correct) Color(0xFF0F9D91) else Color(0xFFBE4778),
+                                fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                            Text(question.explanation, color = Color(0xFF718096), fontSize = 12.sp, lineHeight = 20.sp)
+                            Spacer(Modifier.height(10.dp))
+                            Button(onClick = { quizIndex++; quizAnswer = null }, modifier = Modifier.fillMaxWidth()) {
+                                Text(if (quizIndex + 1 == quizQuestions.size) "دیدن نتیجه" else "سؤال بعدی")
+                            }
+                        }
+                    }
+                }
+            }
+        } else if (currentPracticeWord != null) {
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White, shadowElevation = 3.dp) {
+                Column(Modifier.padding(16.dp)) {
+                    Text("تمرین ${practiceIndex + 1} از ${practiceQueue.size}", color = Color(0xFF718096), fontSize = 12.sp)
+                    Text(currentPracticeWord.word, color = LevelColors[currentPracticeWord.cefr] ?: Color(0xFF2563EB), fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+                    Text(currentPracticeWord.ipaUs, color = Color(0xFF718096), fontSize = 13.sp)
+                    TextButton(onClick = { onSpeak(currentPracticeWord.word) }) { Text("🔊 شنیدن تلفظ") }
+                    Divider(color = Color(0xFFE5EAF2))
+                    Text(currentPracticeWord.meaningsFa, color = Color(0xFF18243A), fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                    Spacer(Modifier.height(7.dp))
+                    Text(currentPracticeWord.definitionEn, color = Color(0xFF4A5568), fontSize = 13.sp)
+                    Spacer(Modifier.height(10.dp))
+                    Text("این واژه را چقدر به خاطر داری؟", color = Color(0xFF14213D), fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                        listOf("again" to "دوباره", "hard" to "سخت", "good" to "خوب", "easy" to "آسان").forEach { (rating, label) ->
+                            OutlinedButton(onClick = {
+                                learningStore?.recordAnswer(currentPracticeWord.word, rating)
+                                if (dailyPlan?.newWords?.any { LearningStore.wordId(it.word) == LearningStore.wordId(currentPracticeWord.word) } == true) {
+                                    learningStore?.markDailyWordCompleted(currentPracticeWord.word)
+                                    dailyPlan = learningStore?.buildDailyPlan(words, level)
+                                }
+                                if (practiceIndex + 1 < practiceQueue.size) practiceIndex++ else { practiceQueue = emptyList(); practiceIndex = 0 }
+                            }, modifier = Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 2.dp, vertical = 7.dp)) { Text(label, fontSize = 11.sp) }
+                        }
+                    }
+                }
+            }
+        } else {
+            LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
+                items(levelWords, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
+            }
         }
     }
 }
 
 @Composable
-fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, onClick: () -> Unit) {
+fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}, onClick: () -> Unit) {
     val accent = LevelColors[word.cefr] ?: Color(0xFF2563EB)
     Surface(
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
@@ -120,6 +311,7 @@ fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, onClick: () -> Unit
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(word.cefr, color = accent, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                TextButton(onClick = onToggleBookmark, contentPadding = PaddingValues(0.dp), modifier = Modifier.size(30.dp)) { Text(if (isBookmarked) "★" else "☆", color = if (isBookmarked) Color(0xFFB7791F) else Color(0xFF718096), fontSize = 20.sp) }
                 TextButton(onClick = { onSpeak(word.word) }, contentPadding = PaddingValues(0.dp), modifier = Modifier.size(36.dp)) {
                     Text("🔊", fontSize = 17.sp)
                 }
@@ -129,7 +321,7 @@ fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, onClick: () -> Unit
 }
 
 @Composable
-fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: () -> Unit) {
+fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: () -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}) {
     val accent = LevelColors[word.cefr] ?: Color(0xFF2563EB)
     val englishExamples = word.exampleEn.split("|").map { it.trim() }.filter { it.isNotBlank() }
     val persianExamples = word.exampleFa.split("|").map { it.trim() }.filter { it.isNotBlank() }
@@ -142,7 +334,10 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
                         Text(word.word, color = accent, fontSize = 29.sp, fontWeight = FontWeight.ExtraBold)
                         Text(word.ipaUs, color = Color(0xFF718096), fontSize = 15.sp)
                     }
-                    TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = Color(0xFF2563EB), fontWeight = FontWeight.Bold) }
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = Color(0xFF2563EB), fontWeight = FontWeight.Bold) }
+                        TextButton(onClick = onToggleBookmark) { Text(if (isBookmarked) "★ نشان‌دار" else "☆ نشان‌دار", color = if (isBookmarked) Color(0xFFB7791F) else Color(0xFF2563EB), fontWeight = FontWeight.Bold) }
+                    }
                 }
                 Spacer(Modifier.height(8.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
