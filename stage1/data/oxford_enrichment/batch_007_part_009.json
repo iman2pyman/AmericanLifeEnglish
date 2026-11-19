@@ -1,0 +1,770 @@
+{
+  "batch": 7,
+  "part": 9,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 141–159 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 19,
+  "validation": {
+    "count": 19,
+    "unique_headwords": 19,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "crude",
+      "source_candidate": "crude",
+      "meanings_fa": "خام؛ ابتدایی و ناشیانه؛ رکیک؛ نفت خام",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/kruːd/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "In a natural or unprocessed state; rough or lacking refinement; also, crude oil.",
+      "example_en": "The factory imports crude oil and refines it locally.",
+      "example_fa": "این کارخانه نفت خام وارد می‌کند و آن را در داخل پالایش می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "raw",
+          "unrefined",
+          "rough",
+          "vulgar"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crudely (adverb)",
+        "crudeness (noun)"
+      ],
+      "collocations": [
+        "crude oil",
+        "crude estimate",
+        "crude language"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "crush",
+      "source_candidate": "crush",
+      "meanings_fa": "له کردن؛ خرد کردن؛ سرکوب کردن؛ شیفتگی عاشقانه",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/krʌʃ/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "To press or squeeze something so hard that it breaks or loses its shape; informal, a strong romantic attraction.",
+      "example_en": "The machine can crush plastic bottles for recycling.",
+      "example_fa": "این دستگاه می‌تواند بطری‌های پلاستیکی را برای بازیافت له کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "squeeze",
+          "smash",
+          "flatten",
+          "infatuation (noun sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crusher (noun)",
+        "crushed (adjective)",
+        "crushing (adjective/noun)"
+      ],
+      "collocations": [
+        "crush a can",
+        "crush someone's hopes",
+        "have a crush on"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cue",
+      "source_candidate": "cue",
+      "meanings_fa": "علامت؛ نشانه؛ سرنخ؛ اشاره برای شروع یا انجام کاری",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/kjuː/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A signal that tells someone when to do something; a hint or prompt.",
+      "example_en": "The actor missed his cue and entered the stage late.",
+      "example_fa": "بازیگر اشارهٔ ورود را از دست داد و دیر وارد صحنه شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "signal",
+          "prompt",
+          "hint"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cued (adjective/verb)",
+        "cueing (noun/verb)"
+      ],
+      "collocations": [
+        "take a cue from",
+        "cue card",
+        "on cue"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cult",
+      "source_candidate": "cult",
+      "meanings_fa": "فرقه؛ گروهی با باورها یا آیین‌های خاص؛ علاقهٔ افراطی",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/kʌlt/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A group with strong, unusual beliefs, often centered on a leader; a group or work with a very devoted following.",
+      "example_en": "The documentary examines how people are recruited into a cult.",
+      "example_fa": "این مستند بررسی می‌کند که افراد چگونه به یک فرقه جذب می‌شوند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "sect",
+          "movement",
+          "devoted following"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cultish (adjective)",
+        "cultist (noun)",
+        "cult-like (adjective)"
+      ],
+      "collocations": [
+        "religious cult",
+        "cult leader",
+        "cult classic"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "curiosity",
+      "source_candidate": "curiosity",
+      "meanings_fa": "کنجکاوی؛ میل به دانستن؛ چیز عجیب یا نادر",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkjʊriˈɑːsəti/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A strong desire to learn or know something; something unusual that attracts attention.",
+      "example_en": "Curiosity led her to explore the history of the neighborhood.",
+      "example_fa": "کنجکاوی او را به بررسی تاریخچهٔ محله ترغیب کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "inquisitiveness",
+          "interest",
+          "wonder"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "curious (adjective)",
+        "curiously (adverb)",
+        "curiousness (noun)"
+      ],
+      "collocations": [
+        "natural curiosity",
+        "satisfy curiosity",
+        "out of curiosity"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "custody",
+      "source_candidate": "custody",
+      "meanings_fa": "حضانت؛ سرپرستی قانونی؛ بازداشت و نگهداری پلیس",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkʌstədi/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "The legal right to care for a child; or the state of being held by the police or another authority.",
+      "example_en": "The court awarded joint custody to both parents.",
+      "example_fa": "دادگاه حضانت مشترک را به هر دو والد واگذار کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "guardianship",
+          "care",
+          "detention"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "custodian (noun)",
+        "custodial (adjective)"
+      ],
+      "collocations": [
+        "child custody",
+        "police custody",
+        "joint custody"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "dairy",
+      "source_candidate": "dairy",
+      "meanings_fa": "لبنیات؛ محصولات لبنی؛ دامداری یا مزرعهٔ لبنی",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈdɛri/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A place where milk is produced or processed; food made from milk; related to milk products.",
+      "example_en": "The store has a separate section for dairy products.",
+      "example_fa": "فروشگاه بخش جداگانه‌ای برای محصولات لبنی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "milk products",
+          "dairy farm"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dairyman (noun)",
+        "dairying (noun)"
+      ],
+      "collocations": [
+        "dairy products",
+        "dairy farm",
+        "dairy-free"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "dam",
+      "source_candidate": "dam",
+      "meanings_fa": "سد؛ مانع ساخته‌شده برای نگهداری یا کنترل آب؛ سد بستن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/dæm/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A barrier built across a river to hold back water; to block or restrain something.",
+      "example_en": "The new dam provides water for nearby farms.",
+      "example_fa": "سد جدید آب مورد نیاز مزارع اطراف را تأمین می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "barrier",
+          "water barrier",
+          "reservoir structure"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dammed (adjective/verb)",
+        "damming (noun/verb)"
+      ],
+      "collocations": [
+        "hydroelectric dam",
+        "build a dam",
+        "dam project"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "damaging",
+      "source_candidate": "damaging",
+      "meanings_fa": "زیان‌بار؛ آسیب‌زننده؛ مخرب",
+      "part_of_speech": "ADJECTIVE; VERB (GERUND)",
+      "ipa_us": "/ˈdæmɪdʒɪŋ/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "Causing physical harm, loss, or harm to someone's reputation or success.",
+      "example_en": "False information can be damaging to a person's reputation.",
+      "example_fa": "اطلاعات نادرست می‌تواند به اعتبار یک فرد آسیب بزند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "harmful",
+          "destructive",
+          "detrimental"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "damage (noun/verb)",
+        "damaged (adjective)",
+        "damagingly (adverb, rare)"
+      ],
+      "collocations": [
+        "damaging effects",
+        "damaging information",
+        "potentially damaging"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "darkness",
+      "source_candidate": "darkness",
+      "meanings_fa": "تاریکی؛ نبود نور؛ ظلمت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈdɑːrknəs/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "The state of having little or no light; also, a situation or mood that feels frightening or sad.",
+      "example_en": "The road was difficult to see in the darkness.",
+      "example_fa": "دیدن جاده در تاریکی دشوار بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "dark",
+          "gloom",
+          "lack of light"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dark (adjective/noun/verb)",
+        "darken (verb)",
+        "darkened (adjective)"
+      ],
+      "collocations": [
+        "complete darkness",
+        "fall into darkness",
+        "pitch darkness"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "deadly",
+      "source_candidate": "deadly",
+      "meanings_fa": "کشنده؛ مرگبار؛ بسیار شدید یا خطرناک",
+      "part_of_speech": "ADJECTIVE; ADVERB",
+      "ipa_us": "/ˈdɛdli/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "Able or likely to cause death; extremely dangerous or serious.",
+      "example_en": "The storm brought deadly winds to the coast.",
+      "example_fa": "طوفان بادهای مرگباری به ساحل آورد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "fatal",
+          "lethal",
+          "dangerous"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deadliness (noun)",
+        "deadlier (comparative)",
+        "deadliest (superlative)"
+      ],
+      "collocations": [
+        "deadly disease",
+        "deadly weapon",
+        "deadly serious"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "debris",
+      "source_candidate": "debris",
+      "meanings_fa": "آوار؛ بقایا؛ خرده‌ریزهای باقی‌مانده پس از تخریب",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dəˈbriː/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "Pieces of broken or destroyed material left after an accident, explosion, or disaster.",
+      "example_en": "Emergency crews cleared debris from the road after the storm.",
+      "example_fa": "گروه‌های امدادی پس از طوفان آوار را از جاده پاک کردند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "rubble",
+          "wreckage",
+          "remains"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "debris-free (adjective)"
+      ],
+      "collocations": [
+        "storm debris",
+        "clear debris",
+        "debris field"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "debut",
+      "source_candidate": "debut",
+      "meanings_fa": "اولین حضور؛ نخستین اجرا یا عرضه؛ آغاز رسمی",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/deɪˈbjuː/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A person's or thing's first public appearance or performance; to appear publicly for the first time.",
+      "example_en": "The singer made her debut on national television.",
+      "example_fa": "این خواننده نخستین حضور تلویزیونی خود را در شبکهٔ سراسری تجربه کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "first appearance",
+          "launch",
+          "premiere"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "debuted (verb)",
+        "debuting (verb)",
+        "debutante (noun, different use)"
+      ],
+      "collocations": [
+        "make a debut",
+        "debut album",
+        "public debut"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "decision-making",
+      "source_candidate": "decision-making",
+      "meanings_fa": "تصمیم‌گیری؛ فرایند انتخاب میان گزینه‌ها",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/dɪˈsɪʒənˌmeɪkɪŋ/",
+      "cefr": "C1",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "The process of choosing what to do after considering different options.",
+      "example_en": "Good decision-making requires reliable information.",
+      "example_fa": "تصمیم‌گیری خوب به اطلاعات قابل اعتماد نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "decision process",
+          "judgment",
+          "choice"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "decision (noun)",
+        "decide (verb)",
+        "decisive (adjective)",
+        "decisively (adverb)"
+      ],
+      "collocations": [
+        "decision-making process",
+        "decision-making skills",
+        "group decision-making"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "decisive",
+      "source_candidate": "decisive",
+      "meanings_fa": "قاطع؛ تعیین‌کننده؛ سرنوشت‌ساز؛ روشن و بی‌تردید",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/dɪˈsaɪsɪv/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "Able to make decisions quickly and confidently; or having a major effect on the result.",
+      "example_en": "Her decisive leadership helped the team finish the project on time.",
+      "example_fa": "رهبری قاطع او به تیم کمک کرد پروژه را به‌موقع تمام کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "resolute",
+          "firm",
+          "conclusive",
+          "crucial"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "decide (verb)",
+        "decision (noun)",
+        "decisively (adverb)",
+        "decisiveness (noun)"
+      ],
+      "collocations": [
+        "decisive action",
+        "decisive victory",
+        "decisive factor"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "deck",
+      "source_candidate": "deck",
+      "meanings_fa": "عرشه؛ سکوی چوبی؛ دستهٔ کارت؛ طبقهٔ وسیلهٔ نقلیه",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/dɛk/",
+      "cefr": "B2",
+      "category": "Daily life, society, law and communication",
+      "definition_en": "A floor or platform on a ship or outdoor area; a complete set of playing cards; to decorate or equip.",
+      "example_en": "We ate dinner on the back deck.",
+      "example_fa": "ما شام را روی سکوی چوبی پشت خانه خوردیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "platform",
+          "floor",
+          "pack of cards"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "decked (adjective/verb)",
+        "decking (noun)",
+        "deckhand (noun)"
+      ],
+      "collocations": [
+        "ship's deck",
+        "deck of cards",
+        "back deck"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره، جامعه، قانون و ارتباطات",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "crystal",
+      "source_candidate": "crystal",
+      "meanings_fa": "بلور؛ کریستال؛ شیشهٔ شفاف و سخت",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈkrɪstəl/",
+      "cefr": "C1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A clear, solid substance with a regular natural structure; glass of high quality or clarity.",
+      "example_en": "The award is made of clear crystal.",
+      "example_fa": "این جایزه از کریستال شفاف ساخته شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "quartz (specific mineral)",
+          "glass (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crystalline (adjective)",
+        "crystallize (verb)",
+        "crystallization (noun)"
+      ],
+      "collocations": [
+        "crystal clear",
+        "crystal glass",
+        "crystal structure"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "curriculum",
+      "source_candidate": "curriculum",
+      "meanings_fa": "برنامهٔ درسی؛ سرفصل و محتوای آموزشی یک دوره",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈrɪkjələm/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The subjects and content taught in a school, college, or training program.",
+      "example_en": "The college updated its nursing curriculum this year.",
+      "example_fa": "کالج امسال برنامهٔ درسی پرستاری خود را به‌روزرسانی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "syllabus",
+          "course of study"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "curricular (adjective)",
+        "curriculum-based (adjective)"
+      ],
+      "collocations": [
+        "school curriculum",
+        "curriculum design",
+        "core curriculum"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "cutting",
+      "source_candidate": "cutting",
+      "meanings_fa": "برش؛ قطعهٔ بریده‌شده؛ قلمه؛ تند و نیش‌دار",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB (GERUND)",
+      "ipa_us": "/ˈkʌtɪŋ/",
+      "cefr": "C1",
+      "category": "Work, health, education and technology",
+      "definition_en": "The act of cutting; a piece removed from something; or a remark that is sharply critical.",
+      "example_en": "The gardener planted a rose cutting in the spring.",
+      "example_fa": "باغبان در بهار یک قلمهٔ رز کاشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "clipping",
+          "trimming",
+          "cutting piece"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cut (verb/noun)",
+        "cutter (noun)",
+        "cuttable (adjective)"
+      ],
+      "collocations": [
+        "cutting edge",
+        "newspaper cutting",
+        "rose cutting"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US IPA cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
