@@ -36,13 +36,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "an",
@@ -68,29 +68,29 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
-      "word": "according",
-      "source_candidate": "according",
-      "meanings_fa": "مطابق؛ طبق؛ بر اساس (معمولاً در عبارت according to)",
-      "part_of_speech": "ADJECTIVE/PARTICIPLE; PHRASE ELEMENT",
-      "ipa_us": "/əˈkɔɹdɪŋ/",
-      "cefr": "B1",
+      "word": "according to",
+      "source_candidate": "according to",
+      "meanings_fa": "طبق؛ بر اساس؛ به گفتهٔ",
+      "part_of_speech": "PREPOSITIONAL PHRASE",
+      "ipa_us": "/əˈkɔːrdɪŋ tuː/",
+      "cefr": "A2",
       "category": "Grammar and communication",
-      "definition_en": "Used mainly in the phrase according to, meaning as stated by or in a way that agrees with something.",
+      "definition_en": "Used to introduce information or an opinion from a particular source, or to show that something follows a rule or plan.",
       "example_en": "According to the email, the deadline is Monday.",
       "example_fa": "طبق ایمیل، مهلت نهایی روز دوشنبه است.",
       "synonyms_antonyms": {
         "synonyms": [
           "as stated by",
-          "in line with"
+          "in accordance with"
         ],
         "antonyms": []
       },
@@ -106,13 +106,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و ارتباط",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "afterward",
@@ -120,7 +120,7 @@
       "meanings_fa": "بعداً؛ پس از آن",
       "part_of_speech": "ADVERB",
       "ipa_us": "/ˈæftɚwɚd/",
-      "cefr": "B1",
+      "cefr": "B2",
       "category": "Actions, time and movement",
       "definition_en": "At a later time; after something has happened.",
       "example_en": "We'll discuss the details afterward.",
@@ -141,13 +141,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "ah",
@@ -175,13 +175,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "all",
@@ -189,7 +189,7 @@
       "meanings_fa": "همه؛ تمام؛ سراسر؛ کاملاً",
       "part_of_speech": "DETERMINER; PRONOUN; ADVERB",
       "ipa_us": "/ɔːl/",
-      "cefr": "A1",
+      "cefr": "A1 (determiner/pronoun); A2 (adverb)",
       "category": "Grammar and function words",
       "definition_en": "The whole amount or every member of a group; as an adverb, completely.",
       "example_en": "All employees must wear their ID badges.",
@@ -214,13 +214,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "and",
@@ -246,13 +246,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "anymore",
@@ -279,17 +279,17 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
-      "word": "april",
-      "source_candidate": "april",
+      "word": "April",
+      "source_candidate": "April",
       "meanings_fa": "آوریل؛ ماه چهارم سال میلادی",
       "part_of_speech": "PROPER NOUN",
       "ipa_us": "/ˈeɪprəl/",
@@ -311,13 +311,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زمان و تقویم",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "at",
@@ -343,17 +343,17 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
-      "word": "august",
-      "source_candidate": "august",
+      "word": "August",
+      "source_candidate": "August",
       "meanings_fa": "اوت؛ ماه هشتم سال میلادی",
       "part_of_speech": "PROPER NOUN",
       "ipa_us": "/ˈɔːɡəst/",
@@ -375,13 +375,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زمان و تقویم",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "awesome",
@@ -417,19 +417,19 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "احساسات و دیدگاه‌ها",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "backward",
       "source_candidate": "backward",
       "meanings_fa": "عقب؛ رو به عقب؛ معکوس؛ از نظر پیشرفت عقب‌مانده",
-      "part_of_speech": "ADVERB; ADJECTIVE",
+      "part_of_speech": "ADVERB",
       "ipa_us": "/ˈbækwɚd/",
       "cefr": "B1",
       "category": "Actions, time and movement",
@@ -453,13 +453,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "billion",
@@ -488,19 +488,19 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "اعداد و کمیت",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "blond",
       "source_candidate": "blond",
       "meanings_fa": "بلوند؛ دارای موهای روشن",
-      "part_of_speech": "ADJECTIVE; NOUN",
+      "part_of_speech": "ADJECTIVE",
       "ipa_us": "/blɑːnd/",
       "cefr": "A1",
       "category": "Home and everyday objects",
@@ -524,13 +524,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "but",
@@ -538,7 +538,7 @@
       "meanings_fa": "اما؛ ولی؛ به‌جز؛ جز اینکه",
       "part_of_speech": "CONJUNCTION; PREPOSITION",
       "ipa_us": "/bʌt/; weak /bət/",
-      "cefr": "A1",
+      "cefr": "A1 (conjunction); B2 (preposition)",
       "category": "Grammar and function words",
       "definition_en": "Used to introduce a contrast or an exception.",
       "example_en": "I called twice, but nobody answered.",
@@ -559,13 +559,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "by",
@@ -573,7 +573,7 @@
       "meanings_fa": "توسط؛ به‌وسیلهٔ؛ با؛ کنار؛ تا (زمان مشخص)",
       "part_of_speech": "PREPOSITION; ADVERB",
       "ipa_us": "/baɪ/",
-      "cefr": "A1",
+      "cefr": "A1 (preposition); B1 (adverb)",
       "category": "Grammar and function words",
       "definition_en": "Used to show an agent, method, nearby position, or deadline.",
       "example_en": "Please send the application by Friday.",
@@ -594,13 +594,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "can",
@@ -608,7 +608,7 @@
       "meanings_fa": "توانستن؛ ممکن بودن؛ اجازه داشتن؛ قوطی فلزی",
       "part_of_speech": "MODAL VERB; NOUN",
       "ipa_us": "/kæn/; weak /kən/",
-      "cefr": "A1",
+      "cefr": "A1 (modal verb); A2 (noun)",
       "category": "Grammar and function words",
       "definition_en": "As a modal, expresses ability, possibility, or permission; as a noun, a metal container.",
       "example_en": "Can I pay by card? Put the empty can in the recycling bin.",
@@ -633,13 +633,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "candy",
@@ -670,21 +670,21 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
-      "word": "cd",
-      "source_candidate": "cd",
+      "word": "CD",
+      "source_candidate": "CD",
       "meanings_fa": "سی‌دی؛ لوح فشردهٔ ذخیره یا پخش اطلاعات دیجیتال",
       "part_of_speech": "NOUN; ABBREVIATION",
       "ipa_us": "/ˌsiːˈdiː/",
-      "cefr": "A2",
+      "cefr": "A1",
       "category": "Time and calendar",
       "definition_en": "A compact disc used to store or play digital information, especially music or computer data.",
       "example_en": "The old car has a CD player but no USB port.",
@@ -706,13 +706,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زمان و تقویم",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "clerk",
@@ -720,7 +720,7 @@
       "meanings_fa": "کارمند دفتری؛ متصدی فروشگاه یا پیشخوان؛ منشی",
       "part_of_speech": "NOUN",
       "ipa_us": "/klɝːk/",
-      "cefr": "B1",
+      "cefr": "A2",
       "category": "Work and services",
       "definition_en": "A person who works in an office or serves customers in a store or service desk.",
       "example_en": "Ask the front-desk clerk for a copy of the form.",
@@ -744,13 +744,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "closet",
@@ -781,13 +781,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "congress",
@@ -818,13 +818,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دولت و حقوق شهروندی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "cookie",
@@ -854,13 +854,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "corn",
@@ -868,7 +868,7 @@
       "meanings_fa": "ذرت؛ بلال",
       "part_of_speech": "NOUN",
       "ipa_us": "/kɔːrn/",
-      "cefr": "A2",
+      "cefr": "B1",
       "category": "Food, shopping and home",
       "definition_en": "A tall cereal plant that produces large yellow or white kernels used as food.",
       "example_en": "We grilled corn on the cob for dinner.",
@@ -891,13 +891,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "could",
@@ -905,7 +905,7 @@
       "meanings_fa": "می‌توانست؛ ممکن بود؛ می‌شود (درخواست مؤدبانه)",
       "part_of_speech": "MODAL VERB",
       "ipa_us": "/kʊd/; weak /kəd/",
-      "cefr": "A2",
+      "cefr": "A1",
       "category": "Grammar and function words",
       "definition_en": "The past form of can, also used to express possibility or make polite requests and suggestions.",
       "example_en": "Could you email me the updated schedule?",
@@ -926,17 +926,17 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دستور زبان و واژه‌های نقشی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
-      "word": "december",
-      "source_candidate": "december",
+      "word": "December",
+      "source_candidate": "December",
       "meanings_fa": "دسامبر؛ ماه دوازدهم سال میلادی",
       "part_of_speech": "PROPER NOUN",
       "ipa_us": "/dɪˈsɛmbɚ/",
@@ -958,13 +958,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زمان و تقویم",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "dessert",
@@ -995,13 +995,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "disk",
@@ -1009,7 +1009,7 @@
       "meanings_fa": "دیسک؛ صفحه یا قطعهٔ گرد؛ دیسک ذخیره‌سازی رایانه",
       "part_of_speech": "NOUN",
       "ipa_us": "/dɪsk/",
-      "cefr": "B1",
+      "cefr": "B2",
       "category": "Technology and objects",
       "definition_en": "A flat, usually circular object; in computing, a device or medium used to store data.",
       "example_en": "Save a backup copy to an external disk.",
@@ -1033,13 +1033,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "فناوری و اشیا",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "downward",
@@ -1047,7 +1047,7 @@
       "meanings_fa": "رو به پایین؛ نزولی؛ به سمت پایین",
       "part_of_speech": "ADVERB; ADJECTIVE",
       "ipa_us": "/ˈdaʊnwɚd/",
-      "cefr": "B1",
+      "cefr": "B2",
       "category": "Actions, time and movement",
       "definition_en": "Moving or pointing toward a lower place, level, or amount.",
       "example_en": "The company revised its sales forecast downward.",
@@ -1070,13 +1070,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "fever",
@@ -1106,13 +1106,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "garbage",
@@ -1143,13 +1143,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "grocery",
@@ -1181,13 +1181,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "overseas",
@@ -1195,7 +1195,7 @@
       "meanings_fa": "آن‌سوی دریاها؛ خارج از کشور؛ در خارج از کشور",
       "part_of_speech": "ADVERB; ADJECTIVE",
       "ipa_us": "/ˌoʊvɚˈsiːz/",
-      "cefr": "B2",
+      "cefr": "A2 (adverb); B1 (adjective)",
       "category": "Travel and geography",
       "definition_en": "In or to a foreign country, especially one across the sea.",
       "example_en": "She moved overseas for a two-year work assignment.",
@@ -1217,13 +1217,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "سفر و جغرافیا",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "policeman",
@@ -1231,7 +1231,7 @@
       "meanings_fa": "مأمور پلیس؛ افسر پلیس مرد",
       "part_of_speech": "NOUN",
       "ipa_us": "/pəˈliːsmən/",
-      "cefr": "A2",
+      "cefr": "A1",
       "category": "People and public services",
       "definition_en": "A male police officer; police officer is the usual gender-neutral term in modern American English.",
       "example_en": "A policeman directed traffic around the accident.",
@@ -1253,13 +1253,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "railroad",
@@ -1267,7 +1267,7 @@
       "meanings_fa": "راه‌آهن؛ شرکت یا سامانهٔ حمل‌ونقل ریلی",
       "part_of_speech": "NOUN; VERB",
       "ipa_us": "/ˈreɪlˌroʊd/",
-      "cefr": "B1",
+      "cefr": "A2",
       "category": "Actions, time and movement",
       "definition_en": "A system of tracks and trains used to transport people or goods; as a verb, to force a plan through.",
       "example_en": "The railroad connects the small town to the city.",
@@ -1290,13 +1290,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "refrigerator",
@@ -1328,13 +1328,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "senate",
@@ -1365,13 +1365,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "دولت و حقوق شهروندی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "smartphone",
@@ -1401,13 +1401,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "sneaker",
@@ -1438,13 +1438,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "فناوری، خدمات و زندگی عمومی",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     },
     {
       "word": "stove",
@@ -1475,13 +1475,13 @@
       "frequency": "common_or_useful",
       "openjam_frequency_rank": null,
       "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
-      "review_status": "dictionary_checked_editorial_draft",
+      "review_status": "dictionary_cross_checked_editorial_draft",
       "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
       "release_decision": "staging_only",
       "ready_flag": false,
       "category_fa": "زندگی روزمره و کاربردهای رایج",
-      "level_source": "editorial_estimate",
-      "level_review_status": "needs_dictionary_review"
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
     }
   ]
 }
