@@ -1,7 +1,6 @@
 package com.ieamericanenglish.app
 
 import java.util.Locale
-import kotlin.random.Random
 
 enum class QuizQuestionType(val titleFa: String) {
     MEANING_TO_FA("انتخاب معنی فارسی"),
@@ -22,27 +21,43 @@ data class VocabularyQuizQuestion(
 
 object VocabularyQuizEngine {
     fun createQuiz(words: List<VocabularyWord>, level: String, count: Int = 10): List<VocabularyQuizQuestion> {
+        val requestedCount = count.coerceAtLeast(0)
+        if (requestedCount == 0) return emptyList()
         val pool = words.asSequence()
             .filter { it.cefr.equals(level, true) }
             .filter { it.word.isNotBlank() && it.meaningsFa.isNotBlank() }
             .distinctBy { LearningStore.wordId(it.word) }
             .toList()
-        if (pool.size < 2) return emptyList()
+        if (pool.size < 4) return emptyList()
 
         val questions = mutableListOf<VocabularyQuizQuestion>()
-        val shuffledTargets = pool.shuffled()
+        val targets = pool.shuffled()
+        val usedTargets = mutableSetOf<String>()
         val types = QuizQuestionType.values().toList()
-        for (target in shuffledTargets) {
-            if (questions.size >= count) break
-            val candidates = types.shuffled()
-            for (type in candidates) {
-                val question = buildQuestion(type, target, pool)
-                if (question != null && questions.none {
-                    it.type == question.type && LearningStore.wordId(it.targetWord) == LearningStore.wordId(question.targetWord)
-                }) {
-                    questions += question
-                    break
-                }
+
+        // First try every question format once so a quiz can cover all available skills.
+        for (type in types.shuffled()) {
+            if (questions.size >= requestedCount) break
+            for (target in targets) {
+                val id = LearningStore.wordId(target.word)
+                if (id in usedTargets) continue
+                val question = buildQuestion(type, target, pool) ?: continue
+                questions += question
+                usedTargets += id
+                break
+            }
+        }
+
+        // Fill remaining places with valid questions; unsupported data formats are skipped.
+        for (target in targets) {
+            if (questions.size >= requestedCount) break
+            val id = LearningStore.wordId(target.word)
+            if (id in usedTargets) continue
+            for (type in types.shuffled()) {
+                val question = buildQuestion(type, target, pool) ?: continue
+                questions += question
+                usedTargets += id
+                break
             }
         }
         return questions.shuffled()
