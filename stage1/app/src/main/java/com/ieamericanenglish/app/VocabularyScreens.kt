@@ -76,7 +76,8 @@ fun LearningHubScreen(
     wordCount: Int,
     onBack: () -> Unit,
     onLevels: () -> Unit,
-    onPractice: () -> Unit
+    onPractice: () -> Unit,
+    onReports: () -> Unit = {}
 ) {
     Column(
         Modifier.fillMaxSize().background(Color(0xFFF4F7FC))
@@ -105,6 +106,15 @@ fun LearningHubScreen(
             accent = Color(0xFF0F9D91),
             symbol = "✦",
             onClick = onPractice
+        )
+        Spacer(Modifier.height(16.dp))
+        LearningEntryCard(
+            title = "۳. گزارش عملکرد",
+            subtitle = "روند هفتگی، وضعیت واژه‌ها و مرورهای موعددار",
+            detail = "آمار ذخیره‌شده روی همین گوشی",
+            accent = Color(0xFF8B5CF6),
+            symbol = "٪",
+            onClick = onReports
         )
         Spacer(Modifier.height(22.dp))
         Text(
@@ -476,4 +486,69 @@ private fun InfoTag(label: String, tint: Color) {
 private fun DetailLabel(label: String) {
     Text(label, color = Color(0xFF14213D), fontSize = 14.sp, fontWeight = FontWeight.ExtraBold)
     Spacer(Modifier.height(5.dp))
+}
+
+
+@Composable
+fun LearningReportScreen(words: List<VocabularyWord>, level: String, learningStore: LearningStore, onBack: () -> Unit) {
+    val report = remember(words, level) { learningStore.learningAnalytics(words, level) }
+    val tint = LevelColors[level] ?: Color(0xFF2563EB)
+    Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
+        ScreenHeader("گزارش عملکرد یادگیری", onBack)
+        Text("گزارش سطح $level", color = Color(0xFF718096), fontSize = 12.sp)
+        Spacer(Modifier.height(12.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = Color.White, shadowElevation = 2.dp) {
+            Column(Modifier.padding(17.dp)) {
+                Text("پوشش یادگیری", color = Color(0xFF14213D), fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                Text("${report.learnedWords} از ${report.totalWords} واژه", color = tint, fontSize = 25.sp, fontWeight = FontWeight.ExtraBold)
+                LinearProgressIndicator(progress = { report.learningPercent / 100f }, modifier = Modifier.fillMaxWidth().padding(top = 9.dp).height(9.dp).clip(CircleShape), color = tint, trackColor = Color(0xFFE8EEF6))
+                Text("${report.learningPercent}٪ از واژه‌های این سطح حداقل یک‌بار وارد فرایند یادگیری شده‌اند.", color = Color(0xFF718096), fontSize = 11.sp, lineHeight = 18.sp)
+            }
+        }
+        Spacer(Modifier.height(12.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            PracticeMetric("در حال یادگیری", report.learningWords.toString(), Color(0xFF2563EB), Modifier.weight(1f))
+            PracticeMetric("تثبیت‌شده*", report.masteredWords.toString(), Color(0xFF0F9D91), Modifier.weight(1f))
+            PracticeMetric("در چرخه مرور", report.reviewWords.toString(), Color(0xFFB7791F), Modifier.weight(1f))
+        }
+        Spacer(Modifier.height(12.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White) {
+            Column(Modifier.padding(16.dp)) {
+                Text("وضعیت مرور", color = Color(0xFF14213D), fontWeight = FontWeight.Bold, fontSize = 15.sp)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("مرورهای سررسیدشده", Modifier.weight(1f), color = Color(0xFF4A5568), fontSize = 13.sp)
+                    Text(report.dueReviews.toString(), color = Color(0xFFB7791F), fontWeight = FontWeight.ExtraBold, fontSize = 20.sp)
+                }
+                Text("این تعداد واژه طبق زمان‌بندی مرور، اکنون موعد مرور دارند.", color = Color(0xFF718096), fontSize = 11.sp)
+            }
+        }
+        Spacer(Modifier.height(12.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White) {
+            Column(Modifier.padding(16.dp)) {
+                Text("روند هفت روز اخیر", color = Color(0xFF14213D), fontWeight = FontWeight.Bold, fontSize = 15.sp)
+                Text("تعداد واژه‌های جدیدی که هر روز تکمیل کرده‌ای", color = Color(0xFF718096), fontSize = 11.sp)
+                Spacer(Modifier.height(12.dp))
+                val maxValue = report.lastSevenDays.maxOfOrNull { it.completed }?.coerceAtLeast(1) ?: 1
+                report.lastSevenDays.forEach { day ->
+                    Row(Modifier.fillMaxWidth().padding(vertical = 5.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Text(day.day, Modifier.width(42.dp), color = Color(0xFF4A5568), fontSize = 11.sp)
+                        Box(Modifier.weight(1f).height(11.dp).clip(RoundedCornerShape(8.dp)).background(Color(0xFFE8EEF6))) {
+                            Box(Modifier.fillMaxWidth(day.completed.toFloat() / maxValue).fillMaxHeight().clip(RoundedCornerShape(8.dp)).background(tint))
+                        }
+                        Text(day.completed.toString(), Modifier.width(28.dp), color = Color(0xFF14213D), fontSize = 11.sp, textAlign = androidx.compose.ui.text.style.TextAlign.End)
+                    }
+                }
+            }
+        }
+        Spacer(Modifier.height(12.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = Color.White) {
+            Column(Modifier.padding(16.dp)) {
+                Text("پیشرفت ماه جاری", color = Color(0xFF14213D), fontWeight = FontWeight.Bold, fontSize = 15.sp)
+                Text("${report.monthCompleted} واژه تکمیل‌شده در این ماه", color = tint, fontSize = 21.sp, fontWeight = FontWeight.ExtraBold)
+                Text("هدف ماهانه: ۴۵۰ واژه", color = Color(0xFF718096), fontSize = 11.sp)
+            }
+        }
+        Spacer(Modifier.height(12.dp))
+        Text("* تثبیت‌شده یعنی وضعیت خوداظهاری «آسان» یا فاصله مرور حداقل ۳۰ روز؛ این شاخص سنجش قطعی تسلط نیست.", color = Color(0xFF718096), fontSize = 10.sp, lineHeight = 17.sp)
+    }
 }
