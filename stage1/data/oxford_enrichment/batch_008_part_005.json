@@ -1,0 +1,796 @@
+{
+  "batch": 8,
+  "part": 5,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "publishing",
+      "source_candidate": "publishing",
+      "meanings_fa": "انتشار؛ نشر کتاب و محتوا؛ صنعت نشر",
+      "part_of_speech": "NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈpʌblɪʃɪŋ/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "The business or activity of preparing and making books, magazines, or digital content available to the public.",
+      "example_en": "She works in academic publishing.",
+      "example_fa": "او در حوزهٔ نشر دانشگاهی کار می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "publication",
+          "issuing"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "publish (verb)",
+        "publisher (noun)",
+        "publication (noun)"
+      ],
+      "collocations": [
+        "publishing industry",
+        "academic publishing",
+        "digital publishing"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "palm",
+      "source_candidate": "palm",
+      "meanings_fa": "کف دست؛ نخل",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/pɑːm/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "The inner surface of the hand between the wrist and fingers; also, a tropical tree.",
+      "example_en": "He wrote the phone number on his palm.",
+      "example_fa": "او شماره تلفن را روی کف دستش نوشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "hand (for the body part)",
+          "palm tree"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "palmar (adjective)",
+        "palmate (adjective)"
+      ],
+      "collocations": [
+        "palm of your hand",
+        "palm tree",
+        "palm oil"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "oral",
+      "source_candidate": "oral",
+      "meanings_fa": "شفاهی؛ دهانی؛ مربوط به دهان",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈɔːrəl/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "Spoken rather than written; or relating to the mouth.",
+      "example_en": "The final exam includes an oral presentation.",
+      "example_fa": "امتحان نهایی شامل یک ارائهٔ شفاهی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "spoken",
+          "verbal",
+          "by mouth"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "orally (adverb)",
+        "oralist (noun, rare)"
+      ],
+      "collocations": [
+        "oral exam",
+        "oral communication",
+        "oral medication"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "functional",
+      "source_candidate": "functional",
+      "meanings_fa": "کارکردی؛ کاربردی؛ دارای عملکرد درست؛ مربوط به کارکرد",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈfʌŋkʃənəl/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "Designed to work or be useful; operating correctly; related to the purpose of something.",
+      "example_en": "The kitchen is small but clean and functional.",
+      "example_fa": "آشپزخانه کوچک است، اما تمیز و کاربردی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "practical",
+          "operational",
+          "working"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "function (noun/verb)",
+        "functionally (adverb)",
+        "functionality (noun)"
+      ],
+      "collocations": [
+        "functional design",
+        "fully functional",
+        "functional requirements"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "patch",
+      "source_candidate": "patch",
+      "meanings_fa": "وصله؛ تکه؛ قطعه‌ای از زمین؛ اصلاحیهٔ نرم‌افزاری؛ وصله زدن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/pætʃ/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A small piece used to cover or repair a hole; a limited area; or a software update that fixes a problem.",
+      "example_en": "Install the security patch before using the app.",
+      "example_fa": "پیش از استفاده از برنامه، اصلاحیهٔ امنیتی را نصب کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "repair",
+          "fix",
+          "update"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "patched (adjective/verb)",
+        "patching (noun/verb)"
+      ],
+      "collocations": [
+        "software patch",
+        "patch a hole",
+        "patch of grass"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "rose",
+      "source_candidate": "rose",
+      "meanings_fa": "گل رز؛ بوتهٔ رز",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/roʊz/",
+      "cefr": "B1",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A garden plant with fragrant flowers and thorny stems.",
+      "example_en": "She received a dozen red roses for her birthday.",
+      "example_fa": "او برای تولدش یک دوجین گل رز قرمز دریافت کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "flower",
+          "bloom"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "rosy (adjective)",
+        "rosebush (noun)",
+        "rosebud (noun)"
+      ],
+      "collocations": [
+        "red rose",
+        "rose garden",
+        "a bunch of roses"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "premium",
+      "source_candidate": "premium",
+      "meanings_fa": "ممتاز؛ ویژه؛ حق بیمه؛ مبلغ اضافه برای کیفیت یا خدمات بهتر",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈpriːmiəm/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A higher level of quality or service; an extra amount paid; or a regular payment for insurance.",
+      "example_en": "Customers pay a monthly premium for the extended warranty.",
+      "example_fa": "مشتریان برای ضمانت‌نامهٔ تمدیدشده حق‌بیمهٔ ماهانه می‌پردازند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "high-end",
+          "top-quality",
+          "fee"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "premium-priced (adjective)"
+      ],
+      "collocations": [
+        "premium service",
+        "insurance premium",
+        "premium membership"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "upgrade",
+      "source_candidate": "upgrade",
+      "meanings_fa": "ارتقا؛ نسخه یا مدل بهتر؛ ارتقا دادن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈʌpˌɡreɪd/",
+      "cefr": "B1",
+      "category": "Work, technology, science and communication",
+      "definition_en": "An improvement to a better or newer version; to improve equipment, software, or status.",
+      "example_en": "I need to upgrade my laptop before the new semester.",
+      "example_fa": "باید پیش از نیم‌سال جدید لپ‌تاپم را ارتقا بدهم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "improve",
+          "update",
+          "enhancement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "upgraded (adjective)",
+        "upgrading (noun/verb)"
+      ],
+      "collocations": [
+        "software upgrade",
+        "upgrade a plan",
+        "free upgrade"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "nursing",
+      "source_candidate": "nursing",
+      "meanings_fa": "پرستاری؛ مراقبت پرستاری؛ مربوط به پرستاری",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈnɝːsɪŋ/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "The profession or practice of caring for sick or injured people; related to nurses or nursing care.",
+      "example_en": "She is studying nursing at a community college.",
+      "example_fa": "او در یک کالج محلی در رشتهٔ پرستاری تحصیل می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "patient care",
+          "caregiving"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "nurse (noun/verb)",
+        "nurse practitioner (noun)",
+        "nursery (related noun)"
+      ],
+      "collocations": [
+        "nursing school",
+        "nursing staff",
+        "nursing care"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "integrated",
+      "source_candidate": "integrated",
+      "meanings_fa": "یکپارچه؛ ادغام‌شده؛ هماهنگ و ترکیب‌شده",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈɪntəˌɡreɪtɪd/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "Combined into one system or made to work together as a whole.",
+      "example_en": "The hospital uses an integrated electronic records system.",
+      "example_fa": "بیمارستان از یک سامانهٔ یکپارچهٔ پرونده‌های الکترونیکی استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "combined",
+          "unified",
+          "coordinated"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "integrate (verb)",
+        "integration (noun)",
+        "integrative (adjective)"
+      ],
+      "collocations": [
+        "integrated system",
+        "integrated approach",
+        "fully integrated"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "marine",
+      "source_candidate": "marine",
+      "meanings_fa": "دریایی؛ مربوط به دریا یا فعالیت‌های دریایی؛ نیروی تفنگدار دریایی",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/məˈriːn/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "Related to the sea, ocean life, or ships; a member of a country's marine forces.",
+      "example_en": "The institute studies marine life along the coast.",
+      "example_fa": "این مؤسسه حیات دریایی را در امتداد ساحل بررسی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "oceanic",
+          "maritime"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "mariner (noun)",
+        "marines (plural noun)",
+        "marin(e) (related form)"
+      ],
+      "collocations": [
+        "marine biology",
+        "marine environment",
+        "marine engineer"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "interactive",
+      "source_candidate": "interactive",
+      "meanings_fa": "تعاملی؛ دوسویه؛ دارای امکان واکنش و مشارکت کاربر",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˌɪntɚˈæktɪv/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "Allowing people or systems to communicate with or respond to one another.",
+      "example_en": "The course includes interactive exercises and videos.",
+      "example_fa": "این دوره شامل تمرین‌ها و ویدئوهای تعاملی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "responsive",
+          "participatory"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "interactively (adverb)",
+        "interactivity (noun)",
+        "interact (verb)"
+      ],
+      "collocations": [
+        "interactive lesson",
+        "interactive display",
+        "interactive website"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "workshop",
+      "source_candidate": "workshop",
+      "meanings_fa": "کارگاه؛ جلسهٔ آموزشی یا عملی گروهی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈwɝːkˌʃɑːp/",
+      "cefr": "B1",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A room or building where things are made or repaired; a meeting where people learn or develop skills by doing activities.",
+      "example_en": "I attended a workshop on job interviews.",
+      "example_fa": "در یک کارگاه دربارهٔ مصاحبه‌های شغلی شرکت کردم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "training session",
+          "seminar",
+          "studio"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "workshop-based (adjective)"
+      ],
+      "collocations": [
+        "training workshop",
+        "writing workshop",
+        "auto repair workshop"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "extension",
+      "source_candidate": "extension",
+      "meanings_fa": "تمدید؛ گسترش؛ الحاقیه؛ شمارهٔ داخلی تلفن؛ افزونه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ɪkˈstɛnʃən/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "The act of making something longer or larger; extra time; or an additional part connected to something.",
+      "example_en": "The professor gave us a one-week extension for the assignment.",
+      "example_fa": "استاد برای تحویل تکلیف یک هفته مهلت اضافه به ما داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "expansion",
+          "prolongation",
+          "extra time"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "extend (verb)",
+        "extensive (adjective)",
+        "extensively (adverb)"
+      ],
+      "collocations": [
+        "deadline extension",
+        "phone extension",
+        "browser extension"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "lighting",
+      "source_candidate": "lighting",
+      "meanings_fa": "نورپردازی؛ روشنایی؛ تجهیزات روشنایی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈlaɪtɪŋ/",
+      "cefr": "B1",
+      "category": "Work, technology, science and communication",
+      "definition_en": "The arrangement or equipment of lights in a place, or the way an area is illuminated.",
+      "example_en": "The studio has excellent lighting for video calls.",
+      "example_fa": "استودیو برای تماس‌های تصویری نورپردازی بسیار خوبی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "illumination",
+          "lights"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "light (noun/verb/adjective)",
+        "lighted (adjective)"
+      ],
+      "collocations": [
+        "natural lighting",
+        "stage lighting",
+        "lighting equipment"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "laser",
+      "source_candidate": "laser",
+      "meanings_fa": "لیزر؛ پرتوی نور متمرکز و پرانرژی",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈleɪzɚ/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A device that produces a narrow, powerful beam of light; relating to such a beam.",
+      "example_en": "The clinic uses a laser to remove unwanted hair.",
+      "example_fa": "این درمانگاه از لیزر برای از بین بردن موهای زائد استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "laser beam",
+          "focused light"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "laser-based (adjective)",
+        "laser-like (adjective)"
+      ],
+      "collocations": [
+        "laser treatment",
+        "laser printer",
+        "laser surgery"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "icon",
+      "source_candidate": "icon",
+      "meanings_fa": "نماد؛ شمایل؛ آیکون رایانه‌ای؛ چهرهٔ نمادین و مشهور",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈaɪˌkɑːn/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A small picture on a screen representing a program or action; a widely admired person or symbol.",
+      "example_en": "Tap the settings icon to change your account details.",
+      "example_fa": "برای تغییر جزئیات حسابت روی نماد تنظیمات بزن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "symbol",
+          "emblem",
+          "image"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "iconic (adjective)",
+        "iconography (noun)",
+        "iconically (adverb)"
+      ],
+      "collocations": [
+        "app icon",
+        "cultural icon",
+        "click the icon"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "dedicated",
+      "source_candidate": "dedicated",
+      "meanings_fa": "متعهد؛ وقف‌شده؛ اختصاص‌یافته؛ ویژهٔ کاری خاص",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈdɛdɪˌkeɪtɪd/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "Giving a lot of time and effort to a purpose; or designed for one particular use.",
+      "example_en": "The team has a dedicated support line for students.",
+      "example_fa": "این تیم یک خط پشتیبانی ویژه برای دانشجویان دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "committed",
+          "devoted",
+          "assigned"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dedicate (verb)",
+        "dedication (noun)"
+      ],
+      "collocations": [
+        "dedicated employee",
+        "dedicated server",
+        "dedicated support"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "tag",
+      "source_candidate": "tag",
+      "meanings_fa": "برچسب؛ شناسه؛ تگ؛ برچسب زدن یا علامت‌گذاری کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/tæɡ/",
+      "cefr": "B1",
+      "category": "Work, technology, science and communication",
+      "definition_en": "A small label attached to something; a word or mark used to identify or categorize content.",
+      "example_en": "Add a tag to make the article easier to find.",
+      "example_fa": "برای پیدا کردن آسان‌تر مقاله یک برچسب به آن اضافه کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "label",
+          "marker",
+          "identifier"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "tagged (adjective/verb)",
+        "tagging (noun/verb)"
+      ],
+      "collocations": [
+        "price tag",
+        "name tag",
+        "tag a photo"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "handling",
+      "source_candidate": "handling",
+      "meanings_fa": "رسیدگی؛ نحوهٔ برخورد؛ جابه‌جایی و کار با چیزی",
+      "part_of_speech": "NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈhændlɪŋ/",
+      "cefr": "B2",
+      "category": "Work, technology, science and communication",
+      "definition_en": "The way a person deals with a situation or treats an object; the act of moving or controlling something.",
+      "example_en": "Proper handling of customer data is essential.",
+      "example_fa": "رسیدگی درست به داده‌های مشتریان ضروری است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "management",
+          "treatment",
+          "processing"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "handle (verb/noun)",
+        "handler (noun)",
+        "handled (adjective)"
+      ],
+      "collocations": [
+        "handling fee",
+        "careful handling",
+        "complaint handling"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، فناوری، علم و ارتباطات",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
