@@ -57,13 +57,29 @@ class LearningStore(context: Context) {
         return due
     }
 
-    fun dueReviewWords(words: List<VocabularyWord>, level: String): List<VocabularyWord> {
+    /** Return the oldest due reviews first and cap the daily workload. */
+    fun dueReviewWords(words: List<VocabularyWord>, level: String, limit: Int = DAILY_REVIEW_LIMIT): List<VocabularyWord> {
+        val now = System.currentTimeMillis()
+        val schedule = readJson(KEY_SCHEDULE)
+        return words.asSequence()
+            .filter { it.cefr.equals(level, true) }
+            .distinctBy { wordId(it.word) }
+            .mapNotNull { word ->
+                val dueAt = schedule.optJSONObject(wordId(word.word))?.optLong("dueAt", Long.MAX_VALUE) ?: Long.MAX_VALUE
+                if (dueAt <= now) dueAt to word else null
+            }
+            .sortedBy { it.first }
+            .take(limit.coerceAtLeast(0))
+            .map { it.second }
+            .toList()
+    }
+
+    fun dueReviewCount(words: List<VocabularyWord>, level: String): Int {
         val now = System.currentTimeMillis()
         val schedule = readJson(KEY_SCHEDULE)
         return words.asSequence().filter { it.cefr.equals(level, true) }
             .distinctBy { wordId(it.word) }
-            .filter { (schedule.optJSONObject(wordId(it.word))?.optLong("dueAt") ?: Long.MAX_VALUE) <= now }
-            .toList()
+            .count { (schedule.optJSONObject(wordId(it.word))?.optLong("dueAt", Long.MAX_VALUE) ?: Long.MAX_VALUE) <= now }
     }
 
     fun buildDailyPlan(words: List<VocabularyWord>, level: String, limit: Int = DAILY_NEW_WORD_GOAL): DailyLearningPlan {
@@ -73,20 +89,42 @@ class LearningStore(context: Context) {
             .distinctBy { wordId(it.word) }.toList()
         val byId = eligible.associateBy { wordId(it.word) }
         val marks = bookmarks()
-        val freshMarked = eligible.filter { wordId(it.word) in marks && (progress[wordId(it.word)] ?: "new") == "new" }
-        val freshOther = eligible.filter { wordId(it.word) !in marks && (progress[wordId(it.word)] ?: "new") == "new" }
-        val selected = (freshMarked + freshOther).distinctBy { wordId(it.word) }.take(limit.coerceAtLeast(0))
         val daily = readJson(KEY_DAILY)
         val dailyKey = "$today:$level"
-        val stored = daily.optJSONArray(dailyKey)
-        val todaysNew = if (stored != null) (0 until stored.length()).mapNotNull { byId[stored.optString(it)] }
-        else {
-            daily.put(dailyKey, JSONArray(selected.map { wordId(it.word) }))
-            prefs.edit().putString(KEY_DAILY, daily.toString()).apply()
-            selected.forEach { setWordStatus(it.word, "learning") }
-            selected
+
+        // Keep unfinished assignments from earlier days at the front of today's new-word queue.
+        val priorAssignmentIds = mutableListOf<String>()
+        val dailyKeys = daily.keys().asSequence()
+            .filter { it.endsWith(":$level") && it != dailyKey }
+            .filter { it.substringBefore(':') < today }
+            .sorted().toList()
+        dailyKeys.forEach { key ->
+            val ids = daily.optJSONArray(key) ?: return@forEach
+            for (i in 0 until ids.length()) priorAssignmentIds += ids.optString(i)
         }
-        val scheduledIds = todaysNew.map { wordId(it.word) }.toSet()
+        val unfinishedBacklog = priorAssignmentIds.distinct()
+            .filter { (progress[it] ?: "new") == "learning" }
+            .mapNotNull { byId[it] }
+        // Also recover any in-progress words if an older app version did not persist a daily list.
+        val unlistedLearning = eligible.filter { (progress[wordId(it.word)] ?: "new") == "learning" }
+        val backlog = (unfinishedBacklog + unlistedLearning).distinctBy { wordId(it.word) }
+
+        val freshMarked = eligible.filter { wordId(it.word) in marks && (progress[wordId(it.word)] ?: "new") == "new" }
+        val freshOther = eligible.filter { wordId(it.word) !in marks && (progress[wordId(it.word)] ?: "new") == "new" }
+        val storedToday = daily.optJSONArray(dailyKey)
+        val today'sUnfinished = if (storedToday == null) emptyList() else
+            (0 until storedToday.length()).mapNotNull { byId[storedToday.optString(it)] }
+                .filter { (progress[wordId(it.word)] ?: "new") == "learning" }
+        val selected = (today'sUnfinished + backlog + freshMarked + freshOther)
+            .distinctBy { wordId(it.word) }.take(limit.coerceAtLeast(0))
+
+        daily.put(dailyKey, JSONArray(selected.map { wordId(it.word) }))
+        prefs.edit().putString(KEY_DAILY, daily.toString()).apply()
+        selected.forEach { word ->
+            if ((progress[wordId(word.word)] ?: "new") == "new") setWordStatus(word.word, "learning")
+        }
+
+        val scheduledIds = selected.map { wordId(it.word) }.toSet()
         val waiting = freshMarked.count { wordId(it.word) !in scheduledIds }
         val month = currentMonthPrefix()
         val completed = readJson(KEY_COMPLETED)
@@ -99,8 +137,13 @@ class LearningStore(context: Context) {
                 for (index in 0 until ids.length()) completedThisMonth += ids.optString(index)
             }
         }
-        return DailyLearningPlan(today, todaysNew, dueReviewWords(eligible, level), waiting,
-            MONTHLY_NEW_WORD_GOAL, completedThisMonth.size, completedTodayCount())
+        val reviewTotal = dueReviewCount(eligible, level)
+        val reviewToday = dueReviewWords(eligible, level)
+        return DailyLearningPlan(
+            today, selected, reviewToday, waiting, MONTHLY_NEW_WORD_GOAL,
+            completedThisMonth.size, completedTodayCount(level),
+            (reviewTotal - reviewToday.size).coerceAtLeast(0)
+        )
     }
 
     /** Save the current daily session so the learner can resume after closing the app. */
@@ -128,17 +171,23 @@ class LearningStore(context: Context) {
         prefs.edit().remove(KEY_SESSION).apply()
     }
 
-    fun markDailyWordCompleted(word: String) {
+    fun markDailyWordCompleted(word: String, level: String? = null) {
         val today = todayKey()
         val completed = readJson(KEY_COMPLETED)
-        val ids = completed.optJSONArray(today) ?: JSONArray()
+        val completionKey = if (level.isNullOrBlank()) today else "$today:$level"
+        val ids = completed.optJSONArray(completionKey) ?: JSONArray()
         val id = wordId(word)
         if ((0 until ids.length()).none { ids.optString(it) == id }) ids.put(id)
-        completed.put(today, ids)
+        completed.put(completionKey, ids)
         prefs.edit().putString(KEY_COMPLETED, completed.toString()).apply()
     }
 
-    fun completedTodayCount(): Int = readJson(KEY_COMPLETED).optJSONArray(todayKey())?.length() ?: 0
+    fun completedTodayCount(level: String? = null): Int {
+        val completed = readJson(KEY_COMPLETED)
+        val key = if (level.isNullOrBlank()) todayKey() else "${todayKey()}:$level"
+        return completed.optJSONArray(key)?.length()
+            ?: if (level.isNullOrBlank()) 0 else completed.optJSONArray(todayKey())?.length() ?: 0
+    }
 
     /** Persist every quiz response locally; keep a bounded history to protect storage. */
     fun recordQuizAnswer(word: String, questionType: String, selectedAnswer: String, correctAnswer: String, correct: Boolean) {
@@ -209,6 +258,7 @@ class LearningStore(context: Context) {
 
     companion object {
         const val DAILY_NEW_WORD_GOAL = 15
+        const val DAILY_REVIEW_LIMIT = 30
         const val MONTHLY_NEW_WORD_GOAL = 450
         val LEVELS = listOf("A1", "A2", "B1", "B2", "C1", "C2")
         private val STATUSES = setOf("new", "learning", "review", "mastered")
@@ -234,7 +284,8 @@ data class DailyLearningPlan(
     val bookmarkedWaiting: Int,
     val monthlyNewWordGoal: Int,
     val monthCompleted: Int,
-    val completedToday: Int
+    val completedToday: Int,
+    val reviewBacklogCount: Int = 0
 )
 
 
