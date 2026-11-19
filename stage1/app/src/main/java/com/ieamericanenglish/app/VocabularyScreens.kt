@@ -75,7 +75,16 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
     var level by remember { mutableStateOf(initialLevel) }
     LaunchedEffect(initialLevel) { level = initialLevel }
     val levelWords = remember(level, words) { words.filter { it.cefr.equals(level, true) }.distinctBy { LearningStore.wordId(it.word) } }
-    val dailyPlan = learningStore?.buildDailyPlan(words, level)
+    var dailyPlan by remember { mutableStateOf<DailyLearningPlan?>(null) }
+    LaunchedEffect(level, words, learningStore) {
+        dailyPlan = learningStore?.buildDailyPlan(words, level)
+    }
+    val quizStats = remember(level, words, learningStore, quizAnswer, quizIndex) {
+        learningStore?.quizStats(words, level)
+    }
+    val weakWords = remember(level, words, learningStore, quizAnswer, quizIndex) {
+        learningStore?.weakWords(words, level).orEmpty()
+    }
     var practiceQueue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
     var practiceIndex by remember { mutableIntStateOf(0) }
     var quizQuestions by remember { mutableStateOf<List<VocabularyQuizQuestion>>(emptyList()) }
@@ -118,6 +127,32 @@ fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBac
                         enabled = plan.newWords.isNotEmpty() || plan.reviewWords.isNotEmpty(),
                         modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp)
                     ) { Text("شروع تمرین امروز") }
+                }
+            }
+        }
+        quizStats?.let { stats ->
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 2.dp) {
+                Column(Modifier.padding(13.dp)) {
+                    Text("عملکرد آزمون‌ها", color = Color(0xFF14213D), fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                    Spacer(Modifier.height(5.dp))
+                    Text(
+                        if (stats.answered == 0) "هنوز پاسخی ثبت نشده است."
+                        else "درست: ${stats.correct} از ${stats.answered}  •  دقت: ${stats.accuracyPercent}٪",
+                        color = Color(0xFF2563EB), fontSize = 12.sp
+                    )
+                    stats.byType.forEach { item ->
+                        val title = QuizQuestionType.values().firstOrNull { it.name == item.type }?.titleFa ?: item.type
+                        Text("$title: ${item.accuracyPercent}٪ (${item.correct}/${item.answered})",
+                            color = Color(0xFF718096), fontSize = 11.sp)
+                    }
+                    if (weakWords.isNotEmpty()) {
+                        Spacer(Modifier.height(7.dp))
+                        Text("${weakWords.size} واژه نیازمند تمرین مجدد شناسایی شد.", color = Color(0xFFB7791F), fontSize = 12.sp)
+                        Button(
+                            onClick = { practiceQueue = weakWords; practiceIndex = 0; quizQuestions = emptyList() },
+                            modifier = Modifier.fillMaxWidth()
+                        ) { Text("تمرین واژه‌های ضعیف") }
+                    }
                 }
             }
         }
