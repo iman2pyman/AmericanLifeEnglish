@@ -1,0 +1,1159 @@
+[
+  {
+    "word": "enjoyable",
+    "meanings_fa": "لذت‌بخش؛ خوشایند",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪnˈdʒɔɪəbəl",
+    "cefr": "B1",
+    "category": "Daily life and feelings",
+    "definition_en": "giving pleasure or satisfaction",
+    "example_en": "We had an enjoyable evening with our neighbors.",
+    "example_fa": "شب لذت‌بخشی را با همسایه‌هایمان گذراندیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "pleasant",
+        "fun"
+      ],
+      "antonyms": [
+        "unpleasant",
+        "boring"
+      ]
+    },
+    "word_family": [
+      "enjoy",
+      "enjoyment"
+    ],
+    "collocations": [
+      "enjoyable experience",
+      "highly enjoyable"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "enjoyable",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Daily life and feelings",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "enrich",
+    "meanings_fa": "غنی کردن؛ پربار کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪnˈrɪtʃ",
+    "cefr": "B2",
+    "category": "Education and development",
+    "definition_en": "to improve the quality or value of something by adding useful or interesting things",
+    "example_en": "Travel can enrich your understanding of other cultures.",
+    "example_fa": "سفر می‌تواند درک تو از فرهنگ‌های دیگر را غنی‌تر کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "enhance",
+        "improve"
+      ],
+      "antonyms": [
+        "deplete",
+        "impoverish"
+      ]
+    },
+    "word_family": [
+      "enrichment",
+      "enriched"
+    ],
+    "collocations": [
+      "enrich the experience",
+      "enrich knowledge"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "enrich",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Education and development",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "enroll",
+    "meanings_fa": "ثبت‌نام کردن؛ نام‌نویسی کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪnˈroʊl",
+    "cefr": "B1",
+    "category": "Education and administration",
+    "definition_en": "to officially join a course, school, or program",
+    "example_en": "You can enroll in the class online.",
+    "example_fa": "می‌توانی به‌صورت آنلاین در کلاس ثبت‌نام کنی.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "register",
+        "sign up"
+      ],
+      "antonyms": [
+        "withdraw",
+        "drop out"
+      ]
+    },
+    "word_family": [
+      "enrollment",
+      "enrolled"
+    ],
+    "collocations": [
+      "enroll in a course",
+      "enroll students"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "enroll",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Education and administration",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "ensue",
+    "meanings_fa": "در پی آمدن؛ نتیجه شدن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪnˈsuː",
+    "cefr": "C1",
+    "category": "Events and consequences",
+    "definition_en": "to happen after or as a result of something",
+    "example_en": "A heated argument ensued after the announcement.",
+    "example_fa": "پس از اعلام خبر، مشاجره‌ای تند درگرفت.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "follow",
+        "result"
+      ],
+      "antonyms": [
+        "precede"
+      ]
+    },
+    "word_family": [
+      "ensuing"
+    ],
+    "collocations": [
+      "chaos ensued",
+      "what ensued"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "ensue",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Events and consequences",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "entertaining",
+    "meanings_fa": "سرگرم‌کننده؛ مفرح",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˌentərˈteɪnɪŋ",
+    "cefr": "B1",
+    "category": "Media and leisure",
+    "definition_en": "interesting or amusing enough to hold your attention",
+    "example_en": "The podcast is informative and entertaining.",
+    "example_fa": "این پادکست هم آموزنده است و هم سرگرم‌کننده.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "amusing",
+        "enjoyable"
+      ],
+      "antonyms": [
+        "boring",
+        "dull"
+      ]
+    },
+    "word_family": [
+      "entertain",
+      "entertainment"
+    ],
+    "collocations": [
+      "entertaining show",
+      "highly entertaining"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "entertaining",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Media and leisure",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "enthusiast",
+    "meanings_fa": "علاقه‌مند پرشور؛ مشتاق",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪnˈθuːziæst",
+    "cefr": "B2",
+    "category": "People and interests",
+    "definition_en": "a person who is very interested in a particular activity or subject",
+    "example_en": "He is a photography enthusiast.",
+    "example_fa": "او علاقه‌مند پرشور عکاسی است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "fan",
+        "admirer"
+      ],
+      "antonyms": [
+        "opponent",
+        "critic"
+      ]
+    },
+    "word_family": [
+      "enthusiasm",
+      "enthusiastic"
+    ],
+    "collocations": [
+      "car enthusiast",
+      "outdoor enthusiast"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "enthusiast",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "People and interests",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "epidemic",
+    "meanings_fa": "همه‌گیری؛ شیوع گسترده",
+    "part_of_speech": "noun",
+    "ipa_us": "ˌepɪˈdemɪk",
+    "cefr": "B2",
+    "category": "Health and society",
+    "definition_en": "a large number of cases of a disease occurring in a particular place or population",
+    "example_en": "Health officials are monitoring the flu epidemic.",
+    "example_fa": "مسئولان بهداشت در حال نظارت بر همه‌گیری آنفلوانزا هستند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "outbreak",
+        "spread"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "epidemic",
+      "epidemically"
+    ],
+    "collocations": [
+      "disease epidemic",
+      "epidemic prevention"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "epidemic",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Health and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "equation",
+    "meanings_fa": "معادله؛ رابطه برابر",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪˈkweɪʒən",
+    "cefr": "B1",
+    "category": "Education and science",
+    "definition_en": "a mathematical statement showing that two amounts are equal",
+    "example_en": "Students learned how to solve a quadratic equation.",
+    "example_fa": "دانش‌آموزان یاد گرفتند چگونه یک معادله درجه‌دو را حل کنند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "formula",
+        "mathematical statement"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "equate",
+      "equivalent"
+    ],
+    "collocations": [
+      "solve an equation",
+      "linear equation"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "equation",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Education and science",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "equip",
+    "meanings_fa": "مجهز کردن؛ آماده ساختن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪˈkwɪp",
+    "cefr": "B1",
+    "category": "Work and daily life",
+    "definition_en": "to provide someone or something with the tools or skills needed for a purpose",
+    "example_en": "The course equips students with practical skills.",
+    "example_fa": "این دوره دانشجویان را به مهارت‌های کاربردی مجهز می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "supply",
+        "outfit"
+      ],
+      "antonyms": [
+        "disarm",
+        "deprive"
+      ]
+    },
+    "word_family": [
+      "equipment",
+      "equipped"
+    ],
+    "collocations": [
+      "equip with tools",
+      "fully equipped"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "equip",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "erupt",
+    "meanings_fa": "فوران کردن؛ ناگهان آغاز شدن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪˈrʌpt",
+    "cefr": "B2",
+    "category": "Nature and events",
+    "definition_en": "to explode or suddenly begin, especially with violence or strong emotion",
+    "example_en": "The volcano could erupt at any time.",
+    "example_fa": "آتشفشان ممکن است هر لحظه فوران کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "explode",
+        "burst out"
+      ],
+      "antonyms": [
+        "subside",
+        "calm down"
+      ]
+    },
+    "word_family": [
+      "eruption",
+      "eruptive"
+    ],
+    "collocations": [
+      "volcano erupt",
+      "erupt in anger"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "erupt",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Nature and events",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "escalate",
+    "meanings_fa": "تشدید شدن؛ افزایش دادن",
+    "part_of_speech": "verb",
+    "ipa_us": "ˈeskəleɪt",
+    "cefr": "B2",
+    "category": "Conflict and change",
+    "definition_en": "to become or make something more serious or intense",
+    "example_en": "The disagreement quickly escalated into a major dispute.",
+    "example_fa": "اختلاف‌نظر به‌سرعت به یک مناقشه بزرگ تبدیل شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "intensify",
+        "increase"
+      ],
+      "antonyms": [
+        "decrease",
+        "ease"
+      ]
+    },
+    "word_family": [
+      "escalation",
+      "escalatory"
+    ],
+    "collocations": [
+      "escalate a conflict",
+      "costs escalate"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "escalate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Conflict and change",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "essence",
+    "meanings_fa": "ماهیت؛ جوهر؛ عصاره",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈesəns",
+    "cefr": "B2",
+    "category": "Ideas and science",
+    "definition_en": "the basic and most important quality of something",
+    "example_en": "Trust is the essence of a strong relationship.",
+    "example_fa": "اعتماد اساس یک رابطه قوی است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "core",
+        "nature",
+        "substance"
+      ],
+      "antonyms": [
+        "surface",
+        "exterior"
+      ]
+    },
+    "word_family": [
+      "essential",
+      "essentially"
+    ],
+    "collocations": [
+      "in essence",
+      "essence of life"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "essence",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Ideas and science",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "eternal",
+    "meanings_fa": "ابدی؛ جاودانه",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪˈtɜːrnəl",
+    "cefr": "B2",
+    "category": "Time and beliefs",
+    "definition_en": "existing or continuing forever",
+    "example_en": "The story explores the idea of eternal love.",
+    "example_fa": "این داستان مفهوم عشق ابدی را بررسی می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "everlasting",
+        "endless"
+      ],
+      "antonyms": [
+        "temporary",
+        "finite"
+      ]
+    },
+    "word_family": [
+      "eternity",
+      "eternally"
+    ],
+    "collocations": [
+      "eternal life",
+      "eternal truth"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "eternal",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Time and beliefs",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "ethic",
+    "meanings_fa": "اصل اخلاقی؛ نظام اخلاقی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈeθɪk",
+    "cefr": "B2",
+    "category": "Work and values",
+    "definition_en": "a set of moral beliefs that influences how a person or group behaves",
+    "example_en": "The company promotes a strong work ethic.",
+    "example_fa": "این شرکت فرهنگ کاری مبتنی بر اخلاق و تلاش را ترویج می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "principle",
+        "moral code"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "ethical",
+      "ethically",
+      "ethics"
+    ],
+    "collocations": [
+      "work ethic",
+      "professional ethic"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "ethic",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and values",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "evacuate",
+    "meanings_fa": "تخلیه کردن؛ خارج کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪˈvækjueɪt",
+    "cefr": "B2",
+    "category": "Safety and emergencies",
+    "definition_en": "to move people away from a dangerous place",
+    "example_en": "Officials ordered residents to evacuate the area.",
+    "example_fa": "مقام‌ها به ساکنان دستور دادند منطقه را تخلیه کنند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "clear",
+        "remove"
+      ],
+      "antonyms": [
+        "occupy",
+        "enter"
+      ]
+    },
+    "word_family": [
+      "evacuation",
+      "evacuee"
+    ],
+    "collocations": [
+      "evacuate a building",
+      "evacuation order"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "evacuate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Safety and emergencies",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "evident",
+    "meanings_fa": "آشکار؛ واضح؛ بدیهی",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈevɪdənt",
+    "cefr": "B2",
+    "category": "Communication and reasoning",
+    "definition_en": "clear and easy to see or understand",
+    "example_en": "It was evident that the plan needed changes.",
+    "example_fa": "واضح بود که طرح به تغییراتی نیاز دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "obvious",
+        "apparent"
+      ],
+      "antonyms": [
+        "unclear",
+        "hidden"
+      ]
+    },
+    "word_family": [
+      "evidently",
+      "evidence"
+    ],
+    "collocations": [
+      "become evident",
+      "evident from the results"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "evident",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and reasoning",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "evoke",
+    "meanings_fa": "برانگیختن؛ تداعی کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪˈvoʊk",
+    "cefr": "C1",
+    "category": "Emotions and communication",
+    "definition_en": "to bring a feeling, memory, or image into someone's mind",
+    "example_en": "The song evokes memories of childhood.",
+    "example_fa": "این آهنگ خاطرات دوران کودکی را زنده می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "arouse",
+        "recall",
+        "bring to mind"
+      ],
+      "antonyms": [
+        "suppress",
+        "dispel"
+      ]
+    },
+    "word_family": [
+      "evocation",
+      "evocative"
+    ],
+    "collocations": [
+      "evoke memories",
+      "evoke emotion"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "evoke",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "evolution",
+    "meanings_fa": "تکامل؛ تحول تدریجی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˌevəˈluːʃən",
+    "cefr": "B2",
+    "category": "Science and change",
+    "definition_en": "the gradual development of something over time",
+    "example_en": "The course examines the evolution of modern English.",
+    "example_fa": "این دوره تحول تدریجی انگلیسی مدرن را بررسی می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "development",
+        "progression"
+      ],
+      "antonyms": [
+        "stagnation"
+      ]
+    },
+    "word_family": [
+      "evolve",
+      "evolutionary"
+    ],
+    "collocations": [
+      "human evolution",
+      "evolution of technology"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "evolution",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and change",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "evolutionary",
+    "meanings_fa": "تکاملی؛ مربوط به تحول تدریجی",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˌevəˈluːʃəneri",
+    "cefr": "C1",
+    "category": "Science and change",
+    "definition_en": "relating to the gradual development of living things or systems",
+    "example_en": "Researchers studied evolutionary changes in the species.",
+    "example_fa": "پژوهشگران تغییرات تکاملی این گونه را بررسی کردند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "developmental",
+        "adaptive"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "evolution",
+      "evolve"
+    ],
+    "collocations": [
+      "evolutionary process",
+      "evolutionary theory"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "evolutionary",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and change",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exaggerate",
+    "meanings_fa": "اغراق کردن؛ بزرگ‌نمایی کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪɡˈzædʒəreɪt",
+    "cefr": "B2",
+    "category": "Communication and behavior",
+    "definition_en": "to describe something as larger, better, worse, or more important than it really is",
+    "example_en": "Don't exaggerate the problem; we can solve it.",
+    "example_fa": "مشکل را بزرگ‌نمایی نکن؛ می‌توانیم آن را حل کنیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "overstate",
+        "magnify"
+      ],
+      "antonyms": [
+        "understate",
+        "minimize"
+      ]
+    },
+    "word_family": [
+      "exaggeration",
+      "exaggerated"
+    ],
+    "collocations": [
+      "greatly exaggerate",
+      "exaggerate the truth"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exaggerate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and behavior",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exceed",
+    "meanings_fa": "فراتر رفتن؛ بیشتر بودن از",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪkˈsiːd",
+    "cefr": "B2",
+    "category": "Numbers and performance",
+    "definition_en": "to be greater than a number, limit, or expectation",
+    "example_en": "The final cost may exceed our budget.",
+    "example_fa": "هزینه نهایی ممکن است از بودجه ما بیشتر شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "surpass",
+        "go beyond"
+      ],
+      "antonyms": [
+        "fall short of",
+        "remain below"
+      ]
+    },
+    "word_family": [
+      "excess",
+      "excessive"
+    ],
+    "collocations": [
+      "exceed expectations",
+      "exceed the limit"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exceed",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Numbers and performance",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "excellence",
+    "meanings_fa": "تعالی؛ برتری؛ کیفیت عالی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈeksələns",
+    "cefr": "B2",
+    "category": "Work and achievement",
+    "definition_en": "the quality of being extremely good at something",
+    "example_en": "The school is known for academic excellence.",
+    "example_fa": "این مدرسه به‌خاطر تعالی علمی شناخته شده است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "superiority",
+        "distinction"
+      ],
+      "antonyms": [
+        "mediocrity",
+        "inferiority"
+      ]
+    },
+    "word_family": [
+      "excellent",
+      "excellently"
+    ],
+    "collocations": [
+      "pursuit of excellence",
+      "academic excellence"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "excellence",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and achievement",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exceptional",
+    "meanings_fa": "استثنایی؛ فوق‌العاده",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪkˈsepʃənəl",
+    "cefr": "B2",
+    "category": "Description and achievement",
+    "definition_en": "much better or greater than usual, or unusual in a particular way",
+    "example_en": "She delivered an exceptional performance.",
+    "example_fa": "او اجرایی فوق‌العاده ارائه داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "outstanding",
+        "extraordinary"
+      ],
+      "antonyms": [
+        "ordinary",
+        "average"
+      ]
+    },
+    "word_family": [
+      "exception",
+      "exceptionally"
+    ],
+    "collocations": [
+      "exceptional talent",
+      "exceptional circumstances"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exceptional",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Description and achievement",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "excess",
+    "meanings_fa": "مقدار اضافی؛ افراط",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪkˈses",
+    "cefr": "B2",
+    "category": "Quantity and behavior",
+    "definition_en": "an amount that is more than necessary or allowed",
+    "example_en": "The report identified excess spending.",
+    "example_fa": "گزارش هزینه‌های اضافی را شناسایی کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "surplus",
+        "overage"
+      ],
+      "antonyms": [
+        "shortage",
+        "lack"
+      ]
+    },
+    "word_family": [
+      "excessive",
+      "excessively"
+    ],
+    "collocations": [
+      "in excess of",
+      "excess weight"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "excess",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Quantity and behavior",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "excessive",
+    "meanings_fa": "بیش از حد؛ افراطی",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪkˈsesɪv",
+    "cefr": "B2",
+    "category": "Quantity and behavior",
+    "definition_en": "greater than what is reasonable, necessary, or acceptable",
+    "example_en": "Excessive noise can affect your sleep.",
+    "example_fa": "صدای بیش از حد می‌تواند بر خوابت تأثیر بگذارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "extreme",
+        "unreasonable"
+      ],
+      "antonyms": [
+        "moderate",
+        "reasonable"
+      ]
+    },
+    "word_family": [
+      "excess",
+      "excessively"
+    ],
+    "collocations": [
+      "excessive force",
+      "excessive spending"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "excessive",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Quantity and behavior",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exclusion",
+    "meanings_fa": "محروم‌سازی؛ کنار گذاشتن؛ استثنا",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪkˈskluːʒən",
+    "cefr": "C1",
+    "category": "Society and rules",
+    "definition_en": "the act of preventing someone or something from being included",
+    "example_en": "The policy aims to prevent the exclusion of vulnerable groups.",
+    "example_fa": "این سیاست با هدف جلوگیری از کنار گذاشتن گروه‌های آسیب‌پذیر است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "rejection",
+        "omission"
+      ],
+      "antonyms": [
+        "inclusion",
+        "admission"
+      ]
+    },
+    "word_family": [
+      "exclude",
+      "exclusive"
+    ],
+    "collocations": [
+      "social exclusion",
+      "exclusion from a program"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exclusion",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Society and rules",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exclusively",
+    "meanings_fa": "منحصراً؛ فقط",
+    "part_of_speech": "adverb",
+    "ipa_us": "ɪkˈskluːsɪvli",
+    "cefr": "B2",
+    "category": "Communication and business",
+    "definition_en": "only, and not involving anyone or anything else",
+    "example_en": "The service is available exclusively to members.",
+    "example_fa": "این خدمات منحصراً در اختیار اعضا قرار دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "solely",
+        "only"
+      ],
+      "antonyms": [
+        "partly",
+        "inclusively"
+      ]
+    },
+    "word_family": [
+      "exclusive",
+      "exclusivity"
+    ],
+    "collocations": [
+      "available exclusively",
+      "deal exclusively with"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exclusively",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and business",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "execution",
+    "meanings_fa": "اجرا؛ انجام؛ اعدام",
+    "part_of_speech": "noun",
+    "ipa_us": "ˌeksɪˈkjuːʃən",
+    "cefr": "B2",
+    "category": "Work and law",
+    "definition_en": "the act of carrying out a plan, order, or task; also, the legal killing of a convicted person",
+    "example_en": "Successful execution of the plan requires careful coordination.",
+    "example_fa": "اجرای موفق طرح به هماهنگی دقیق نیاز دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "implementation",
+        "performance"
+      ],
+      "antonyms": [
+        "abandonment"
+      ]
+    },
+    "word_family": [
+      "execute",
+      "executive"
+    ],
+    "collocations": [
+      "execution of a plan",
+      "flawless execution"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "execution",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and law",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exert",
+    "meanings_fa": "اعمال کردن؛ به‌کار گرفتن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪɡˈzɜːrt",
+    "cefr": "C1",
+    "category": "Work and effort",
+    "definition_en": "to use influence, effort, or strength to achieve something",
+    "example_en": "You may need to exert more effort to meet the deadline.",
+    "example_fa": "برای رسیدن به مهلت تعیین‌شده ممکن است لازم باشد تلاش بیشتری به‌کار بگیری.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "apply",
+        "use"
+      ],
+      "antonyms": [
+        "relax",
+        "withhold"
+      ]
+    },
+    "word_family": [
+      "exertion",
+      "exertive"
+    ],
+    "collocations": [
+      "exert pressure",
+      "exert influence"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exert",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and effort",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exile",
+    "meanings_fa": "تبعید؛ تبعیدی؛ تبعید کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈeksaɪl",
+    "cefr": "C1",
+    "category": "Politics and society",
+    "definition_en": "the state of being forced to live away from your home country",
+    "example_en": "The writer spent many years in exile.",
+    "example_fa": "این نویسنده سال‌های زیادی را در تبعید گذراند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "banishment",
+        "deportation"
+      ],
+      "antonyms": [
+        "return",
+        "repatriation"
+      ]
+    },
+    "word_family": [
+      "exiled",
+      "exile"
+    ],
+    "collocations": [
+      "political exile",
+      "live in exile"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exile",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Politics and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  }
+]
