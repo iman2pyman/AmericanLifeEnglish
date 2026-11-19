@@ -111,7 +111,7 @@ class LearningStore(context: Context) {
     fun completedTodayCount(): Int = readJson(KEY_COMPLETED).optJSONArray(todayKey())?.length() ?: 0
 
     /** Persist every quiz response locally; keep a bounded history to protect storage. */
-    fun recordQuizAnswer(word: String, questionType: String, correct: Boolean) {
+    fun recordQuizAnswer(word: String, questionType: String, selectedAnswer: String, correctAnswer: String, correct: Boolean) {
         val id = wordId(word)
         if (id.isBlank() || questionType.isBlank()) return
         val history = runCatching { JSONArray(prefs.getString(KEY_QUIZ_HISTORY, "[]") ?: "[]") }
@@ -119,6 +119,8 @@ class LearningStore(context: Context) {
         history.put(JSONObject()
             .put("word", id)
             .put("type", questionType)
+            .put("selected", selectedAnswer)
+            .put("expected", correctAnswer)
             .put("correct", correct)
             .put("timestamp", System.currentTimeMillis()))
         val bounded = JSONArray()
