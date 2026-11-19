@@ -487,12 +487,12 @@ fun GrammarScreen(onBack: () -> Unit) {
     var selected by remember { mutableStateOf<GrammarLesson?>(null) }
     var level by remember { mutableStateOf("همه") }
     val levels = listOf("همه","A1","A2","B1","B2","C1","C2")
-    Column(Modifier.fillMaxSize().background(Color(0xFFF4F7FC)).padding(horizontal = 18.dp, vertical = 12.dp)) {
+    Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         if (selected == null) {
             ScreenHeader("آموزش گرامر", onBack)
-            Text("دستور زبان انگلیسی از پایه تا پیشرفته", color = Color(0xFF14213D), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+            Text("دستور زبان انگلیسی از پایه تا پیشرفته", color = appColor(Color(0xFF14213D)), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
             Spacer(Modifier.height(5.dp))
-            Text("${grammarLessons.size} درس تألیفی با توضیح فارسی، مثال آمریکایی، خطاهای رایج و تمرین", color = Color(0xFF718096), fontSize = 12.sp)
+            Text("${grammarLessons.size} درس تألیفی با توضیح فارسی، مثال آمریکایی، خطاهای رایج و تمرین", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
             Spacer(Modifier.height(12.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.fillMaxWidth()) {
                 levels.forEach { item ->
@@ -504,16 +504,16 @@ fun GrammarScreen(onBack: () -> Unit) {
                 grammarLessons.filter { level == "همه" || it.level == level }.forEach { item ->
                     Surface(
                         modifier = Modifier.fillMaxWidth().clickable { selected = item },
-                        shape = RoundedCornerShape(15.dp), color = Color.White, shadowElevation = 1.dp
+                        shape = RoundedCornerShape(15.dp), color = appColor(Color.White), shadowElevation = 1.dp
                     ) {
                         Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
                             Column(Modifier.weight(1f)) {
-                                Text(item.title, color = Color(0xFF18243A), fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                                Text(item.title, color = appColor(Color(0xFF18243A)), fontSize = 14.sp, fontWeight = FontWeight.Bold)
                                 Spacer(Modifier.height(4.dp))
-                                Text(item.category, color = Color(0xFF718096), fontSize = 11.sp)
+                                Text(item.category, color = appColor(Color(0xFF718096)), fontSize = 11.sp)
                             }
-                            Surface(shape = RoundedCornerShape(8.dp), color = Color(0xFF2563EB).copy(alpha = .10f)) {
-                                Text(item.level, Modifier.padding(horizontal = 9.dp, vertical = 6.dp), color = Color(0xFF2563EB), fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                            Surface(shape = RoundedCornerShape(8.dp), color = appColor(Color(0xFF2563EB)).copy(alpha = .10f)) {
+                                Text(item.level, Modifier.padding(horizontal = 9.dp, vertical = 6.dp), color = appColor(Color(0xFF2563EB)), fontWeight = FontWeight.Bold, fontSize = 11.sp)
                             }
                         }
                     }
@@ -530,46 +530,46 @@ fun GrammarScreen(onBack: () -> Unit) {
 private fun GrammarLessonDetail(lesson: GrammarLesson) {
     var answer by remember(lesson) { mutableStateOf<Int?>(null) }
     Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState())) {
-        Text(lesson.title, color = Color(0xFF14213D), fontSize = 22.sp, fontWeight = FontWeight.ExtraBold)
+        Text(lesson.title, color = appColor(Color(0xFF14213D)), fontSize = 22.sp, fontWeight = FontWeight.ExtraBold)
         Spacer(Modifier.height(5.dp))
-        Text("${lesson.level}  •  ${lesson.category}", color = Color(0xFF2563EB), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+        Text("${lesson.level}  •  ${lesson.category}", color = appColor(Color(0xFF2563EB)), fontSize = 12.sp, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(13.dp))
         GrammarPanel("توضیح کامل فارسی", lesson.explanation)
         GrammarPanel("ساختار و فرمول", lesson.structure)
-        Surface(Modifier.fillMaxWidth().padding(bottom = 12.dp), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 1.dp) {
+        Surface(Modifier.fillMaxWidth().padding(bottom = 12.dp), shape = RoundedCornerShape(16.dp), color = appColor(Color.White), shadowElevation = 1.dp) {
             Column(Modifier.padding(15.dp)) {
-                Text("مثال‌های کاربردی", color = Color(0xFF14213D), fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+                Text("مثال‌های کاربردی", color = appColor(Color(0xFF14213D)), fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
                 Spacer(Modifier.height(9.dp))
                 lesson.examples.forEach { (en, fa) ->
-                    Text(en, color = Color(0xFF2563EB), fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
-                    Text(fa, color = Color(0xFF64748B), fontSize = 12.sp)
+                    Text(en, color = appColor(Color(0xFF2563EB)), fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
+                    Text(fa, color = appColor(Color(0xFF64748B)), fontSize = 12.sp)
                     Spacer(Modifier.height(9.dp))
                 }
             }
         }
         GrammarPanel("اشتباه رایج", lesson.commonError)
-        Surface(Modifier.fillMaxWidth().padding(bottom = 12.dp), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 1.dp) {
+        Surface(Modifier.fillMaxWidth().padding(bottom = 12.dp), shape = RoundedCornerShape(16.dp), color = appColor(Color.White), shadowElevation = 1.dp) {
             Column(Modifier.padding(15.dp)) {
-                Text("تمرین این درس", color = Color(0xFF14213D), fontWeight = FontWeight.ExtraBold, fontSize = 15.sp)
+                Text("تمرین این درس", color = appColor(Color(0xFF14213D)), fontWeight = FontWeight.ExtraBold, fontSize = 15.sp)
                 Spacer(Modifier.height(8.dp))
-                Text(lesson.practice, color = Color(0xFF18243A), fontSize = 13.sp)
+                Text(lesson.practice, color = appColor(Color(0xFF18243A)), fontSize = 13.sp)
                 Spacer(Modifier.height(8.dp))
                 lesson.choices.forEachIndexed { index, choice ->
                     val bg = when {
-                        answer == null -> Color(0xFFF4F7FC)
-                        index == lesson.answer -> Color(0xFFE2F5ED)
-                        answer == index -> Color(0xFFFFE8E8)
-                        else -> Color(0xFFF4F7FC)
+                        answer == null -> appColor(Color(0xFFF4F7FC))
+                        index == lesson.answer -> appColor(Color(0xFFE2F5ED))
+                        answer == index -> appColor(Color(0xFFFFE8E8))
+                        else -> appColor(Color(0xFFF4F7FC))
                     }
                     Surface(
                         modifier = Modifier.fillMaxWidth().padding(vertical = 3.dp).clickable { answer = index },
                         shape = RoundedCornerShape(10.dp), color = bg
-                    ) { Text(choice, Modifier.padding(12.dp), color = Color(0xFF18243A), fontSize = 13.sp) }
+                    ) { Text(choice, Modifier.padding(12.dp), color = appColor(Color(0xFF18243A)), fontSize = 13.sp) }
                 }
                 if (answer != null) {
                     Spacer(Modifier.height(8.dp))
-                    Text(if (answer == lesson.answer) "آفرین! پاسخ درست است." else "پاسخ صحیح: ${lesson.choices[lesson.answer]}", color = if (answer == lesson.answer) Color(0xFF0F8B66) else Color(0xFFB54747), fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                    Text(lesson.reason, color = Color(0xFF64748B), fontSize = 12.sp)
+                    Text(if (answer == lesson.answer) "آفرین! پاسخ درست است." else "پاسخ صحیح: ${lesson.choices[lesson.answer]}", color = if (answer == lesson.answer) appColor(Color(0xFF0F8B66)) else appColor(Color(0xFFB54747)), fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    Text(lesson.reason, color = appColor(Color(0xFF64748B)), fontSize = 12.sp)
                     TextButton(onClick = { answer = null }) { Text("تکرار تمرین") }
                 }
             }
@@ -580,11 +580,11 @@ private fun GrammarLessonDetail(lesson: GrammarLesson) {
 
 @Composable
 private fun GrammarPanel(title: String, body: String) {
-    Surface(Modifier.fillMaxWidth().padding(bottom = 12.dp), shape = RoundedCornerShape(16.dp), color = Color.White, shadowElevation = 1.dp) {
+    Surface(Modifier.fillMaxWidth().padding(bottom = 12.dp), shape = RoundedCornerShape(16.dp), color = appColor(Color.White), shadowElevation = 1.dp) {
         Column(Modifier.padding(15.dp)) {
-            Text(title, color = Color(0xFF14213D), fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+            Text(title, color = appColor(Color(0xFF14213D)), fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
             Spacer(Modifier.height(6.dp))
-            Text(body, color = Color(0xFF18243A), fontSize = 13.sp, lineHeight = 23.sp)
+            Text(body, color = appColor(Color(0xFF18243A)), fontSize = 13.sp, lineHeight = 23.sp)
         }
     }
 }
