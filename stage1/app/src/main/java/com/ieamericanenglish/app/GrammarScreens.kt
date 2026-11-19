@@ -491,6 +491,9 @@ fun GrammarScreen(onBack: () -> Unit) {
         if (selected == null) {
             ScreenHeader("آموزش گرامر", onBack)
             Text("دستور زبان انگلیسی از پایه تا پیشرفته", color = appColor(Color(0xFF14213D)), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+
+            Spacer(Modifier.height(8.dp))
+            GrammarSourcesPanel()
             Spacer(Modifier.height(5.dp))
             Text("${grammarLessons.size} درس تألیفی با توضیح فارسی، مثال آمریکایی، خطاهای رایج و تمرین", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
             Spacer(Modifier.height(12.dp))
