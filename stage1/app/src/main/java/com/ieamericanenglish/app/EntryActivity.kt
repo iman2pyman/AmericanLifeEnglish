@@ -1,7 +1,10 @@
 package com.ieamericanenglish.app
 
 import android.os.Bundle
+import android.os.SystemClock
+import android.widget.Toast
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -41,7 +44,7 @@ class EntryActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         speech = AmericanSpeech(this)
-        setContent { MaterialTheme { AmericanEnglishRoot(onSpeak = { speech.speak(it) }) } }
+        setContent { MaterialTheme { AmericanEnglishRoot(onSpeak = { speech.speak(it) }, onExit = { finish() }) } }
     }
     override fun onDestroy() {
         if (::speech.isInitialized) speech.close()
@@ -50,7 +53,7 @@ class EntryActivity : ComponentActivity() {
 }
 
 @Composable
-private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
+private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
     val context = LocalContext.current
     val words = remember { loadVocabulary(context) }
     val learningStore = remember(context) { LearningStore(context) }
@@ -61,6 +64,32 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit) {
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
     var browsedLevel by remember { mutableStateOf("A1") }
     var dialog by remember { mutableStateOf<String?>(null) }
+    var lastBackPressedAt by remember { mutableLongStateOf(0L) }
+
+    BackHandler(enabled = true) {
+        when {
+            dialog != null -> dialog = null
+            selectedWord != null -> selectedWord = null
+            page == "vocabulary-level-words" -> page = "vocabulary-level"
+            page == "vocabulary-level" -> page = "vocabulary"
+            page == "vocabulary-practice" -> page = "vocabulary"
+            page == "vocabulary" -> page = "home"
+            page != "home" -> page = "home"
+            else -> {
+                val now = SystemClock.elapsedRealtime()
+                if (now - lastBackPressedAt <= 2_000L) {
+                    onExit()
+                } else {
+                    lastBackPressedAt = now
+                    Toast.makeText(
+                        context,
+                        "برای خروج دوباره دکمه بازگشت را بزنید",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+        }
+    }
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
         Surface(Modifier.fillMaxSize(), color = Page) {
             when {
