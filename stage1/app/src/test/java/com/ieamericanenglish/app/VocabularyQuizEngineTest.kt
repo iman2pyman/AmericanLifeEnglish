@@ -68,4 +68,23 @@ class VocabularyQuizEngineTest {
 
         assertTrue(VocabularyQuizEngine.createQuiz(words, "A1", 10).isEmpty())
     }
+
+    @Test
+    fun comprehensiveQuizCanUseWordsFromMultipleLevels() {
+        val words = listOf(
+            sampleWord("apple", "سیب", "A1"), sampleWord("book", "کتاب", "A1"),
+            sampleWord("chair", "صندلی", "A1"), sampleWord("door", "در", "A1"),
+            sampleWord("earth", "زمین", "B1"), sampleWord("family", "خانواده", "B1"),
+            sampleWord("garden", "باغ", "B1"), sampleWord("house", "خانه", "B1")
+        )
+
+        val questions = VocabularyQuizEngine.createQuizFromPool(words, 10)
+        val targetLevels = questions.map { question ->
+            words.first { it.word == question.targetWord }.cefr
+        }.toSet()
+
+        assertEquals(8, questions.size)
+        assertTrue(targetLevels.contains("A1"))
+        assertTrue(targetLevels.contains("B1"))
+    }
 }
