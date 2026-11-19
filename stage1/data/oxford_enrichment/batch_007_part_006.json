@@ -1,0 +1,817 @@
+{
+  "batch": 7,
+  "part": 6,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 81–100 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "conceive",
+      "source_candidate": "conceive",
+      "meanings_fa": "تصور کردن؛ در ذهن شکل دادن؛ طراحی کردن؛ باردار شدن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈsiːv/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "To form an idea or plan in the mind; to imagine something; or to become pregnant.",
+      "example_en": "It is difficult to conceive a better solution to the problem.",
+      "example_fa": "تصور راه‌حل بهتری برای این مشکل دشوار است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "imagine",
+          "devise",
+          "think up"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conceived (adjective/verb)",
+        "conception (noun)",
+        "conceivable (adjective)",
+        "inconceivable (adjective)"
+      ],
+      "collocations": [
+        "conceive an idea",
+        "conceive a plan",
+        "conceive of something"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "conception",
+      "source_candidate": "conception",
+      "meanings_fa": "تصور؛ برداشت؛ شکل‌گیری ایده؛ لقاح",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈsɛpʃən/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "An idea or understanding of something; the process by which a pregnancy begins.",
+      "example_en": "The course changed my conception of American history.",
+      "example_fa": "این دوره برداشت من از تاریخ آمریکا را تغییر داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "idea",
+          "understanding",
+          "notion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conceive (verb)",
+        "concept (noun)",
+        "conceptual (adjective)",
+        "conceptually (adverb)"
+      ],
+      "collocations": [
+        "popular conception",
+        "original conception",
+        "conception of something"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "concrete",
+      "source_candidate": "concrete",
+      "meanings_fa": "عینی؛ ملموس؛ مشخص؛ بتن",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈkɑːnkriːt/",
+      "cefr": "B1",
+      "category": "Education, society, health and public life",
+      "definition_en": "Clear, definite, and based on facts rather than ideas; a strong building material made from cement, sand, and water.",
+      "example_en": "We need concrete evidence before making a decision.",
+      "example_fa": "پیش از تصمیم‌گیری به شواهد عینی نیاز داریم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "tangible",
+          "specific",
+          "definite"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "concretely (adverb)",
+        "concreteness (noun)",
+        "concretize (verb)"
+      ],
+      "collocations": [
+        "concrete evidence",
+        "concrete example",
+        "concrete floor"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "confer",
+      "source_candidate": "confer",
+      "meanings_fa": "مشورت کردن؛ تبادل نظر کردن؛ اعطا کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈfɝː/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "To discuss something with someone before making a decision; to officially give a title, degree, or honor.",
+      "example_en": "The committee will confer before announcing its decision.",
+      "example_fa": "کمیته پیش از اعلام تصمیم خود مشورت خواهد کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "consult",
+          "discuss",
+          "grant",
+          "bestow"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conference (noun)",
+        "conferral (noun)",
+        "conferred (verb)"
+      ],
+      "collocations": [
+        "confer with a colleague",
+        "confer a degree",
+        "confer authority"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "confess",
+      "source_candidate": "confess",
+      "meanings_fa": "اعتراف کردن؛ اقرار کردن؛ به گناه یا اشتباه خود اذعان کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈfɛs/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "To admit that you have done something wrong or that something is true, often unwillingly.",
+      "example_en": "He confessed that he had made a mistake in the report.",
+      "example_fa": "او اعتراف کرد که در گزارش اشتباه کرده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "admit",
+          "acknowledge",
+          "own up to"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "confession (noun)",
+        "confessor (noun)",
+        "confessed (adjective/verb)"
+      ],
+      "collocations": [
+        "confess a mistake",
+        "confess to a crime",
+        "I must confess"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "confession",
+      "source_candidate": "confession",
+      "meanings_fa": "اعتراف؛ اقرار؛ اعتراف به گناه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈfɛʃən/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "A statement in which someone admits to doing something wrong or reveals something private.",
+      "example_en": "The police obtained a confession after questioning the suspect.",
+      "example_fa": "پلیس پس از بازجویی از مظنون اعتراف گرفت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "admission",
+          "acknowledgment",
+          "disclosure"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "confess (verb)",
+        "confessional (adjective/noun)",
+        "confessor (noun)"
+      ],
+      "collocations": [
+        "make a confession",
+        "signed confession",
+        "confession of guilt"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "confirmation",
+      "source_candidate": "confirmation",
+      "meanings_fa": "تأیید؛ تأییدیه؛ پیام یا رسید تأیید",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːnfɚˈmeɪʃən/",
+      "cefr": "B2",
+      "category": "Education, society, health and public life",
+      "definition_en": "A statement or action that shows something is true, correct, or officially accepted.",
+      "example_en": "You will receive an email confirmation after booking your appointment.",
+      "example_fa": "پس از رزرو وقت، یک ایمیل تأیید دریافت خواهید کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "verification",
+          "approval",
+          "validation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "confirm (verb)",
+        "confirmed (adjective)",
+        "confirmatory (adjective)"
+      ],
+      "collocations": [
+        "booking confirmation",
+        "written confirmation",
+        "confirmation email"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "confrontation",
+      "source_candidate": "confrontation",
+      "meanings_fa": "رویارویی؛ تقابل؛ درگیری یا مشاجره",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːnfrʌnˈteɪʃən/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "A hostile or difficult meeting between people or groups who disagree.",
+      "example_en": "The manager tried to avoid a confrontation with the customer.",
+      "example_fa": "مدیر تلاش کرد از رویارویی با مشتری جلوگیری کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "conflict",
+          "clash",
+          "dispute"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "confront (verb)",
+        "confrontational (adjective)",
+        "confrontationally (adverb)"
+      ],
+      "collocations": [
+        "face a confrontation",
+        "avoid confrontation",
+        "direct confrontation"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "congratulate",
+      "source_candidate": "congratulate",
+      "meanings_fa": "تبریک گفتن؛ شادباش گفتن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈɡrædʒəˌleɪt/",
+      "cefr": "B2",
+      "category": "Education, society, health and public life",
+      "definition_en": "To tell someone that you are pleased about their success or good news.",
+      "example_en": "We called to congratulate her on the new job.",
+      "example_fa": "برای تبریک گفتن بابت شغل جدیدش با او تماس گرفتیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "praise",
+          "compliment",
+          "felicitate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "congratulation (noun)",
+        "congratulations (interjection)",
+        "congratulatory (adjective)"
+      ],
+      "collocations": [
+        "congratulate someone on",
+        "congratulate the winner",
+        "warmly congratulate"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "congregation",
+      "source_candidate": "congregation",
+      "meanings_fa": "جماعت؛ گروهی از افراد حاضر در مراسم مذهبی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːŋɡrɪˈɡeɪʃən/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "A group of people who gather for religious worship, especially in a church.",
+      "example_en": "The congregation gathered for the Sunday service.",
+      "example_fa": "جماعت برای مراسم یکشنبه گرد هم آمدند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "worshippers",
+          "church members",
+          "assembly"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "congregate (verb)",
+        "congregational (adjective)"
+      ],
+      "collocations": [
+        "church congregation",
+        "local congregation",
+        "congregation gathered"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "conquer",
+      "source_candidate": "conquer",
+      "meanings_fa": "فتح کردن؛ تسخیر کردن؛ غلبه کردن بر",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈkɑːŋkɚ/",
+      "cefr": "B2",
+      "category": "Education, society, health and public life",
+      "definition_en": "To take control of a place by force, or to overcome a difficult problem or fear.",
+      "example_en": "She worked hard to conquer her fear of public speaking.",
+      "example_fa": "او سخت تلاش کرد بر ترس خود از سخنرانی در جمع غلبه کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "defeat",
+          "overcome",
+          "subdue"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conqueror (noun)",
+        "conquest (noun)",
+        "conquering (adjective/verb)"
+      ],
+      "collocations": [
+        "conquer a country",
+        "conquer a fear",
+        "conquer a challenge"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "conscience",
+      "source_candidate": "conscience",
+      "meanings_fa": "وجدان؛ ندای درونی تشخیص درست و نادرست",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːnʃəns/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "The inner sense that helps a person judge whether an action is right or wrong.",
+      "example_en": "His conscience would not let him keep the extra money.",
+      "example_fa": "وجدانش اجازه نمی‌داد پول اضافی را برای خودش نگه دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "moral sense",
+          "inner voice",
+          "scruples"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conscientious (adjective)",
+        "conscientiously (adverb)",
+        "conscientiousness (noun)"
+      ],
+      "collocations": [
+        "clear conscience",
+        "guilty conscience",
+        "matter of conscience"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "consciousness",
+      "source_candidate": "consciousness",
+      "meanings_fa": "هوشیاری؛ آگاهی؛ شعور و ادراک",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːnʃəsnəs/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "The state of being awake and aware of yourself and your surroundings; awareness of an issue.",
+      "example_en": "The patient regained consciousness in the ambulance.",
+      "example_fa": "بیمار در آمبولانس هوشیاری خود را به دست آورد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "awareness",
+          "alertness",
+          "perception"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conscious (adjective)",
+        "consciously (adverb)",
+        "unconsciousness (noun)"
+      ],
+      "collocations": [
+        "lose consciousness",
+        "regain consciousness",
+        "public consciousness"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "consecutive",
+      "source_candidate": "consecutive",
+      "meanings_fa": "متوالی؛ پی‌درپی؛ پشت‌سرهم",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/kənˈsɛkjətɪv/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "Following one after another without interruption.",
+      "example_en": "The team won five consecutive games.",
+      "example_fa": "تیم پنج بازی پیاپی را برد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "successive",
+          "sequential",
+          "continuous"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consecutively (adverb)",
+        "nonconsecutive (adjective)"
+      ],
+      "collocations": [
+        "consecutive days",
+        "consecutive wins",
+        "three consecutive years"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "consensus",
+      "source_candidate": "consensus",
+      "meanings_fa": "اجماع؛ توافق نظر گروهی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈsɛnsəs/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "A general agreement among members of a group.",
+      "example_en": "The committee reached a consensus on the final proposal.",
+      "example_fa": "کمیته دربارهٔ پیشنهاد نهایی به توافق نظر رسید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "agreement",
+          "accord",
+          "common understanding"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consensual (adjective)",
+        "consensually (adverb)"
+      ],
+      "collocations": [
+        "reach a consensus",
+        "broad consensus",
+        "consensus view"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "consent",
+      "source_candidate": "consent",
+      "meanings_fa": "رضایت؛ اجازه؛ موافقت کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/kənˈsɛnt/",
+      "cefr": "B2",
+      "category": "Education, society, health and public life",
+      "definition_en": "Permission or agreement for something to happen, especially after being informed about it.",
+      "example_en": "Patients must give informed consent before the procedure.",
+      "example_fa": "بیماران باید پیش از انجام این روش درمانی رضایت آگاهانه بدهند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "permission",
+          "approval",
+          "agreement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consensual (adjective)",
+        "consented (verb)",
+        "consenting (adjective)"
+      ],
+      "collocations": [
+        "informed consent",
+        "parental consent",
+        "give consent"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "conserve",
+      "source_candidate": "conserve",
+      "meanings_fa": "حفظ کردن؛ نگهداری کردن؛ صرفه‌جویی کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈsɝːv/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "To protect something from loss or damage, or to use resources carefully so they last longer.",
+      "example_en": "The city asks residents to conserve water during the summer.",
+      "example_fa": "شهر از ساکنان می‌خواهد در تابستان در مصرف آب صرفه‌جویی کنند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "preserve",
+          "protect",
+          "save"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conservation (noun)",
+        "conservationist (noun)",
+        "conservative (adjective/noun)"
+      ],
+      "collocations": [
+        "conserve energy",
+        "conserve water",
+        "conserve resources"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "considerably",
+      "source_candidate": "considerably",
+      "meanings_fa": "به‌طور قابل‌توجه؛ بسیار؛ به میزان زیاد",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/kənˈsɪdərəbli/",
+      "cefr": "B2",
+      "category": "Education, society, health and public life",
+      "definition_en": "By a large amount or to a noticeable degree.",
+      "example_en": "The new route is considerably faster during rush hour.",
+      "example_fa": "مسیر جدید در ساعت شلوغی به‌طور قابل‌توجهی سریع‌تر است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "significantly",
+          "substantially",
+          "markedly"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "considerable (adjective)",
+        "consider (verb)",
+        "consideration (noun)"
+      ],
+      "collocations": [
+        "considerably higher",
+        "considerably less",
+        "improve considerably"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "consistency",
+      "source_candidate": "consistency",
+      "meanings_fa": "ثبات؛ یکدستی؛ انسجام؛ قوام",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈsɪstənsi/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "The quality of remaining the same over time; agreement between different parts; or the thickness of a substance.",
+      "example_en": "Consistency is important when you are building a new habit.",
+      "example_fa": "هنگام ایجاد یک عادت جدید، ثبات اهمیت دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "uniformity",
+          "steadiness",
+          "reliability"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consistent (adjective)",
+        "consistently (adverb)",
+        "inconsistent (adjective)",
+        "inconsistency (noun)"
+      ],
+      "collocations": [
+        "consistency is key",
+        "maintain consistency",
+        "consistent quality"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "consolidate",
+      "source_candidate": "consolidate",
+      "meanings_fa": "یکپارچه کردن؛ ادغام کردن؛ تحکیم و تقویت کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈsɑːlɪˌdeɪt/",
+      "cefr": "C1",
+      "category": "Education, society, health and public life",
+      "definition_en": "To combine separate things into a single stronger or more effective whole; to make a position or system stronger.",
+      "example_en": "The company plans to consolidate its regional offices.",
+      "example_fa": "شرکت قصد دارد دفترهای منطقه‌ای خود را ادغام کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "combine",
+          "merge",
+          "strengthen"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consolidation (noun)",
+        "consolidated (adjective)",
+        "consolidating (verb)"
+      ],
+      "collocations": [
+        "consolidate debt",
+        "consolidate operations",
+        "consolidate a position"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، جامعه، سلامت و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "batch": 7,
+  "part": 2,
+  "status": "staging_editorial_draft",
+  "candidate_source": "First 20 supplementary words after the 41 missing Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "athletic",
+      "source_candidate": "athletic",
+      "meanings_fa": "ورزشی؛ مربوط به ورزشکاران یا فعالیت بدنی",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/æθˈlɛtɪk/",
+      "cefr": "B2",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Related to sports, athletes, or physical fitness.",
+      "example_en": "The school has excellent athletic facilities.",
+      "example_fa": "این مدرسه امکانات ورزشی بسیار خوبی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "sporting",
+          "sports-related",
+          "fit"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "athlete (noun)",
+        "athletically (adverb)",
+        "athletics (noun)"
+      ],
+      "collocations": [
+        "athletic ability",
+        "athletic performance",
+        "athletic competition"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "bankruptcy",
+      "source_candidate": "bankruptcy",
+      "meanings_fa": "ورشکستگی؛ ناتوانی قانونی یا مالی در پرداخت بدهی‌ها",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈbæŋkrəptsi/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A legal or financial state in which a person or business is unable to pay its debts.",
+      "example_en": "The company filed for bankruptcy after losing its largest customer.",
+      "example_fa": "شرکت پس از از دست دادن بزرگ‌ترین مشتری خود درخواست ورشکستگی داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "insolvency",
+          "financial failure"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "bankrupt (adjective/noun/verb)",
+        "bankrupting (verb)"
+      ],
+      "collocations": [
+        "file for bankruptcy",
+        "bankruptcy court",
+        "bankruptcy protection"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "behavioral",
+      "source_candidate": "behavioral",
+      "meanings_fa": "رفتاری؛ مربوط به شیوهٔ رفتار انسان یا حیوان",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/bɪˈheɪvjərəl/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Related to the way a person or animal acts or responds in different situations.",
+      "example_en": "The program uses behavioral science to help people build healthier habits.",
+      "example_fa": "این برنامه از علوم رفتاری برای کمک به افراد در ایجاد عادت‌های سالم‌تر استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "behavior-related",
+          "conduct-related"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "behavior (noun)",
+        "behaviorally (adverb)",
+        "behavioralist (noun, uncommon)"
+      ],
+      "collocations": [
+        "behavioral science",
+        "behavioral change",
+        "behavioral pattern"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "beverage",
+      "source_candidate": "beverage",
+      "meanings_fa": "نوشیدنی؛ مایع قابل نوشیدن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈbɛvərɪdʒ/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Any drink, especially one prepared for people to consume.",
+      "example_en": "Complimentary beverages are available in the hotel lobby.",
+      "example_fa": "نوشیدنی‌های رایگان در لابی هتل در دسترس هستند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "drink",
+          "refreshment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "hot beverage",
+        "cold beverage",
+        "beverage industry"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "brutal",
+      "source_candidate": "brutal",
+      "meanings_fa": "بی‌رحمانه؛ وحشیانه؛ بسیار خشن یا طاقت‌فرسا",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈbruːtəl/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Extremely cruel, violent, or harsh; sometimes used informally for something very difficult.",
+      "example_en": "The hikers faced brutal weather during the final part of the climb.",
+      "example_fa": "کوهنوردان در بخش پایانی صعود با هوای بسیار سختی روبه‌رو شدند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cruel",
+          "savage",
+          "harsh"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "brutality (noun)",
+        "brutally (adverb)"
+      ],
+      "collocations": [
+        "brutal attack",
+        "brutal honesty",
+        "brutal conditions"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "buck",
+      "source_candidate": "buck",
+      "meanings_fa": "دلار (در گفتار آمریکایی)؛ گوزن نر",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/bʌk/",
+      "cefr": "B2",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Informal American English for one dollar; also, a male deer.",
+      "example_en": "The coffee costs three bucks, including tax.",
+      "example_fa": "قهوه با احتساب مالیات سه دلار قیمت دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "dollar (informal sense)",
+          "male deer (animal sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "buckskin (noun)",
+        "bucking (noun/verb)"
+      ],
+      "collocations": [
+        "a few bucks",
+        "make a quick buck",
+        "buck the trend"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "buddy",
+      "source_candidate": "buddy",
+      "meanings_fa": "رفیق؛ دوست صمیمی؛ همراه",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈbʌdi/",
+      "cefr": "A2",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "An informal word for a friend or partner, especially someone who helps or accompanies you.",
+      "example_en": "My workout buddy keeps me motivated.",
+      "example_fa": "رفیق تمرینم باعث می‌شود باانگیزه بمانم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "friend",
+          "pal",
+          "companion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "buddies (plural)",
+        "buddy up (phrasal verb)"
+      ],
+      "collocations": [
+        "buddy system",
+        "study buddy",
+        "workout buddy"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "buffer",
+      "source_candidate": "buffer",
+      "meanings_fa": "حائل؛ ضربه‌گیر؛ میانگیر؛ حافظهٔ موقت",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈbʌfər/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Something that protects or separates two things; in computing, temporary memory used while data is transferred.",
+      "example_en": "The trees provide a buffer between the road and the houses.",
+      "example_fa": "درخت‌ها میان جاده و خانه‌ها یک حائل ایجاد می‌کنند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cushion",
+          "barrier",
+          "safeguard"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "buffered (adjective/verb)",
+        "buffering (noun/verb)"
+      ],
+      "collocations": [
+        "buffer zone",
+        "memory buffer",
+        "buffer against"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "bureaucracy",
+      "source_candidate": "bureaucracy",
+      "meanings_fa": "دیوان‌سالاری؛ نظام اداری پیچیده؛ کاغذبازی اداری",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/bjʊˈrɑːkrəsi/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A system of managing an organization or government through many formal rules and officials; excessive administrative procedures.",
+      "example_en": "Small businesses often struggle with government bureaucracy.",
+      "example_fa": "کسب‌وکارهای کوچک اغلب با دیوان‌سالاری دولتی دست‌وپنجه نرم می‌کنند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "red tape",
+          "administration",
+          "officialdom"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "bureaucrat (noun)",
+        "bureaucratic (adjective)",
+        "bureaucratically (adverb)"
+      ],
+      "collocations": [
+        "government bureaucracy",
+        "bureaucratic process",
+        "cut through bureaucracy"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "burial",
+      "source_candidate": "burial",
+      "meanings_fa": "خاک‌سپاری؛ دفن؛ مراسم به خاک سپردن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈbɛriəl/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "The act or ceremony of placing a dead person in a grave.",
+      "example_en": "The family held a private burial service on Saturday.",
+      "example_fa": "خانواده روز شنبه مراسم خاک‌سپاری خصوصی برگزار کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "interment",
+          "funeral (related)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "bury (verb)",
+        "buried (adjective/verb)"
+      ],
+      "collocations": [
+        "burial service",
+        "burial site",
+        "burial ceremony"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cabinet",
+      "source_candidate": "cabinet",
+      "meanings_fa": "کابینت؛ کمد؛ هیئت دولت یا وزیران",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkæbənət/",
+      "cefr": "B2",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A piece of furniture with shelves or drawers; or a group of senior government officials who advise a leader.",
+      "example_en": "The kitchen cabinet needs a new handle.",
+      "example_fa": "کابینت آشپزخانه به یک دستگیرهٔ جدید نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cupboard",
+          "case",
+          "council of ministers"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cabinetmaker (noun)",
+        "cabinetry (noun)"
+      ],
+      "collocations": [
+        "kitchen cabinet",
+        "cabinet meeting",
+        "cabinet member"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "calculation",
+      "source_candidate": "calculation",
+      "meanings_fa": "محاسبه؛ برآورد؛ نتیجهٔ حساب‌وکتاب",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkælkjəˈleɪʃən/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "The process of using mathematics or careful reasoning to work out an amount or result.",
+      "example_en": "The loan calculation includes interest and monthly fees.",
+      "example_fa": "محاسبهٔ وام شامل بهره و هزینه‌های ماهانه است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "computation",
+          "estimate",
+          "reckoning"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "calculate (verb)",
+        "calculator (noun)",
+        "calculated (adjective)"
+      ],
+      "collocations": [
+        "quick calculation",
+        "cost calculation",
+        "make a calculation"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "canal",
+      "source_candidate": "canal",
+      "meanings_fa": "کانال؛ آبراه مصنوعی؛ مجرا یا لولهٔ بدن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈnæl/",
+      "cefr": "B2",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A man-made waterway for boats or irrigation; also, a tube or passage in the body.",
+      "example_en": "The boat traveled through a canal that connects two rivers.",
+      "example_fa": "قایق از کانالی عبور کرد که دو رودخانه را به هم وصل می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "waterway",
+          "channel",
+          "passage"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "canalize (verb)",
+        "canalization (noun)"
+      ],
+      "collocations": [
+        "shipping canal",
+        "canal system",
+        "ear canal"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "candle",
+      "source_candidate": "candle",
+      "meanings_fa": "شمع؛ استوانهٔ مومی دارای فتیله",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkændəl/",
+      "cefr": "B2",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A stick of wax with a central wick that produces light when it burns.",
+      "example_en": "We lit a candle during the power outage.",
+      "example_fa": "هنگام قطع برق یک شمع روشن کردیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "taper",
+          "wax light"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "candlelight (noun)",
+        "candlelit (adjective)",
+        "candlemaker (noun)"
+      ],
+      "collocations": [
+        "light a candle",
+        "scented candle",
+        "candle holder"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "canvas",
+      "source_candidate": "canvas",
+      "meanings_fa": "بوم نقاشی؛ پارچهٔ ضخیم و محکم",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkænvəs/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A strong, heavy fabric; a piece of this fabric prepared for painting.",
+      "example_en": "The artist stretched the canvas before starting the portrait.",
+      "example_fa": "هنرمند پیش از شروع نقاشی پرتره، بوم را روی چهارچوب کشید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cloth",
+          "heavy fabric",
+          "painting surface"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "canvass (different spelling/word)",
+        "canvas-covered (adjective)"
+      ],
+      "collocations": [
+        "canvas bag",
+        "canvas shoes",
+        "paint on canvas"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "capitalism",
+      "source_candidate": "capitalism",
+      "meanings_fa": "سرمایه‌داری؛ نظام اقتصادی مبتنی بر مالکیت خصوصی و بازار",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkæpɪtəˌlɪzəm/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "An economic system in which businesses and property are mainly privately owned and operated for profit.",
+      "example_en": "The class compared capitalism with other economic systems.",
+      "example_fa": "کلاس سرمایه‌داری را با نظام‌های اقتصادی دیگر مقایسه کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "free-market economy",
+          "private-enterprise system"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "capitalist (noun/adjective)",
+        "capitalistic (adjective)"
+      ],
+      "collocations": [
+        "modern capitalism",
+        "global capitalism",
+        "capitalist economy"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cargo",
+      "source_candidate": "cargo",
+      "meanings_fa": "بار؛ محمولهٔ حمل‌شده با کشتی، هواپیما یا کامیون",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːrɡoʊ/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Goods carried by a ship, aircraft, truck, or other means of transportation.",
+      "example_en": "The cargo arrived at the port two days late.",
+      "example_fa": "محموله دو روز دیرتر به بندر رسید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "freight",
+          "shipment",
+          "load"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cargoes (plural)",
+        "cargo-handling (compound noun)"
+      ],
+      "collocations": [
+        "cargo ship",
+        "cargo plane",
+        "cargo container"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "carriage",
+      "source_candidate": "carriage",
+      "meanings_fa": "واگن قطار؛ کالسکه؛ وسیلهٔ نقلیهٔ اسبی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkærɪdʒ/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "A passenger section of a train; historically, a vehicle pulled by horses.",
+      "example_en": "We found seats in the last carriage of the train.",
+      "example_fa": "در آخرین واگن قطار صندلی پیدا کردیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "railcar",
+          "coach",
+          "horse-drawn vehicle"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "carriageway (noun",
+        "mainly British)",
+        "carriageable (adjective, rare)"
+      ],
+      "collocations": [
+        "railway carriage",
+        "horse-drawn carriage",
+        "carriage return"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cater",
+      "source_candidate": "cater",
+      "meanings_fa": "تأمین کردن؛ پاسخ‌گوی نیاز بودن؛ پذیرایی و تهیهٔ غذا",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈkeɪtər/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "To provide food or services for an event; or to meet the needs or interests of a particular group.",
+      "example_en": "The company caters lunch for meetings and training sessions.",
+      "example_fa": "این شرکت برای جلسه‌ها و دوره‌های آموزشی ناهار تهیه می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "provide",
+          "supply",
+          "serve"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "caterer (noun)",
+        "catering (noun)",
+        "catered (adjective/verb)"
+      ],
+      "collocations": [
+        "cater for guests",
+        "cater to a need",
+        "catering service"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "caution",
+      "source_candidate": "caution",
+      "meanings_fa": "احتیاط؛ دوراندیشی؛ هشدار",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈkɔːʃən/",
+      "cefr": "C1",
+      "category": "Work, society, money and everyday life",
+      "definition_en": "Care taken to avoid danger or mistakes; a warning about possible risk.",
+      "example_en": "Use caution when driving on icy roads.",
+      "example_fa": "هنگام رانندگی در جاده‌های یخ‌زده احتیاط کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "care",
+          "prudence",
+          "warning"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cautious (adjective)",
+        "cautiously (adverb)",
+        "cautionary (adjective)"
+      ],
+      "collocations": [
+        "exercise caution",
+        "caution sign",
+        "proceed with caution"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning and US pronunciation cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، جامعه، مالی و زندگی روزمره",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}

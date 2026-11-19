@@ -1,0 +1,817 @@
+{
+  "batch": 7,
+  "part": 7,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 101–120 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "consultation",
+      "source_candidate": "consultation",
+      "meanings_fa": "مشاوره؛ رایزنی؛ جلسهٔ گفت‌وگو با متخصص",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːnsəlˈteɪʃən/",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A meeting with a professional to get advice, or a discussion before making a decision.",
+      "example_en": "Schedule a consultation with your academic adviser.",
+      "example_fa": "برای مشاوره با مشاور تحصیلی خود وقت بگیر.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "advice session",
+          "meeting",
+          "discussion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consult (verb)",
+        "consultant (noun)",
+        "consultative (adjective)"
+      ],
+      "collocations": [
+        "medical consultation",
+        "initial consultation",
+        "consultation fee"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contemplate",
+      "source_candidate": "contemplate",
+      "meanings_fa": "تأمل کردن؛ با دقت اندیشیدن؛ احتمال انجام کاری را سنجیدن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈkɑːntəmˌpleɪt/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "To think carefully and seriously about something, especially before making a decision.",
+      "example_en": "She is contemplating a move to another state for work.",
+      "example_fa": "او در حال بررسی جدی نقل مکان به ایالتی دیگر برای کار است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "consider",
+          "ponder",
+          "think over"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contemplation (noun)",
+        "contemplative (adjective)"
+      ],
+      "collocations": [
+        "contemplate a move",
+        "contemplate the possibility",
+        "deeply contemplate"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contempt",
+      "source_candidate": "contempt",
+      "meanings_fa": "تحقیر؛ بی‌احترامی؛ بی‌اعتنایی همراه با نفرت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈtɛmpt/",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A strong feeling that someone or something is not worthy of respect.",
+      "example_en": "He showed contempt for the safety rules.",
+      "example_fa": "او نسبت به قوانین ایمنی بی‌اعتنایی نشان داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "scorn",
+          "disdain",
+          "disrespect"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contemptuous (adjective)",
+        "contemptuously (adverb)"
+      ],
+      "collocations": [
+        "contempt for authority",
+        "hold in contempt",
+        "contempt of court"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contend",
+      "source_candidate": "contend",
+      "meanings_fa": "ادعا کردن؛ استدلال کردن؛ رقابت کردن یا جنگیدن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kənˈtɛnd/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "To state that something is true, especially in an argument; or to compete or struggle for something.",
+      "example_en": "The researchers contend that the policy needs to change.",
+      "example_fa": "پژوهشگران استدلال می‌کنند که این سیاست باید تغییر کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "argue",
+          "claim",
+          "compete",
+          "struggle"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contender (noun)",
+        "contention (noun)",
+        "contentious (adjective)"
+      ],
+      "collocations": [
+        "contend that",
+        "contend for a title",
+        "contend with a problem"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contender",
+      "source_candidate": "contender",
+      "meanings_fa": "رقیب؛ مدعی؛ کسی که شانس برنده شدن دارد",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈtɛndɚ/",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A person or team that has a good chance of winning a competition or achieving something.",
+      "example_en": "The team is a serious contender for the national title.",
+      "example_fa": "این تیم رقیب جدی برای عنوان قهرمانی ملی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "competitor",
+          "challenger",
+          "candidate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contend (verb)",
+        "contention (noun)"
+      ],
+      "collocations": [
+        "strong contender",
+        "title contender",
+        "leading contender"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contention",
+      "source_candidate": "contention",
+      "meanings_fa": "اختلاف؛ مناقشه؛ ادعا یا موضوع مورد بحث",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈtɛnʃən/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A disagreement or argument; a claim that someone argues is true.",
+      "example_en": "The main point of contention was the project budget.",
+      "example_fa": "موضوع اصلی اختلاف، بودجهٔ پروژه بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "dispute",
+          "disagreement",
+          "argument"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contend (verb)",
+        "contentious (adjective)",
+        "contender (noun)"
+      ],
+      "collocations": [
+        "point of contention",
+        "cause of contention",
+        "matter of contention"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "continually",
+      "source_candidate": "continually",
+      "meanings_fa": "به‌طور مداوم؛ پیوسته و بارها",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/kənˈtɪnjuəli/",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "Repeatedly or frequently over a period of time.",
+      "example_en": "The software is continually updated to fix security problems.",
+      "example_fa": "این نرم‌افزار برای رفع مشکلات امنیتی مرتب به‌روزرسانی می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "repeatedly",
+          "constantly",
+          "regularly"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "continual (adjective)",
+        "continue (verb)",
+        "continuation (noun)"
+      ],
+      "collocations": [
+        "continually improve",
+        "continually changing",
+        "complain continually"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contradiction",
+      "source_candidate": "contradiction",
+      "meanings_fa": "تناقض؛ ناسازگاری؛ تکذیب",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːntrəˈdɪkʃən/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A situation in which two statements, ideas, or facts cannot both be true.",
+      "example_en": "There is a contradiction between the two reports.",
+      "example_fa": "میان دو گزارش تناقض وجود دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "inconsistency",
+          "conflict",
+          "opposition"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contradict (verb)",
+        "contradictory (adjective)",
+        "contradictorily (adverb)"
+      ],
+      "collocations": [
+        "direct contradiction",
+        "contradiction in terms",
+        "apparent contradiction"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "contrary",
+      "source_candidate": "contrary",
+      "meanings_fa": "مخالف؛ متضاد؛ مغایر؛ لجباز",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈkɑːntreri/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "Opposite in nature or direction; a fact or opinion that is opposite to another.",
+      "example_en": "Contrary to expectations, the project finished ahead of schedule.",
+      "example_fa": "برخلاف انتظار، پروژه زودتر از موعد تمام شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "opposite",
+          "opposing",
+          "conflicting"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "contrarily (adverb)",
+        "contrariness (noun)",
+        "contrarian (noun/adjective)"
+      ],
+      "collocations": [
+        "on the contrary",
+        "contrary to expectations",
+        "contrary opinion"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "conversion",
+      "source_candidate": "conversion",
+      "meanings_fa": "تبدیل؛ تغییر شکل یا وضعیت؛ تبدیل فایل یا ارز",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kənˈvɝːʒən/",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "The process of changing something from one form, use, or system to another.",
+      "example_en": "The software supports conversion of documents into PDF files.",
+      "example_fa": "این نرم‌افزار از تبدیل اسناد به فایل‌های PDF پشتیبانی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "transformation",
+          "change",
+          "adaptation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "convert (verb)",
+        "converter (noun)",
+        "convertible (adjective)",
+        "conversional (adjective, rare)"
+      ],
+      "collocations": [
+        "currency conversion",
+        "file conversion",
+        "conversion rate"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "convict",
+      "source_candidate": "convict",
+      "meanings_fa": "محکوم کردن؛ مجرم شناختن؛ محکوم یا زندانی",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/kənˈvɪkt/ (verb); /ˈkɑːnvɪkt/ (noun)",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "To find someone guilty of a crime in a court of law; a person who has been found guilty.",
+      "example_en": "The jury convicted him of fraud.",
+      "example_fa": "هیئت منصفه او را به جرم کلاهبرداری محکوم کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "find guilty",
+          "sentence",
+          "prisoner (noun sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "conviction (noun)",
+        "convicted (adjective)",
+        "convicting (verb)"
+      ],
+      "collocations": [
+        "convict someone of a crime",
+        "convicted felon",
+        "prison convict"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "convincing",
+      "source_candidate": "convincing",
+      "meanings_fa": "قانع‌کننده؛ متقاعدکننده؛ باورپذیر",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/kənˈvɪnsɪŋ/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "Able to make someone believe that something is true or reasonable.",
+      "example_en": "She gave a convincing explanation for the delay.",
+      "example_fa": "او توضیح قانع‌کننده‌ای برای تأخیر ارائه داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "persuasive",
+          "credible",
+          "compelling"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "convince (verb)",
+        "convinced (adjective)",
+        "convincingly (adverb)",
+        "conviction (noun)"
+      ],
+      "collocations": [
+        "convincing evidence",
+        "convincing argument",
+        "highly convincing"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cooperative",
+      "source_candidate": "cooperative",
+      "meanings_fa": "همکار؛ همکاری‌کننده؛ تعاونی؛ مبتنی بر همکاری",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/koʊˈɑːpərətɪv/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "Willing to work with others; organized or owned jointly by its members.",
+      "example_en": "The staff were cooperative during the system upgrade.",
+      "example_fa": "کارکنان هنگام ارتقای سامانه همکاری خوبی داشتند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "helpful",
+          "collaborative",
+          "accommodating"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cooperate (verb)",
+        "cooperation (noun)",
+        "cooperatively (adverb)",
+        "uncooperative (adjective)"
+      ],
+      "collocations": [
+        "cooperative attitude",
+        "cooperative effort",
+        "housing cooperative"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "coordinate",
+      "source_candidate": "coordinate",
+      "meanings_fa": "هماهنگ کردن؛ سازمان‌دهی کردن؛ مختصات",
+      "part_of_speech": "VERB; NOUN; ADJECTIVE",
+      "ipa_us": "/koʊˈɔːrdɪneɪt/ (verb); /koʊˈɔːrdənət/ (adjective/noun)",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "To organize people or activities so they work well together; a set of numbers that identifies a location.",
+      "example_en": "The manager will coordinate the training sessions.",
+      "example_fa": "مدیر جلسات آموزشی را هماهنگ خواهد کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "organize",
+          "align",
+          "synchronize"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "coordination (noun)",
+        "coordinator (noun)",
+        "coordinated (adjective)",
+        "uncoordinated (adjective)"
+      ],
+      "collocations": [
+        "coordinate a project",
+        "coordinate with a team",
+        "GPS coordinates"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "coordination",
+      "source_candidate": "coordination",
+      "meanings_fa": "هماهنگی؛ هم‌زمان‌سازی؛ هماهنگی حرکتی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/koʊˌɔːrdəˈneɪʃən/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "The organization of people or activities so that they work together effectively; the ability to move body parts smoothly.",
+      "example_en": "Good coordination between departments is essential.",
+      "example_fa": "هماهنگی خوب میان بخش‌ها ضروری است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "organization",
+          "synchronization",
+          "cooperation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "coordinate (verb)",
+        "coordinator (noun)",
+        "coordinated (adjective)"
+      ],
+      "collocations": [
+        "hand-eye coordination",
+        "coordination between teams",
+        "in coordination with"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "coordinator",
+      "source_candidate": "coordinator",
+      "meanings_fa": "هماهنگ‌کننده؛ مسئول هماهنگی و سازمان‌دهی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/koʊˈɔːrdəˌneɪtɚ/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A person who organizes people, activities, or information so that they work together effectively.",
+      "example_en": "Contact the program coordinator if you have questions.",
+      "example_fa": "اگر سؤالی دارید با هماهنگ‌کنندهٔ برنامه تماس بگیرید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "organizer",
+          "manager",
+          "administrator"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "coordinate (verb)",
+        "coordination (noun)",
+        "coordinated (adjective)"
+      ],
+      "collocations": [
+        "project coordinator",
+        "program coordinator",
+        "event coordinator"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "copyright",
+      "source_candidate": "copyright",
+      "meanings_fa": "حق نشر؛ حق تکثیر و بهره‌برداری قانونی از اثر",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈkɑːpiˌraɪt/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "The legal right to control the copying, publishing, or use of an original work.",
+      "example_en": "You need permission to use that image because it is protected by copyright.",
+      "example_fa": "برای استفاده از آن تصویر به اجازه نیاز داری، چون تحت حمایت حق نشر است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "intellectual property right",
+          "publishing right"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "copyrighted (adjective)",
+        "copyrighting (verb)"
+      ],
+      "collocations": [
+        "copyright law",
+        "copyright notice",
+        "hold the copyright"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "correction",
+      "source_candidate": "correction",
+      "meanings_fa": "اصلاح؛ تصحیح؛ مورد اصلاح‌شده",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈrɛkʃən/",
+      "cefr": "B2",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A change made to fix an error or make something accurate.",
+      "example_en": "The editor made one correction to the final report.",
+      "example_fa": "ویراستار یک اصلاح در گزارش نهایی انجام داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "fix",
+          "amendment",
+          "adjustment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correct (verb/adjective)",
+        "correctly (adverb)",
+        "corrective (adjective)",
+        "corrector (noun)"
+      ],
+      "collocations": [
+        "make a correction",
+        "spelling correction",
+        "correction notice"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "correlate",
+      "source_candidate": "correlate",
+      "meanings_fa": "ارتباط داشتن؛ همبستگی داشتن؛ مرتبط دانستن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈkɔːrəˌleɪt/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "To have a connection or relationship with something, especially in a way that can be measured.",
+      "example_en": "Higher levels of exercise often correlate with better sleep.",
+      "example_fa": "سطح بالاتر فعالیت بدنی اغلب با خواب بهتر ارتباط دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "relate",
+          "correspond",
+          "be associated"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correlation (noun)",
+        "correlated (adjective)",
+        "correlative (adjective/noun)"
+      ],
+      "collocations": [
+        "correlate with",
+        "strongly correlate",
+        "correlate data"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "correlation",
+      "source_candidate": "correlation",
+      "meanings_fa": "همبستگی؛ رابطه یا ارتباط میان دو عامل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɔːrəˈleɪʃən/",
+      "cefr": "C1",
+      "category": "Work, communication, business and public life",
+      "definition_en": "A connection between two or more things, especially when one changes as another changes.",
+      "example_en": "The study found a correlation between sleep and academic performance.",
+      "example_fa": "این پژوهش میان خواب و عملکرد تحصیلی همبستگی پیدا کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "relationship",
+          "association",
+          "connection"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "correlate (verb)",
+        "correlated (adjective)",
+        "correlative (adjective)"
+      ],
+      "collocations": [
+        "strong correlation",
+        "positive correlation",
+        "correlation between"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، ارتباطات، کسب‌وکار و زندگی عمومی",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}

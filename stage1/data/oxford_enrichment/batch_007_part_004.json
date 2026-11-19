@@ -1,0 +1,809 @@
+{
+  "batch": 7,
+  "part": 4,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Supplementary Oxford 5000 words 41–60 after the first 41 Oxford 3000 entries",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "cling",
+      "source_candidate": "cling",
+      "meanings_fa": "چسبیدن؛ محکم گرفتن؛ وابسته ماندن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/klɪŋ/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "To hold tightly to something or remain very close to it; to continue to believe or depend on something.",
+      "example_en": "The child clung to her mother's hand in the crowded station.",
+      "example_fa": "کودک در ایستگاه شلوغ محکم دست مادرش را گرفته بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "hold on to",
+          "stick to",
+          "adhere"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clung (past/participle)",
+        "clinging (adjective/noun)",
+        "clingy (adjective)"
+      ],
+      "collocations": [
+        "cling to hope",
+        "cling to a person",
+        "cling tightly"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "clinical",
+      "source_candidate": "clinical",
+      "meanings_fa": "بالینی؛ پزشکی؛ بی‌احساس و خشک",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈklɪnɪkəl/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "Related to the examination and treatment of patients; also, very controlled and lacking emotion.",
+      "example_en": "The new treatment is being evaluated in clinical trials.",
+      "example_fa": "درمان جدید در کارآزمایی‌های بالینی ارزیابی می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "medical",
+          "therapeutic",
+          "detached (figurative)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clinically (adverb)",
+        "clinician (noun)",
+        "clinic (noun)"
+      ],
+      "collocations": [
+        "clinical trial",
+        "clinical practice",
+        "clinical research"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "closure",
+      "source_candidate": "closure",
+      "meanings_fa": "تعطیلی؛ بسته شدن؛ پایان‌یافتن؛ آرامش خاطر پس از یک تجربه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkloʊʒɚ/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "The act of closing something; the state of being closed; or a sense that an unresolved experience has reached an emotional end.",
+      "example_en": "The bridge closure added twenty minutes to the commute.",
+      "example_fa": "بسته شدن پل بیست دقیقه به زمان رفت‌وآمد اضافه کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "closing",
+          "shutdown",
+          "conclusion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "close (verb/noun)",
+        "closed (adjective)",
+        "closing (noun/adjective)"
+      ],
+      "collocations": [
+        "road closure",
+        "school closure",
+        "sense of closure"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cluster",
+      "source_candidate": "cluster",
+      "meanings_fa": "خوشه؛ گروه فشرده؛ تجمع کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈklʌstɚ/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A group of similar things close together; to gather closely in a group.",
+      "example_en": "A cluster of small businesses has opened near the university.",
+      "example_fa": "گروهی از کسب‌وکارهای کوچک نزدیک دانشگاه افتتاح شده‌اند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "group",
+          "bunch",
+          "collection"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clustered (adjective/verb)",
+        "clustering (noun/verb)"
+      ],
+      "collocations": [
+        "cluster of houses",
+        "data cluster",
+        "cluster together"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cocktail",
+      "source_candidate": "cocktail",
+      "meanings_fa": "کوکتل؛ نوشیدنی ترکیبی؛ پیش‌غذای کوچک",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːkˌteɪl/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A mixed drink made from several ingredients; also, a small dish served as an appetizer.",
+      "example_en": "The restaurant serves a shrimp cocktail before dinner.",
+      "example_fa": "رستوران پیش از شام کوکتل میگو سرو می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "mixed drink",
+          "combination",
+          "appetizer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cocktail-hour (adjective/noun)"
+      ],
+      "collocations": [
+        "cocktail party",
+        "fruit cocktail",
+        "shrimp cocktail"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "cognitive",
+      "source_candidate": "cognitive",
+      "meanings_fa": "شناختی؛ مربوط به فرایندهای ذهنی مانند فکر و یادگیری",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkɑːɡnətɪv/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "Related to mental processes such as thinking, learning, remembering, and understanding.",
+      "example_en": "Sleep plays an important role in cognitive development.",
+      "example_fa": "خواب نقش مهمی در رشد شناختی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "mental",
+          "intellectual"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cognitively (adverb)",
+        "cognition (noun)",
+        "cognizant (related adjective)"
+      ],
+      "collocations": [
+        "cognitive ability",
+        "cognitive development",
+        "cognitive skills"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "coincide",
+      "source_candidate": "coincide",
+      "meanings_fa": "هم‌زمان شدن؛ مصادف شدن؛ مطابقت داشتن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˌkoʊɪnˈsaɪd/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "To happen at the same time as something else, or to match or agree with it.",
+      "example_en": "The conference dates coincide with my final exams.",
+      "example_fa": "تاریخ‌های همایش با امتحان‌های پایان‌ترم من هم‌زمان شده‌اند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "occur together",
+          "overlap",
+          "correspond"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "coincidence (noun)",
+        "coincidental (adjective)",
+        "coincidentally (adverb)"
+      ],
+      "collocations": [
+        "coincide with",
+        "dates coincide",
+        "views coincide"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "coincidence",
+      "source_candidate": "coincidence",
+      "meanings_fa": "اتفاق تصادفی؛ هم‌زمانی؛ تصادف جالب",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/koʊˈɪnsɪdəns/",
+      "cefr": "B2",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A situation in which two or more things happen at the same time by chance.",
+      "example_en": "It was a coincidence that we chose the same flight.",
+      "example_fa": "اینکه هر دو یک پرواز را انتخاب کردیم تصادفی بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "chance event",
+          "accident",
+          "happenstance"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "coincide (verb)",
+        "coincidental (adjective)",
+        "coincidentally (adverb)"
+      ],
+      "collocations": [
+        "by coincidence",
+        "pure coincidence",
+        "strange coincidence"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "collaborate",
+      "source_candidate": "collaborate",
+      "meanings_fa": "همکاری کردن؛ مشارکت کردن در یک کار مشترک",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kəˈlæbəˌreɪt/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "To work with one or more people or organizations to achieve a shared goal.",
+      "example_en": "The two departments will collaborate on the new training program.",
+      "example_fa": "دو بخش در برنامهٔ آموزشی جدید با هم همکاری خواهند کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cooperate",
+          "work together",
+          "partner"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "collaboration (noun)",
+        "collaborator (noun)",
+        "collaborative (adjective)"
+      ],
+      "collocations": [
+        "collaborate with",
+        "collaborate on a project",
+        "collaborate closely"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "collaboration",
+      "source_candidate": "collaboration",
+      "meanings_fa": "همکاری؛ مشارکت؛ اثر مشترک",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˌlæbəˈreɪʃən/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "The act of working together with others on a shared task or project.",
+      "example_en": "The project was completed through collaboration between two universities.",
+      "example_fa": "این پروژه از طریق همکاری دو دانشگاه تکمیل شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cooperation",
+          "partnership",
+          "teamwork"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "collaborate (verb)",
+        "collaborator (noun)",
+        "collaborative (adjective)",
+        "collaboratively (adverb)"
+      ],
+      "collocations": [
+        "close collaboration",
+        "international collaboration",
+        "collaboration tool"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "collector",
+      "source_candidate": "collector",
+      "meanings_fa": "جمع‌آورنده؛ کلکسیونر؛ مأمور وصول",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈlɛktɚ/",
+      "cefr": "B2",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A person who gathers or collects things, especially as a hobby; also, someone who collects payments or taxes.",
+      "example_en": "A private collector donated the painting to the museum.",
+      "example_fa": "یک کلکسیونر خصوصی تابلو را به موزه اهدا کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "gatherer",
+          "curator",
+          "collection agent"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "collect (verb)",
+        "collection (noun)",
+        "collectible (adjective/noun)"
+      ],
+      "collocations": [
+        "art collector",
+        "debt collector",
+        "stamp collector"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "collision",
+      "source_candidate": "collision",
+      "meanings_fa": "تصادف؛ برخورد؛ تعارض",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈlɪʒən/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "An accident in which two or more vehicles or objects hit each other; a strong conflict between ideas or interests.",
+      "example_en": "The highway was closed after a collision involving three cars.",
+      "example_fa": "پس از تصادفی که سه خودرو در آن دخیل بودند، بزرگراه بسته شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "crash",
+          "impact",
+          "conflict"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "collide (verb)",
+        "colliding (adjective/verb)"
+      ],
+      "collocations": [
+        "car collision",
+        "head-on collision",
+        "collision course"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "colonial",
+      "source_candidate": "colonial",
+      "meanings_fa": "استعماری؛ مربوط به مستعمره یا دوران استعمار",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/kəˈloʊniəl/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "Related to a colony or the period when one country controlled another; also, a person living in a colony.",
+      "example_en": "The town has several well-preserved colonial buildings.",
+      "example_fa": "این شهر چند ساختمان استعماری دارد که به‌خوبی حفظ شده‌اند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "imperial",
+          "colonist-related"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "colony (noun)",
+        "colonialism (noun)",
+        "colonialist (noun/adjective)",
+        "colonize (verb)"
+      ],
+      "collocations": [
+        "colonial history",
+        "colonial rule",
+        "colonial architecture"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "colorful",
+      "source_candidate": "colorful",
+      "meanings_fa": "رنگارنگ؛ پرجنب‌وجوش؛ جذاب و پرماجرا",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈkʌlərfəl/",
+      "cefr": "B2",
+      "category": "Society, science, communication and culture",
+      "definition_en": "Having many bright colors; also, interesting, lively, or full of unusual details.",
+      "example_en": "The neighborhood is known for its colorful street murals.",
+      "example_fa": "این محله به نقاشی‌های دیواری رنگارنگش معروف است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "bright",
+          "vivid",
+          "lively"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "color (noun/verb)",
+        "colorfully (adverb)",
+        "colorfulness (noun)",
+        "colorless (adjective)"
+      ],
+      "collocations": [
+        "colorful design",
+        "colorful history",
+        "colorful language"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "columnist",
+      "source_candidate": "columnist",
+      "meanings_fa": "ستون‌نویس؛ نویسندهٔ ثابت یک ستون در روزنامه یا وب‌سایت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːləmnɪst/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A writer who regularly contributes articles or opinions to a newspaper, magazine, or website.",
+      "example_en": "The columnist writes about education and public policy.",
+      "example_fa": "این ستون‌نویس دربارهٔ آموزش و سیاست عمومی می‌نویسد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "writer",
+          "commentator",
+          "journalist"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "column (noun)",
+        "column writing (noun phrase)"
+      ],
+      "collocations": [
+        "newspaper columnist",
+        "political columnist",
+        "advice columnist"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "comic",
+      "source_candidate": "comic",
+      "meanings_fa": "کمدی؛ خنده‌دار؛ کتاب مصور؛ کمدین",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈkɑːmɪk/",
+      "cefr": "B2",
+      "category": "Society, science, communication and culture",
+      "definition_en": "Related to comedy or intended to make people laugh; a comic book or a person who performs comedy.",
+      "example_en": "He collects comic books from the 1980s.",
+      "example_fa": "او کتاب‌های کمیک دههٔ ۱۹۸۰ را جمع‌آوری می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "funny",
+          "humorous",
+          "comedic"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "comical (adjective)",
+        "comically (adverb)",
+        "comedy (noun)"
+      ],
+      "collocations": [
+        "comic book",
+        "comic actor",
+        "comic relief"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "commence",
+      "source_candidate": "commence",
+      "meanings_fa": "آغاز کردن؛ شروع شدن (رسمی)",
+      "part_of_speech": "VERB",
+      "ipa_us": "/kəˈmɛns/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "To begin or start something; a formal alternative to begin.",
+      "example_en": "The ceremony will commence at 10 a.m.",
+      "example_fa": "مراسم ساعت ۱۰ صبح آغاز خواهد شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "begin",
+          "start",
+          "initiate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "commencement (noun)",
+        "commencement ceremony (noun phrase)"
+      ],
+      "collocations": [
+        "commence work",
+        "commence proceedings",
+        "commence at"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "commentary",
+      "source_candidate": "commentary",
+      "meanings_fa": "تفسیر؛ شرح و تحلیل؛ گزارش توصیفی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːmənˌtɛri/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A spoken or written explanation, opinion, or analysis of an event or subject.",
+      "example_en": "The analyst provided live commentary during the game.",
+      "example_fa": "تحلیل‌گر هنگام بازی گزارش زنده ارائه کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "analysis",
+          "explanation",
+          "discussion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "comment (noun/verb)",
+        "commentator (noun)",
+        "commentarial (adjective, rare)"
+      ],
+      "collocations": [
+        "live commentary",
+        "political commentary",
+        "running commentary"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "commentator",
+      "source_candidate": "commentator",
+      "meanings_fa": "مفسر؛ گزارشگر؛ تحلیل‌گر رسانه‌ای",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkɑːmənˌteɪtɚ/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "A person who gives opinions or explanations about events, especially on television, radio, or online.",
+      "example_en": "The sports commentator described the final play in detail.",
+      "example_fa": "گزارشگر ورزشی حرکت پایانی را با جزئیات توصیف کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "analyst",
+          "reporter",
+          "broadcaster"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "comment (noun/verb)",
+        "commentary (noun)"
+      ],
+      "collocations": [
+        "sports commentator",
+        "political commentator",
+        "television commentator"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    },
+    {
+      "word": "commissioner",
+      "source_candidate": "commissioner",
+      "meanings_fa": "کمیسر؛ مقام رسمی یا رئیس یک کمیسیون یا سازمان",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈmɪʃənɚ/",
+      "cefr": "C1",
+      "category": "Society, science, communication and culture",
+      "definition_en": "An official who has been appointed to lead a commission, department, or organization.",
+      "example_en": "The county commissioner answered questions at the public meeting.",
+      "example_fa": "کمیسر شهرستان در جلسهٔ عمومی به پرسش‌ها پاسخ داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "official",
+          "administrator",
+          "chairperson"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "commission (noun/verb)",
+        "commissionership (noun)"
+      ],
+      "collocations": [
+        "county commissioner",
+        "police commissioner",
+        "commissioner of education"
+      ],
+      "frequency": "useful Oxford 5000 vocabulary",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab Persian meaning, US IPA and word-family cross-check; Oxford 5000 headword/POS/CEFR; original American-English example and translation.",
+      "review_status": "dictionary_checked_editorial_draft",
+      "quality_flag": "Staging only; final native-speaker review recommended before production.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "جامعه، علم، ارتباطات و فرهنگ",
+      "level_source": "Oxford 5000 / Vajehyab cross-check",
+      "level_review_status": "dictionary_cross_checked"
+    }
+  ]
+}

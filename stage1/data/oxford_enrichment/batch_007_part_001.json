@@ -1,0 +1,1487 @@
+{
+  "batch": 7,
+  "part": 1,
+  "status": "staging_editorial_draft",
+  "candidate_source": "Exact first 41 missing Oxford 3000 entries from the 1,219 comparison",
+  "target_size": 200,
+  "count": 41,
+  "validation": {
+    "count": 41,
+    "unique_headwords": 41,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "a",
+      "source_candidate": "a",
+      "meanings_fa": "یک؛ حرف تعریف نامعین پیش از اسم مفرد قابل‌شمارش",
+      "part_of_speech": "INDEFINITE ARTICLE",
+      "ipa_us": "/ə/; strong /eɪ/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used before a singular countable noun when it is not already known or is mentioned for the first time.",
+      "example_en": "I need a new phone.",
+      "example_fa": "من به یک گوشی جدید نیاز دارم.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "a few",
+        "a lot of",
+        "a little"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "an",
+      "source_candidate": "an",
+      "meanings_fa": "یک؛ حرف تعریف نامعین پیش از واژه‌ای با صدای آغازین واکه",
+      "part_of_speech": "INDEFINITE ARTICLE",
+      "ipa_us": "/ən/; strong /æn/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "The form of the indefinite article used before a singular countable noun beginning with a vowel sound.",
+      "example_en": "She has an appointment this afternoon.",
+      "example_fa": "او امروز بعدازظهر یک قرار ملاقات دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "an hour",
+        "an idea",
+        "an opportunity"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "according to",
+      "source_candidate": "according to",
+      "meanings_fa": "طبق؛ بر اساس؛ به گفتهٔ",
+      "part_of_speech": "PREPOSITIONAL PHRASE",
+      "ipa_us": "/əˈkɔːrdɪŋ tuː/",
+      "cefr": "A2",
+      "category": "Grammar and communication",
+      "definition_en": "Used to introduce information or an opinion from a particular source, or to show that something follows a rule or plan.",
+      "example_en": "According to the email, the deadline is Monday.",
+      "example_fa": "طبق ایمیل، مهلت نهایی روز دوشنبه است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "as stated by",
+          "in accordance with"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "accord (noun/verb)",
+        "accordingly (adverb)"
+      ],
+      "collocations": [
+        "according to the report",
+        "according to policy",
+        "according to plan"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و ارتباط",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "afterward",
+      "source_candidate": "afterward",
+      "meanings_fa": "بعداً؛ پس از آن",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/ˈæftɚwɚd/",
+      "cefr": "B2",
+      "category": "Actions, time and movement",
+      "definition_en": "At a later time; after something has happened.",
+      "example_en": "We'll discuss the details afterward.",
+      "example_fa": "بعداً دربارهٔ جزئیات صحبت خواهیم کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "later",
+          "subsequently"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "soon afterward",
+        "shortly afterward",
+        "afterward that day"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "ah",
+      "source_candidate": "ah",
+      "meanings_fa": "آها؛ آه (واژهٔ ندایی برای نشان دادن فهمیدن، تردید یا واکنش)",
+      "part_of_speech": "INTERJECTION",
+      "ipa_us": "/ɑː/",
+      "cefr": "A2",
+      "category": "Communication and reactions",
+      "definition_en": "An exclamation used to show realization, surprise, or recognition.",
+      "example_en": "Ah, now I understand what you mean.",
+      "example_fa": "آها، حالا متوجه منظورت شدم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "oh",
+          "I see"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "ah, I see",
+        "ah, yes"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "all",
+      "source_candidate": "all",
+      "meanings_fa": "همه؛ تمام؛ سراسر؛ کاملاً",
+      "part_of_speech": "DETERMINER; PRONOUN; ADVERB",
+      "ipa_us": "/ɔːl/",
+      "cefr": "A1 (determiner/pronoun); A2 (adverb)",
+      "category": "Grammar and function words",
+      "definition_en": "The whole amount or every member of a group; as an adverb, completely.",
+      "example_en": "All employees must wear their ID badges.",
+      "example_fa": "همهٔ کارکنان باید کارت شناسایی خود را همراه داشته باشند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "everybody",
+          "everything",
+          "entire"
+        ],
+        "antonyms": [
+          "none",
+          "no one"
+        ]
+      },
+      "word_family": [],
+      "collocations": [
+        "all day",
+        "all of them",
+        "after all"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "and",
+      "source_candidate": "and",
+      "meanings_fa": "و؛ همچنین؛ به‌علاوه",
+      "part_of_speech": "CONJUNCTION",
+      "ipa_us": "/ænd/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used to connect words, phrases, or clauses of equal grammatical function.",
+      "example_en": "We bought apples and oranges.",
+      "example_fa": "ما سیب و پرتقال خریدیم.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "you and me",
+        "bread and butter",
+        "and so on"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "anymore",
+      "source_candidate": "anymore",
+      "meanings_fa": "دیگر؛ از این به بعد (معمولاً در جملهٔ منفی یا پرسشی)",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/ˌɛniˈmɔːr/",
+      "cefr": "A2",
+      "category": "Actions, time and movement",
+      "definition_en": "Any longer; used especially in negative statements and questions.",
+      "example_en": "I don't work at that office anymore.",
+      "example_fa": "من دیگر در آن دفتر کار نمی‌کنم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "any longer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "not ... anymore",
+        "don't live here anymore"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "April",
+      "source_candidate": "April",
+      "meanings_fa": "آوریل؛ ماه چهارم سال میلادی",
+      "part_of_speech": "PROPER NOUN",
+      "ipa_us": "/ˈeɪprəl/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "The fourth month of the year.",
+      "example_en": "The semester starts in April.",
+      "example_fa": "نیم‌سال تحصیلی در آوریل شروع می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "early April",
+        "in April",
+        "April Fools' Day"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "at",
+      "source_candidate": "at",
+      "meanings_fa": "در؛ نزد؛ ساعت؛ به‌سمت؛ در وضعیت",
+      "part_of_speech": "PREPOSITION",
+      "ipa_us": "/æt/; weak /ət/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "Used to identify a particular place, time, direction, rate, or activity.",
+      "example_en": "The interview is at 9 a.m. at the downtown office.",
+      "example_fa": "مصاحبه ساعت ۹ صبح در دفتر مرکز شهر برگزار می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "at home",
+        "at work",
+        "at the moment"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "August",
+      "source_candidate": "August",
+      "meanings_fa": "اوت؛ ماه هشتم سال میلادی",
+      "part_of_speech": "PROPER NOUN",
+      "ipa_us": "/ˈɔːɡəst/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "The eighth month of the year.",
+      "example_en": "Many families take vacations in August.",
+      "example_fa": "بسیاری از خانواده‌ها در ماه اوت به تعطیلات می‌روند.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "early August",
+        "in August",
+        "August weather"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "awesome",
+      "source_candidate": "awesome",
+      "meanings_fa": "عالی؛ فوق‌العاده؛ شگفت‌انگیز (در گفتار آمریکایی)",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈɔsəm/",
+      "cefr": "A1",
+      "category": "Feelings and opinions",
+      "definition_en": "Extremely good, impressive, or enjoyable; common in informal American English.",
+      "example_en": "That was an awesome concert.",
+      "example_fa": "آن کنسرت فوق‌العاده بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "amazing",
+          "fantastic",
+          "excellent"
+        ],
+        "antonyms": [
+          "awful",
+          "terrible"
+        ]
+      },
+      "word_family": [
+        "awesomely (adverb)",
+        "awesomeness (noun)"
+      ],
+      "collocations": [
+        "awesome job",
+        "awesome experience",
+        "look awesome"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "احساسات و دیدگاه‌ها",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "backward",
+      "source_candidate": "backward",
+      "meanings_fa": "عقب؛ رو به عقب؛ معکوس؛ از نظر پیشرفت عقب‌مانده",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/ˈbækwɚd/",
+      "cefr": "B1",
+      "category": "Actions, time and movement",
+      "definition_en": "Toward the back or in the opposite direction; less advanced than expected.",
+      "example_en": "The truck rolled backward down the driveway.",
+      "example_fa": "کامیون در مسیر ورودی به سمت عقب حرکت کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "backwards (variant)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "backwardness (noun)"
+      ],
+      "collocations": [
+        "lean backward",
+        "backward movement",
+        "backward compatibility"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "billion",
+      "source_candidate": "billion",
+      "meanings_fa": "یک میلیارد؛ عدد ۱٬۰۰۰٬۰۰۰٬۰۰۰",
+      "part_of_speech": "NUMBER; NOUN",
+      "ipa_us": "/ˈbɪljən/",
+      "cefr": "A2",
+      "category": "Numbers and quantities",
+      "definition_en": "The number 1,000,000,000; one thousand million.",
+      "example_en": "The project is expected to cost two billion dollars.",
+      "example_fa": "پیش‌بینی می‌شود این پروژه دو میلیارد دلار هزینه داشته باشد.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [
+        "billionaire (noun)",
+        "billionth (ordinal number)"
+      ],
+      "collocations": [
+        "a billion dollars",
+        "several billion people",
+        "billion-dollar industry"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "اعداد و کمیت",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "blond",
+      "source_candidate": "blond",
+      "meanings_fa": "بلوند؛ دارای موهای روشن",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/blɑːnd/",
+      "cefr": "A1",
+      "category": "Home and everyday objects",
+      "definition_en": "Having fair or light-colored hair; also a person with this hair color.",
+      "example_en": "He has blond hair and blue eyes.",
+      "example_fa": "او موهای بلوند و چشم‌های آبی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "fair-haired"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "blondish (adjective, uncommon)"
+      ],
+      "collocations": [
+        "blond hair",
+        "dark blond",
+        "a blond man"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "but",
+      "source_candidate": "but",
+      "meanings_fa": "اما؛ ولی؛ به‌جز؛ جز اینکه",
+      "part_of_speech": "CONJUNCTION; PREPOSITION",
+      "ipa_us": "/bʌt/; weak /bət/",
+      "cefr": "A1 (conjunction); B2 (preposition)",
+      "category": "Grammar and function words",
+      "definition_en": "Used to introduce a contrast or an exception.",
+      "example_en": "I called twice, but nobody answered.",
+      "example_fa": "دو بار تماس گرفتم، اما کسی پاسخ نداد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "however",
+          "yet"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "but also",
+        "anything but",
+        "not only ... but also"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "by",
+      "source_candidate": "by",
+      "meanings_fa": "توسط؛ به‌وسیلهٔ؛ با؛ کنار؛ تا (زمان مشخص)",
+      "part_of_speech": "PREPOSITION; ADVERB",
+      "ipa_us": "/baɪ/",
+      "cefr": "A1 (preposition); B1 (adverb)",
+      "category": "Grammar and function words",
+      "definition_en": "Used to show an agent, method, nearby position, or deadline.",
+      "example_en": "Please send the application by Friday.",
+      "example_fa": "لطفاً درخواست را تا جمعه ارسال کنید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "beside (location)",
+          "before (deadline)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "by car",
+        "by hand",
+        "by Friday"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "can",
+      "source_candidate": "can",
+      "meanings_fa": "توانستن؛ ممکن بودن؛ اجازه داشتن؛ قوطی فلزی",
+      "part_of_speech": "MODAL VERB; NOUN",
+      "ipa_us": "/kæn/; weak /kən/",
+      "cefr": "A1 (modal verb); A2 (noun)",
+      "category": "Grammar and function words",
+      "definition_en": "As a modal, expresses ability, possibility, or permission; as a noun, a metal container.",
+      "example_en": "Can I pay by card? Put the empty can in the recycling bin.",
+      "example_fa": "می‌توانم با کارت پرداخت کنم؟ قوطی خالی را در سطل بازیافت بینداز.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "be able to (verb sense)"
+        ],
+        "antonyms": [
+          "cannot (opposite modal form)"
+        ]
+      },
+      "word_family": [
+        "canned (adjective)",
+        "canning (noun/verb)"
+      ],
+      "collocations": [
+        "can do",
+        "can afford",
+        "a can of soda"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "candy",
+      "source_candidate": "candy",
+      "meanings_fa": "آب‌نبات؛ شیرینی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkændi/",
+      "cefr": "A2",
+      "category": "People and public services",
+      "definition_en": "A sweet food made with sugar or chocolate.",
+      "example_en": "The kids got candy after the parade.",
+      "example_fa": "بچه‌ها بعد از رژه آب‌نبات گرفتند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "sweet",
+          "confection"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "candies (plural)"
+      ],
+      "collocations": [
+        "candy bar",
+        "hard candy",
+        "a piece of candy"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "CD",
+      "source_candidate": "CD",
+      "meanings_fa": "سی‌دی؛ لوح فشردهٔ ذخیره یا پخش اطلاعات دیجیتال",
+      "part_of_speech": "NOUN; ABBREVIATION",
+      "ipa_us": "/ˌsiːˈdiː/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "A compact disc used to store or play digital information, especially music or computer data.",
+      "example_en": "The old car has a CD player but no USB port.",
+      "example_fa": "خودروی قدیمی دستگاه پخش سی‌دی دارد، اما درگاه USB ندارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "compact disc"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "compact disc (noun phrase)"
+      ],
+      "collocations": [
+        "CD player",
+        "burn a CD",
+        "audio CD"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "clerk",
+      "source_candidate": "clerk",
+      "meanings_fa": "کارمند دفتری؛ متصدی فروشگاه یا پیشخوان؛ منشی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/klɝːk/",
+      "cefr": "A2",
+      "category": "Work and services",
+      "definition_en": "A person who works in an office or serves customers in a store or service desk.",
+      "example_en": "Ask the front-desk clerk for a copy of the form.",
+      "example_fa": "برای گرفتن یک نسخه از فرم از کارمند پذیرش سؤال کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "assistant",
+          "office worker"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clerical (adjective)",
+        "clerkship (noun)"
+      ],
+      "collocations": [
+        "sales clerk",
+        "bank clerk",
+        "court clerk"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "closet",
+      "source_candidate": "closet",
+      "meanings_fa": "کمد؛ گنجه؛ فضای کوچک برای نگهداری لباس یا وسایل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈklɑːzɪt/",
+      "cefr": "A2",
+      "category": "Home and everyday objects",
+      "definition_en": "A small enclosed space or cupboard, especially one used for storing clothes.",
+      "example_en": "I keep my winter coats in the hall closet.",
+      "example_fa": "پالتوهای زمستانی‌ام را در کمد راهرو نگه می‌دارم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cupboard",
+          "wardrobe"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "closet-sized (adjective)"
+      ],
+      "collocations": [
+        "closet door",
+        "walk-in closet",
+        "bedroom closet"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "congress",
+      "source_candidate": "congress",
+      "meanings_fa": "کنگرهٔ ایالات متحده؛ قوهٔ مقننهٔ فدرال آمریکا",
+      "part_of_speech": "PROPER NOUN; NOUN",
+      "ipa_us": "/ˈkɑŋɡɹəs/",
+      "cefr": "B2",
+      "category": "Government and civics",
+      "definition_en": "The national legislature of the United States, consisting of the House of Representatives and the Senate.",
+      "example_en": "Congress passed a bill to fund the transportation project.",
+      "example_fa": "کنگره لایحه‌ای برای تأمین بودجهٔ پروژهٔ حمل‌ونقل تصویب کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "U.S. legislature"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "congressional (adjective)",
+        "congressperson (noun)"
+      ],
+      "collocations": [
+        "Congress passed",
+        "member of Congress",
+        "congressional hearing"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دولت و حقوق شهروندی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "cookie",
+      "source_candidate": "cookie",
+      "meanings_fa": "کلوچه؛ بیسکویت شیرین (در انگلیسی آمریکایی)؛ کوکی اینترنتی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈkʊki/",
+      "cefr": "A2",
+      "category": "Food, shopping and home",
+      "definition_en": "A small, usually sweet baked food; in computing, a small file a website stores in a browser.",
+      "example_en": "I made chocolate chip cookies for the neighbors.",
+      "example_fa": "برای همسایه‌ها کلوچهٔ شکلاتی درست کردم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "biscuit (mainly British for the food sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cookies (plural)"
+      ],
+      "collocations": [
+        "chocolate chip cookie",
+        "cookie dough",
+        "browser cookie"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "corn",
+      "source_candidate": "corn",
+      "meanings_fa": "ذرت؛ بلال",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kɔːrn/",
+      "cefr": "B1",
+      "category": "Food, shopping and home",
+      "definition_en": "A tall cereal plant that produces large yellow or white kernels used as food.",
+      "example_en": "We grilled corn on the cob for dinner.",
+      "example_fa": "برای شام بلال کباب کردیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "maize"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cornfield (noun)",
+        "cornstarch (noun)"
+      ],
+      "collocations": [
+        "corn on the cob",
+        "sweet corn",
+        "corn syrup"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "could",
+      "source_candidate": "could",
+      "meanings_fa": "می‌توانست؛ ممکن بود؛ می‌شود (درخواست مؤدبانه)",
+      "part_of_speech": "MODAL VERB",
+      "ipa_us": "/kʊd/; weak /kəd/",
+      "cefr": "A1",
+      "category": "Grammar and function words",
+      "definition_en": "The past form of can, also used to express possibility or make polite requests and suggestions.",
+      "example_en": "Could you email me the updated schedule?",
+      "example_fa": "ممکن است برنامهٔ به‌روزشده را برایم ایمیل کنید؟",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "was able to (past ability)",
+          "might (possibility)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "could you please",
+        "could be",
+        "could have"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دستور زبان و واژه‌های نقشی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "December",
+      "source_candidate": "December",
+      "meanings_fa": "دسامبر؛ ماه دوازدهم سال میلادی",
+      "part_of_speech": "PROPER NOUN",
+      "ipa_us": "/dɪˈsɛmbɚ/",
+      "cefr": "A1",
+      "category": "Time and calendar",
+      "definition_en": "The twelfth and final month of the year.",
+      "example_en": "Our lease ends on December 31.",
+      "example_fa": "قرارداد اجارهٔ ما در ۳۱ دسامبر تمام می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "early December",
+        "in December",
+        "December 31"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زمان و تقویم",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "dessert",
+      "source_candidate": "dessert",
+      "meanings_fa": "دسر؛ خوراکی شیرین پس از غذای اصلی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈzɝːt/",
+      "cefr": "A2",
+      "category": "Food, shopping and home",
+      "definition_en": "Sweet food eaten at the end of a meal.",
+      "example_en": "We ordered cheesecake for dessert.",
+      "example_fa": "برای دسر چیزکیک سفارش دادیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "sweet",
+          "pudding (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dessert-like (adjective)"
+      ],
+      "collocations": [
+        "dessert menu",
+        "chocolate dessert",
+        "have dessert"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "disk",
+      "source_candidate": "disk",
+      "meanings_fa": "دیسک؛ صفحه یا قطعهٔ گرد؛ دیسک ذخیره‌سازی رایانه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪsk/",
+      "cefr": "B2",
+      "category": "Technology and objects",
+      "definition_en": "A flat, usually circular object; in computing, a device or medium used to store data.",
+      "example_en": "Save a backup copy to an external disk.",
+      "example_fa": "یک نسخهٔ پشتیبان روی دیسک خارجی ذخیره کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "disc",
+          "storage drive (computing context)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disk-based (adjective)",
+        "diskette (noun; older term)"
+      ],
+      "collocations": [
+        "hard disk",
+        "external disk",
+        "disk space"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری و اشیا",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "downward",
+      "source_candidate": "downward",
+      "meanings_fa": "رو به پایین؛ نزولی؛ به سمت پایین",
+      "part_of_speech": "ADVERB; ADJECTIVE",
+      "ipa_us": "/ˈdaʊnwɚd/",
+      "cefr": "B2",
+      "category": "Actions, time and movement",
+      "definition_en": "Moving or pointing toward a lower place, level, or amount.",
+      "example_en": "The company revised its sales forecast downward.",
+      "example_fa": "شرکت پیش‌بینی فروش خود را کاهش داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "downhill",
+          "declining"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "downwardly (adverb, uncommon)"
+      ],
+      "collocations": [
+        "downward trend",
+        "downward movement",
+        "downward pressure"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "fever",
+      "source_candidate": "fever",
+      "meanings_fa": "تب؛ افزایش غیرطبیعی دمای بدن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈfiːvɚ/",
+      "cefr": "A2",
+      "category": "Health and the body",
+      "definition_en": "A body temperature higher than normal, usually because of an illness.",
+      "example_en": "She stayed home from school because she had a fever.",
+      "example_fa": "او به‌دلیل تب از مدرسه در خانه ماند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "high temperature"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "feverish (adjective)"
+      ],
+      "collocations": [
+        "run a fever",
+        "high fever",
+        "fever reducer"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "garbage",
+      "source_candidate": "garbage",
+      "meanings_fa": "زباله؛ آشغال؛ چیز بی‌ارزش یا بی‌معنی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈɡɑːrbɪdʒ/",
+      "cefr": "A2",
+      "category": "Food, shopping and home",
+      "definition_en": "Things that people throw away; informal American English for trash.",
+      "example_en": "Please take the garbage out before it starts to smell.",
+      "example_fa": "لطفاً قبل از اینکه زباله بو بگیرد آن را بیرون ببر.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "trash",
+          "rubbish"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "garbage disposal (compound noun)"
+      ],
+      "collocations": [
+        "garbage truck",
+        "garbage can",
+        "take out the garbage"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "grocery",
+      "source_candidate": "grocery",
+      "meanings_fa": "مواد غذایی و خواربار؛ فروشگاه مواد غذایی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈɡroʊsəri/",
+      "cefr": "A2",
+      "category": "Food, shopping and home",
+      "definition_en": "Food and other everyday items sold by a grocery store; often used in the plural for shopping.",
+      "example_en": "I need to stop at the grocery store after work.",
+      "example_fa": "بعد از کار باید به فروشگاه مواد غذایی سر بزنم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "food",
+          "provisions"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "groceries (plural)",
+        "grocer (noun)"
+      ],
+      "collocations": [
+        "grocery store",
+        "grocery shopping",
+        "grocery bill"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "overseas",
+      "source_candidate": "overseas",
+      "meanings_fa": "آن‌سوی دریاها؛ خارج از کشور؛ در خارج از کشور",
+      "part_of_speech": "ADVERB; ADJECTIVE",
+      "ipa_us": "/ˌoʊvɚˈsiːz/",
+      "cefr": "A2 (adverb); B1 (adjective)",
+      "category": "Travel and geography",
+      "definition_en": "In or to a foreign country, especially one across the sea.",
+      "example_en": "She moved overseas for a two-year work assignment.",
+      "example_fa": "او برای یک مأموریت کاری دوساله به خارج از کشور نقل مکان کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "abroad"
+        ],
+        "antonyms": [
+          "domestic"
+        ]
+      },
+      "word_family": [],
+      "collocations": [
+        "overseas travel",
+        "overseas market",
+        "work overseas"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "سفر و جغرافیا",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "policeman",
+      "source_candidate": "policeman",
+      "meanings_fa": "مأمور پلیس؛ افسر پلیس مرد",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/pəˈliːsmən/",
+      "cefr": "A1",
+      "category": "People and public services",
+      "definition_en": "A male police officer; police officer is the usual gender-neutral term in modern American English.",
+      "example_en": "A policeman directed traffic around the accident.",
+      "example_fa": "یک مأمور پلیس ترافیک را در اطراف تصادف هدایت کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "police officer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "policewoman (noun)",
+        "police officer (gender-neutral alternative)"
+      ],
+      "collocations": [
+        "policeman on duty",
+        "uniformed policeman"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "railroad",
+      "source_candidate": "railroad",
+      "meanings_fa": "راه‌آهن؛ شرکت یا سامانهٔ حمل‌ونقل ریلی",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈreɪlˌroʊd/",
+      "cefr": "A2",
+      "category": "Actions, time and movement",
+      "definition_en": "A system of tracks and trains used to transport people or goods; as a verb, to force a plan through.",
+      "example_en": "The railroad connects the small town to the city.",
+      "example_fa": "راه‌آهن این شهر کوچک را به شهر بزرگ وصل می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "railway"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "railroader (noun)",
+        "railroading (noun/verb)"
+      ],
+      "collocations": [
+        "railroad track",
+        "railroad station",
+        "freight railroad"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "refrigerator",
+      "source_candidate": "refrigerator",
+      "meanings_fa": "یخچال",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/rɪˈfrɪdʒəˌreɪtɚ/",
+      "cefr": "A2",
+      "category": "Home and everyday objects",
+      "definition_en": "A household appliance that keeps food and drinks cold.",
+      "example_en": "Put the milk back in the refrigerator.",
+      "example_fa": "شیر را دوباره داخل یخچال بگذار.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "fridge (informal)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "refrigerate (verb)",
+        "refrigeration (noun)",
+        "refrigerated (adjective)"
+      ],
+      "collocations": [
+        "refrigerator door",
+        "clean the refrigerator",
+        "refrigerator shelf"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "senate",
+      "source_candidate": "senate",
+      "meanings_fa": "مجلس سنا؛ یکی از دو مجلس کنگرهٔ ایالات متحده",
+      "part_of_speech": "PROPER NOUN; NOUN",
+      "ipa_us": "/ˈsɛnət/",
+      "cefr": "B2",
+      "category": "Government and civics",
+      "definition_en": "The upper chamber of the United States Congress, with two senators representing each state.",
+      "example_en": "The Senate voted on the proposed immigration bill.",
+      "example_fa": "مجلس سنا دربارهٔ لایحهٔ پیشنهادی مهاجرت رأی‌گیری کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "upper chamber"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "senator (noun)",
+        "senatorial (adjective)"
+      ],
+      "collocations": [
+        "U.S. Senate",
+        "Senate committee",
+        "Senate hearing"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "دولت و حقوق شهروندی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "smartphone",
+      "source_candidate": "smartphone",
+      "meanings_fa": "گوشی هوشمند",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsmɑːrtˌfoʊn/",
+      "cefr": "A2",
+      "category": "Home and everyday objects",
+      "definition_en": "A mobile phone that can run apps and access the internet and other digital services.",
+      "example_en": "You can use your smartphone to check the bus schedule.",
+      "example_fa": "می‌توانی با گوشی هوشمندت برنامهٔ حرکت اتوبوس را بررسی کنی.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "smart phone (variant spacing)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "smartphone user (compound noun)"
+      ],
+      "collocations": [
+        "smartphone app",
+        "smartphone screen",
+        "charge a smartphone"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "sneaker",
+      "source_candidate": "sneaker",
+      "meanings_fa": "کفش ورزشی؛ کتانی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsniːkɚ/",
+      "cefr": "A2",
+      "category": "Technology, services and public life",
+      "definition_en": "A comfortable shoe designed for sports or casual everyday use.",
+      "example_en": "I bought a new pair of sneakers for walking.",
+      "example_fa": "برای پیاده‌روی یک جفت کفش ورزشی جدید خریدم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "athletic shoe",
+          "trainer"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "sneakers (plural)"
+      ],
+      "collocations": [
+        "pair of sneakers",
+        "running sneakers",
+        "sneaker store"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، خدمات و زندگی عمومی",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    },
+    {
+      "word": "stove",
+      "source_candidate": "stove",
+      "meanings_fa": "اجاق؛ اجاق گاز یا برقی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/stoʊv/",
+      "cefr": "A2",
+      "category": "Food, shopping and home",
+      "definition_en": "A device used for cooking or heating food, usually with burners or a heated surface.",
+      "example_en": "Turn off the stove when you're finished cooking.",
+      "example_fa": "وقتی آشپزی تمام شد اجاق را خاموش کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cooker (more common in British English)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "stovetop (noun)",
+        "stoveless (adjective, rare)"
+      ],
+      "collocations": [
+        "gas stove",
+        "electric stove",
+        "stove burner"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Vajehyab/Oxford learner wordlist cross-check plus editorial example and translation",
+      "review_status": "dictionary_cross_checked_editorial_draft",
+      "quality_flag": "Core Oxford 3000 entry; check final GA IPA and CEFR before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "زندگی روزمره و کاربردهای رایج",
+      "level_source": "American Oxford 3000 by CEFR level (official list)",
+      "level_review_status": "official_source_cross_checked"
+    }
+  ]
+}
