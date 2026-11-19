@@ -1,23 +1,24 @@
 # Reconstructed Oxford 5000 American English missing-headword list
-# Source: American Oxford 5000.txt from ittuann/The-Oxford-5000-Word-Lists
+# Source: Oxford University Press American Oxford 3000/5000 lists (PDF headwords normalized)
 # Compared against unique headwords in AmericanLifeEnglish main vocabulary assets.
-# Unique Oxford TXT headwords: 4946
+# Unique source entries after headword normalization: 4954
 # Unique repository headwords: 4000
-# Matched from TXT: 3727
-# Missing from TXT: 1219
+# Matched source entries: 3735
+# Missing source entries: 1219
 # Oxford 3000 missing: 41
 # Oxford 5000 supplementary missing: 1178
 # Eight additional PDF entries already present in repo and therefore not in missing list: next to; no one; used to; cooperation; follow-up; immunity; brake; caption
 # The previous 200-word staging set was checked and has zero overlap with this missing set.
+# Corrected multiword headwords: according to; any more. American spelling: afterwards.
 
 a
 an
-according
-afterward
+according to
+afterwards
 ah
 all
 and
-anymore
+any more
 april
 at
 athletic
