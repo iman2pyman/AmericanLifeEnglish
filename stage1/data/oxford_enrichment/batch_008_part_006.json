@@ -1,0 +1,794 @@
+{
+  "batch": 8,
+  "part": 6,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "gaming",
+      "source_candidate": "gaming",
+      "meanings_fa": "بازی‌های ویدئویی؛ بازی‌کردن؛ صنعت بازی",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈɡeɪmɪŋ/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "The activity or industry of playing video games or other electronic games.",
+      "example_en": "Gaming has become a major part of the entertainment industry.",
+      "example_fa": "بازی‌های ویدئویی به بخش مهمی از صنعت سرگرمی تبدیل شده‌اند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "video games",
+          "gameplay"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "game (noun/verb)",
+        "gamer (noun)",
+        "game-related (adjective)"
+      ],
+      "collocations": [
+        "online gaming",
+        "gaming industry",
+        "gaming console"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "protocol",
+      "source_candidate": "protocol",
+      "meanings_fa": "پروتکل؛ آیین‌نامه؛ مجموعهٔ قواعد رسمی یا فنی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈproʊtəˌkɔːl/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A set of official rules or procedures, especially for communication, medicine, or formal events.",
+      "example_en": "Follow the safety protocol before entering the laboratory.",
+      "example_fa": "پیش از ورود به آزمایشگاه، پروتکل ایمنی را رعایت کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "procedure",
+          "standard",
+          "rules"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "protocol-based (adjective)",
+        "protocol-driven (adjective)"
+      ],
+      "collocations": [
+        "safety protocol",
+        "communication protocol",
+        "follow protocol"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "query",
+      "source_candidate": "query",
+      "meanings_fa": "پرس‌وجو؛ سؤال؛ درخواست اطلاعات؛ پرس‌وجو کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈkwɪri/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A question or request for information, especially one sent to a computer or database.",
+      "example_en": "The database returned results for your search query.",
+      "example_fa": "پایگاه داده برای پرس‌وجوی جست‌وجوی شما نتایجی برگرداند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "question",
+          "inquiry",
+          "request"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "queried (verb)",
+        "querying (noun/verb)"
+      ],
+      "collocations": [
+        "search query",
+        "database query",
+        "submit a query"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "replacement",
+      "source_candidate": "replacement",
+      "meanings_fa": "جایگزین؛ جایگزینی؛ قطعه یا فرد جایگزین",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/rɪˈpleɪsmənt/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A person or thing that takes the place of another, or the act of replacing something.",
+      "example_en": "The company sent a replacement for the damaged item.",
+      "example_fa": "شرکت برای کالای آسیب‌دیده یک جایگزین فرستاد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "substitute",
+          "alternative",
+          "replacement part"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "replace (verb)",
+        "replaceable (adjective)",
+        "irreplaceable (adjective)"
+      ],
+      "collocations": [
+        "replacement part",
+        "replacement cost",
+        "staff replacement"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "spam",
+      "source_candidate": "spam",
+      "meanings_fa": "هرزنامه؛ پیام ناخواسته و انبوه؛ ارسال پیام ناخواسته",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/spæm/",
+      "cefr": "B1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "Unwanted email or online messages, usually sent in large numbers; to send such messages.",
+      "example_en": "Mark suspicious emails as spam.",
+      "example_fa": "ایمیل‌های مشکوک را به‌عنوان هرزنامه علامت‌گذاری کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "junk mail",
+          "unsolicited messages"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "spammer (noun)",
+        "spammy (adjective)"
+      ],
+      "collocations": [
+        "spam folder",
+        "spam filter",
+        "spam email"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "economics",
+      "source_candidate": "economics",
+      "meanings_fa": "اقتصاد؛ علم بررسی تولید، توزیع و مصرف کالاها و خدمات",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌiːkəˈnɑːmɪks/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "The study of how money, goods, and services are produced, distributed, and used.",
+      "example_en": "She plans to study economics at a state university.",
+      "example_fa": "او قصد دارد در یک دانشگاه ایالتی اقتصاد بخواند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "economic science"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "economic (adjective)",
+        "economist (noun)",
+        "economically (adverb)"
+      ],
+      "collocations": [
+        "economics degree",
+        "behavioral economics",
+        "economics department"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "failed",
+      "source_candidate": "failed",
+      "meanings_fa": "ناموفق؛ شکست‌خورده؛ ازکارافتاده؛ ردشده",
+      "part_of_speech": "ADJECTIVE; VERB (PAST)",
+      "ipa_us": "/feɪld/",
+      "cefr": "B1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "Not successful; or the past form of fail.",
+      "example_en": "The payment failed because the card had expired.",
+      "example_fa": "پرداخت به‌دلیل منقضی شدن کارت ناموفق بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "unsuccessful",
+          "unsuccessful attempt"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "fail (verb)",
+        "failure (noun)",
+        "failing (adjective/noun)"
+      ],
+      "collocations": [
+        "failed attempt",
+        "failed payment",
+        "failed business"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "forecast",
+      "source_candidate": "forecast",
+      "meanings_fa": "پیش‌بینی؛ پیش‌بینی کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈfɔːrˌkæst/",
+      "cefr": "B1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A statement about what is likely to happen in the future, especially about weather or business.",
+      "example_en": "The forecast says it will snow tomorrow.",
+      "example_fa": "طبق پیش‌بینی، فردا برف خواهد بارید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "prediction",
+          "projection"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "forecaster (noun)",
+        "forecasting (noun/verb)"
+      ],
+      "collocations": [
+        "weather forecast",
+        "sales forecast",
+        "forecast demand"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "dual",
+      "source_candidate": "dual",
+      "meanings_fa": "دوگانه؛ دارای دو بخش یا دو کارکرد",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈduːəl/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "Having two parts, purposes, or functions.",
+      "example_en": "The position has a dual role in sales and customer support.",
+      "example_fa": "این سمت دو نقش در فروش و پشتیبانی مشتریان دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "double",
+          "twofold",
+          "combined"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "duality (noun)",
+        "dualistically (adverb, rare)"
+      ],
+      "collocations": [
+        "dual citizenship",
+        "dual purpose",
+        "dual role"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "pharmacy",
+      "source_candidate": "pharmacy",
+      "meanings_fa": "داروخانه؛ رشته یا حرفهٔ داروسازی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈfɑːrməsi/",
+      "cefr": "B1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A store where medicines are prepared or sold; the profession of preparing and dispensing medicines.",
+      "example_en": "You can pick up your prescription at the pharmacy.",
+      "example_fa": "می‌توانی داروی نسخه‌ای خود را از داروخانه تحویل بگیری.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "drugstore (US retail synonym)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "pharmacist (noun)",
+        "pharmaceutical (adjective)",
+        "pharmacology (noun)"
+      ],
+      "collocations": [
+        "pharmacy counter",
+        "local pharmacy",
+        "pharmacy technician"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "crystal",
+      "source_candidate": "crystal",
+      "meanings_fa": "بلور؛ کریستال؛ شیشهٔ شفاف و سخت",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈkrɪstəl/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A clear, solid substance with a regular natural structure; glass of high quality or clarity.",
+      "example_en": "The award is made of clear crystal.",
+      "example_fa": "این جایزه از کریستال شفاف ساخته شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "quartz (specific mineral)",
+          "glass (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "crystalline (adjective)",
+        "crystallize (verb)",
+        "crystallization (noun)"
+      ],
+      "collocations": [
+        "crystal clear",
+        "crystal glass",
+        "crystal structure"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "dynamic",
+      "source_candidate": "dynamic",
+      "meanings_fa": "پویا؛ متغیر؛ پرانرژی؛ نیرو یا رابطهٔ متقابل",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/daɪˈnæmɪk/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "Constantly changing or developing; full of energy; as a noun, a force or pattern that affects change.",
+      "example_en": "The company operates in a dynamic market.",
+      "example_fa": "این شرکت در بازاری پویا فعالیت می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "active",
+          "changing",
+          "energetic"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dynamically (adverb)",
+        "dynamics (noun)",
+        "dynamism (noun)"
+      ],
+      "collocations": [
+        "dynamic environment",
+        "dynamic pricing",
+        "team dynamics"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "portfolio",
+      "source_candidate": "portfolio",
+      "meanings_fa": "مجموعهٔ نمونه‌کار؛ سبد سرمایه‌گذاری؛ پوشهٔ اسناد",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/pɔːrtˈfoʊlioʊ/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A collection of work or investments held by a person or organization.",
+      "example_en": "She shared her design portfolio during the interview.",
+      "example_fa": "او در طول مصاحبه مجموعهٔ نمونه‌کارهای طراحی خود را ارائه کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "collection",
+          "body of work",
+          "investment mix"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "portfolio-based (adjective)"
+      ],
+      "collocations": [
+        "design portfolio",
+        "investment portfolio",
+        "portfolio management"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "nutrition",
+      "source_candidate": "nutrition",
+      "meanings_fa": "تغذیه؛ مواد مغذی و فرایند دریافت آن‌ها",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/nuːˈtrɪʃən/",
+      "cefr": "B1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "The process of taking in and using food for health and growth; the study of nutrients.",
+      "example_en": "Good nutrition supports healthy growth.",
+      "example_fa": "تغذیهٔ مناسب از رشد سالم پشتیبانی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "nourishment",
+          "diet"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "nutrient (noun)",
+        "nutritious (adjective)",
+        "nutritionally (adverb)"
+      ],
+      "collocations": [
+        "balanced nutrition",
+        "nutrition facts",
+        "sports nutrition"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "prevention",
+      "source_candidate": "prevention",
+      "meanings_fa": "پیشگیری؛ جلوگیری از وقوع بیماری یا مشکل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/prɪˈvɛnʃən/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "The act of stopping something bad from happening.",
+      "example_en": "Vaccination is an important part of disease prevention.",
+      "example_fa": "واکسیناسیون بخش مهمی از پیشگیری از بیماری است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "avoidance",
+          "protection",
+          "deterrence"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "prevent (verb)",
+        "preventive (adjective)",
+        "preventable (adjective)"
+      ],
+      "collocations": [
+        "disease prevention",
+        "fire prevention",
+        "prevention program"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "instant",
+      "source_candidate": "instant",
+      "meanings_fa": "فوری؛ لحظه؛ آنی؛ محصول آماده و سریع",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ˈɪnstənt/",
+      "cefr": "B1",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "Happening immediately or available for quick use; as a noun, a very short moment.",
+      "example_en": "The app gives you instant access to your account.",
+      "example_fa": "این برنامه دسترسی فوری به حسابت را فراهم می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "immediate",
+          "instantaneous"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "instantly (adverb)",
+        "instantaneous (adjective)",
+        "instantaneously (adverb)"
+      ],
+      "collocations": [
+        "instant access",
+        "instant coffee",
+        "instant message"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "healthcare",
+      "source_candidate": "healthcare",
+      "meanings_fa": "مراقبت‌های بهداشتی و درمانی؛ نظام خدمات سلامت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈhɛlθˌkɛr/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "The services and systems that provide medical treatment and help people maintain their health.",
+      "example_en": "Healthcare costs vary widely across the United States.",
+      "example_fa": "هزینه‌های خدمات درمانی در سراسر ایالات متحده تفاوت زیادی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "medical care",
+          "health services"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "health-care (hyphenated variant)"
+      ],
+      "collocations": [
+        "healthcare provider",
+        "healthcare system",
+        "healthcare coverage"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "utility",
+      "source_candidate": "utility",
+      "meanings_fa": "خدمات عمومی؛ کاربردمندی؛ سودمندی؛ ابزار یا برنامهٔ کاربردی",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/juːˈtɪləti/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A useful service such as electricity or water; the quality of being useful; or a small program designed for a specific task.",
+      "example_en": "The monthly utility bill includes electricity and water.",
+      "example_fa": "صورتحساب ماهانهٔ خدمات عمومی شامل برق و آب است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "usefulness",
+          "public service",
+          "tool"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "utilize (verb)",
+        "utilization (noun)",
+        "utilitarian (adjective)"
+      ],
+      "collocations": [
+        "utility bill",
+        "public utility",
+        "utility software"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "standing",
+      "source_candidate": "standing",
+      "meanings_fa": "وضعیت؛ اعتبار؛ جایگاه؛ ایستاده",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB (GERUND)",
+      "ipa_us": "/ˈstændɪŋ/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "A person's position, reputation, or status; also the state of being upright.",
+      "example_en": "The scholarship is available to students in good academic standing.",
+      "example_fa": "این بورسیه برای دانشجویانی در وضعیت تحصیلی مطلوب در دسترس است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "status",
+          "reputation",
+          "position"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "stand (verb/noun)",
+        "outstanding (adjective)",
+        "understand (verb)"
+      ],
+      "collocations": [
+        "good standing",
+        "social standing",
+        "standing order"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "subscription",
+      "source_candidate": "subscription",
+      "meanings_fa": "اشتراک؛ حق عضویت؛ پرداخت دوره‌ای برای دسترسی به خدمات",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/səbˈskrɪpʃən/",
+      "cefr": "B2",
+      "category": "Technology, health, business and everyday life",
+      "definition_en": "An arrangement to receive a service or publication regularly in exchange for payment.",
+      "example_en": "I canceled my music subscription last month.",
+      "example_fa": "ماه گذشته اشتراک موسیقی‌ام را لغو کردم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "membership",
+          "recurring payment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "subscribe (verb)",
+        "subscriber (noun)",
+        "subscription-based (adjective)"
+      ],
+      "collocations": [
+        "monthly subscription",
+        "subscription fee",
+        "cancel a subscription"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، سلامت، کسب‌وکار و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
