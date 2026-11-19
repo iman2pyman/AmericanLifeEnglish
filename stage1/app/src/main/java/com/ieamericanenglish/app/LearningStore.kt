@@ -46,7 +46,7 @@ class LearningStore(context: Context) {
         val oldInterval = schedule.optJSONObject(id)?.optLong("intervalDays", 0L) ?: 0L
         val nextDays = when (rating) {
             "again" -> 0L
-            "hard" -> if (oldInterval == 0L) 1L else (oldInterval * 1.2).toLong().coerceAtLeast(1L)
+            "hard" -> if (oldInterval == 0L) 1L else (oldInterval * 1.2).toLong().coerceAtLeast(oldInterval + 1L)
             "good" -> if (oldInterval == 0L) 3L else (oldInterval * 2L).coerceAtLeast(3L)
             else -> if (oldInterval == 0L) 7L else (oldInterval * 2.5).toLong().coerceAtLeast(7L)
         }
@@ -86,7 +86,7 @@ class LearningStore(context: Context) {
             selected.forEach { setWordStatus(it.word, "learning") }
             selected
         }
-        val waiting = (freshMarked + freshOther).drop(todaysNew.size).count { wordId(it.word) in marks }
+        val waiting = freshMarked.size
         val month = currentMonthPrefix()
         val completed = readJson(KEY_COMPLETED)
         val completedThisMonth = mutableSetOf<String>()
