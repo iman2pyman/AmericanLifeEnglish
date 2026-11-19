@@ -110,6 +110,33 @@ class LearningStore(context: Context) {
 
     fun completedTodayCount(): Int = readJson(KEY_COMPLETED).optJSONArray(todayKey())?.length() ?: 0
 
+    /** Persist every quiz response locally; keep a bounded history to protect storage. */
+    fun recordQuizAnswer(word: String, questionType: String, correct: Boolean) {
+        val id = wordId(word)
+        if (id.isBlank() || questionType.isBlank()) return
+        val history = runCatching { JSONArray(prefs.getString(KEY_QUIZ_HISTORY, "[]") ?: "[]") }
+            .getOrElse { JSONArray() }
+        history.put(JSONObject()
+            .put("word", id)
+            .put("type", questionType)
+            .put("correct", correct)
+            .put("timestamp", System.currentTimeMillis()))
+        val bounded = JSONArray()
+        val start = (history.length() - MAX_QUIZ_HISTORY).coerceAtLeast(0)
+        for (index in start until history.length()) bounded.put(history.getJSONObject(index))
+        prefs.edit().putString(KEY_QUIZ_HISTORY, bounded.toString()).apply()
+    }
+
+    fun quizStats(): QuizStats {
+        val history = runCatching { JSONArray(prefs.getString(KEY_QUIZ_HISTORY, "[]") ?: "[]") }
+            .getOrElse { JSONArray() }
+        var correct = 0
+        for (index in 0 until history.length()) {
+            if (history.optJSONObject(index)?.optBoolean("correct", false) == true) correct++
+        }
+        return QuizStats(history.length(), correct)
+    }
+
     private fun readJson(key: String): JSONObject =
         runCatching { JSONObject(prefs.getString(key, "{}") ?: "{}") }.getOrElse { JSONObject() }
 
@@ -128,6 +155,8 @@ class LearningStore(context: Context) {
         private const val KEY_DAILY = "daily_new_words"
         private const val KEY_SCHEDULE = "review_schedule"
         private const val KEY_COMPLETED = "completed_words_by_day"
+        private const val KEY_QUIZ_HISTORY = "quiz_answer_history"
+        private const val MAX_QUIZ_HISTORY = 5000
         fun wordId(word: String): String = word.trim().lowercase(Locale.US)
     }
 }
@@ -140,3 +169,6 @@ data class DailyLearningPlan(
     val monthlyNewWordGoal: Int,
     val monthCompleted: Int
 )
+
+
+data class QuizStats(val answered: Int, val correct: Int)
