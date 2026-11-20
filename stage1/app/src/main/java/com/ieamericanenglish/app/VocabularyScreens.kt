@@ -417,6 +417,7 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
                     Column(Modifier.weight(1f)) {
                         Text(word.word, color = accent, fontSize = 29.sp, fontWeight = FontWeight.ExtraBold)
                         Text(word.ipaUs, color = appColor(Color(0xFF718096)), fontSize = 15.sp)
+                        if (word.pronunciationGuideFa.isNotBlank()) Text("راهنمای تلفظ: ${word.pronunciationGuideFa}", color = appColor(Color(0xFF0F766E)), fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
                     }
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = appColor(Color(0xFF2563EB)), fontWeight = FontWeight.Bold) }
