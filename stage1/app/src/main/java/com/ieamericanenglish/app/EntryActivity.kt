@@ -105,7 +105,9 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
                 selectedWord != null -> WordDetailScreen(
                     selectedWord!!, onSpeak, { selectedWord = null },
                     isBookmarked = LearningStore.wordId(selectedWord!!.word) in bookmarkedWords,
-                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ }
+                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ },
+                    allWords = words,
+                    onRelatedWord = { selectedWord = it }
                 )
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
