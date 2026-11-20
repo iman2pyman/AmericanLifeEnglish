@@ -267,8 +267,7 @@ fun LearningScreen(
     words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit,
     onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1",
     onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(),
-    onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null
-) {
+    onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null,
     isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}
 ) {
     var mode by remember(isPremium) { mutableStateOf(if (isPremium) "leitner" else "daily") }
@@ -510,7 +509,7 @@ private fun LeitnerLearningScreen(
 }
 
 @Composable
-private fun DailyLearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null) {
+private fun DailyLearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null, isPremium: Boolean = false) {
     var level by remember { mutableStateOf(initialLevel) }
     LaunchedEffect(initialLevel) { level = initialLevel }
     var plan by remember { mutableStateOf<DailyLearningPlan?>(null) }
@@ -542,7 +541,7 @@ private fun DailyLearningScreen(words: List<VocabularyWord>, onSpeak: (String) -
         Text("سطح یادگیری", color = appColor(Color(0xFF18243A)), fontSize = 15.sp, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(7.dp)) {
-            listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
+            (if (isPremium) listOf("A1", "A2", "B1", "B2", "C1", "C2") else listOf("A1", "A2")).forEach { item ->
                 val color = appColor(LevelColors[item] ?: tint)
                 FilterChip(selected = level == item, onClick = {
                     level = item; onLevelChanged(item); queue = emptyList(); index = 0; finished = false; learningStore?.clearPracticeSession()
