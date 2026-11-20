@@ -256,8 +256,193 @@ fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, listS
         }
     }
 }
+
 @Composable
-fun LearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null) {
+fun LearningScreen(
+    words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit,
+    onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1",
+    onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(),
+    onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null
+) {
+    var mode by remember { mutableStateOf("leitner") }
+    Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC)))) {
+        Row(Modifier.fillMaxWidth().padding(horizontal = 18.dp, vertical = 5.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            FilterChip(selected = mode == "leitner", onClick = { mode = "leitner" }, label = { Text("جعبه لایتنر") })
+            FilterChip(selected = mode == "daily", onClick = { mode = "daily" }, label = { Text("برنامه روزانه") })
+        }
+        if (mode == "leitner") LeitnerLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
+        else DailyLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
+    }
+}
+
+@Composable
+private fun LeitnerLearningScreen(
+    words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit,
+    onWord: (VocabularyWord) -> Unit, initialLevel: String,
+    onLevelChanged: (String) -> Unit, bookmarks: Set<String>,
+    onToggleBookmark: (String) -> Unit, learningStore: LearningStore?
+) {
+    var level by remember { mutableStateOf(initialLevel) }
+    LaunchedEffect(initialLevel) { level = initialLevel }
+    var selectedBox by remember { mutableIntStateOf(1) }
+    var boxStats by remember { mutableStateOf<List<LeitnerBoxCount>>(emptyList()) }
+    var queue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
+    var index by remember { mutableIntStateOf(0) }
+    var phase by remember { mutableStateOf("boxes") }
+    var questions by remember { mutableStateOf<List<LeitnerQuizQuestion>>(emptyList()) }
+    var questionIndex by remember { mutableIntStateOf(0) }
+    var selectedAnswer by remember { mutableStateOf<String?>(null) }
+    var score by remember { mutableIntStateOf(0) }
+    val current = queue.getOrNull(index)
+    val currentQuestion = questions.getOrNull(questionIndex)
+    val tint = appColor(LevelColors[level] ?: Color(0xFF2563EB))
+    fun refreshBoxes() { boxStats = learningStore?.leitnerBoxCounts(words, level).orEmpty() }
+    fun finishReview() {
+        questions = VocabularyQuizEngine.createLeitnerQuiz(queue, words)
+        questionIndex = 0; selectedAnswer = null; score = 0
+        phase = if (questions.isEmpty()) "result" else "quiz"
+    }
+    LaunchedEffect(level, words, learningStore) { refreshBoxes() }
+
+    Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 10.dp)) {
+        ScreenHeader(if (phase == "quiz") "آزمون لایتنر" else "جعبه لایتنر", onBack)
+        if (phase == "boxes" || phase == "review") {
+            Text("سطح یادگیری", color = appColor(Color(0xFF18243A)), fontSize = 14.sp, fontWeight = FontWeight.Bold)
+            Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                LearningStore.LEVELS.forEach { item ->
+                    FilterChip(selected = level == item, onClick = {
+                        level = item; onLevelChanged(item); selectedBox = 1; queue = emptyList(); index = 0; phase = "boxes"
+                    }, label = { Text(item) })
+                }
+            }
+        }
+        if (phase == "boxes") {
+            Text("پنج خانه لایتنر", color = appColor(Color(0xFF14213D)), fontSize = 19.sp, fontWeight = FontWeight.ExtraBold)
+            Text("واژه‌های تازه خودکار وارد خانه اول می‌شوند. پاسخ درست یک خانه جلو می‌برد و پاسخ اشتباه واژه را به خانه اول برمی‌گرداند.", color = appColor(Color(0xFF718096)), fontSize = 12.sp, lineHeight = 20.sp)
+            Spacer(Modifier.height(12.dp))
+            boxStats.forEach { stat ->
+                val selected = selectedBox == stat.box
+                Surface(onClick = { selectedBox = stat.box }, modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp),
+                    shape = RoundedCornerShape(16.dp), color = if (selected) tint.copy(alpha = .12f) else appColor(Color.White), shadowElevation = 2.dp) {
+                    Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Surface(shape = RoundedCornerShape(10.dp), color = if (selected) tint else appColor(Color(0xFFE8EEF6))) {
+                            Text("خانه ${stat.box}", modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+                                color = if (selected) appColor(Color.White) else appColor(Color(0xFF18243A)), fontWeight = FontWeight.Bold)
+                        }
+                        Column(Modifier.weight(1f).padding(horizontal = 10.dp)) {
+                            Text("${stat.total} واژه", color = appColor(Color(0xFF18243A)), fontWeight = FontWeight.Bold)
+                            Text("${stat.due} واژه آماده مرور", color = appColor(Color(0xFF718096)), fontSize = 11.sp)
+                        }
+                        Text("فاصله مرور: " + listOf("۱ روز", "۳ روز", "۷ روز", "۱۴ روز", "۳۰ روز")[stat.box - 1],
+                            color = tint, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
+            }
+            Button(onClick = {
+                queue = learningStore?.dueLeitnerWords(words, level, selectedBox, LearningStore.DAILY_REVIEW_LIMIT).orEmpty()
+                index = 0
+                if (queue.isNotEmpty()) phase = "review"
+            }, enabled = boxStats.getOrNull(selectedBox - 1)?.due?.let { it > 0 } == true, modifier = Modifier.fillMaxWidth()) {
+                Text("شروع مرور خانه ${selectedBox}")
+            }
+            Text("در هر نوبت حداکثر ۳۰ واژه مرور می‌شود. پس از آخرین واژه، آزمون همین مجموعه بلافاصله آغاز می‌شود.",
+                color = appColor(Color(0xFF718096)), fontSize = 11.sp, lineHeight = 18.sp)
+        } else if (phase == "review" && current != null) {
+            Text("مرور خانه ${selectedBox}  •  ${index + 1} از ${queue.size}", color = tint, fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(10.dp))
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
+                Column(Modifier.padding(17.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Column(Modifier.weight(1f)) {
+                            Text(current.word, color = appColor(LevelColors[current.cefr] ?: Color(0xFF2563EB)), fontSize = 29.sp, fontWeight = FontWeight.ExtraBold)
+                            Text(current.ipaUs, color = appColor(Color(0xFF718096)), fontSize = 13.sp)
+                        }
+                        TextButton(onClick = { onSpeak(current.word) }) { Text("🔊 تلفظ") }
+                    }
+                    DetailLabel("معنی فارسی")
+                    Text(current.meaningsFa, color = appColor(Color(0xFF18243A)), fontSize = 16.sp, fontWeight = FontWeight.Bold, lineHeight = 26.sp)
+                    Spacer(Modifier.height(10.dp))
+                    DetailLabel("تعریف انگلیسی")
+                    Text(current.definitionEn, color = appColor(Color(0xFF4A5568)), fontSize = 13.sp, lineHeight = 22.sp)
+                    Spacer(Modifier.height(10.dp))
+                    DetailLabel("مثال کاربردی")
+                    Text(current.exampleEn, color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, lineHeight = 22.sp)
+                    Text(current.exampleFa, color = appColor(Color(0xFF718096)), fontSize = 12.sp, lineHeight = 20.sp)
+                    Spacer(Modifier.height(16.dp))
+                    Text("آیا این واژه را به خاطر سپرده‌ای؟", color = appColor(Color(0xFF14213D)), fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(9.dp)) {
+                        Button(onClick = {
+                            learningStore?.recordLeitnerAnswer(current.word, true)
+                            index++
+                            if (index >= queue.size) finishReview()
+                            refreshBoxes()
+                        }, modifier = Modifier.weight(1f)) { Text("بلدم ✓") }
+                        OutlinedButton(onClick = {
+                            learningStore?.recordLeitnerAnswer(current.word, false)
+                            index++
+                            if (index >= queue.size) finishReview()
+                            refreshBoxes()
+                        }, modifier = Modifier.weight(1f)) { Text("بلد نیستم") }
+                    }
+                    TextButton(onClick = { onWord(current) }, modifier = Modifier.align(Alignment.End)) { Text("مشاهده صفحه کامل واژه") }
+                }
+            }
+        } else if (phase == "quiz" && currentQuestion != null) {
+            Text("آزمون واژه‌های همین جلسه", color = tint, fontSize = 14.sp, fontWeight = FontWeight.Bold)
+            Text("سؤال ${questionIndex + 1} از ${questions.size}  •  پاسخ درست: ${score}", color = appColor(Color(0xFF718096)), fontSize = 11.sp)
+            Spacer(Modifier.height(12.dp))
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
+                Column(Modifier.padding(17.dp)) {
+                    Text(currentQuestion.type.titleFa, color = tint, fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+                    Spacer(Modifier.height(10.dp))
+                    Text(currentQuestion.prompt, color = appColor(Color(0xFF18243A)), fontWeight = FontWeight.Bold, fontSize = 15.sp, lineHeight = 25.sp)
+                    Spacer(Modifier.height(12.dp))
+                    currentQuestion.options.forEach { option ->
+                        val isChosen = selectedAnswer == option
+                        val isCorrect = option == currentQuestion.correctAnswer
+                        OutlinedButton(onClick = {
+                            if (selectedAnswer == null) {
+                                selectedAnswer = option
+                                if (isCorrect) score++
+                                learningStore?.recordQuizAnswer(currentQuestion.targetWord, "LEITNER_${currentQuestion.type.name}", option, currentQuestion.correctAnswer, isCorrect)
+                            }
+                        }, modifier = Modifier.fillMaxWidth().padding(bottom = 6.dp),
+                            colors = ButtonDefaults.outlinedButtonColors(
+                                contentColor = if (selectedAnswer != null && isCorrect) appColor(Color(0xFF0F9D91))
+                                    else if (isChosen) appColor(Color(0xFFBE4778)) else appColor(Color(0xFF2563EB))
+                            )) { Text(option, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Start, fontSize = 13.sp) }
+                    }
+                    if (selectedAnswer != null) {
+                        Text(if (selectedAnswer == currentQuestion.correctAnswer) "آفرین، پاسخ درست است." else "پاسخ درست: ${currentQuestion.correctAnswer}",
+                            color = if (selectedAnswer == currentQuestion.correctAnswer) appColor(Color(0xFF0F9D91)) else appColor(Color(0xFFBE4778)),
+                            fontSize = 12.sp, fontWeight = FontWeight.Bold, modifier = Modifier.padding(vertical = 8.dp))
+                        Button(onClick = {
+                            questionIndex++; selectedAnswer = null
+                            if (questionIndex >= questions.size) phase = "result"
+                        }, modifier = Modifier.fillMaxWidth()) { Text(if (questionIndex == questions.lastIndex) "پایان آزمون" else "سؤال بعدی") }
+                    }
+                }
+            }
+        } else if (phase == "result") {
+            Text("نتیجه آزمون لایتنر", color = appColor(Color(0xFF14213D)), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+            Spacer(Modifier.height(10.dp))
+            Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
+                Column(Modifier.padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text("$score از ${questions.size}", color = tint, fontSize = 28.sp, fontWeight = FontWeight.ExtraBold)
+                    Text("پاسخ درست در آزمون واژه‌های مرورشده", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
+                    Text("${queue.size} واژه در مرور این جلسه آموزش داده شد.", color = appColor(Color(0xFF18243A)), fontSize = 13.sp, modifier = Modifier.padding(top = 10.dp))
+                    Button(onClick = {
+                        queue = emptyList(); questions = emptyList(); index = 0; questionIndex = 0
+                        selectedAnswer = null; score = 0; phase = "boxes"; refreshBoxes()
+                    }, modifier = Modifier.fillMaxWidth()) { Text("بازگشت به خانه‌های لایتنر") }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DailyLearningScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, initialLevel: String = "A1", onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null) {
     var level by remember { mutableStateOf(initialLevel) }
     LaunchedEffect(initialLevel) { level = initialLevel }
     var plan by remember { mutableStateOf<DailyLearningPlan?>(null) }
