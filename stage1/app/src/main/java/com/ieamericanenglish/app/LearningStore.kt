@@ -82,6 +82,64 @@ class LearningStore(context: Context) {
             .count { (schedule.optJSONObject(wordId(it.word))?.optLong("dueAt", Long.MAX_VALUE) ?: Long.MAX_VALUE) <= now }
     }
 
+
+    /** Number of the classic Leitner box. Words not seen before start in box 1 automatically. */
+    fun leitnerBox(word: String): Int {
+        val id = wordId(word)
+        return readJson(KEY_LEITNER).optJSONObject(id)?.optInt("box", 1)?.coerceIn(1, 5) ?: 1
+    }
+
+    fun leitnerBoxCounts(words: List<VocabularyWord>, level: String): List<LeitnerBoxCount> {
+        val now = System.currentTimeMillis()
+        val state = readJson(KEY_LEITNER)
+        val eligible = words.asSequence()
+            .filter { it.cefr.equals(level, true) && it.word.isNotBlank() && it.meaningsFa.isNotBlank() && it.definitionEn.isNotBlank() }
+            .distinctBy { wordId(it.word) }.toList()
+        return (1..5).map { box ->
+            val inBox = eligible.filter { word ->
+                (state.optJSONObject(wordId(word.word))?.optInt("box", 1) ?: 1).coerceIn(1, 5) == box
+            }
+            val due = inBox.count { word ->
+                (state.optJSONObject(wordId(word.word))?.optLong("dueAt", 0L) ?: 0L) <= now
+            }
+            LeitnerBoxCount(box, inBox.size, due)
+        }
+    }
+
+    fun dueLeitnerWords(words: List<VocabularyWord>, level: String, box: Int, limit: Int = DAILY_REVIEW_LIMIT): List<VocabularyWord> {
+        if (box !in 1..5) return emptyList()
+        val now = System.currentTimeMillis()
+        val state = readJson(KEY_LEITNER)
+        return words.asSequence()
+            .filter { it.cefr.equals(level, true) && it.word.isNotBlank() && it.meaningsFa.isNotBlank() && it.definitionEn.isNotBlank() }
+            .distinctBy { wordId(it.word) }
+            .mapNotNull { word ->
+                val item = state.optJSONObject(wordId(word.word))
+                val currentBox = (item?.optInt("box", 1) ?: 1).coerceIn(1, 5)
+                val dueAt = item?.optLong("dueAt", 0L) ?: 0L
+                if (currentBox == box && dueAt <= now) dueAt to word else null
+            }
+            .sortedBy { it.first }
+            .take(limit.coerceAtLeast(0))
+            .map { it.second }
+            .toList()
+    }
+
+    /** Correct: advance one box; incorrect: return to box 1. Intervals are 1, 3, 7, 14 and 30 days. */
+    fun recordLeitnerAnswer(word: String, remembered: Boolean): Int {
+        val id = wordId(word)
+        if (id.isBlank()) return 1
+        val state = readJson(KEY_LEITNER)
+        val oldBox = (state.optJSONObject(id)?.optInt("box", 1) ?: 1).coerceIn(1, 5)
+        val nextBox = if (remembered) (oldBox + 1).coerceAtMost(5) else 1
+        val intervalDays = LEITNER_INTERVAL_DAYS[nextBox - 1]
+        val dueAt = System.currentTimeMillis() + intervalDays * DAY_MS
+        state.put(id, JSONObject().put("box", nextBox).put("dueAt", dueAt).put("updatedAt", System.currentTimeMillis()))
+        prefs.edit().putString(KEY_LEITNER, state.toString()).apply()
+        setWordStatus(word, if (nextBox == 5) "mastered" else "review")
+        return nextBox
+    }
+
     fun buildDailyPlan(words: List<VocabularyWord>, level: String, limit: Int = DAILY_NEW_WORD_GOAL): DailyLearningPlan {
         val today = todayKey()
         val progress = wordProgress()
@@ -272,10 +330,14 @@ class LearningStore(context: Context) {
         private const val KEY_COMPLETED = "completed_words_by_day"
         private const val KEY_QUIZ_HISTORY = "quiz_answer_history"
         private const val KEY_SESSION = "daily_practice_session"
+        private const val KEY_LEITNER = "leitner_box_progress"
+        private val LEITNER_INTERVAL_DAYS = longArrayOf(1L, 3L, 7L, 14L, 30L)
         private const val MAX_QUIZ_HISTORY = 5000
         fun wordId(word: String): String = word.trim().lowercase(Locale.US)
     }
 }
+
+data class LeitnerBoxCount(val box: Int, val total: Int, val due: Int)
 
 data class DailyLearningPlan(
     val date: String,
