@@ -7,6 +7,14 @@ on:
     paths:
       - '.github/workflows/release-apk.yml'
       - 'stage1/app/src/main/res/drawable/ic_launcher.xml'
+      - 'stage1/app/src/main/java/**'
+      - 'stage1/app/src/main/kotlin/**'
+      - 'stage1/app/src/main/AndroidManifest.xml'
+      - 'stage1/app/build.gradle.kts'
+      - 'stage1/build.gradle.kts'
+      - 'stage1/settings.gradle.kts'
+      - 'gradle/**'
+      - 'gradle.properties'
 
 permissions:
   contents: read
