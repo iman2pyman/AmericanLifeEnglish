@@ -17,11 +17,14 @@
     "source_candidate": "brake",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bug",
@@ -41,11 +44,14 @@
     "source_candidate": "bug",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "cabin",
@@ -65,11 +71,14 @@
     "source_candidate": "cabin",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "caption",
@@ -89,11 +98,14 @@
     "source_candidate": "caption",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "casual",
@@ -113,11 +125,14 @@
     "source_candidate": "casual",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "certificate",
@@ -137,11 +152,14 @@
     "source_candidate": "certificate",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "challenging",
@@ -161,11 +179,14 @@
     "source_candidate": "challenging",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "clinic",
@@ -185,11 +206,14 @@
     "source_candidate": "clinic",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "clip",
@@ -209,11 +233,14 @@
     "source_candidate": "clip",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "compulsory",
@@ -233,11 +260,14 @@
     "source_candidate": "compulsory",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "consequently",
@@ -257,11 +287,14 @@
     "source_candidate": "consequently",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "conservation",
@@ -281,11 +314,14 @@
     "source_candidate": "conservation",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "controversial",
@@ -305,11 +341,14 @@
     "source_candidate": "controversial",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "convenience",
@@ -329,11 +368,14 @@
     "source_candidate": "convenience",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "cope",
@@ -353,11 +395,14 @@
     "source_candidate": "cope",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "corridor",
@@ -377,11 +422,14 @@
     "source_candidate": "corridor",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "deadline",
@@ -401,11 +449,14 @@
     "source_candidate": "deadline",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "delete",
@@ -425,11 +476,14 @@
     "source_candidate": "delete",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "dependent",
@@ -449,11 +503,14 @@
     "source_candidate": "dependent",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "deposit",
@@ -473,11 +530,14 @@
     "source_candidate": "deposit",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "disability",
@@ -497,11 +557,14 @@
     "source_candidate": "disability",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "distinct",
@@ -521,11 +584,14 @@
     "source_candidate": "distinct",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "distract",
@@ -545,11 +611,14 @@
     "source_candidate": "distract",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "dive",
@@ -569,11 +638,14 @@
     "source_candidate": "dive",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "duration",
@@ -593,11 +665,14 @@
     "source_candidate": "duration",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "eager",
@@ -617,11 +692,14 @@
     "source_candidate": "eager",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "efficiently",
@@ -641,11 +719,14 @@
     "source_candidate": "efficiently",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "elementary",
@@ -665,11 +746,14 @@
     "source_candidate": "elementary",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "envelope",
@@ -689,10 +773,13 @@
     "source_candidate": "envelope",
     "review_status": "editorially_reviewed_source_list_verified",
     "quality_flag": "Headword, part of speech and B2 level checked against Oxford 5000 American English list. Persian gloss, General American IPA, definition and examples are editorially authored and should receive native-speaker review before a high-stakes publication.",
-    "release_decision": "production_candidate",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان کاربردی زندگی، کار و تحصیل",
     "level_source": "Oxford 5000 American English",
-    "level_review_status": "source_list_verified"
+    "level_review_status": "source_list_verified",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   }
 ]
