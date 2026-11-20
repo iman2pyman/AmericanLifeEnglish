@@ -101,6 +101,14 @@ private fun PremiumAccessPrompt(message: String, onClick: () -> Unit) {
     }
 }
 
+// Free tier: up to 200 unique A1 words, then fill the 500-word allowance with A2 words.
+fun freeVocabularyWords(words: List<VocabularyWord>): List<VocabularyWord> {
+    val uniqueWords = words.distinctBy { LearningStore.wordId(it.word) }
+    val a1Words = uniqueWords.filter { it.cefr.equals("A1", true) }.take(200)
+    val a2Words = uniqueWords.filter { it.cefr.equals("A2", true) }.take((500 - a1Words.size).coerceAtLeast(0))
+    return (a1Words + a2Words).take(500)
+}
+
 @Composable
 fun ScreenHeader(title: String, onBack: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -114,7 +122,7 @@ fun ScreenHeader(title: String, onBack: () -> Unit) {
 fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember { mutableStateOf("") }
     val searchableWords = remember(words, isPremium) {
-        if (isPremium) words else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) }
+        if (isPremium) words else freeVocabularyWords(words)
     }
     val uniqueWordCount = remember(searchableWords) {
         searchableWords.map { it.word.trim().lowercase() }.distinct().size
@@ -131,7 +139,7 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
     }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("جستجوی واژگان", onBack)
-        Text(if (isPremium) "کل بانک آموزشی: $uniqueWordCount واژه" else "نسخه رایگان: جستجو در همه واژه‌های سطح A1 و A2 ($uniqueWordCount واژه)", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        Text(if (isPremium) "کل بانک آموزشی: $uniqueWordCount واژه" else "نسخه رایگان: $uniqueWordCount واژه (حداکثر ۲۰۰ واژه A1 و تکمیل ظرفیت از A2)", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
         if (!isPremium) PremiumAccessPrompt(
             message = "برای دسترسی به تمام سطوح و بانک کامل واژگان، اشتراک ویژه را فعال کنید.",
             onClick = onPremiumRequired
@@ -241,7 +249,7 @@ fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("سطح‌بندی لغات", onBack)
         Text("سطح موردنظرت را انتخاب کن", color = appColor(Color(0xFF18243A)), fontSize = 17.sp, fontWeight = FontWeight.Bold)
-        Text(if (isPremium) "با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود." else "در نسخه رایگان همه واژه‌های سطوح A1 و A2 فعال‌اند؛ برای سطوح بالاتر اشتراک ویژه تهیه کنید.", color = appColor(Color(0xFF718096)), fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
+        Text(if (isPremium) "با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود." else "در نسخه رایگان حداکثر ۵۰۰ واژه منتخب از A1 و A2 فعال است؛ برای دسترسی به کل بانک اشتراک ویژه تهیه کنید.", color = appColor(Color(0xFF718096)), fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
         if (!isPremium) PremiumAccessPrompt(
             message = "با اشتراک ویژه، همه سطح‌های واژگان را باز کنید.",
             onClick = onPremiumRequired
