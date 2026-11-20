@@ -48,14 +48,19 @@ class EntryActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         speech = AmericanSpeech(this)
-        premiumActive = getSharedPreferences("american_english_settings", MODE_PRIVATE)
-            .getBoolean("premium_active", false)
+        val billingPreferences = getSharedPreferences("american_english_settings", MODE_PRIVATE)
+        val lastPremiumCheck = billingPreferences.getLong("premium_checked_at", 0L)
+        val cacheStillFresh = System.currentTimeMillis() - lastPremiumCheck < 24L * 60L * 60L * 1000L
+        premiumActive = billingPreferences.getBoolean("premium_active", false) && cacheStillFresh
         bazaarBilling = BazaarBillingManager(
             activity = this,
             onPremiumChanged = { active ->
                 runOnUiThread { premiumActive = active }
                 getSharedPreferences("american_english_settings", MODE_PRIVATE)
-                    .edit().putBoolean("premium_active", active).apply()
+                    .edit()
+                    .putBoolean("premium_active", active)
+                    .putLong("premium_checked_at", System.currentTimeMillis())
+                    .apply()
             },
             onStatus = { status ->
                 android.util.Log.i("AmericanLifeEnglishBilling", status)
@@ -183,7 +188,7 @@ private fun AmericanEnglishRoot(
                 )
                 page == "vocabulary" -> LearningHubScreen(
                     selectedLevel = selectedLevel,
-                    wordCount = words.distinctBy { LearningStore.wordId(it.word) }.size,
+                    wordCount = if (isPremium) words.distinctBy { LearningStore.wordId(it.word) }.size else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) }.distinctBy { LearningStore.wordId(it.word) }.size,
                     onBack = { page = "home" },
                     onLevels = { page = "vocabulary-level" },
                     onPractice = { page = "vocabulary-practice" }
