@@ -1,0 +1,741 @@
+{
+  "batch": 2,
+  "range": "Oxford 1219 remaining list positions 231-250",
+  "status": "staging_only_incomplete_batch",
+  "count": 20,
+  "completed_count": 20,
+  "total_batch_count": 200,
+  "remaining_count": 150,
+  "words": [
+    {
+      "word": "devil",
+      "meanings_fa": "شیطان؛ اهریمن؛ شخص بسیار بدجنس",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈdɛvəl/",
+      "cefr": "A2",
+      "category": "Beliefs and informal descriptions",
+      "definition_en": "An evil spirit in some religions and stories; an informal name for a cruel or troublesome person.",
+      "example_en": "The children dressed as angels and devils for the school play.",
+      "example_fa": "بچه‌ها برای نمایش مدرسه لباس فرشته و شیطان پوشیدند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "demon",
+          "fiend"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "devilish",
+        "devilishness"
+      ],
+      "collocations": [
+        "the devil",
+        "devil's advocate"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "devil",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Beliefs and informal descriptions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "devise",
+      "meanings_fa": "طراحی کردن؛ ابداع کردن؛ اندیشیدن و طرح‌ریزی کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈvaɪz/",
+      "cefr": "C1",
+      "category": "Thinking and planning",
+      "definition_en": "To invent or plan a method, system, or solution.",
+      "example_en": "The team devised a simple way to track customer requests.",
+      "example_fa": "تیم روشی ساده برای پیگیری درخواست‌های مشتریان طراحی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "invent",
+          "develop",
+          "formulate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "device",
+        "devised"
+      ],
+      "collocations": [
+        "devise a plan",
+        "devise a solution"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "devise",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Thinking and planning",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "diagnose",
+      "meanings_fa": "تشخیص دادن (بیماری یا مشکل)",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˌdaɪəɡˈnoʊs/",
+      "cefr": "B2",
+      "category": "Health and problem-solving",
+      "definition_en": "To identify an illness or problem by examining its signs and symptoms.",
+      "example_en": "The doctor diagnosed her with a mild infection.",
+      "example_fa": "پزشک تشخیص داد که او عفونت خفیفی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "identify",
+          "determine"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "diagnosis",
+        "diagnostic",
+        "diagnostician"
+      ],
+      "collocations": [
+        "diagnose a condition",
+        "diagnose a problem"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "diagnose",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Health and problem-solving",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "diagnosis",
+      "meanings_fa": "تشخیص؛ تشخیص پزشکی؛ شناسایی مشکل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdaɪəɡˈnoʊsɪs/",
+      "cefr": "B2",
+      "category": "Health and problem-solving",
+      "definition_en": "The identification of an illness or problem based on examination and evidence.",
+      "example_en": "An accurate diagnosis helped the patient get the right treatment.",
+      "example_fa": "تشخیص دقیق به بیمار کمک کرد درمان مناسب را دریافت کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "identification",
+          "assessment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "diagnose",
+        "diagnostic"
+      ],
+      "collocations": [
+        "make a diagnosis",
+        "medical diagnosis"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "diagnosis",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Health and problem-solving",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dictate",
+      "meanings_fa": "دیکته کردن؛ حکم راندن؛ تعیین کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈdɪkˌteɪt/",
+      "cefr": "B2",
+      "category": "Communication and authority",
+      "definition_en": "To say words for someone to write down, or to control what must happen.",
+      "example_en": "Company policy does not dictate how employees organize every task.",
+      "example_fa": "سیاست شرکت تعیین نمی‌کند که کارکنان هر کار را دقیقاً چگونه سازمان‌دهی کنند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "order",
+          "prescribe",
+          "determine"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dictation",
+        "dictator",
+        "dictatorial"
+      ],
+      "collocations": [
+        "dictate a letter",
+        "dictate terms"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dictate",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Communication and authority",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "differ",
+      "meanings_fa": "متفاوت بودن؛ اختلاف داشتن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˈdɪfər/",
+      "cefr": "A2",
+      "category": "Comparison and opinions",
+      "definition_en": "To be unlike someone or something, or to have a different opinion.",
+      "example_en": "Our opinions differ, but we can still work together.",
+      "example_fa": "نظرهای ما متفاوت است، اما همچنان می‌توانیم با هم کار کنیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "vary",
+          "disagree",
+          "contrast"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "different",
+        "difference",
+        "different from"
+      ],
+      "collocations": [
+        "differ from",
+        "differ in opinion"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "differ",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Comparison and opinions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "differentiate",
+      "meanings_fa": "تمایز قائل شدن؛ تفاوت گذاشتن؛ متمایز کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˌdɪfəˈrɛnʃiˌeɪt/",
+      "cefr": "B2",
+      "category": "Comparison and analysis",
+      "definition_en": "To recognize or show the difference between people or things.",
+      "example_en": "It's important to differentiate facts from personal opinions.",
+      "example_fa": "مهم است که واقعیت‌ها را از نظرهای شخصی تفکیک کنیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "distinguish",
+          "separate",
+          "tell apart"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "different",
+        "difference",
+        "differentiation"
+      ],
+      "collocations": [
+        "differentiate between",
+        "differentiate a product"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "differentiate",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Comparison and analysis",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dilemma",
+      "meanings_fa": "دوراهی؛ وضعیت دشوارِ نیازمند انتخاب",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈlɛmə/",
+      "cefr": "B2",
+      "category": "Decisions and problems",
+      "definition_en": "A situation in which you must choose between two difficult or unpleasant options.",
+      "example_en": "She faced a dilemma: accept the promotion or stay near her family.",
+      "example_fa": "او با دوراهی روبه‌رو شد: ارتقا را بپذیرد یا نزدیک خانواده‌اش بماند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "predicament",
+          "quandary"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "face a dilemma",
+        "ethical dilemma"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dilemma",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Decisions and problems",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dime",
+      "meanings_fa": "سکهٔ ده‌سنتی آمریکا",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/daɪm/",
+      "cefr": "A2",
+      "category": "Money and daily life",
+      "definition_en": "A US coin worth ten cents, or one tenth of a dollar.",
+      "example_en": "I found a dime under the car seat.",
+      "example_fa": "یک سکه ده‌سنتی زیر صندلی ماشین پیدا کردم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "ten-cent coin"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "not worth a dime",
+        "a dime a dozen"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dime",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Money and daily life",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dimension",
+      "meanings_fa": "بُعد؛ اندازه؛ جنبه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈmɛnʃən/",
+      "cefr": "B1",
+      "category": "Measurement and ideas",
+      "definition_en": "A measurable length, width, or height, or one aspect of a situation.",
+      "example_en": "Please check the dimensions before ordering the desk.",
+      "example_fa": "لطفاً پیش از سفارش میز، ابعاد آن را بررسی کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "measurement",
+          "aspect",
+          "size"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dimensional",
+        "multidimensional"
+      ],
+      "collocations": [
+        "three dimensions",
+        "another dimension"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dimension",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Measurement and ideas",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "diminish",
+      "meanings_fa": "کاهش یافتن؛ کم کردن؛ کوچک شمردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈmɪnɪʃ/",
+      "cefr": "B2",
+      "category": "Change and quantity",
+      "definition_en": "To become or make something smaller, weaker, or less important.",
+      "example_en": "The pain began to diminish after she took the medicine.",
+      "example_fa": "پس از مصرف دارو، درد شروع به کاهش کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "decrease",
+          "lessen",
+          "reduce"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "diminished",
+        "diminishing",
+        "diminution"
+      ],
+      "collocations": [
+        "diminish in value",
+        "diminish the risk"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "diminish",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Change and quantity",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dip",
+      "meanings_fa": "فرو بردن؛ پایین رفتن؛ افت کوتاه؛ سس",
+      "part_of_speech": "VERB, NOUN",
+      "ipa_us": "/dɪp/",
+      "cefr": "A2",
+      "category": "Movement, food and quantities",
+      "definition_en": "To put something briefly into a liquid, to move downward, or a small decrease; also a thick sauce.",
+      "example_en": "Dip the vegetables in the yogurt sauce.",
+      "example_fa": "سبزیجات را در سس ماست فرو ببر.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "lower",
+          "immerse",
+          "drop"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dipped",
+        "dipping"
+      ],
+      "collocations": [
+        "take a dip",
+        "dip into",
+        "a slight dip"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dip",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Movement, food and quantities",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "directory",
+      "meanings_fa": "فهرست؛ راهنمای اسامی و نشانی‌ها؛ پوشهٔ رایانه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dəˈrɛktəri/",
+      "cefr": "B1",
+      "category": "Technology and information",
+      "definition_en": "A book or digital list of names and contact details, or a folder used to organize computer files.",
+      "example_en": "You can find the department's phone number in the online directory.",
+      "example_fa": "می‌توانی شماره تلفن بخش را در فهرست آنلاین پیدا کنی.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "index",
+          "listing",
+          "folder"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "phone directory",
+        "file directory"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "directory",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Technology and information",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "disagreement",
+      "meanings_fa": "اختلاف‌نظر؛ ناسازگاری؛ مشاجره",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdɪsəˈɡrimənt/",
+      "cefr": "B1",
+      "category": "Communication and relationships",
+      "definition_en": "A situation in which people have different opinions or do not agree.",
+      "example_en": "They had a disagreement about the project budget.",
+      "example_fa": "آن‌ها درباره بودجه پروژه اختلاف‌نظر داشتند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "argument",
+          "dispute",
+          "difference"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disagree",
+        "disagreeable"
+      ],
+      "collocations": [
+        "have a disagreement",
+        "serious disagreement"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "disagreement",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Communication and relationships",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "disappoint",
+      "meanings_fa": "ناامید کردن؛ مأیوس کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/ˌdɪsəˈpɔɪnt/",
+      "cefr": "B1",
+      "category": "Feelings and relationships",
+      "definition_en": "To make someone feel unhappy because something was not as good as expected.",
+      "example_en": "I don't want to disappoint my family.",
+      "example_fa": "نمی‌خواهم خانواده‌ام را ناامید کنم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "let down",
+          "upset"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disappointed",
+        "disappointing",
+        "disappointment"
+      ],
+      "collocations": [
+        "disappoint someone",
+        "deeply disappoint"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "disappoint",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Feelings and relationships",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "disappointment",
+      "meanings_fa": "ناامیدی؛ سرخوردگی؛ مایهٔ تأسف",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdɪsəˈpɔɪntmənt/",
+      "cefr": "B1",
+      "category": "Feelings and relationships",
+      "definition_en": "The feeling of being unhappy because something was not as good as expected.",
+      "example_en": "Missing the deadline was a major disappointment for the team.",
+      "example_fa": "از دست دادن مهلت، ناامیدی بزرگی برای تیم بود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "letdown",
+          "dissatisfaction",
+          "frustration"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disappoint",
+        "disappointed",
+        "disappointing"
+      ],
+      "collocations": [
+        "bitter disappointment",
+        "to someone's disappointment"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "disappointment",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Feelings and relationships",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "discard",
+      "meanings_fa": "دور انداختن؛ کنار گذاشتن؛ حذف کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈskɑrd/",
+      "cefr": "B2",
+      "category": "Actions and decisions",
+      "definition_en": "To throw something away or stop using an idea or method.",
+      "example_en": "Please discard the expired medication safely.",
+      "example_fa": "لطفاً داروی تاریخ‌گذشته را به‌روش ایمن دور بینداز.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "throw away",
+          "dispose of",
+          "abandon"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "discarded",
+        "discardable"
+      ],
+      "collocations": [
+        "discard old files",
+        "discard an idea"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "discard",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Actions and decisions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "disclose",
+      "meanings_fa": "فاش کردن؛ افشا کردن؛ آشکار ساختن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪsˈkloʊz/",
+      "cefr": "B2",
+      "category": "Communication and privacy",
+      "definition_en": "To make secret or private information known.",
+      "example_en": "The company must disclose all fees before you sign the contract.",
+      "example_fa": "شرکت باید پیش از امضای قرارداد همه هزینه‌ها را اعلام کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "reveal",
+          "make known",
+          "uncover"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disclosure",
+        "disclosed"
+      ],
+      "collocations": [
+        "disclose information",
+        "disclose a conflict of interest"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "disclose",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Communication and privacy",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "disclosure",
+      "meanings_fa": "افشا؛ آشکارسازی؛ اعلام اطلاعات",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪsˈkloʊʒər/",
+      "cefr": "B2",
+      "category": "Communication, law and privacy",
+      "definition_en": "The act of making private or previously unknown information public.",
+      "example_en": "The form requires disclosure of any previous legal issues.",
+      "example_fa": "این فرم اعلام هرگونه سابقه حقوقی قبلی را الزامی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "revelation",
+          "announcement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "disclose",
+        "disclosed"
+      ],
+      "collocations": [
+        "full disclosure",
+        "financial disclosure"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "disclosure",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Communication, law and privacy",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "discourse",
+      "meanings_fa": "گفتمان؛ گفتار یا نوشتار منسجم؛ بحث",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈdɪsˌkɔrs/",
+      "cefr": "C1",
+      "category": "Language and academic study",
+      "definition_en": "Written or spoken communication, especially a formal discussion of a subject.",
+      "example_en": "The course examines political discourse in modern media.",
+      "example_fa": "این درس گفتمان سیاسی را در رسانه‌های معاصر بررسی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "discussion",
+          "conversation",
+          "communication"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "discursive"
+      ],
+      "collocations": [
+        "public discourse",
+        "academic discourse"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "discourse",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Language and academic study",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    }
+  ]
+}

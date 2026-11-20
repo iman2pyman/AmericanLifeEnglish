@@ -1,0 +1,1151 @@
+[
+  {
+    "word": "discretion",
+    "meanings_fa": "احتیاط؛ قضاوت سنجیده",
+    "part_of_speech": "noun",
+    "ipa_us": "dɪˈskreʃən",
+    "cefr": "C1",
+    "category": "Personal qualities",
+    "definition_en": "the ability to make careful decisions, especially about what to say or do",
+    "example_en": "Please use discretion when sharing this information.",
+    "example_fa": "لطفاً هنگام به‌اشتراک‌گذاشتن این اطلاعات احتیاط و ملاحظه را رعایت کن.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "judgment",
+        "prudence"
+      ],
+      "antonyms": [
+        "indiscretion"
+      ]
+    },
+    "word_family": [
+      "discreet",
+      "discreetly"
+    ],
+    "collocations": [
+      "exercise discretion",
+      "at someone's discretion"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "discretion",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Personal qualities",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dismissal",
+    "meanings_fa": "اخراج؛ رد؛ برکناری",
+    "part_of_speech": "noun",
+    "ipa_us": "dɪsˈmɪsəl",
+    "cefr": "B2",
+    "category": "Work and employment",
+    "definition_en": "the act of removing someone from a job or deciding that an idea or case is not worth considering",
+    "example_en": "His sudden dismissal surprised the whole team.",
+    "example_fa": "اخراج ناگهانی او تمام گروه را غافلگیر کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "discharge",
+        "rejection"
+      ],
+      "antonyms": [
+        "appointment",
+        "acceptance"
+      ]
+    },
+    "word_family": [
+      "dismiss",
+      "dismissive"
+    ],
+    "collocations": [
+      "unfair dismissal",
+      "summary dismissal"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dismissal",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and employment",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "disorder",
+    "meanings_fa": "اختلال؛ بی‌نظمی",
+    "part_of_speech": "noun",
+    "ipa_us": "dɪsˈɔːrdər",
+    "cefr": "B2",
+    "category": "Health and society",
+    "definition_en": "a condition in which something does not work normally, or a lack of order",
+    "example_en": "The doctor diagnosed a sleep disorder.",
+    "example_fa": "پزشک یک اختلال خواب را تشخیص داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "disturbance",
+        "condition"
+      ],
+      "antonyms": [
+        "order",
+        "organization"
+      ]
+    },
+    "word_family": [
+      "disorderly"
+    ],
+    "collocations": [
+      "mental disorder",
+      "public disorder"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "disorder",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Health and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "displace",
+    "meanings_fa": "جابه‌جا کردن؛ آواره کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "dɪsˈpleɪs",
+    "cefr": "C1",
+    "category": "Society and change",
+    "definition_en": "to force someone or something to move from its usual place",
+    "example_en": "The conflict displaced thousands of families.",
+    "example_fa": "درگیری هزاران خانواده را آواره کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "relocate",
+        "move"
+      ],
+      "antonyms": [
+        "settle",
+        "install"
+      ]
+    },
+    "word_family": [
+      "displacement",
+      "displaced"
+    ],
+    "collocations": [
+      "displace workers",
+      "forcibly displace"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "displace",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Society and change",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "disposal",
+    "meanings_fa": "دفع؛ دورریزی؛ اختیار",
+    "part_of_speech": "noun",
+    "ipa_us": "dɪˈspoʊzəl",
+    "cefr": "B2",
+    "category": "Environment and daily life",
+    "definition_en": "the act of getting rid of something, or the ability to use something as you choose",
+    "example_en": "Safe disposal of batteries protects the environment.",
+    "example_fa": "دفع ایمن باتری‌ها از محیط زیست محافظت می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "removal",
+        "elimination"
+      ],
+      "antonyms": [
+        "retention",
+        "keeping"
+      ]
+    },
+    "word_family": [
+      "dispose",
+      "disposable"
+    ],
+    "collocations": [
+      "waste disposal",
+      "at your disposal"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "disposal",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Environment and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dispose",
+    "meanings_fa": "دور انداختن؛ متمایل کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "dɪˈspoʊz",
+    "cefr": "B2",
+    "category": "Environment and daily life",
+    "definition_en": "to get rid of something, or to make someone likely to act in a particular way",
+    "example_en": "Please dispose of the chemicals safely.",
+    "example_fa": "لطفاً مواد شیمیایی را به‌شکل ایمن دفع کن.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "discard",
+        "get rid of"
+      ],
+      "antonyms": [
+        "keep",
+        "retain"
+      ]
+    },
+    "word_family": [
+      "disposal",
+      "disposable"
+    ],
+    "collocations": [
+      "dispose of waste",
+      "dispose of properly"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dispose",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Environment and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "disrupt",
+    "meanings_fa": "مختل کردن؛ برهم زدن",
+    "part_of_speech": "verb",
+    "ipa_us": "dɪsˈrʌpt",
+    "cefr": "B2",
+    "category": "Work and society",
+    "definition_en": "to interrupt an activity or process and prevent it from continuing normally",
+    "example_en": "Heavy snow may disrupt travel this weekend.",
+    "example_fa": "بارش سنگین برف ممکن است سفرها را در آخر هفته مختل کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "interrupt",
+        "disturb"
+      ],
+      "antonyms": [
+        "maintain",
+        "facilitate"
+      ]
+    },
+    "word_family": [
+      "disruption",
+      "disruptive"
+    ],
+    "collocations": [
+      "disrupt services",
+      "disrupt a meeting"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "disrupt",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "disruption",
+    "meanings_fa": "اختلال؛ وقفه",
+    "part_of_speech": "noun",
+    "ipa_us": "dɪsˈrʌpʃən",
+    "cefr": "B2",
+    "category": "Work and society",
+    "definition_en": "an interruption that prevents something from continuing normally",
+    "example_en": "Passengers were warned about possible service disruptions.",
+    "example_fa": "به مسافران درباره اختلال‌های احتمالی در خدمات هشدار داده شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "interruption",
+        "disturbance"
+      ],
+      "antonyms": [
+        "continuity",
+        "stability"
+      ]
+    },
+    "word_family": [
+      "disrupt",
+      "disruptive"
+    ],
+    "collocations": [
+      "service disruption",
+      "major disruption"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "disruption",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dissolve",
+    "meanings_fa": "حل کردن؛ منحل شدن",
+    "part_of_speech": "verb",
+    "ipa_us": "dɪˈzɑːlv",
+    "cefr": "B2",
+    "category": "Science and society",
+    "definition_en": "to mix with a liquid and become part of it, or to officially end an organization",
+    "example_en": "Stir until the sugar dissolves completely.",
+    "example_fa": "هم بزن تا شکر کاملاً حل شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "melt",
+        "disintegrate"
+      ],
+      "antonyms": [
+        "solidify",
+        "form"
+      ]
+    },
+    "word_family": [
+      "dissolution",
+      "soluble"
+    ],
+    "collocations": [
+      "dissolve in water",
+      "dissolve a partnership"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dissolve",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "distinctive",
+    "meanings_fa": "متمایز؛ ویژه",
+    "part_of_speech": "adjective",
+    "ipa_us": "dɪˈstɪŋktɪv",
+    "cefr": "B2",
+    "category": "Description and identity",
+    "definition_en": "having a quality that makes someone or something easy to recognize",
+    "example_en": "The building has a distinctive red roof.",
+    "example_fa": "این ساختمان سقف قرمزِ متمایزی دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "characteristic",
+        "recognizable"
+      ],
+      "antonyms": [
+        "ordinary",
+        "indistinguishable"
+      ]
+    },
+    "word_family": [
+      "distinction",
+      "distinguish"
+    ],
+    "collocations": [
+      "distinctive style",
+      "distinctive feature"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "distinctive",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Description and identity",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "distort",
+    "meanings_fa": "تحریف کردن؛ کج‌ومعوج کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "dɪˈstɔːrt",
+    "cefr": "C1",
+    "category": "Communication and perception",
+    "definition_en": "to change the shape, sound, or meaning of something so that it is no longer accurate",
+    "example_en": "The report distorted what she had said.",
+    "example_fa": "گزارش حرف‌های او را تحریف کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "twist",
+        "misrepresent"
+      ],
+      "antonyms": [
+        "clarify",
+        "represent accurately"
+      ]
+    },
+    "word_family": [
+      "distortion",
+      "distorted"
+    ],
+    "collocations": [
+      "distort the facts",
+      "distorted image"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "distort",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and perception",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "distress",
+    "meanings_fa": "پریشانی؛ ناراحتی شدید",
+    "part_of_speech": "noun",
+    "ipa_us": "dɪˈstres",
+    "cefr": "B2",
+    "category": "Emotions and health",
+    "definition_en": "great worry, sadness, or pain",
+    "example_en": "The child was clearly in distress.",
+    "example_fa": "مشخص بود که کودک به‌شدت پریشان است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "anguish",
+        "suffering"
+      ],
+      "antonyms": [
+        "comfort",
+        "relief"
+      ]
+    },
+    "word_family": [
+      "distressed",
+      "distressing"
+    ],
+    "collocations": [
+      "emotional distress",
+      "distress signal"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "distress",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and health",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "disturbing",
+    "meanings_fa": "نگران‌کننده؛ آشفته‌کننده",
+    "part_of_speech": "adjective",
+    "ipa_us": "dɪˈstɜːrbɪŋ",
+    "cefr": "B2",
+    "category": "Emotions and communication",
+    "definition_en": "making you feel worried, upset, or uncomfortable",
+    "example_en": "The documentary revealed some disturbing facts.",
+    "example_fa": "این مستند چند واقعیت نگران‌کننده را آشکار کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "upsetting",
+        "alarming"
+      ],
+      "antonyms": [
+        "reassuring",
+        "comforting"
+      ]
+    },
+    "word_family": [
+      "disturb",
+      "disturbance"
+    ],
+    "collocations": [
+      "disturbing news",
+      "disturbing trend"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "disturbing",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "divert",
+    "meanings_fa": "منحرف کردن؛ تغییر مسیر دادن",
+    "part_of_speech": "verb",
+    "ipa_us": "daɪˈvɜːrt",
+    "cefr": "B2",
+    "category": "Movement and planning",
+    "definition_en": "to change the direction or use of something",
+    "example_en": "Police diverted traffic away from the damaged bridge.",
+    "example_fa": "پلیس مسیر ترافیک را از پل آسیب‌دیده منحرف کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "redirect",
+        "reroute"
+      ],
+      "antonyms": [
+        "direct",
+        "guide"
+      ]
+    },
+    "word_family": [
+      "diversion",
+      "diversionary"
+    ],
+    "collocations": [
+      "divert attention",
+      "divert traffic"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "divert",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Movement and planning",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "divine",
+    "meanings_fa": "الهی؛ بسیار عالی؛ حدس زدن",
+    "part_of_speech": "adjective",
+    "ipa_us": "dɪˈvaɪn",
+    "cefr": "C1",
+    "category": "Beliefs and description",
+    "definition_en": "connected with a god or extremely good or beautiful",
+    "example_en": "They described the meal as absolutely divine.",
+    "example_fa": "آن‌ها غذا را واقعاً فوق‌العاده توصیف کردند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "heavenly",
+        "wonderful"
+      ],
+      "antonyms": [
+        "ordinary",
+        "earthly"
+      ]
+    },
+    "word_family": [
+      "divinely",
+      "divinity"
+    ],
+    "collocations": [
+      "divine intervention",
+      "divine beauty"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "divine",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Beliefs and description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "doctrine",
+    "meanings_fa": "آموزه؛ اصول اعتقادی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈdɑːktrɪn",
+    "cefr": "C1",
+    "category": "Ideas and institutions",
+    "definition_en": "a set of beliefs or principles taught by a group or organization",
+    "example_en": "The policy was based on an established legal doctrine.",
+    "example_fa": "این سیاست بر یک آموزه حقوقی تثبیت‌شده استوار بود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "principle",
+        "belief"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "doctrinal"
+    ],
+    "collocations": [
+      "religious doctrine",
+      "legal doctrine"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "doctrine",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Ideas and institutions",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "domain",
+    "meanings_fa": "حوزه؛ قلمرو؛ دامنه اینترنتی",
+    "part_of_speech": "noun",
+    "ipa_us": "doʊˈmeɪn",
+    "cefr": "B2",
+    "category": "Work and technology",
+    "definition_en": "an area of knowledge, activity, or control",
+    "example_en": "Education is not the only domain affected by technology.",
+    "example_fa": "آموزش تنها حوزه‌ای نیست که فناوری بر آن تأثیر گذاشته است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "field",
+        "area",
+        "territory"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "domain-specific"
+    ],
+    "collocations": [
+      "within the domain",
+      "domain name"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "domain",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and technology",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dominance",
+    "meanings_fa": "سلطه؛ برتری",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈdɑːmɪnəns",
+    "cefr": "C1",
+    "category": "Society and competition",
+    "definition_en": "the state of having more power or influence than others",
+    "example_en": "The company maintained its dominance in the market.",
+    "example_fa": "این شرکت برتری خود را در بازار حفظ کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "control",
+        "supremacy"
+      ],
+      "antonyms": [
+        "subordination",
+        "weakness"
+      ]
+    },
+    "word_family": [
+      "dominant",
+      "dominate"
+    ],
+    "collocations": [
+      "market dominance",
+      "social dominance"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dominance",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Society and competition",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dominant",
+    "meanings_fa": "غالب؛ مسلط؛ برجسته",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈdɑːmɪnənt",
+    "cefr": "B2",
+    "category": "Society and description",
+    "definition_en": "more powerful, common, or noticeable than others",
+    "example_en": "English is the dominant language in the region.",
+    "example_fa": "انگلیسی زبان غالب در این منطقه است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "prevailing",
+        "leading"
+      ],
+      "antonyms": [
+        "minor",
+        "subordinate"
+      ]
+    },
+    "word_family": [
+      "dominance",
+      "dominate"
+    ],
+    "collocations": [
+      "dominant position",
+      "dominant feature"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dominant",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Society and description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dose",
+    "meanings_fa": "دوز؛ مقدار مصرف",
+    "part_of_speech": "noun",
+    "ipa_us": "doʊs",
+    "cefr": "B2",
+    "category": "Health and medicine",
+    "definition_en": "a measured amount of medicine or another substance",
+    "example_en": "Take one dose with food every morning.",
+    "example_fa": "هر روز صبح یک نوبت دارو را همراه غذا مصرف کن.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "quantity",
+        "amount"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "dosage",
+      "dose"
+    ],
+    "collocations": [
+      "daily dose",
+      "dose of medication"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dose",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Health and medicine",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dot",
+    "meanings_fa": "نقطه؛ خال؛ نقطه‌گذاری کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "dɑːt",
+    "cefr": "A2",
+    "category": "Shapes and symbols",
+    "definition_en": "a small round mark",
+    "example_en": "Put a dot at the end of the sentence.",
+    "example_fa": "در پایان جمله یک نقطه بگذار.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "spot",
+        "point"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "dotted"
+    ],
+    "collocations": [
+      "dot on the screen",
+      "connect the dots"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dot",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Shapes and symbols",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "drain",
+    "meanings_fa": "زهکشی کردن؛ تخلیه کردن؛ خسته کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "dreɪn",
+    "cefr": "B2",
+    "category": "Home and daily life",
+    "definition_en": "to remove liquid from somewhere, or to use up energy or resources",
+    "example_en": "The long shift drained all my energy.",
+    "example_fa": "شیفت طولانی تمام انرژی‌ام را گرفت.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "empty",
+        "exhaust"
+      ],
+      "antonyms": [
+        "fill",
+        "replenish"
+      ]
+    },
+    "word_family": [
+      "drainage",
+      "drained"
+    ],
+    "collocations": [
+      "drain the sink",
+      "drain energy"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "drain",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Home and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "drift",
+    "meanings_fa": "رانده شدن؛ حرکت آرام؛ انحراف",
+    "part_of_speech": "verb",
+    "ipa_us": "drɪft",
+    "cefr": "B2",
+    "category": "Movement and nature",
+    "definition_en": "to move slowly, usually without a clear direction",
+    "example_en": "The boat began to drift toward the shore.",
+    "example_fa": "قایق کم‌کم به‌سمت ساحل رانده شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "float",
+        "wander"
+      ],
+      "antonyms": [
+        "remain",
+        "stay"
+      ]
+    },
+    "word_family": [
+      "drifting",
+      "driftwood"
+    ],
+    "collocations": [
+      "drift away",
+      "drift apart"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "drift",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Movement and nature",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "drought",
+    "meanings_fa": "خشکسالی",
+    "part_of_speech": "noun",
+    "ipa_us": "draʊt",
+    "cefr": "B2",
+    "category": "Environment and weather",
+    "definition_en": "a long period with little or no rain",
+    "example_en": "The region has suffered from severe drought.",
+    "example_fa": "این منطقه از خشکسالی شدید آسیب دیده است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "dry spell"
+      ],
+      "antonyms": [
+        "flood",
+        "rainfall"
+      ]
+    },
+    "word_family": [
+      "drought-stricken"
+    ],
+    "collocations": [
+      "severe drought",
+      "drought conditions"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "drought",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Environment and weather",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "drown",
+    "meanings_fa": "غرق شدن؛ غرق کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "draʊn",
+    "cefr": "B1",
+    "category": "Safety and emergencies",
+    "definition_en": "to die or cause someone to die by being unable to breathe underwater",
+    "example_en": "The lifeguard rescued a child who was about to drown.",
+    "example_fa": "غریق‌نجات کودکی را که در آستانه غرق‌شدن بود نجات داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "submerge"
+      ],
+      "antonyms": [
+        "rescue"
+      ]
+    },
+    "word_family": [
+      "drowning",
+      "drowned"
+    ],
+    "collocations": [
+      "drown in water",
+      "nearly drown"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "drown",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Safety and emergencies",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dual",
+    "meanings_fa": "دوگانه؛ دارای دو بخش",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈduːəl",
+    "cefr": "B2",
+    "category": "Description and systems",
+    "definition_en": "having two parts, purposes, or forms",
+    "example_en": "She has dual citizenship.",
+    "example_fa": "او تابعیت دوگانه دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "double",
+        "twofold"
+      ],
+      "antonyms": [
+        "single",
+        "sole"
+      ]
+    },
+    "word_family": [
+      "duality",
+      "dualism"
+    ],
+    "collocations": [
+      "dual purpose",
+      "dual role"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dual",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Description and systems",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dub",
+    "meanings_fa": "لقب دادن؛ دوبله کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "dʌb",
+    "cefr": "C1",
+    "category": "Media and communication",
+    "definition_en": "to give someone a name or title, or replace a film's original speech with another language",
+    "example_en": "The press dubbed him the new champion.",
+    "example_fa": "رسانه‌ها به او لقب قهرمان جدید دادند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "name",
+        "nickname",
+        "voice-over"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "dubbing",
+      "dubbed"
+    ],
+    "collocations": [
+      "dub a movie",
+      "dub someone a hero"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dub",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Media and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dull",
+    "meanings_fa": "کسل‌کننده؛ کند؛ بی‌فروغ",
+    "part_of_speech": "adjective",
+    "ipa_us": "dʌl",
+    "cefr": "B1",
+    "category": "Description and feelings",
+    "definition_en": "not interesting, bright, sharp, or intense",
+    "example_en": "The lecture became dull after the first hour.",
+    "example_fa": "سخنرانی پس از ساعت اول کسل‌کننده شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "boring",
+        "blunt",
+        "dim"
+      ],
+      "antonyms": [
+        "interesting",
+        "sharp",
+        "bright"
+      ]
+    },
+    "word_family": [
+      "dullness",
+      "dull"
+    ],
+    "collocations": [
+      "dull pain",
+      "dull knife"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dull",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Description and feelings",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "dumb",
+    "meanings_fa": "احمقانه؛ کم‌هوش؛ بی‌صدا",
+    "part_of_speech": "adjective",
+    "ipa_us": "dʌm",
+    "cefr": "B1",
+    "category": "Informal language",
+    "definition_en": "stupid or not able to speak; often informal and potentially offensive when used about a person",
+    "example_en": "That was a dumb mistake, but we can fix it.",
+    "example_fa": "اشتباه احمقانه‌ای بود، اما می‌توانیم آن را اصلاح کنیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "stupid",
+        "foolish"
+      ],
+      "antonyms": [
+        "smart",
+        "sensible"
+      ]
+    },
+    "word_family": [
+      "dumbly",
+      "dumbness"
+    ],
+    "collocations": [
+      "dumb idea",
+      "play dumb"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dumb",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Informal language",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "duo",
+    "meanings_fa": "دو نفر یا دو چیز؛ گروه دونفره",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈduːoʊ",
+    "cefr": "B2",
+    "category": "People and entertainment",
+    "definition_en": "two people who perform or work together",
+    "example_en": "The comedy duo became popular online.",
+    "example_fa": "این گروه دونفره کمدی در فضای آنلاین محبوب شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "pair",
+        "couple"
+      ],
+      "antonyms": [
+        "individual"
+      ]
+    },
+    "word_family": [
+      "duet",
+      "dual"
+    ],
+    "collocations": [
+      "dynamic duo",
+      "musical duo"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "duo",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "People and entertainment",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  }
+]

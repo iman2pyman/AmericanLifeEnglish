@@ -1,0 +1,1102 @@
+{
+  "batch": 2,
+  "range": "Oxford 1219 remaining list positions 201-230",
+  "status": "staging_only_incomplete_batch",
+  "count": 30,
+  "completed_count": 30,
+  "total_batch_count": 200,
+  "remaining_count": 170,
+  "words": [
+    {
+      "word": "declaration",
+      "meanings_fa": "اعلامیه؛ اظهار رسمی؛ اعلام",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdɛkləˈreɪʃən/",
+      "cefr": "B2",
+      "category": "Law, government and communication",
+      "definition_en": "An official statement that announces something or makes a fact known.",
+      "example_en": "The company issued a declaration about its new safety policy.",
+      "example_fa": "شرکت درباره سیاست ایمنی جدید خود بیانیه‌ای صادر کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "statement",
+          "announcement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "declare",
+        "declarative"
+      ],
+      "collocations": [
+        "issue a declaration",
+        "official declaration"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "declaration",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Law, government and communication",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dedicated",
+      "meanings_fa": "متعهد؛ وقف‌شده؛ اختصاص‌یافته",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈdɛdɪˌkeɪtɪd/",
+      "cefr": "B2",
+      "category": "Work and personal qualities",
+      "definition_en": "Giving a lot of time and effort to a particular purpose or person.",
+      "example_en": "She's a dedicated nurse who always puts patients first.",
+      "example_fa": "او پرستاری متعهد است که همیشه بیماران را در اولویت قرار می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "committed",
+          "devoted"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dedicate",
+        "dedication"
+      ],
+      "collocations": [
+        "dedicated to a cause",
+        "dedicated employee"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dedicated",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Work and personal qualities",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dedication",
+      "meanings_fa": "تعهد؛ فداکاری؛ وقف؛ تقدیم",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdɛdɪˈkeɪʃən/",
+      "cefr": "B2",
+      "category": "Work and personal qualities",
+      "definition_en": "The quality of working hard and giving time and effort to something.",
+      "example_en": "Her dedication to teaching has helped hundreds of students.",
+      "example_fa": "تعهد او به تدریس به صدها دانش‌آموز کمک کرده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "commitment",
+          "devotion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dedicate",
+        "dedicated"
+      ],
+      "collocations": [
+        "show dedication",
+        "dedication to work"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dedication",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Work and personal qualities",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "deed",
+      "meanings_fa": "عمل؛ کردار؛ سند رسمی مالکیت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/did/",
+      "cefr": "B2",
+      "category": "Law and actions",
+      "definition_en": "Something that someone does, especially something notable; also a legal document proving ownership.",
+      "example_en": "The good deed made a real difference in the community.",
+      "example_fa": "آن کار نیک واقعاً در جامعه تفاوت ایجاد کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "act",
+          "action"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "do",
+        "deeded"
+      ],
+      "collocations": [
+        "good deed",
+        "property deed"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "deed",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Law and actions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "default",
+      "meanings_fa": "پیش‌فرض؛ قصور در پرداخت؛ عدم انجام تعهد",
+      "part_of_speech": "NOUN, VERB, ADJECTIVE",
+      "ipa_us": "/dɪˈfɔlt/",
+      "cefr": "B2",
+      "category": "Technology, finance and law",
+      "definition_en": "A setting used automatically unless changed; failure to meet a payment or obligation.",
+      "example_en": "The app uses English as the default language.",
+      "example_fa": "این برنامه زبان انگلیسی را به‌عنوان زبان پیش‌فرض استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "standard",
+          "preset"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "defaulting",
+        "defaulted"
+      ],
+      "collocations": [
+        "default setting",
+        "by default",
+        "default on a loan"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "default",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Technology, finance and law",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "defect",
+      "meanings_fa": "نقص؛ عیب؛ ایراد",
+      "part_of_speech": "NOUN, VERB",
+      "ipa_us": "/ˈdiˌfɛkt/ (noun), /dɪˈfɛkt/ (verb)",
+      "cefr": "B2",
+      "category": "Quality and problems",
+      "definition_en": "A fault or imperfection that makes something less effective or usable.",
+      "example_en": "The mechanic found a defect in the brake system.",
+      "example_fa": "مکانیک نقصی در سیستم ترمز پیدا کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "flaw",
+          "fault"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "defective",
+        "defectively"
+      ],
+      "collocations": [
+        "manufacturing defect",
+        "birth defect"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "defect",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Quality and problems",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "defender",
+      "meanings_fa": "مدافع؛ پشتیبان",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈfɛndər/",
+      "cefr": "B1",
+      "category": "People and relationships",
+      "definition_en": "A person who protects someone or supports an idea, team, or cause.",
+      "example_en": "The defender blocked the final shot.",
+      "example_fa": "مدافع ضربه آخر را مهار کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "protector",
+          "supporter"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "defend",
+        "defense",
+        "defensive"
+      ],
+      "collocations": [
+        "strong defender",
+        "human-rights defender"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "defender",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "People and relationships",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "defensive",
+      "meanings_fa": "دفاعی؛ حالت تدافعی",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/dɪˈfɛnsɪv/",
+      "cefr": "B2",
+      "category": "Behavior and conflict",
+      "definition_en": "Protecting someone or something, or reacting as if being criticized or attacked.",
+      "example_en": "He became defensive when his manager questioned the report.",
+      "example_fa": "وقتی مدیرش گزارش را زیر سؤال برد، حالت تدافعی گرفت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "protective",
+          "guarded"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "defend",
+        "defense",
+        "defender"
+      ],
+      "collocations": [
+        "defensive attitude",
+        "defensive driving"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "defensive",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Behavior and conflict",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "deficiency",
+      "meanings_fa": "کمبود؛ کاستی؛ نقص",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈfɪʃənsi/",
+      "cefr": "B2",
+      "category": "Health and general problems",
+      "definition_en": "A lack of something that is necessary or desirable.",
+      "example_en": "The blood test showed an iron deficiency.",
+      "example_fa": "آزمایش خون کمبود آهن را نشان داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "shortage",
+          "lack"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deficient"
+      ],
+      "collocations": [
+        "vitamin deficiency",
+        "nutritional deficiency"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "deficiency",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Health and general problems",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "defy",
+      "meanings_fa": "سرپیچی کردن؛ به چالش کشیدن؛ مقاومت کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈfaɪ/",
+      "cefr": "C1",
+      "category": "Actions and conflict",
+      "definition_en": "To refuse to obey someone or something, or to resist an expected result.",
+      "example_en": "The workers decided to defy the unfair order.",
+      "example_fa": "کارگران تصمیم گرفتند از دستور ناعادلانه سرپیچی کنند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "disobey",
+          "resist"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "defiance",
+        "defiant"
+      ],
+      "collocations": [
+        "defy an order",
+        "defy expectations"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "defy",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Actions and conflict",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "delegation",
+      "meanings_fa": "هیئت نمایندگی؛ واگذاری اختیار",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdɛlɪˈɡeɪʃən/",
+      "cefr": "C1",
+      "category": "Work, government and management",
+      "definition_en": "A group of people sent to represent others, or the act of giving responsibility to someone else.",
+      "example_en": "A delegation from the university visited the campus.",
+      "example_fa": "هیئتی از دانشگاه از محوطه بازدید کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "representatives",
+          "assignment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "delegate"
+      ],
+      "collocations": [
+        "lead a delegation",
+        "delegation of authority"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "delegation",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Work, government and management",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "demon",
+      "meanings_fa": "دیو؛ اهریمن؛ نیروی شر",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈdimən/",
+      "cefr": "B2",
+      "category": "Beliefs and stories",
+      "definition_en": "An evil spirit in stories and religious traditions; informally, a powerful troubling influence.",
+      "example_en": "In the story, a demon guards the old castle.",
+      "example_fa": "در داستان، دیوی از قلعه قدیمی نگهبانی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "devil",
+          "evil spirit"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "demonic"
+      ],
+      "collocations": [
+        "fight one's demons",
+        "demon in a story"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "demon",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Beliefs and stories",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "demonstration",
+      "meanings_fa": "نمایش؛ تظاهرات؛ اثبات عملی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌdɛmənˈstreɪʃən/",
+      "cefr": "B1",
+      "category": "Communication, politics and learning",
+      "definition_en": "An act of showing how something works, or a public gathering to express an opinion.",
+      "example_en": "The instructor gave a demonstration of the new software.",
+      "example_fa": "مربی نحوه کار با نرم‌افزار جدید را نمایش داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "display",
+          "protest",
+          "example"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "demonstrate",
+        "demonstrator"
+      ],
+      "collocations": [
+        "live demonstration",
+        "public demonstration"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "demonstration",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Communication, politics and learning",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "denial",
+      "meanings_fa": "انکار؛ رد؛ محروم‌سازی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈnaɪəl/",
+      "cefr": "B2",
+      "category": "Communication and behavior",
+      "definition_en": "A statement that something is not true, or a refusal to accept or provide something.",
+      "example_en": "The agency issued a denial of the allegations.",
+      "example_fa": "این سازمان اتهامات را رسماً رد کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "rejection",
+          "refusal"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deny",
+        "denied"
+      ],
+      "collocations": [
+        "in denial",
+        "denial of access"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "denial",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Communication and behavior",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dense",
+      "meanings_fa": "متراکم؛ فشرده؛ غلیظ؛ دشوارفهم",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/dɛns/",
+      "cefr": "B2",
+      "category": "Description and science",
+      "definition_en": "Closely packed together; thick or difficult to understand.",
+      "example_en": "The city center has dense traffic during rush hour.",
+      "example_fa": "مرکز شهر در ساعت شلوغی ترافیک سنگینی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "thick",
+          "compact",
+          "crowded"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "density",
+        "densely"
+      ],
+      "collocations": [
+        "dense population",
+        "dense forest"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dense",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Description and science",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "density",
+      "meanings_fa": "تراکم؛ چگالی؛ غلظت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈdɛnsəti/",
+      "cefr": "B2",
+      "category": "Science and measurement",
+      "definition_en": "The amount of something in a given space or area.",
+      "example_en": "The population density is higher near the coast.",
+      "example_fa": "تراکم جمعیت در نزدیکی ساحل بیشتر است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "concentration",
+          "compactness"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dense",
+        "densely"
+      ],
+      "collocations": [
+        "population density",
+        "bone density"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "density",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Science and measurement",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "dependence",
+      "meanings_fa": "وابستگی؛ اتکا",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈpɛndəns/",
+      "cefr": "B2",
+      "category": "Relationships and conditions",
+      "definition_en": "The state of needing or relying on someone or something.",
+      "example_en": "The program aims to reduce dependence on imported fuel.",
+      "example_fa": "این برنامه قصد دارد وابستگی به سوخت وارداتی را کاهش دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "reliance",
+          "reliance on"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "depend",
+        "dependent",
+        "independent"
+      ],
+      "collocations": [
+        "dependence on technology",
+        "drug dependence"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "dependence",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Relationships and conditions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "deploy",
+      "meanings_fa": "به‌کار گماردن؛ مستقر کردن؛ پیاده‌سازی کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈplɔɪ/",
+      "cefr": "B2",
+      "category": "Work, technology and operations",
+      "definition_en": "To put people or resources in position for use, or to put software into operation.",
+      "example_en": "The hospital will deploy a new patient-record system next month.",
+      "example_fa": "بیمارستان ماه آینده سامانه جدید پرونده بیماران را راه‌اندازی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "position",
+          "station",
+          "implement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deployment",
+        "deployed"
+      ],
+      "collocations": [
+        "deploy staff",
+        "deploy resources",
+        "deploy software"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "deploy",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Work, technology and operations",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "deployment",
+      "meanings_fa": "استقرار؛ اعزام؛ به‌کارگیری؛ پیاده‌سازی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈplɔɪmənt/",
+      "cefr": "B2",
+      "category": "Work, technology and operations",
+      "definition_en": "The act of moving people or resources into position or putting a system into use.",
+      "example_en": "The deployment of the update will take place overnight.",
+      "example_fa": "اجرای به‌روزرسانی در طول شب انجام خواهد شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "installation",
+          "positioning"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deploy",
+        "deployed"
+      ],
+      "collocations": [
+        "military deployment",
+        "software deployment"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "deployment",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Work, technology and operations",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "deprive",
+      "meanings_fa": "محروم کردن؛ سلب کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈpraɪv/",
+      "cefr": "B2",
+      "category": "Rights and needs",
+      "definition_en": "To prevent someone from having or using something important.",
+      "example_en": "The illness deprived him of the ability to work.",
+      "example_fa": "بیماری توانایی کار کردن را از او گرفت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "deny",
+          "take away"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deprivation",
+        "deprived"
+      ],
+      "collocations": [
+        "deprive someone of sleep",
+        "deprive of rights"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "deprive",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Rights and needs",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "descent",
+      "meanings_fa": "فرود؛ سرازیری؛ تبار؛ نسل",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈsɛnt/",
+      "cefr": "B2",
+      "category": "Movement, family and identity",
+      "definition_en": "The act of moving downward, or a person's family origin.",
+      "example_en": "The plane began its descent toward the airport.",
+      "example_fa": "هواپیما فرود به‌سوی فرودگاه را آغاز کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "drop",
+          "decline",
+          "ancestry"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "descend",
+        "descendant"
+      ],
+      "collocations": [
+        "rapid descent",
+        "of Persian descent"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "descent",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Movement, family and identity",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "desirable",
+      "meanings_fa": "مطلوب؛ خواستنی؛ دلخواه",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/dɪˈzaɪrəbəl/",
+      "cefr": "B2",
+      "category": "Opinions and qualities",
+      "definition_en": "Worth having or wanting; likely to be considered a good choice.",
+      "example_en": "Previous experience is desirable but not required.",
+      "example_fa": "سابقه کار قبلی مطلوب است، اما الزامی نیست.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "attractive",
+          "preferable",
+          "wanted"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "desire",
+        "desirability",
+        "desirably"
+      ],
+      "collocations": [
+        "highly desirable",
+        "desirable quality"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "desirable",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Opinions and qualities",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "desktop",
+      "meanings_fa": "رایانه رومیزی؛ صفحهٔ اصلی رایانه",
+      "part_of_speech": "NOUN, ADJECTIVE",
+      "ipa_us": "/ˈdɛskˌtɑp/",
+      "cefr": "A2",
+      "category": "Technology and computers",
+      "definition_en": "A computer designed to stay on a desk, or the main screen area of a computer.",
+      "example_en": "Save the file to your desktop so you can find it easily.",
+      "example_fa": "فایل را روی صفحه اصلی رایانه ذخیره کن تا راحت پیدایش کنی.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "desktop computer",
+          "workstation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "desktop computer",
+        "desktop application"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "desktop",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Technology and computers",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "desperately",
+      "meanings_fa": "با درماندگی؛ به‌شدت؛ از روی استیصال",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/ˈdɛspərətli/",
+      "cefr": "B2",
+      "category": "Feelings and intensity",
+      "definition_en": "In a way that shows great need, worry, or lack of hope.",
+      "example_en": "We desperately need more time to finish the project.",
+      "example_fa": "برای تمام کردن پروژه به‌شدت به زمان بیشتری نیاز داریم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "urgently",
+          "intensely",
+          "hopelessly"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "desperate",
+        "desperation"
+      ],
+      "collocations": [
+        "desperately needed",
+        "try desperately"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "desperately",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Feelings and intensity",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "destructive",
+      "meanings_fa": "مخرب؛ ویرانگر؛ آسیب‌زننده",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/dɪˈstrʌktɪv/",
+      "cefr": "B2",
+      "category": "Effects and behavior",
+      "definition_en": "Causing serious damage to people, property, relationships, or systems.",
+      "example_en": "The storm had a destructive effect on coastal towns.",
+      "example_fa": "طوفان اثر ویرانگری بر شهرهای ساحلی داشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "damaging",
+          "harmful",
+          "devastating"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "destroy",
+        "destruction",
+        "destructively"
+      ],
+      "collocations": [
+        "destructive behavior",
+        "destructive storm"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "destructive",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Effects and behavior",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "detain",
+      "meanings_fa": "بازداشت کردن؛ نگه داشتن؛ معطل کردن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈteɪn/",
+      "cefr": "C1",
+      "category": "Law and movement",
+      "definition_en": "To keep someone in official custody or prevent someone from leaving.",
+      "example_en": "Police detained the suspect for questioning.",
+      "example_fa": "پلیس مظنون را برای بازجویی بازداشت کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "hold",
+          "keep",
+          "arrest"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "detention",
+        "detained"
+      ],
+      "collocations": [
+        "detain a suspect",
+        "be detained"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "detain",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Law and movement",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "detection",
+      "meanings_fa": "تشخیص؛ کشف؛ شناسایی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈtɛkʃən/",
+      "cefr": "B2",
+      "category": "Science, safety and technology",
+      "definition_en": "The process of noticing, discovering, or identifying something.",
+      "example_en": "Early detection can improve the chances of successful treatment.",
+      "example_fa": "تشخیص زودهنگام می‌تواند شانس درمان موفق را افزایش دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "discovery",
+          "identification"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "detect",
+        "detector",
+        "detectable"
+      ],
+      "collocations": [
+        "early detection",
+        "fraud detection"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "detection",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Science, safety and technology",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "detention",
+      "meanings_fa": "بازداشت؛ حبس؛ نگه‌داشتن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈtɛnʃən/",
+      "cefr": "B2",
+      "category": "Law and education",
+      "definition_en": "The act of keeping someone in custody or keeping a student after school as a punishment.",
+      "example_en": "The student received detention for repeatedly skipping class.",
+      "example_fa": "دانش‌آموز به‌دلیل غیبت مکرر از کلاس تنبیه شد و باید بعد از مدرسه می‌ماند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "custody",
+          "confinement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "detain",
+        "detainee"
+      ],
+      "collocations": [
+        "police detention",
+        "immigration detention"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "detention",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Law and education",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "deteriorate",
+      "meanings_fa": "بدتر شدن؛ رو به وخامت رفتن",
+      "part_of_speech": "VERB",
+      "ipa_us": "/dɪˈtɪriəˌreɪt/",
+      "cefr": "C1",
+      "category": "Change and conditions",
+      "definition_en": "To become worse in quality, condition, or value.",
+      "example_en": "His condition began to deteriorate during the night.",
+      "example_fa": "وضعیت او در طول شب رو به وخامت گذاشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "worsen",
+          "decline"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "deterioration"
+      ],
+      "collocations": [
+        "health deteriorates",
+        "rapidly deteriorate"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "deteriorate",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Change and conditions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    },
+    {
+      "word": "determination",
+      "meanings_fa": "عزم؛ اراده؛ تصمیم‌گیری؛ تعیین",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˌtɝməˈneɪʃən/",
+      "cefr": "B2",
+      "category": "Personal qualities and decisions",
+      "definition_en": "The quality of continuing to try to achieve something despite difficulties; the act of deciding something.",
+      "example_en": "With determination, she completed her degree while working full-time.",
+      "example_fa": "او با اراده، در حالی که تمام‌وقت کار می‌کرد، مدرکش را گرفت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "resolve",
+          "persistence",
+          "decision"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "determine",
+        "determined",
+        "determining"
+      ],
+      "collocations": [
+        "strong determination",
+        "determination to succeed"
+      ],
+      "frequency": "useful",
+      "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+      "source_candidate": "determination",
+      "review_status": "ai_draft_needs_lexical_review",
+      "quality_flag": "Meaning, definition, American usage example and lexical relations drafted; IPA/CEFR and sense coverage require editorial verification.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "Personal qualities and decisions",
+      "level_source": "Editorial CEFR estimate",
+      "level_review_status": "estimated_pending_review"
+    }
+  ]
+}

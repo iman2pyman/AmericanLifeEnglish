@@ -1,0 +1,1134 @@
+[
+  {
+    "word": "dynamic",
+    "meanings_fa": "پویا؛ پرتحرک؛ متغیر",
+    "part_of_speech": "adjective",
+    "ipa_us": "daɪˈnæmɪk",
+    "cefr": "B2",
+    "category": "People and systems",
+    "definition_en": "full of energy and activity, or constantly changing",
+    "example_en": "The city has a dynamic business community.",
+    "example_fa": "این شهر جامعه تجاری پویایی دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "energetic",
+        "lively"
+      ],
+      "antonyms": [
+        "static",
+        "inactive"
+      ]
+    },
+    "word_family": [
+      "dynamically",
+      "dynamics"
+    ],
+    "collocations": [
+      "dynamic economy",
+      "dynamic personality"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "dynamic",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "People and systems",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "earnings",
+    "meanings_fa": "درآمد؛ عایدی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈɜːrnɪŋz",
+    "cefr": "B2",
+    "category": "Money and work",
+    "definition_en": "money that a person or organization receives from work or business",
+    "example_en": "Her annual earnings increased last year.",
+    "example_fa": "درآمد سالانه او در سال گذشته افزایش یافت.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "income",
+        "wages"
+      ],
+      "antonyms": [
+        "expenses",
+        "losses"
+      ]
+    },
+    "word_family": [
+      "earn",
+      "earner"
+    ],
+    "collocations": [
+      "annual earnings",
+      "monthly earnings"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "earnings",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Money and work",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "echo",
+    "meanings_fa": "پژواک؛ بازتاب؛ تکرار کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈekoʊ",
+    "cefr": "B1",
+    "category": "Sound and communication",
+    "definition_en": "a sound that is heard again after reflecting off a surface",
+    "example_en": "We heard an echo in the empty hallway.",
+    "example_fa": "در راهروی خالی پژواک صدا را شنیدیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "reverberation",
+        "reflection"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "echoing",
+      "echoic"
+    ],
+    "collocations": [
+      "hear an echo",
+      "echo a statement"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "echo",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Sound and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "ecological",
+    "meanings_fa": "زیست‌محیطی؛ بوم‌شناختی",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˌiːkəˈlɑːdʒɪkəl",
+    "cefr": "B2",
+    "category": "Environment and science",
+    "definition_en": "connected with the relationships between living things and their environment",
+    "example_en": "The project aims to reduce ecological damage.",
+    "example_fa": "این پروژه با هدف کاهش آسیب زیست‌محیطی اجرا می‌شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "environmental",
+        "green"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "ecology",
+      "ecologically"
+    ],
+    "collocations": [
+      "ecological balance",
+      "ecological impact"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "ecological",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Environment and science",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "economics",
+    "meanings_fa": "اقتصاد؛ علم اقتصاد",
+    "part_of_speech": "noun",
+    "ipa_us": "ˌiːkəˈnɑːmɪks",
+    "cefr": "B2",
+    "category": "Education and business",
+    "definition_en": "the study of how money, goods, and services are produced and used",
+    "example_en": "He studied economics at a state university.",
+    "example_fa": "او در یک دانشگاه دولتی اقتصاد خواند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "economic science"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "economic",
+      "economist"
+    ],
+    "collocations": [
+      "study economics",
+      "economics degree"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "economics",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Education and business",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "educator",
+    "meanings_fa": "آموزگار؛ مربی؛ متخصص آموزش",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈedʒəkeɪtər",
+    "cefr": "B2",
+    "category": "Education and work",
+    "definition_en": "a person whose job is to teach or help people learn",
+    "example_en": "The program brings educators together to share ideas.",
+    "example_fa": "این برنامه آموزگاران را برای تبادل ایده گرد هم می‌آورد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "teacher",
+        "instructor"
+      ],
+      "antonyms": [
+        "student",
+        "learner"
+      ]
+    },
+    "word_family": [
+      "educate",
+      "education",
+      "educational"
+    ],
+    "collocations": [
+      "early childhood educator",
+      "experienced educator"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "educator",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Education and work",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "effectiveness",
+    "meanings_fa": "اثربخشی؛ کارآمدی",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪˈfektɪvnəs",
+    "cefr": "B2",
+    "category": "Work and evaluation",
+    "definition_en": "the degree to which something produces the result that is wanted",
+    "example_en": "We need to measure the effectiveness of the new system.",
+    "example_fa": "باید اثربخشی سیستم جدید را اندازه‌گیری کنیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "efficacy",
+        "success"
+      ],
+      "antonyms": [
+        "ineffectiveness"
+      ]
+    },
+    "word_family": [
+      "effective",
+      "effectively"
+    ],
+    "collocations": [
+      "measure effectiveness",
+      "improve effectiveness"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "effectiveness",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and evaluation",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "ego",
+    "meanings_fa": "خود؛ منیت؛ غرور",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈiːɡoʊ",
+    "cefr": "C1",
+    "category": "Psychology and relationships",
+    "definition_en": "a person's sense of their own importance or identity",
+    "example_en": "His ego made it difficult for him to accept criticism.",
+    "example_fa": "غرورش پذیرش انتقاد را برایش دشوار کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "self-importance",
+        "pride"
+      ],
+      "antonyms": [
+        "humility"
+      ]
+    },
+    "word_family": [
+      "egotistical",
+      "egocentric"
+    ],
+    "collocations": [
+      "hurt someone's ego",
+      "big ego"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "ego",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Psychology and relationships",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "elaborate",
+    "meanings_fa": "مفصل؛ باجزئیات؛ بسط دادن",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪˈlæbərət",
+    "cefr": "B2",
+    "category": "Communication and description",
+    "definition_en": "containing many details or carefully developed parts",
+    "example_en": "She gave an elaborate explanation of the process.",
+    "example_fa": "او توضیح مفصلی درباره فرایند ارائه داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "detailed",
+        "complex"
+      ],
+      "antonyms": [
+        "simple",
+        "brief"
+      ]
+    },
+    "word_family": [
+      "elaborately",
+      "elaboration"
+    ],
+    "collocations": [
+      "elaborate design",
+      "elaborate plan"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "elaborate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "elbow",
+    "meanings_fa": "آرنج؛ تنه زدن با آرنج",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈelboʊ",
+    "cefr": "A2",
+    "category": "Body and health",
+    "definition_en": "the joint in the middle of your arm",
+    "example_en": "He injured his elbow while playing tennis.",
+    "example_fa": "او هنگام تنیس بازی کردن آرنجش را زخمی کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "—"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "elbowed"
+    ],
+    "collocations": [
+      "elbow pain",
+      "elbow joint"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "elbow",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Body and health",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "electoral",
+    "meanings_fa": "انتخاباتی؛ مربوط به رأی‌گیری",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪˈlektərəl",
+    "cefr": "C1",
+    "category": "Government and society",
+    "definition_en": "connected with elections or the process of voting",
+    "example_en": "The country is preparing for electoral reform.",
+    "example_fa": "کشور در حال آماده‌شدن برای اصلاحات انتخاباتی است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "voting",
+        "election-related"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "election",
+      "electorate"
+    ],
+    "collocations": [
+      "electoral system",
+      "electoral campaign"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "electoral",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Government and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "electronics",
+    "meanings_fa": "الکترونیک؛ وسایل الکترونیکی",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪˌlekˈtrɑːnɪks",
+    "cefr": "B1",
+    "category": "Technology and science",
+    "definition_en": "the science and technology of devices that use electric circuits",
+    "example_en": "He repairs consumer electronics for a living.",
+    "example_fa": "او از راه تعمیر لوازم الکترونیکی مصرفی امرار معاش می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "electronic technology"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "electronic",
+      "electronically"
+    ],
+    "collocations": [
+      "consumer electronics",
+      "electronics store"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "electronics",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Technology and science",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "elevate",
+    "meanings_fa": "بالا بردن؛ ارتقا دادن",
+    "part_of_speech": "verb",
+    "ipa_us": "ˈeləveɪt",
+    "cefr": "B2",
+    "category": "Work and movement",
+    "definition_en": "to raise something to a higher position or level",
+    "example_en": "The new role elevated her status in the company.",
+    "example_fa": "سمت جدید جایگاه او را در شرکت ارتقا داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "raise",
+        "lift",
+        "promote"
+      ],
+      "antonyms": [
+        "lower",
+        "reduce"
+      ]
+    },
+    "word_family": [
+      "elevation",
+      "elevated"
+    ],
+    "collocations": [
+      "elevate standards",
+      "elevate a position"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "elevate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and movement",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "embark",
+    "meanings_fa": "آغاز کردن؛ سوار شدن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪmˈbɑːrk",
+    "cefr": "C1",
+    "category": "Travel and plans",
+    "definition_en": "to begin a journey or a new activity, especially one that will take time",
+    "example_en": "They decided to embark on a major renovation.",
+    "example_fa": "آن‌ها تصمیم گرفتند بازسازی بزرگی را آغاز کنند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "begin",
+        "undertake"
+      ],
+      "antonyms": [
+        "finish",
+        "abandon"
+      ]
+    },
+    "word_family": [
+      "embarkation"
+    ],
+    "collocations": [
+      "embark on a journey",
+      "embark on a project"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "embark",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Travel and plans",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "embarrassment",
+    "meanings_fa": "خجالت؛ شرمندگی؛ مایه دردسر",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪmˈbærəsmənt",
+    "cefr": "B2",
+    "category": "Emotions and relationships",
+    "definition_en": "the feeling of being ashamed or uncomfortable in a social situation",
+    "example_en": "To my embarrassment, I forgot her name.",
+    "example_fa": "از خجالت من، اسم او را فراموش کردم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "awkwardness",
+        "shame"
+      ],
+      "antonyms": [
+        "confidence",
+        "ease"
+      ]
+    },
+    "word_family": [
+      "embarrass",
+      "embarrassed",
+      "embarrassing"
+    ],
+    "collocations": [
+      "cause embarrassment",
+      "deep embarrassment"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "embarrassment",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and relationships",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "embassy",
+    "meanings_fa": "سفارت",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈembəsi",
+    "cefr": "B1",
+    "category": "Travel and government",
+    "definition_en": "the official office of a country in another country",
+    "example_en": "She contacted the embassy for help with her passport.",
+    "example_fa": "او برای کمک درباره گذرنامه‌اش با سفارت تماس گرفت.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "diplomatic mission"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "ambassador",
+      "ambassadorial"
+    ],
+    "collocations": [
+      "US embassy",
+      "embassy staff"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "embassy",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Travel and government",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "embed",
+    "meanings_fa": "جاسازی کردن؛ تعبیه کردن؛ جای دادن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪmˈbed",
+    "cefr": "C1",
+    "category": "Technology and writing",
+    "definition_en": "to fix something firmly within a surrounding material or include it as an integral part",
+    "example_en": "You can embed a video in the presentation.",
+    "example_fa": "می‌توانی یک ویدئو را در ارائه جای‌گذاری کنی.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "insert",
+        "incorporate"
+      ],
+      "antonyms": [
+        "remove",
+        "extract"
+      ]
+    },
+    "word_family": [
+      "embedded",
+      "embedding"
+    ],
+    "collocations": [
+      "embed a link",
+      "deeply embedded"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "embed",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Technology and writing",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "emergence",
+    "meanings_fa": "ظهور؛ پدیدار شدن",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪˈmɜːrdʒəns",
+    "cefr": "C1",
+    "category": "Change and science",
+    "definition_en": "the process of appearing or becoming known",
+    "example_en": "The emergence of new technology changed the industry.",
+    "example_fa": "ظهور فناوری جدید صنعت را تغییر داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "appearance",
+        "arrival"
+      ],
+      "antonyms": [
+        "disappearance"
+      ]
+    },
+    "word_family": [
+      "emerge",
+      "emergent"
+    ],
+    "collocations": [
+      "emergence of a trend",
+      "sudden emergence"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "emergence",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Change and science",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "emission",
+    "meanings_fa": "انتشار؛ گاز یا ماده منتشرشده",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪˈmɪʃən",
+    "cefr": "B2",
+    "category": "Environment and science",
+    "definition_en": "the act of sending gas, heat, light, or other substances out",
+    "example_en": "The regulations aim to cut vehicle emissions.",
+    "example_fa": "این مقررات با هدف کاهش آلایندگی خودروها وضع شده‌اند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "release",
+        "discharge"
+      ],
+      "antonyms": [
+        "absorption"
+      ]
+    },
+    "word_family": [
+      "emit",
+      "emitter"
+    ],
+    "collocations": [
+      "carbon emissions",
+      "emission levels"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "emission",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Environment and science",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "emotionally",
+    "meanings_fa": "از نظر عاطفی؛ احساسی",
+    "part_of_speech": "adverb",
+    "ipa_us": "ɪˈmoʊʃənəli",
+    "cefr": "B2",
+    "category": "Emotions and relationships",
+    "definition_en": "in a way that relates to feelings rather than physical or logical matters",
+    "example_en": "Moving abroad can be emotionally challenging.",
+    "example_fa": "مهاجرت به خارج از کشور می‌تواند از نظر عاطفی چالش‌برانگیز باشد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "feelings-wise"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "emotion",
+      "emotional"
+    ],
+    "collocations": [
+      "emotionally stable",
+      "emotionally attached"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "emotionally",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and relationships",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "empirical",
+    "meanings_fa": "تجربی؛ مبتنی بر مشاهده",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪmˈpɪrɪkəl",
+    "cefr": "C1",
+    "category": "Science and research",
+    "definition_en": "based on observation or experience rather than theory alone",
+    "example_en": "The claim needs empirical evidence.",
+    "example_fa": "این ادعا به شواهد تجربی نیاز دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "observational",
+        "evidence-based"
+      ],
+      "antonyms": [
+        "theoretical",
+        "speculative"
+      ]
+    },
+    "word_family": [
+      "empirically",
+      "empiricism"
+    ],
+    "collocations": [
+      "empirical research",
+      "empirical evidence"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "empirical",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and research",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "empower",
+    "meanings_fa": "توانمند کردن؛ اختیار دادن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪmˈpaʊər",
+    "cefr": "B2",
+    "category": "Work and society",
+    "definition_en": "to give someone the confidence, authority, or ability to do something",
+    "example_en": "The training empowers employees to solve problems independently.",
+    "example_fa": "این آموزش کارکنان را برای حل مستقل مشکلات توانمند می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "enable",
+        "authorize"
+      ],
+      "antonyms": [
+        "disempower",
+        "restrict"
+      ]
+    },
+    "word_family": [
+      "empowerment",
+      "empowered"
+    ],
+    "collocations": [
+      "empower women",
+      "empower employees"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "empower",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "enact",
+    "meanings_fa": "تصویب و اجرا کردن؛ به نمایش درآوردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪˈnækt",
+    "cefr": "C1",
+    "category": "Government and law",
+    "definition_en": "to make a proposal or law officially valid, or to perform a role or event",
+    "example_en": "Congress voted to enact the new law.",
+    "example_fa": "کنگره به تصویب و اجرای قانون جدید رأی داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "legislate",
+        "pass"
+      ],
+      "antonyms": [
+        "repeal",
+        "abolish"
+      ]
+    },
+    "word_family": [
+      "enactment"
+    ],
+    "collocations": [
+      "enact legislation",
+      "enact a law"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "enact",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Government and law",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "encompass",
+    "meanings_fa": "در بر گرفتن؛ شامل شدن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪnˈkʌmpəs",
+    "cefr": "C1",
+    "category": "Ideas and description",
+    "definition_en": "to include a wide range of ideas, subjects, or things",
+    "example_en": "The course encompasses language, culture, and history.",
+    "example_fa": "این دوره زبان، فرهنگ و تاریخ را در بر می‌گیرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "include",
+        "cover"
+      ],
+      "antonyms": [
+        "exclude",
+        "omit"
+      ]
+    },
+    "word_family": [
+      "encompassing"
+    ],
+    "collocations": [
+      "encompass a range",
+      "broadly encompass"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "encompass",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Ideas and description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "encouragement",
+    "meanings_fa": "تشویق؛ دلگرمی",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪnˈkɜːrɪdʒmənt",
+    "cefr": "B1",
+    "category": "Communication and relationships",
+    "definition_en": "words or actions that give someone confidence or hope",
+    "example_en": "A little encouragement helped him keep going.",
+    "example_fa": "کمی دلگرمی به او کمک کرد ادامه دهد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "support",
+        "motivation"
+      ],
+      "antonyms": [
+        "discouragement"
+      ]
+    },
+    "word_family": [
+      "encourage",
+      "encouraging"
+    ],
+    "collocations": [
+      "offer encouragement",
+      "words of encouragement"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "encouragement",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and relationships",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "encouraging",
+    "meanings_fa": "امیدبخش؛ دلگرم‌کننده",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪnˈkɜːrɪdʒɪŋ",
+    "cefr": "B1",
+    "category": "Emotions and communication",
+    "definition_en": "making you feel that something is likely to succeed",
+    "example_en": "The early results are encouraging.",
+    "example_fa": "نتایج اولیه امیدوارکننده هستند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "promising",
+        "reassuring"
+      ],
+      "antonyms": [
+        "discouraging",
+        "worrying"
+      ]
+    },
+    "word_family": [
+      "encourage",
+      "encouragement"
+    ],
+    "collocations": [
+      "encouraging sign",
+      "encouraging results"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "encouraging",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "endeavor",
+    "meanings_fa": "تلاش؛ کوشش؛ تلاش کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪnˈdevər",
+    "cefr": "C1",
+    "category": "Work and achievement",
+    "definition_en": "a serious effort to achieve something",
+    "example_en": "Starting a business is a challenging endeavor.",
+    "example_fa": "راه‌اندازی یک کسب‌وکار تلاشی دشوار است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "effort",
+        "undertaking"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "endeavoring"
+    ],
+    "collocations": [
+      "make every endeavor",
+      "joint endeavor"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "endeavor",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and achievement",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "endorsement",
+    "meanings_fa": "تأیید؛ حمایت رسمی؛ توصیه",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪnˈdɔːrsmənt",
+    "cefr": "C1",
+    "category": "Business and communication",
+    "definition_en": "a public statement of support or approval for someone or something",
+    "example_en": "The product received an endorsement from a well-known athlete.",
+    "example_fa": "این محصول از یک ورزشکار مشهور تأیید و حمایت دریافت کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "approval",
+        "backing"
+      ],
+      "antonyms": [
+        "opposition",
+        "rejection"
+      ]
+    },
+    "word_family": [
+      "endorse",
+      "endorser"
+    ],
+    "collocations": [
+      "official endorsement",
+      "celebrity endorsement"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "endorsement",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Business and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "endure",
+    "meanings_fa": "تحمل کردن؛ دوام آوردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪnˈdʊr",
+    "cefr": "B2",
+    "category": "Challenges and time",
+    "definition_en": "to experience something difficult without giving up, or to continue to exist",
+    "example_en": "The workers endured difficult conditions.",
+    "example_fa": "کارگران شرایط دشواری را تحمل کردند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "tolerate",
+        "withstand",
+        "last"
+      ],
+      "antonyms": [
+        "quit",
+        "succumb"
+      ]
+    },
+    "word_family": [
+      "endurance",
+      "enduring"
+    ],
+    "collocations": [
+      "endure pain",
+      "endure hardship"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "endure",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Challenges and time",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "engaging",
+    "meanings_fa": "جذاب؛ گیرا؛ دلنشین",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪnˈɡeɪdʒɪŋ",
+    "cefr": "B2",
+    "category": "Communication and people",
+    "definition_en": "interesting or pleasant in a way that attracts attention",
+    "example_en": "The instructor uses an engaging teaching style.",
+    "example_fa": "مدرس از شیوه آموزشی جذابی استفاده می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "appealing",
+        "captivating"
+      ],
+      "antonyms": [
+        "boring",
+        "unappealing"
+      ]
+    },
+    "word_family": [
+      "engage",
+      "engagement"
+    ],
+    "collocations": [
+      "engaging speaker",
+      "engaging content"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "engaging",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and people",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  }
+]

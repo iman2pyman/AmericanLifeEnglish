@@ -1,0 +1,1125 @@
+[
+  {
+    "word": "firmly",
+    "meanings_fa": "محکم؛ قاطعانه؛ استوار",
+    "part_of_speech": "adverb",
+    "ipa_us": "ˈfɜːrmli",
+    "cefr": "B1",
+    "category": "Actions and communication",
+    "definition_en": "in a strong, steady, or determined way",
+    "example_en": "Hold the handle firmly while you turn it.",
+    "example_fa": "هنگام چرخاندن، دسته را محکم نگه دار.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "securely",
+        "strongly",
+        "decisively"
+      ],
+      "antonyms": [
+        "loosely",
+        "weakly"
+      ]
+    },
+    "word_family": [
+      "firm",
+      "firmness"
+    ],
+    "collocations": [
+      "firmly believe",
+      "hold firmly"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "firmly",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Actions and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "flaw",
+    "meanings_fa": "نقص؛ عیب؛ ایراد",
+    "part_of_speech": "noun",
+    "ipa_us": "flɔː",
+    "cefr": "B2",
+    "category": "Quality and evaluation",
+    "definition_en": "a mistake or weakness that makes something imperfect",
+    "example_en": "The report contains one serious flaw.",
+    "example_fa": "این گزارش یک نقص جدی دارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "defect",
+        "weakness",
+        "imperfection"
+      ],
+      "antonyms": [
+        "strength",
+        "virtue"
+      ]
+    },
+    "word_family": [
+      "flawed",
+      "flawlessness"
+    ],
+    "collocations": [
+      "design flaw",
+      "fatal flaw"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "flaw",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Quality and evaluation",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "flawed",
+    "meanings_fa": "معیوب؛ ناقص؛ دارای ایراد",
+    "part_of_speech": "adjective",
+    "ipa_us": "flɔːd",
+    "cefr": "B2",
+    "category": "Quality and evaluation",
+    "definition_en": "having a mistake, weakness, or imperfection",
+    "example_en": "The study was based on flawed assumptions.",
+    "example_fa": "این پژوهش بر فرضیات نادرست و معیوبی استوار بود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "imperfect",
+        "defective"
+      ],
+      "antonyms": [
+        "sound",
+        "perfect"
+      ]
+    },
+    "word_family": [
+      "flaw",
+      "flawlessness"
+    ],
+    "collocations": [
+      "flawed argument",
+      "deeply flawed"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "flawed",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Quality and evaluation",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "flesh",
+    "meanings_fa": "گوشت؛ بافت نرم بدن",
+    "part_of_speech": "noun",
+    "ipa_us": "fleʃ",
+    "cefr": "B1",
+    "category": "Body and food",
+    "definition_en": "the soft substance between the skin and bones of a person or animal",
+    "example_en": "The injury affected the flesh but not the bone.",
+    "example_fa": "آسیب به بافت نرم وارد شد، اما استخوان صدمه ندید.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "tissue",
+        "meat"
+      ],
+      "antonyms": [
+        "bone"
+      ]
+    },
+    "word_family": [
+      "fleshy"
+    ],
+    "collocations": [
+      "human flesh",
+      "flesh and blood"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "flesh",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Body and food",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "flexibility",
+    "meanings_fa": "انعطاف‌پذیری؛ قابلیت سازگاری",
+    "part_of_speech": "noun",
+    "ipa_us": "ˌfleksəˈbɪləti",
+    "cefr": "B2",
+    "category": "Work and personal qualities",
+    "definition_en": "the ability to change or adapt easily to new conditions",
+    "example_en": "Remote work offers greater flexibility for parents.",
+    "example_fa": "کار از راه دور برای والدین انعطاف‌پذیری بیشتری فراهم می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "adaptability",
+        "versatility"
+      ],
+      "antonyms": [
+        "rigidity",
+        "inflexibility"
+      ]
+    },
+    "word_family": [
+      "flexible",
+      "flexibly"
+    ],
+    "collocations": [
+      "workplace flexibility",
+      "flexibility in scheduling"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "flexibility",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and personal qualities",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "flourish",
+    "meanings_fa": "شکوفا شدن؛ رونق گرفتن؛ flourish",
+    "part_of_speech": "verb",
+    "ipa_us": "ˈflɜːrɪʃ",
+    "cefr": "B2",
+    "category": "Growth and success",
+    "definition_en": "to grow or develop successfully, or to be successful",
+    "example_en": "Small businesses can flourish with the right support.",
+    "example_fa": "کسب‌وکارهای کوچک با حمایت مناسب می‌توانند شکوفا شوند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "thrive",
+        "prosper",
+        "bloom"
+      ],
+      "antonyms": [
+        "decline",
+        "wither"
+      ]
+    },
+    "word_family": [
+      "flourishing",
+      "flourishingly"
+    ],
+    "collocations": [
+      "flourish in an environment",
+      "flourish economically"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "flourish",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Growth and success",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fluid",
+    "meanings_fa": "مایع؛ روان؛ سیال",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈfluːɪd",
+    "cefr": "B2",
+    "category": "Science and description",
+    "definition_en": "able to flow easily; also, changing smoothly and continuously",
+    "example_en": "The design allows fluid movement between rooms.",
+    "example_fa": "این طراحی امکان حرکت روان میان اتاق‌ها را فراهم می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "liquid",
+        "flowing",
+        "flexible"
+      ],
+      "antonyms": [
+        "solid",
+        "rigid"
+      ]
+    },
+    "word_family": [
+      "fluidity",
+      "fluidly"
+    ],
+    "collocations": [
+      "body fluid",
+      "fluid motion"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fluid",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fond",
+    "meanings_fa": "علاقه‌مند؛ دوستدار؛ مهربان",
+    "part_of_speech": "adjective",
+    "ipa_us": "fɑːnd",
+    "cefr": "B1",
+    "category": "Emotions and relationships",
+    "definition_en": "having affection for someone or liking something",
+    "example_en": "I'm very fond of my old neighborhood.",
+    "example_fa": "من محله قدیمی‌ام را خیلی دوست دارم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "affectionate",
+        "attached",
+        "keen"
+      ],
+      "antonyms": [
+        "unfond",
+        "indifferent"
+      ]
+    },
+    "word_family": [
+      "fondly",
+      "fondness"
+    ],
+    "collocations": [
+      "fond of music",
+      "fond memories"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fond",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and relationships",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fool",
+    "meanings_fa": "احمق؛ نادان؛ فریب دادن",
+    "part_of_speech": "noun",
+    "ipa_us": "fuːl",
+    "cefr": "B1",
+    "category": "People and behavior",
+    "definition_en": "a person who acts without good judgment; also, to trick someone",
+    "example_en": "Don't let anyone fool you into sharing your password.",
+    "example_fa": "اجازه نده کسی فریبت دهد تا گذرواژه‌ات را به اشتراک بگذاری.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "idiot",
+        "silly person",
+        "trick"
+      ],
+      "antonyms": [
+        "wise person"
+      ]
+    },
+    "word_family": [
+      "foolish",
+      "foolishly",
+      "foolery"
+    ],
+    "collocations": [
+      "make a fool of",
+      "fool around"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fool",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "People and behavior",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "footage",
+    "meanings_fa": "فیلم ضبط‌شده؛ تصاویر ویدئویی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfʊtɪdʒ",
+    "cefr": "B2",
+    "category": "Media and technology",
+    "definition_en": "recorded film or video, especially of an event",
+    "example_en": "Police released security footage from the store.",
+    "example_fa": "پلیس تصاویر دوربین‌های امنیتی فروشگاه را منتشر کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "video",
+        "recording"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "—"
+    ],
+    "collocations": [
+      "security footage",
+      "raw footage"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "footage",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Media and technology",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "forbid",
+    "meanings_fa": "ممنوع کردن؛ اجازه ندادن",
+    "part_of_speech": "verb",
+    "ipa_us": "fərˈbɪd",
+    "cefr": "B1",
+    "category": "Rules and permission",
+    "definition_en": "to order someone not to do something",
+    "example_en": "The building rules forbid smoking indoors.",
+    "example_fa": "قوانین ساختمان سیگار کشیدن در فضای داخلی را ممنوع می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "prohibit",
+        "ban"
+      ],
+      "antonyms": [
+        "allow",
+        "permit"
+      ]
+    },
+    "word_family": [
+      "forbidden",
+      "forbidding",
+      "prohibition"
+    ],
+    "collocations": [
+      "strictly forbid",
+      "forbid someone to do something"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "forbid",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Rules and permission",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "forecast",
+    "meanings_fa": "پیش‌بینی؛ پیش‌بینی کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɔːrkæst",
+    "cefr": "B1",
+    "category": "Weather and planning",
+    "definition_en": "a statement about what is likely to happen in the future, especially the weather",
+    "example_en": "The forecast calls for rain tomorrow afternoon.",
+    "example_fa": "پیش‌بینی هوا برای فردا بعدازظهر بارندگی را نشان می‌دهد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "prediction",
+        "projection"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "forecasting",
+      "forecaster"
+    ],
+    "collocations": [
+      "weather forecast",
+      "economic forecast"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "forecast",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Weather and planning",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "forge",
+    "meanings_fa": "جعل کردن؛ ساختن با فلز؛ ایجاد کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "fɔːrdʒ",
+    "cefr": "B2",
+    "category": "Work and law",
+    "definition_en": "to make an illegal copy of a document or signature, or to shape metal by heating and hammering",
+    "example_en": "The suspect tried to forge the official document.",
+    "example_fa": "مظنون تلاش کرد سند رسمی را جعل کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "falsify",
+        "counterfeit",
+        "shape"
+      ],
+      "antonyms": [
+        "authenticate",
+        "verify"
+      ]
+    },
+    "word_family": [
+      "forgery",
+      "forger",
+      "forged"
+    ],
+    "collocations": [
+      "forge a signature",
+      "forge a strong relationship"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "forge",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and law",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "format",
+    "meanings_fa": "قالب؛ ساختار؛ قالب‌بندی کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɔːrmæt",
+    "cefr": "B1",
+    "category": "Technology and communication",
+    "definition_en": "the arrangement or structure of information, a document, or a program",
+    "example_en": "Please save the file in PDF format.",
+    "example_fa": "لطفاً فایل را با قالب PDF ذخیره کن.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "layout",
+        "structure",
+        "arrangement"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "formatting",
+      "formatted"
+    ],
+    "collocations": [
+      "file format",
+      "application format"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "format",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Technology and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "formerly",
+    "meanings_fa": "قبلاً؛ پیش‌تر؛ در گذشته",
+    "part_of_speech": "adverb",
+    "ipa_us": "ˈfɔːrmərli",
+    "cefr": "B2",
+    "category": "Time and history",
+    "definition_en": "at an earlier time; in the past",
+    "example_en": "The building was formerly used as a school.",
+    "example_fa": "این ساختمان قبلاً به‌عنوان مدرسه استفاده می‌شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "previously",
+        "once"
+      ],
+      "antonyms": [
+        "currently",
+        "now"
+      ]
+    },
+    "word_family": [
+      "former"
+    ],
+    "collocations": [
+      "formerly known as",
+      "formerly employed"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "formerly",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Time and history",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "formula",
+    "meanings_fa": "فرمول؛ دستورالعمل؛ روش ثابت",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɔːrmjələ",
+    "cefr": "B1",
+    "category": "Science and problem-solving",
+    "definition_en": "a set of symbols or a fixed method used to calculate or achieve something",
+    "example_en": "The spreadsheet uses a formula to calculate the total.",
+    "example_fa": "صفحه‌گسترده برای محاسبه مجموع از یک فرمول استفاده می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "equation",
+        "method",
+        "recipe"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "formulate",
+      "formulation"
+    ],
+    "collocations": [
+      "mathematical formula",
+      "winning formula"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "formula",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and problem-solving",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "formulate",
+    "meanings_fa": "صورت‌بندی کردن؛ تدوین کردن؛ فرمول‌بندی کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ˈfɔːrmjəleɪt",
+    "cefr": "C1",
+    "category": "Work and communication",
+    "definition_en": "to develop or express an idea, plan, or theory carefully",
+    "example_en": "The team formulated a plan to reduce costs.",
+    "example_fa": "تیم طرحی برای کاهش هزینه‌ها تدوین کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "develop",
+        "devise",
+        "frame"
+      ],
+      "antonyms": [
+        "abandon",
+        "confuse"
+      ]
+    },
+    "word_family": [
+      "formulation",
+      "formula",
+      "formulated"
+    ],
+    "collocations": [
+      "formulate a strategy",
+      "formulate a response"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "formulate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "forth",
+    "meanings_fa": "به جلو؛ به بیرون؛ از این پس",
+    "part_of_speech": "adverb",
+    "ipa_us": "fɔːrθ",
+    "cefr": "C1",
+    "category": "Formal language",
+    "definition_en": "forward or outward; used in formal expressions such as 'and so forth'",
+    "example_en": "The policy will remain in effect from this day forth.",
+    "example_fa": "این سیاست از امروز به بعد اجرا خواهد شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "forward",
+        "onward"
+      ],
+      "antonyms": [
+        "backward"
+      ]
+    },
+    "word_family": [
+      "forthcoming",
+      "forthwith"
+    ],
+    "collocations": [
+      "and so forth",
+      "set forth"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "forth",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Formal language",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "forthcoming",
+    "meanings_fa": "آتی؛ پیشِ رو؛ در دسترس و آماده ارائه",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˌfɔːrθˈkʌmɪŋ",
+    "cefr": "B2",
+    "category": "Time and communication",
+    "definition_en": "planned to happen soon, or willing to provide information",
+    "example_en": "The company announced its forthcoming product launch.",
+    "example_fa": "شرکت از رونمایی محصول آتی خود خبر داد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "upcoming",
+        "approaching",
+        "forthcoming"
+      ],
+      "antonyms": [
+        "past",
+        "withheld"
+      ]
+    },
+    "word_family": [
+      "forthcomingly"
+    ],
+    "collocations": [
+      "forthcoming event",
+      "forthcoming report"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "forthcoming",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Time and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fortunate",
+    "meanings_fa": "خوش‌شانس؛ خوش‌اقبال؛ مطلوب",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈfɔːrtʃənət",
+    "cefr": "B1",
+    "category": "Life and circumstances",
+    "definition_en": "having good luck or producing a good result by chance",
+    "example_en": "We were fortunate to find an affordable apartment.",
+    "example_fa": "خوش‌شانس بودیم که آپارتمانی مقرون‌به‌صرفه پیدا کردیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "lucky",
+        "blessed"
+      ],
+      "antonyms": [
+        "unfortunate",
+        "unlucky"
+      ]
+    },
+    "word_family": [
+      "fortunately",
+      "fortune",
+      "misfortune"
+    ],
+    "collocations": [
+      "fortunate enough",
+      "fortunate circumstance"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fortunate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Life and circumstances",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "forum",
+    "meanings_fa": "انجمن؛ تالار گفتگو؛ مجمع",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɔːrəm",
+    "cefr": "B2",
+    "category": "Communication and technology",
+    "definition_en": "a meeting or online place where people discuss a subject",
+    "example_en": "I found the answer on a technical support forum.",
+    "example_fa": "پاسخ را در یک انجمن پشتیبانی فنی پیدا کردم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "discussion group",
+        "platform"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "forums"
+    ],
+    "collocations": [
+      "online forum",
+      "public forum"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "forum",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and technology",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fossil",
+    "meanings_fa": "سنگواره؛ فسیل",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɑːsəl",
+    "cefr": "B1",
+    "category": "Science and nature",
+    "definition_en": "the preserved remains or trace of an ancient plant or animal",
+    "example_en": "The museum displayed a fossil of an ancient fish.",
+    "example_fa": "موزه سنگواره یک ماهی باستانی را به نمایش گذاشت.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "remains",
+        "impression"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "fossilize",
+      "fossilized"
+    ],
+    "collocations": [
+      "fossil fuel",
+      "fossil record"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fossil",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and nature",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "foster",
+    "meanings_fa": "پرورش دادن؛ تقویت کردن؛ سرپرستی کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ˈfɔːstər",
+    "cefr": "B2",
+    "category": "Family and development",
+    "definition_en": "to encourage the development of something, or to care for a child temporarily",
+    "example_en": "The program aims to foster cooperation among local businesses.",
+    "example_fa": "این برنامه با هدف تقویت همکاری میان کسب‌وکارهای محلی اجرا می‌شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "encourage",
+        "promote",
+        "nurture"
+      ],
+      "antonyms": [
+        "hinder",
+        "discourage"
+      ]
+    },
+    "word_family": [
+      "fostering",
+      "foster care"
+    ],
+    "collocations": [
+      "foster relationships",
+      "foster a child"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "foster",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Family and development",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fragile",
+    "meanings_fa": "شکننده؛ ظریف؛ آسیب‌پذیر",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈfrædʒəl",
+    "cefr": "B2",
+    "category": "Description and safety",
+    "definition_en": "easily broken, damaged, or harmed",
+    "example_en": "Handle the fragile equipment with care.",
+    "example_fa": "با تجهیزات شکننده بااحتیاط رفتار کن.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "delicate",
+        "breakable",
+        "vulnerable"
+      ],
+      "antonyms": [
+        "sturdy",
+        "durable"
+      ]
+    },
+    "word_family": [
+      "fragility",
+      "fragilely"
+    ],
+    "collocations": [
+      "fragile item",
+      "fragile health"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fragile",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Description and safety",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fragment",
+    "meanings_fa": "تکه؛ قطعه؛ بخش ناقص؛ تکه‌تکه کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfræɡmənt",
+    "cefr": "B2",
+    "category": "Objects and communication",
+    "definition_en": "a small part broken or separated from something larger",
+    "example_en": "A fragment of glass was found near the door.",
+    "example_fa": "تکه‌ای شیشه نزدیک در پیدا شد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "piece",
+        "part",
+        "shard"
+      ],
+      "antonyms": [
+        "whole",
+        "entirety"
+      ]
+    },
+    "word_family": [
+      "fragmentation",
+      "fragmentary"
+    ],
+    "collocations": [
+      "fragment of evidence",
+      "sentence fragment"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fragment",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Objects and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "franchise",
+    "meanings_fa": "حق امتیاز؛ کسب‌وکار زنجیره‌ای؛ نمایندگی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfrænˌtʃaɪz",
+    "cefr": "B2",
+    "category": "Business and law",
+    "definition_en": "the right to operate a business using another company's name and system, or the business itself",
+    "example_en": "She owns a fast-food franchise.",
+    "example_fa": "او صاحب یک شعبه امتیازی فست‌فود است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "license",
+        "dealership"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "franchisee",
+      "franchiser",
+      "franchising"
+    ],
+    "collocations": [
+      "franchise agreement",
+      "franchise owner"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "franchise",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Business and law",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "frankly",
+    "meanings_fa": "صادقانه؛ رک و راست",
+    "part_of_speech": "adverb",
+    "ipa_us": "ˈfræŋkli",
+    "cefr": "B2",
+    "category": "Communication and opinion",
+    "definition_en": "in an honest and direct way, sometimes expressing criticism",
+    "example_en": "Frankly, I don't think this plan will work.",
+    "example_fa": "صادقانه بگویم، فکر نمی‌کنم این طرح جواب بدهد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "honestly",
+        "candidly",
+        "openly"
+      ],
+      "antonyms": [
+        "dishonestly",
+        "evasively"
+      ]
+    },
+    "word_family": [
+      "frank",
+      "frankness"
+    ],
+    "collocations": [
+      "frankly speaking",
+      "quite frankly"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "frankly",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and opinion",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "freshman",
+    "meanings_fa": "دانشجوی سال اول؛ دانش‌آموز سال اول دبیرستان",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfreʃmən",
+    "cefr": "B1",
+    "category": "Education in the US",
+    "definition_en": "a student in the first year of high school or college in the United States",
+    "example_en": "My sister is a freshman at a university in Ohio.",
+    "example_fa": "خواهرم دانشجوی سال اول دانشگاهی در اوهایو است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "first-year student"
+      ],
+      "antonyms": [
+        "senior",
+        "graduate"
+      ]
+    },
+    "word_family": [
+      "freshman-level"
+    ],
+    "collocations": [
+      "college freshman",
+      "freshman year"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "freshman",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Education in the US",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "frustrated",
+    "meanings_fa": "کلافه؛ ناکام؛ سرخورده",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈfrʌstreɪtɪd",
+    "cefr": "B1",
+    "category": "Emotions and relationships",
+    "definition_en": "feeling annoyed or discouraged because you cannot do or achieve what you want",
+    "example_en": "I felt frustrated when the website kept crashing.",
+    "example_fa": "وقتی وب‌سایت مدام از کار می‌افتاد، کلافه شدم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "annoyed",
+        "discouraged",
+        "dissatisfied"
+      ],
+      "antonyms": [
+        "satisfied",
+        "pleased"
+      ]
+    },
+    "word_family": [
+      "frustrate",
+      "frustration",
+      "frustrating"
+    ],
+    "collocations": [
+      "feel frustrated",
+      "frustrated with a problem"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "frustrated",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Emotions and relationships",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  }
+]
