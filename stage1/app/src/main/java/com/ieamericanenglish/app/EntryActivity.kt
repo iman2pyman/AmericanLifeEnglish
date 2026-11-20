@@ -88,6 +88,7 @@ private fun AmericanEnglishRoot(
 ) {
     val context = LocalContext.current
     val words = remember { loadVocabulary(context) }
+    val freeWordIds = remember(words) { words.take(500).map { LearningStore.wordId(it.word) }.toSet() }
     val learningStore = remember(context) { LearningStore(context) }
     val preferences = remember(context) { context.getSharedPreferences("american_english_settings", android.content.Context.MODE_PRIVATE) }
     var darkMode by remember { mutableStateOf(preferences.getBoolean("dark_mode", false)) }
@@ -150,7 +151,10 @@ private fun AmericanEnglishRoot(
                     isBookmarked = LearningStore.wordId(selectedWord!!.word) in bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ },
                     allWords = words,
-                    onRelatedWord = { selectedWord = it }
+                    onRelatedWord = { related ->
+                        if (isPremium || LearningStore.wordId(related.word) in freeWordIds) selectedWord = related
+                        else page = "premium"
+                    }
                 )
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
@@ -168,7 +172,10 @@ private fun AmericanEnglishRoot(
                     onBack = { page = "home" }
                 )
                 page == "search" -> SearchScreen(
-                    words, onSpeak, { page = "home" }, { selectedWord = it },
+                    words, onSpeak, { page = "home" }, { word ->
+                        if (isPremium || LearningStore.wordId(word.word) in freeWordIds) selectedWord = word
+                        else page = "premium"
+                    },
                     isPremium = isPremium,
                     onPremiumRequired = { page = "premium" },
                     bookmarks = bookmarkedWords,
@@ -201,7 +208,10 @@ private fun AmericanEnglishRoot(
                 )
                 page == "vocabulary-practice" -> LearningScreen(
                     words = if (isPremium) words else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) },
-                    onSpeak = onSpeak, onBack = { page = "vocabulary" }, onWord = { selectedWord = it },
+                    onSpeak = onSpeak, onBack = { page = "vocabulary" }, onWord = { word ->
+                        if (isPremium || LearningStore.wordId(word.word) in freeWordIds) selectedWord = word
+                        else page = "premium"
+                    },
                     initialLevel = if (isPremium || selectedLevel in setOf("A1", "A2")) selectedLevel else "A1",
                     isPremium = isPremium,
                     onPremiumRequired = { page = "premium" },
