@@ -67,9 +67,20 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
     var page by remember { mutableStateOf("home") }
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
     var browsedLevel by remember { mutableStateOf("A1") }
-    // Keep the level list scroll position while the word detail screen is shown.
+    // Preserve the exact list position when a word detail screen temporarily replaces the list.
     val levelWordsListState = rememberLazyListState()
-    LaunchedEffect(browsedLevel) { levelWordsListState.scrollToItem(0) }
+    var savedLevelListIndex by remember { mutableIntStateOf(0) }
+    var savedLevelListOffset by remember { mutableIntStateOf(0) }
+    LaunchedEffect(browsedLevel) {
+        savedLevelListIndex = 0
+        savedLevelListOffset = 0
+        levelWordsListState.scrollToItem(0)
+    }
+    LaunchedEffect(selectedWord, page) {
+        if (selectedWord == null && page == "vocabulary-level-words") {
+            levelWordsListState.scrollToItem(savedLevelListIndex, savedLevelListOffset)
+        }
+    }
     var dialog by remember { mutableStateOf<String?>(null) }
     var lastBackPressedAt by remember { mutableLongStateOf(0L) }
 
@@ -136,7 +147,11 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
                 )
                 page == "vocabulary-level-words" -> VocabularyLevelWordsScreen(
                     words = words, level = browsedLevel, listState = levelWordsListState,
-                    onWord = { selectedWord = it }, onSpeak = onSpeak,
+                    onWord = {
+                        savedLevelListIndex = levelWordsListState.firstVisibleItemIndex
+                        savedLevelListOffset = levelWordsListState.firstVisibleItemScrollOffset
+                        selectedWord = it
+                    }, onSpeak = onSpeak,
                     onBack = { page = "vocabulary-level" },
                     bookmarks = bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
