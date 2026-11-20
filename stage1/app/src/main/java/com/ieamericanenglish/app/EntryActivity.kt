@@ -77,6 +77,11 @@ class EntryActivity : ComponentActivity() {
         } }
     }
 
+    override fun onResume() {
+        super.onResume()
+        if (::bazaarBilling.isInitialized) bazaarBilling.refreshSubscriptions()
+    }
+
     override fun onDestroy() {
         if (::bazaarBilling.isInitialized) bazaarBilling.disconnect()
         if (::speech.isInitialized) speech.close()
