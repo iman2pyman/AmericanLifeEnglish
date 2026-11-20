@@ -19,11 +19,14 @@
     "source_candidate": "inevitably",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "infamous",
@@ -45,11 +48,14 @@
     "source_candidate": "infamous",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "infant",
@@ -71,11 +77,14 @@
     "source_candidate": "infant",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "infect",
@@ -97,11 +106,14 @@
     "source_candidate": "infect",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "infer",
@@ -123,11 +135,14 @@
     "source_candidate": "infer",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inflict",
@@ -149,11 +164,14 @@
     "source_candidate": "inflict",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "influential",
@@ -175,11 +193,14 @@
     "source_candidate": "influential",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "info",
@@ -201,11 +222,14 @@
     "source_candidate": "info",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inherent",
@@ -227,11 +251,14 @@
     "source_candidate": "inherent",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inherit",
@@ -253,11 +280,14 @@
     "source_candidate": "inherit",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inhibit",
@@ -279,11 +309,14 @@
     "source_candidate": "inhibit",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inject",
@@ -305,11 +338,14 @@
     "source_candidate": "inject",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "injection",
@@ -331,11 +367,14 @@
     "source_candidate": "injection",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "injustice",
@@ -357,11 +396,14 @@
     "source_candidate": "injustice",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ink",
@@ -383,11 +425,14 @@
     "source_candidate": "ink",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inmate",
@@ -409,11 +454,14 @@
     "source_candidate": "inmate",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "innovation",
@@ -435,11 +483,14 @@
     "source_candidate": "innovation",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inquire",
@@ -461,11 +512,14 @@
     "source_candidate": "inquire",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "insert",
@@ -487,11 +541,14 @@
     "source_candidate": "insert",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "insertion",
@@ -513,11 +570,14 @@
     "source_candidate": "insertion",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "insider",
@@ -539,11 +599,14 @@
     "source_candidate": "insider",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inspect",
@@ -565,11 +628,14 @@
     "source_candidate": "inspect",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "inspector",
@@ -591,11 +657,14 @@
     "source_candidate": "inspector",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "instant",
@@ -617,11 +686,14 @@
     "source_candidate": "instant",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "instantly",
@@ -643,11 +715,14 @@
     "source_candidate": "instantly",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "instinct",
@@ -669,11 +744,14 @@
     "source_candidate": "instinct",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "instrumental",
@@ -695,11 +773,14 @@
     "source_candidate": "instrumental",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "insufficient",
@@ -721,11 +802,14 @@
     "source_candidate": "insufficient",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "insult",
@@ -747,11 +831,14 @@
     "source_candidate": "insult",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intact",
@@ -773,11 +860,14 @@
     "source_candidate": "intact",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intake",
@@ -799,11 +889,14 @@
     "source_candidate": "intake",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "integral",
@@ -825,11 +918,14 @@
     "source_candidate": "integral",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "integrate",
@@ -851,11 +947,14 @@
     "source_candidate": "integrate",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "integrated",
@@ -877,11 +976,14 @@
     "source_candidate": "integrated",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intensify",
@@ -903,11 +1005,14 @@
     "source_candidate": "intensify",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intensity",
@@ -929,11 +1034,14 @@
     "source_candidate": "intensity",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intensive",
@@ -955,11 +1063,14 @@
     "source_candidate": "intensive",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intent",
@@ -981,11 +1092,14 @@
     "source_candidate": "intent",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "interact",
@@ -1007,11 +1121,14 @@
     "source_candidate": "interact",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "interactive",
@@ -1033,11 +1150,14 @@
     "source_candidate": "interactive",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "interface",
@@ -1059,11 +1179,14 @@
     "source_candidate": "interface",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "interfere",
@@ -1085,11 +1208,14 @@
     "source_candidate": "interfere",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "interim",
@@ -1111,11 +1237,14 @@
     "source_candidate": "interim",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intermediate",
@@ -1137,11 +1266,14 @@
     "source_candidate": "intermediate",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intersection",
@@ -1163,11 +1295,14 @@
     "source_candidate": "intersection",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "interval",
@@ -1189,11 +1324,14 @@
     "source_candidate": "interval",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intervene",
@@ -1215,11 +1353,14 @@
     "source_candidate": "intervene",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intimate",
@@ -1241,11 +1382,14 @@
     "source_candidate": "intimate",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "intriguing",
@@ -1267,11 +1411,14 @@
     "source_candidate": "intriguing",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "invisible",
@@ -1293,11 +1440,14 @@
     "source_candidate": "invisible",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ironic",
@@ -1319,11 +1469,14 @@
     "source_candidate": "ironic",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ironically",
@@ -1345,11 +1498,14 @@
     "source_candidate": "ironically",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "irony",
@@ -1371,11 +1527,14 @@
     "source_candidate": "irony",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "isolated",
@@ -1397,11 +1556,14 @@
     "source_candidate": "isolated",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "isolation",
@@ -1423,10 +1585,13 @@
     "source_candidate": "isolation",
     "review_status": "approved_by_user",
     "quality_flag": "Imported from user-provided text; pronunciation, level, sense coverage, and translations require editorial review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان انگلیسی آمریکایی",
     "level_source": "User-provided CEFR label; not independently verified",
-    "level_review_status": "pending_independent_verification"
+    "level_review_status": "pending_independent_verification",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   }
 ]
