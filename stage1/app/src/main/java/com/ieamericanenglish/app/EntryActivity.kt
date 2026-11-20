@@ -42,12 +42,27 @@ private val Page = Color(0xFFF4F7FC)
 
 class EntryActivity : ComponentActivity() {
     private lateinit var speech: AmericanSpeech
+    private lateinit var bazaarBilling: BazaarBillingManager
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         speech = AmericanSpeech(this)
+        bazaarBilling = BazaarBillingManager(
+            activity = this,
+            onPremiumChanged = { active ->
+                getSharedPreferences("american_english_settings", MODE_PRIVATE)
+                    .edit().putBoolean("premium_active", active).apply()
+            },
+            onStatus = { status ->
+                android.util.Log.i("AmericanLifeEnglishBilling", status)
+            }
+        )
+        bazaarBilling.connect()
         setContent { MaterialTheme { AmericanEnglishRoot(onSpeak = { speech.speak(it) }, onExit = { finish() }) } }
     }
+
     override fun onDestroy() {
+        if (::bazaarBilling.isInitialized) bazaarBilling.disconnect()
         if (::speech.isInitialized) speech.close()
         super.onDestroy()
     }
