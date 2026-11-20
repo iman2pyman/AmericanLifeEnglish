@@ -43,13 +43,17 @@ private val Page = Color(0xFFF4F7FC)
 class EntryActivity : ComponentActivity() {
     private lateinit var speech: AmericanSpeech
     private lateinit var bazaarBilling: BazaarBillingManager
+    private var premiumActive by mutableStateOf(false)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         speech = AmericanSpeech(this)
+        premiumActive = getSharedPreferences("american_english_settings", MODE_PRIVATE)
+            .getBoolean("premium_active", false)
         bazaarBilling = BazaarBillingManager(
             activity = this,
             onPremiumChanged = { active ->
+                runOnUiThread { premiumActive = active }
                 getSharedPreferences("american_english_settings", MODE_PRIVATE)
                     .edit().putBoolean("premium_active", active).apply()
             },
@@ -58,7 +62,14 @@ class EntryActivity : ComponentActivity() {
             }
         )
         bazaarBilling.connect()
-        setContent { MaterialTheme { AmericanEnglishRoot(onSpeak = { speech.speak(it) }, onExit = { finish() }) } }
+        setContent { MaterialTheme {
+            AmericanEnglishRoot(
+                onSpeak = { speech.speak(it) },
+                onExit = { finish() },
+                isPremium = premiumActive,
+                onSubscribe = { productId -> bazaarBilling.subscribe(productId) }
+            )
+        } }
     }
 
     override fun onDestroy() {
@@ -69,7 +80,12 @@ class EntryActivity : ComponentActivity() {
 }
 
 @Composable
-private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
+private fun AmericanEnglishRoot(
+    onSpeak: (String) -> Unit,
+    onExit: () -> Unit,
+    isPremium: Boolean,
+    onSubscribe: (String) -> Unit
+) {
     val context = LocalContext.current
     val words = remember { loadVocabulary(context) }
     val learningStore = remember(context) { LearningStore(context) }
@@ -107,6 +123,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
             page == "vocabulary-level-words" -> page = "vocabulary-level"
             page == "vocabulary-level" -> page = "vocabulary"
             page == "vocabulary-practice" -> page = "vocabulary"
+            page == "premium" -> page = "home"
             page == "vocabulary" -> page = "home"
             page != "home" -> page = "home"
             else -> {
@@ -137,11 +154,18 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
                 )
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
-                    onGrammar = { page = "grammar" }, onHelp = { dialog = "help" }, onAbout = { dialog = "about" },
+                    onGrammar = { page = "grammar" }, onPremium = { page = "premium" },
+                    onHelp = { dialog = "help" }, onAbout = { dialog = "about" },
                     darkMode = darkMode, onToggleDarkMode = {
                         darkMode = !darkMode
                         preferences.edit().putBoolean("dark_mode", darkMode).apply()
                     }
+                )
+                page == "premium" -> PremiumScreen(
+                    isPremium = isPremium,
+                    onSubscribeMonthly = { onSubscribe(BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU) },
+                    onSubscribeYearly = { onSubscribe(BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU) },
+                    onBack = { page = "home" }
                 )
                 page == "search" -> SearchScreen(
                     words, onSpeak, { page = "home" }, { selectedWord = it },
@@ -222,7 +246,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
 
 @Composable
 private fun HomeScreen(
-    onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar: () -> Unit,
+    onSearch: () -> Unit, onVocabulary: () -> Unit, onGrammar: () -> Unit, onPremium: () -> Unit,
     onHelp: () -> Unit, onAbout: () -> Unit, darkMode: Boolean, onToggleDarkMode: () -> Unit
 ) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).background(appColor(Page)), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -261,6 +285,8 @@ private fun HomeScreen(
             ActionCard("آموزش واژگان", "یادگیری واژه‌ها به‌صورت هدفمند", "✦", Teal, onVocabulary)
             Spacer(Modifier.height(12.dp))
             ActionCard("آموزش گرامر", "قواعد زبان را قدم‌به‌قدم یاد بگیر", "文", appColor(Color(0xFF8B5CF6)), onGrammar)
+            Spacer(Modifier.height(12.dp))
+            ActionCard("اشتراک ویژه", "دسترسی به امکانات کامل برنامه", "★", Gold, onPremium)
             Spacer(Modifier.height(24.dp))
             HorizontalDivider(color = appColor(Color(0xFFE1E7F0)))
             Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 12.dp), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
@@ -269,6 +295,65 @@ private fun HomeScreen(
                 TextButton(onClick = onAbout) { Text("درباره برنامه و سازنده", color = appColor(Blue), fontWeight = FontWeight.SemiBold, fontSize = 13.sp) }
             }
         }
+    }
+}
+
+
+@Composable
+private fun PremiumScreen(
+    isPremium: Boolean,
+    onSubscribeMonthly: () -> Unit,
+    onSubscribeYearly: () -> Unit,
+    onBack: () -> Unit
+) {
+    Column(
+        Modifier.fillMaxSize().background(appColor(Page)).verticalScroll(rememberScrollState()).padding(20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            TextButton(onClick = onBack) { Text("بازگشت", color = appColor(Blue)) }
+            Spacer(Modifier.weight(1f))
+            Text("اشتراک ویژه", color = appColor(Navy), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+        }
+        Spacer(Modifier.height(24.dp))
+        Text("★", color = Gold, fontSize = 48.sp, fontWeight = FontWeight.Black)
+        Text(
+            if (isPremium) "اشتراک ویژه شما فعال است" else "یادگیری کامل‌تر با اشتراک ویژه",
+            color = appColor(Navy), fontSize = 20.sp, fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        Spacer(Modifier.height(12.dp))
+        Text(
+            "با تهیه اشتراک، به امکانات ویژه American Life English دسترسی خواهید داشت.",
+            color = appColor(Muted), fontSize = 14.sp, textAlign = TextAlign.Center
+        )
+        Spacer(Modifier.height(24.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
+            Column(Modifier.padding(18.dp)) {
+                Text("اشتراک یک‌ماهه", color = appColor(Ink), fontSize = 17.sp, fontWeight = FontWeight.Bold)
+                Text("دسترسی ویژه به مدت یک ماه", color = appColor(Muted), fontSize = 13.sp)
+                Spacer(Modifier.height(12.dp))
+                Button(onClick = onSubscribeMonthly, modifier = Modifier.fillMaxWidth(), enabled = !isPremium) {
+                    Text("خرید اشتراک ماهانه")
+                }
+            }
+        }
+        Spacer(Modifier.height(14.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
+            Column(Modifier.padding(18.dp)) {
+                Text("اشتراک یک‌ساله", color = appColor(Ink), fontSize = 17.sp, fontWeight = FontWeight.Bold)
+                Text("دسترسی ویژه به مدت یک سال", color = appColor(Muted), fontSize = 13.sp)
+                Spacer(Modifier.height(12.dp))
+                Button(onClick = onSubscribeYearly, modifier = Modifier.fillMaxWidth(), enabled = !isPremium) {
+                    Text("خرید اشتراک سالانه")
+                }
+            }
+        }
+        Spacer(Modifier.height(20.dp))
+        Text(
+            "پرداخت و تأیید اشتراک از طریق کافه‌بازار انجام می‌شود. برای خرید، برنامه کافه‌بازار باید روی گوشی نصب و حساب کاربری فعال باشد.",
+            color = appColor(Muted), fontSize = 12.sp, textAlign = TextAlign.Center
+        )
     }
 }
 
