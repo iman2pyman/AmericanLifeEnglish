@@ -116,8 +116,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کار و کسب‌وکار؛ مفاهیم انتزاعی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed"
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked"
   },
   {
     "word": "actress",
@@ -188,8 +188,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کار و کسب‌وکار؛ رسانه و ارتباطات",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed"
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked"
   },
   {
     "word": "advertisement",
@@ -212,8 +212,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کار و کسب‌وکار؛ رسانه و ارتباطات",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed"
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked"
   },
   {
     "word": "afternoon",
@@ -236,15 +236,15 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "زمان",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed"
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked"
   },
   {
     "word": "aged",
     "meanings_fa": "سالمند؛ به سنِ ... رسیده؛ کهنه‌شده یا عمل‌آوری‌شده",
     "part_of_speech": "ADJECTIVE",
     "ipa_us": "/eɪdʒd/",
-    "cefr": "B2",
+    "cefr": "B1",
     "category": "People and relationships, Qualities and descriptions",
     "definition_en": "Having reached a particular age; also used to describe someone who is old or something deliberately matured over time.",
     "example_en": "The program is open to children aged 12 to 16.",
@@ -255,12 +255,12 @@
     "frequency": null,
     "openjam_frequency_rank": null,
     "data_source": "Original editorial draft; General American IPA and learner-focused content",
-    "review_status": "Schema normalized; linguistic accuracy review still pending.",
-    "quality_flag": "Meaning depends strongly on context; avoid using aged as a simple synonym for elderly in all contexts",
+    "review_status": "CEFR corrected against Oxford learner word list; other lexical fields remain staging pending full review.",
+    "quality_flag": "CEFR cross-checked against Oxford; meanings, IPA, definitions, examples, translations, synonyms and usage remain subject to full linguistic review.",
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "افراد و روابط؛ ویژگی‌ها و توصیف‌ها",
-    "level_source": "American Oxford 5000",
+    "level_source": "American Oxford 3000",
     "level_review_status": "official_source_cross_checked"
   },
   {
@@ -332,8 +332,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و عواطف؛ ویژگی‌ها و توصیف‌ها",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed"
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked"
   },
   {
     "word": "amazing",
@@ -388,7 +388,7 @@
     "meanings_fa": "بلندپرواز؛ جاه‌طلب؛ دارای اهداف بزرگ",
     "part_of_speech": "ADJECTIVE",
     "ipa_us": "/æmˈbɪʃəs/",
-    "cefr": "B2",
+    "cefr": "B1",
     "category": "Qualities and descriptions, Work and business",
     "definition_en": "Having a strong desire to succeed or achieve difficult goals; sometimes describing a plan that is challenging.",
     "example_en": "They set an ambitious goal to expand the business nationwide.",
@@ -399,12 +399,12 @@
     "frequency": null,
     "openjam_frequency_rank": null,
     "data_source": "Original editorial draft; General American IPA and learner-focused content",
-    "review_status": "Schema normalized; linguistic accuracy review still pending.",
-    "quality_flag": "Can describe people, plans, goals, and projects",
+    "review_status": "CEFR corrected against Oxford learner word list; other lexical fields remain staging pending full review.",
+    "quality_flag": "CEFR cross-checked against Oxford; meanings, IPA, definitions, examples, translations, synonyms and usage remain subject to full linguistic review.",
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "ویژگی‌ها و توصیف‌ها؛ کار و کسب‌وکار",
-    "level_source": "American Oxford 5000",
+    "level_source": "American Oxford 3000",
     "level_review_status": "official_source_cross_checked"
   },
   {
@@ -476,8 +476,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "بدن و سلامت",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed"
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked"
   },
   {
     "word": "across",
@@ -525,8 +525,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "زمان و تاریخ؛ زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "after"
   },
   {
@@ -575,8 +575,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "روابط و دیدگاه‌ها؛ قانون و جامعه؛ مکان‌ها و زندگی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "against"
   },
   {
@@ -625,8 +625,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "ارتباط و زبان؛ پیوند دادن ایده‌ها",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "although"
   },
   {
@@ -650,8 +650,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "افراد و روابط؛ مکان‌ها و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "among"
   },
   {
@@ -750,8 +750,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کمیت و اندازه‌گیری؛ ارتباط روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "not_independently_reviewed",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "another"
   },
   {
@@ -1075,8 +1075,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "associated"
   },
   {
@@ -1100,8 +1100,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "attach"
   },
   {
@@ -1200,8 +1200,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "provisional_variant_match",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "backwards"
   },
   {
@@ -1275,8 +1275,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خوراک و غذا",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "bake"
   },
   {
@@ -1350,8 +1350,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "barrier"
   },
   {
@@ -1425,8 +1425,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "battery"
   },
   {
@@ -1525,8 +1525,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "bee"
   },
   {
@@ -1725,8 +1725,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "bend"
   },
   {
@@ -2075,8 +2075,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خوراک و غذا",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "boil"
   },
   {
@@ -2225,8 +2225,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کار و جامعه",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "brand"
   },
   {
@@ -2250,8 +2250,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و ویژگی‌های شخصیتی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "brave"
   },
   {
@@ -2275,8 +2275,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "سلامت و علوم",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "breath"
   },
   {
@@ -2300,8 +2300,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "سلامت و علوم",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "breathe"
   },
   {
@@ -2325,8 +2325,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "سلامت و علوم",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "breathing"
   },
   {
@@ -2350,8 +2350,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "bride"
   },
   {
@@ -2425,8 +2425,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "brush"
   },
   {
@@ -2450,8 +2450,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "bubble"
   },
   {
@@ -2475,8 +2475,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "bury"
   },
   {
@@ -2800,8 +2800,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کار و جامعه",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "captain"
   },
   {
@@ -2825,8 +2825,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "careless"
   },
   {
@@ -2850,8 +2850,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خانه و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "carpet"
   },
   {
@@ -2950,8 +2950,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "ceremony"
   },
   {
@@ -3000,8 +3000,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cheat"
   },
   {
@@ -3025,8 +3025,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و ویژگی‌های شخصیتی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cheerful"
   },
   {
@@ -3100,8 +3100,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "سلامت و علوم",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "chest"
   },
   {
@@ -3159,7 +3159,7 @@
     "meanings_fa": "سینما؛ هنر و صنعت فیلم‌سازی؛ سالن نمایش فیلم (در آمریکایی برای مکان، movie theater رایج‌تر است)",
     "part_of_speech": "NOUN",
     "ipa_us": "/ˈsɪnəmə/",
-    "cefr": "B1",
+    "cefr": "A1",
     "category": "daily_life",
     "definition_en": "The art and industry of making and showing films; in American English, a place where films are shown is more commonly called a movie theater.",
     "example_en": "She studied cinema in college. | We went to a movie theater on Friday.",
@@ -3170,12 +3170,12 @@
     "frequency": "common_or_useful",
     "openjam_frequency_rank": null,
     "data_source": "AI-authored editorial draft based on the archived candidate list; pronunciation and lexical senses require dictionary verification",
-    "review_status": "Schema normalized; linguistic accuracy review still pending.",
-    "quality_flag": "US IPA is an editorial estimate and needs dictionary verification; CEFR is an editorial estimate; review senses, usage, examples, word family, collocations, and synonyms before production.",
+    "review_status": "CEFR corrected against Oxford learner word list; other lexical fields remain staging pending full review.",
+    "quality_flag": "CEFR cross-checked against Oxford; meanings, IPA, definitions, examples, translations, synonyms and usage remain subject to full linguistic review.",
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "زندگی روزمره",
-    "level_source": "editorial_estimate",
+    "level_source": "American Oxford 3000",
     "level_review_status": "needs_dictionary_review",
     "source_candidate": "cinema"
   },
@@ -3225,8 +3225,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "آموزش و فناوری",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "clause"
   },
   {
@@ -3234,7 +3234,7 @@
     "meanings_fa": "باهوش؛ زیرک",
     "part_of_speech": "ADJECTIVE",
     "ipa_us": "/ˈklɛvər/",
-    "cefr": "B1",
+    "cefr": "A2",
     "category": "general",
     "definition_en": "Quick to learn, understand, or solve problems.",
     "example_en": "That was a clever way to solve the problem.",
@@ -3245,13 +3245,13 @@
     "frequency": "common_or_useful",
     "openjam_frequency_rank": null,
     "data_source": "AI-authored editorial draft based on the archived candidate list; pronunciation and lexical senses require dictionary verification",
-    "review_status": "Schema normalized; linguistic accuracy review still pending.",
-    "quality_flag": "US IPA is an editorial estimate and needs dictionary verification; CEFR is an editorial estimate; review senses, usage, examples, word family, collocations, and synonyms before production.",
+    "review_status": "CEFR corrected against Oxford learner word list; other lexical fields remain staging pending full review.",
+    "quality_flag": "CEFR cross-checked against Oxford; meanings, IPA, definitions, examples, translations, synonyms and usage remain subject to full linguistic review.",
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "American Oxford 3000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "clever"
   },
   {
@@ -3375,8 +3375,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cloud"
   },
   {
@@ -3400,8 +3400,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "clue"
   },
   {
@@ -3450,8 +3450,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "colored"
   },
   {
@@ -3500,8 +3500,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "complicated"
   },
   {
@@ -3550,8 +3550,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و ویژگی‌های شخصیتی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "confident"
   },
   {
@@ -3575,8 +3575,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "confuse"
   },
   {
@@ -3600,8 +3600,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "confused"
   },
   {
@@ -3675,8 +3675,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "conscious"
   },
   {
@@ -3725,8 +3725,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خانه و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "container"
   },
   {
@@ -3775,8 +3775,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "convinced"
   },
   {
@@ -3800,8 +3800,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خانه و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cooker"
   },
   {
@@ -3875,8 +3875,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خانه و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cottage"
   },
   {
@@ -3900,8 +3900,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cotton"
   },
   {
@@ -3925,8 +3925,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "کار و جامعه",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "council"
   },
   {
@@ -3950,8 +3950,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و ویژگی‌های شخصیتی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "courage"
   },
   {
@@ -4000,8 +4000,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "covered"
   },
   {
@@ -4150,8 +4150,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "crucial"
   },
   {
@@ -4175,8 +4175,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و ویژگی‌های شخصیتی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cruel"
   },
   {
@@ -4209,7 +4209,7 @@
     "meanings_fa": "کابینت؛ کمد",
     "part_of_speech": "NOUN",
     "ipa_us": "/ˈkʌbərd/",
-    "cefr": "B1",
+    "cefr": "A2",
     "category": "home_daily_life",
     "definition_en": "A piece of furniture with shelves or doors for storing things.",
     "example_en": "The plates are in the kitchen cupboard.",
@@ -4220,13 +4220,13 @@
     "frequency": "common_or_useful",
     "openjam_frequency_rank": null,
     "data_source": "AI-authored editorial draft based on the archived candidate list; pronunciation and lexical senses require dictionary verification",
-    "review_status": "Schema normalized; linguistic accuracy review still pending.",
-    "quality_flag": "US IPA is an editorial estimate and needs dictionary verification; CEFR is an editorial estimate; review senses, usage, examples, word family, collocations, and synonyms before production.",
+    "review_status": "CEFR corrected against Oxford learner word list; other lexical fields remain staging pending full review.",
+    "quality_flag": "CEFR cross-checked against Oxford; meanings, IPA, definitions, examples, translations, synonyms and usage remain subject to full linguistic review.",
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خانه و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "American Oxford 3000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "cupboard"
   },
   {
@@ -4300,8 +4300,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "خانه و زندگی روزمره",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "curtain"
   },
   {
@@ -4450,8 +4450,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "definite"
   },
   {
@@ -4500,8 +4500,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "deliberate"
   },
   {
@@ -4775,8 +4775,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "احساسات و ویژگی‌های شخصیتی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "desperate"
   },
   {
@@ -4875,8 +4875,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "determined"
   },
   {
@@ -4900,8 +4900,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "آموزش و فناوری",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "diagram"
   },
   {
@@ -4950,8 +4950,8 @@
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "عمومی",
-    "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review",
+    "level_source": "Oxford 3000/5000",
+    "level_review_status": "official_source_cross_checked",
     "source_candidate": "diamond"
   },
   {
