@@ -107,11 +107,9 @@ private fun AmericanEnglishRoot(
 ) {
     val context = LocalContext.current
     val words = remember { loadVocabulary(context) }
-    // Keep every A1/A2 word available in the free tier instead of an arbitrary first-500 slice.
-    val freeWordIds = remember(words) {
-        words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) }
-            .map { LearningStore.wordId(it.word) }.toSet()
-    }
+    // Free tier: up to 200 A1 words, then fill the 500-word allowance with A2 words.
+    val freeWords = remember(words) { freeVocabularyWords(words) }
+    val freeWordIds = remember(freeWords) { freeWords.map { LearningStore.wordId(it.word) }.toSet() }
     val learningStore = remember(context) { LearningStore(context) }
     val preferences = remember(context) { context.getSharedPreferences("american_english_settings", android.content.Context.MODE_PRIVATE) }
     var darkMode by remember { mutableStateOf(preferences.getBoolean("dark_mode", false)) }
@@ -206,20 +204,20 @@ private fun AmericanEnglishRoot(
                 )
                 page == "vocabulary" -> LearningHubScreen(
                     selectedLevel = selectedLevel,
-                    wordCount = if (isPremium) words.distinctBy { LearningStore.wordId(it.word) }.size else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) }.distinctBy { LearningStore.wordId(it.word) }.size,
+                    wordCount = if (isPremium) words.distinctBy { LearningStore.wordId(it.word) }.size else freeWords.size,
                     onBack = { page = "home" },
                     onLevels = { page = "vocabulary-level" },
                     onPractice = { page = "vocabulary-practice" }
                 )
                 page == "vocabulary-level" -> VocabularyLevelScreen(
-                    words = words,
+                    words = if (isPremium) words else freeWords,
                     isPremium = isPremium,
                     onPremiumRequired = { page = "premium" },
                     onLevel = { browsedLevel = it; page = "vocabulary-level-words" },
                     onBack = { page = "vocabulary" }
                 )
                 page == "vocabulary-level-words" -> VocabularyLevelWordsScreen(
-                    words = words, level = browsedLevel, listState = levelWordsListState,
+                    words = if (isPremium) words else freeWords, level = browsedLevel, listState = levelWordsListState,
                     onWord = {
                         savedLevelListIndex = levelWordsListState.firstVisibleItemIndex
                         savedLevelListOffset = levelWordsListState.firstVisibleItemScrollOffset
@@ -230,7 +228,7 @@ private fun AmericanEnglishRoot(
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
                 )
                 page == "vocabulary-practice" -> LearningScreen(
-                    words = if (isPremium) words else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) },
+                    words = if (isPremium) words else freeWords,
                     onSpeak = onSpeak, onBack = { page = "vocabulary" }, onWord = { word ->
                         if (isPremium || LearningStore.wordId(word.word) in freeWordIds) selectedWord = word
                         else page = "premium"
