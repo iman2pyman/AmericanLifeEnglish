@@ -43,13 +43,17 @@ private fun readVocabularyArray(context: Context, assetName: String): JSONArray?
         when (parsed) {
             is JSONArray -> parsed
             is JSONObject -> {
-                // Also tolerate wrapped datasets without assuming every file is wrapped.
-                parsed.optJSONArray("words")
-                    ?: parsed.optJSONArray("vocabulary")
-                    ?: run {
-                        android.util.Log.w("AmericanLifeEnglish", "$assetName is a JSON object, not an array")
+                // Some published assets contain one word record as the root object.
+                // Keep that record instead of treating it as an invalid dataset.
+                when {
+                    parsed.has("word") -> JSONArray().put(parsed)
+                    parsed.optJSONArray("words") != null -> parsed.optJSONArray("words")
+                    parsed.optJSONArray("vocabulary") != null -> parsed.optJSONArray("vocabulary")
+                    else -> {
+                        android.util.Log.w("AmericanLifeEnglish", "$assetName is a JSON object without a word record or recognized wrapper")
                         null
                     }
+                }
             }
             else -> {
                 android.util.Log.w("AmericanLifeEnglish", "$assetName has an unsupported JSON root")
