@@ -18,11 +18,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "whereas",
@@ -43,11 +46,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wherever",
@@ -68,11 +74,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "whether",
@@ -93,11 +102,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "which",
@@ -118,11 +130,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "whisper",
@@ -143,11 +158,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "who",
@@ -168,11 +186,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "whom",
@@ -193,11 +214,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "whose",
@@ -218,11 +242,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wildlife",
@@ -243,11 +270,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "will",
@@ -268,11 +298,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "winner",
@@ -293,11 +326,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wire",
@@ -318,11 +354,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wise",
@@ -343,11 +382,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "with",
@@ -368,11 +410,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "within",
@@ -393,11 +438,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "without",
@@ -418,11 +466,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wool",
@@ -443,11 +494,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "working",
@@ -468,11 +522,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "worried",
@@ -493,11 +550,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "worse",
@@ -518,11 +578,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "worst",
@@ -543,11 +606,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "would",
@@ -568,11 +634,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wound",
@@ -593,11 +662,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wow",
@@ -618,11 +690,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "wrap",
@@ -643,11 +718,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "written",
@@ -668,11 +746,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "yeah",
@@ -693,11 +774,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "you",
@@ -718,11 +802,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "your",
@@ -743,11 +830,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "yours",
@@ -768,11 +858,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "yourself",
@@ -793,11 +886,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "zero",
@@ -818,11 +914,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "abolish",
@@ -843,11 +942,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "absence",
@@ -868,11 +970,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "absent",
@@ -893,11 +998,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "absorb",
@@ -918,11 +1026,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "abstract",
@@ -943,11 +1054,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "abundance",
@@ -968,11 +1082,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accent",
@@ -993,11 +1110,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "acceptance",
@@ -1018,11 +1138,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accidentally",
@@ -1043,11 +1166,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accommodate",
@@ -1068,11 +1194,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accomplishment",
@@ -1093,11 +1222,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accordance",
@@ -1118,11 +1250,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accountable",
@@ -1143,11 +1278,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accountant",
@@ -1168,11 +1306,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accumulate",
@@ -1193,11 +1334,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accumulation",
@@ -1218,11 +1362,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accurately",
@@ -1243,11 +1390,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accusation",
@@ -1268,11 +1418,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "accused",
@@ -1293,11 +1446,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "acid",
@@ -1318,11 +1474,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "activate",
@@ -1343,11 +1502,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "activation",
@@ -1368,11 +1530,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "acute",
@@ -1393,11 +1558,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "adaptation",
@@ -1418,11 +1586,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "addiction",
@@ -1443,11 +1614,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "additionally",
@@ -1468,11 +1642,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "adhere",
@@ -1493,11 +1670,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "administer",
@@ -1518,11 +1698,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "administrator",
@@ -1543,11 +1726,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "adoption",
@@ -1568,11 +1754,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aesthetic",
@@ -1593,11 +1782,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "affection",
@@ -1618,11 +1810,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "affordable",
@@ -1643,11 +1838,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aftermath",
@@ -1668,11 +1866,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aggression",
@@ -1693,11 +1894,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aide",
@@ -1718,11 +1922,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aids",
@@ -1743,11 +1950,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "albeit",
@@ -1768,11 +1978,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "align",
@@ -1793,11 +2006,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "alignment",
@@ -1818,11 +2034,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "alike",
@@ -1843,11 +2062,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "allege",
@@ -1868,11 +2090,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "allocation",
@@ -1893,11 +2118,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "alongside",
@@ -1918,11 +2146,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "altogether",
@@ -1943,11 +2174,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aluminum",
@@ -1968,11 +2202,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "amateur",
@@ -1993,11 +2230,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ambassador",
@@ -2018,11 +2258,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ambulance",
@@ -2043,11 +2286,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "amendment",
@@ -2068,11 +2314,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "amid",
@@ -2093,11 +2342,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "amusing",
@@ -2118,11 +2370,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "analogy",
@@ -2143,11 +2398,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "anchor",
@@ -2168,11 +2426,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "angel",
@@ -2193,11 +2454,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "animation",
@@ -2218,11 +2482,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "anonymous",
@@ -2243,11 +2510,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "anxiety",
@@ -2268,11 +2538,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "apology",
@@ -2293,11 +2566,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "apparatus",
@@ -2318,11 +2594,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "appealing",
@@ -2343,11 +2622,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "appetite",
@@ -2368,11 +2650,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "applaud",
@@ -2393,11 +2678,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "appreciation",
@@ -2418,11 +2706,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "arbitrary",
@@ -2443,11 +2734,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "archive",
@@ -2468,11 +2762,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "arena",
@@ -2493,11 +2790,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "array",
@@ -2518,11 +2818,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "arrow",
@@ -2543,11 +2846,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "articulate",
@@ -2568,11 +2874,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "artwork",
@@ -2593,11 +2902,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ash",
@@ -2618,11 +2930,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aspiration",
@@ -2643,11 +2958,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "aspire",
@@ -2668,11 +2986,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "assurance",
@@ -2693,11 +3014,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "assure",
@@ -2718,11 +3042,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "astonishing",
@@ -2743,11 +3070,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "asylum",
@@ -2768,11 +3098,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "atrocity",
@@ -2793,11 +3126,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "attachment",
@@ -2818,11 +3154,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "attain",
@@ -2843,11 +3182,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "attendance",
@@ -2868,11 +3210,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "auction",
@@ -2893,11 +3238,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "audio",
@@ -2918,11 +3266,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "audit",
@@ -2943,11 +3294,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "auto",
@@ -2968,11 +3322,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "automatic",
@@ -2993,11 +3350,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "automatically",
@@ -3018,11 +3378,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "availability",
@@ -3043,11 +3406,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "await",
@@ -3068,11 +3434,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "awkward",
@@ -3093,11 +3462,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "backdrop",
@@ -3118,11 +3490,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "backing",
@@ -3143,11 +3518,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "backup",
@@ -3168,11 +3546,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "badge",
@@ -3193,11 +3574,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bail",
@@ -3218,11 +3602,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ballet",
@@ -3243,11 +3630,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "balloon",
@@ -3268,11 +3658,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "ballot",
@@ -3293,11 +3686,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "banner",
@@ -3318,11 +3714,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bare",
@@ -3343,11 +3742,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "barrel",
@@ -3368,11 +3770,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "basement",
@@ -3393,11 +3798,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "basket",
@@ -3418,11 +3826,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bass",
@@ -3443,11 +3854,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bat",
@@ -3468,11 +3882,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "battlefield",
@@ -3493,11 +3910,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "beam",
@@ -3518,11 +3938,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "beast",
@@ -3543,11 +3966,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bench",
@@ -3568,11 +3994,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "benchmark",
@@ -3593,11 +4022,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "beneath",
@@ -3618,11 +4050,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "beneficial",
@@ -3643,11 +4078,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "beneficiary",
@@ -3668,11 +4106,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "beside",
@@ -3693,11 +4134,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژه‌های دستوری و کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "betray",
@@ -3718,11 +4162,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bid",
@@ -3743,11 +4190,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bishop",
@@ -3768,11 +4218,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bizarre",
@@ -3793,11 +4246,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "blade",
@@ -3818,11 +4274,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "blast",
@@ -3843,11 +4302,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bleed",
@@ -3868,11 +4330,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "blend",
@@ -3893,11 +4358,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bless",
@@ -3918,11 +4386,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "blessing",
@@ -3943,11 +4414,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "boast",
@@ -3968,11 +4442,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bold",
@@ -3993,11 +4470,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bonus",
@@ -4018,11 +4498,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "booking",
@@ -4043,11 +4526,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bounce",
@@ -4068,11 +4554,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "bow",
@@ -4093,11 +4582,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "breach",
@@ -4118,11 +4610,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "breakdown",
@@ -4143,11 +4638,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "breakthrough",
@@ -4168,11 +4666,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "breed",
@@ -4193,11 +4694,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "brick",
@@ -4218,11 +4722,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "briefly",
@@ -4243,11 +4750,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "broadband",
@@ -4268,11 +4778,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "توصیف‌ها و عبارت‌های کاربردی",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "broadcaster",
@@ -4293,11 +4806,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "broadly",
@@ -4318,11 +4834,14 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "AI editorial draft; Persian gloss, US pronunciation, part of speech, CEFR, definitions, examples, synonyms, word family and collocations require independent dictionary/native-speaker review. Staging only. British spelling or regional usage normalized where appropriate; source_candidate retained.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "کنش‌ها و ارتباط",
     "level_source": "editorial_estimate",
-    "level_review_status": "needs_dictionary_review"
+    "level_review_status": "needs_dictionary_review",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "browser",
@@ -4343,10 +4862,13 @@
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
     "review_status": "approved_by_user",
     "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
     "level_source": "American Oxford 3000/5000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_review_status": "official_source_cross_checked",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   }
 ]
