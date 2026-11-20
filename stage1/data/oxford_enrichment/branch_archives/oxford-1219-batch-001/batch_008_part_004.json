@@ -1,0 +1,790 @@
+{
+  "batch": 8,
+  "part": 4,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "super",
+      "source_candidate": "super",
+      "meanings_fa": "فوق‌العاده؛ عالی؛ بسیار؛ سوپر (پیشوند به معنی فرا یا بسیار)",
+      "part_of_speech": "ADJECTIVE; ADVERB; PREFIX",
+      "ipa_us": "/ˈsuːpɚ/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Informally, extremely good or very; also used as a prefix meaning above or beyond.",
+      "example_en": "The new phone is super fast.",
+      "example_fa": "گوشی جدید فوق‌العاده سریع است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "excellent",
+          "fantastic",
+          "extremely"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "superb (adjective",
+        "related)"
+      ],
+      "collocations": [
+        "super easy",
+        "super excited",
+        "super fast"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "navigation",
+      "source_candidate": "navigation",
+      "meanings_fa": "ناوبری؛ مسیریابی؛ هدایت مسیر",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌnævɪˈɡeɪʃən/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "The process of planning and following a route from one place to another, or moving through a website or system.",
+      "example_en": "The car's navigation system found a faster route.",
+      "example_fa": "سامانهٔ مسیریابی خودرو مسیر سریع‌تری پیدا کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "wayfinding",
+          "routing"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "navigate (verb)",
+        "navigator (noun)",
+        "navigational (adjective)"
+      ],
+      "collocations": [
+        "GPS navigation",
+        "navigation system",
+        "website navigation"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "kit",
+      "source_candidate": "kit",
+      "meanings_fa": "جعبه یا مجموعهٔ ابزار؛ بستهٔ لوازم لازم",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kɪt/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A set of tools, equipment, or supplies needed for a particular purpose.",
+      "example_en": "Keep a first-aid kit in your car.",
+      "example_fa": "یک جعبهٔ کمک‌های اولیه در خودروی خود نگه دارید.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "set",
+          "package",
+          "toolkit"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "kit out (phrasal verb)",
+        "kit-based (adjective)"
+      ],
+      "collocations": [
+        "first-aid kit",
+        "starter kit",
+        "tool kit"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "interface",
+      "source_candidate": "interface",
+      "meanings_fa": "رابط؛ واسط؛ سطح ارتباط میان دو سامانه یا کاربر و دستگاه",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈɪntɚˌfeɪs/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A point or system through which two things interact, especially a user and a computer program.",
+      "example_en": "The app has a simple interface that is easy to use.",
+      "example_fa": "این برنامه رابط ساده‌ای دارد که استفاده از آن آسان است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "user interface",
+          "connection",
+          "boundary"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "interfacing (noun/verb)",
+        "interfacial (adjective)"
+      ],
+      "collocations": [
+        "user interface",
+        "interface design",
+        "graphical interface"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "sexy",
+      "source_candidate": "sexy",
+      "meanings_fa": "جذاب از نظر جنسی؛ سکسی؛ (غیررسمی) بسیار جذاب یا هیجان‌انگیز",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈsɛksi/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Sexually attractive; informally, exciting or appealing in style or presentation.",
+      "example_en": "The ad uses a sexy design to attract attention.",
+      "example_fa": "این آگهی از طراحی جذابی برای جلب توجه استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "attractive",
+          "alluring",
+          "appealing"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "sexiness (noun)"
+      ],
+      "collocations": [
+        "sexy outfit",
+        "sexy look",
+        "sexy design"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "graphics",
+      "source_candidate": "graphics",
+      "meanings_fa": "گرافیک؛ تصاویر و عناصر بصری؛ جلوه‌های تصویری رایانه‌ای",
+      "part_of_speech": "NOUN (PLURAL)",
+      "ipa_us": "/ˈɡræfɪks/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Pictures, designs, or visual elements, especially those produced or displayed by a computer.",
+      "example_en": "The game has impressive graphics.",
+      "example_fa": "این بازی جلوه‌های تصویری چشمگیری دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "visuals",
+          "images",
+          "illustrations"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "graphic (adjective/noun)",
+        "graphical (adjective)",
+        "graphic designer (noun)"
+      ],
+      "collocations": [
+        "computer graphics",
+        "graphics card",
+        "high-quality graphics"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "filter",
+      "source_candidate": "filter",
+      "meanings_fa": "فیلتر؛ صافی؛ پالایه؛ پالایش یا محدود کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈfɪltɚ/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A device or process that removes unwanted material or information; to pass something through such a device or process.",
+      "example_en": "You can filter the search results by price.",
+      "example_fa": "می‌توانی نتایج جست‌وجو را بر اساس قیمت فیلتر کنی.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "screen",
+          "sieve",
+          "refine"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "filtered (adjective)",
+        "filtering (noun/verb)",
+        "filtration (noun)"
+      ],
+      "collocations": [
+        "water filter",
+        "spam filter",
+        "filter out"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "default",
+      "source_candidate": "default",
+      "meanings_fa": "پیش‌فرض؛ قصور در انجام تعهد یا پرداخت؛ به‌طور پیش‌فرض",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB",
+      "ipa_us": "/dɪˈfɔːlt/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A setting or choice used automatically unless someone changes it; failure to meet an obligation.",
+      "example_en": "The app uses English as the default language.",
+      "example_fa": "این برنامه به‌طور پیش‌فرض از زبان انگلیسی استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "preset",
+          "standard setting"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "defaulted (adjective/verb)",
+        "defaulter (noun)"
+      ],
+      "collocations": [
+        "default setting",
+        "by default",
+        "default option"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "protein",
+      "source_candidate": "protein",
+      "meanings_fa": "پروتئین؛ مادهٔ مغذی سازنده و ترمیم‌کنندهٔ بافت‌های بدن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈproʊˌtiːn/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A nutrient found in food that the body needs to build and repair cells and tissues.",
+      "example_en": "Eggs and beans are good sources of protein.",
+      "example_fa": "تخم‌مرغ و لوبیا منابع خوبی از پروتئین هستند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "nutrient",
+          "dietary protein"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "protein-rich (adjective)",
+        "protein-based (adjective)"
+      ],
+      "collocations": [
+        "high-protein food",
+        "protein intake",
+        "protein source"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "moving",
+      "source_candidate": "moving",
+      "meanings_fa": "در حال حرکت؛ جابه‌جایی؛ تأثیرگذار و احساسی",
+      "part_of_speech": "ADJECTIVE; NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈmuːvɪŋ/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Changing position or location; the process of changing homes; or causing strong feelings.",
+      "example_en": "We're moving to a larger apartment next month.",
+      "example_fa": "ماه آینده به آپارتمان بزرگ‌تری نقل مکان می‌کنیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "relocating",
+          "touching (emotional sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "move (verb/noun)",
+        "movement (noun)",
+        "movable (adjective)"
+      ],
+      "collocations": [
+        "moving day",
+        "moving company",
+        "moving story"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "programming",
+      "source_candidate": "programming",
+      "meanings_fa": "برنامه‌نویسی؛ برنامه‌ریزی و تنظیم برنامه‌ها",
+      "part_of_speech": "NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈproʊˌɡræmɪŋ/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "The activity of writing instructions that make a computer perform tasks; also the planning of broadcasts or events.",
+      "example_en": "She is learning programming to build mobile apps.",
+      "example_fa": "او برای ساخت برنامه‌های موبایل در حال یادگیری برنامه‌نویسی است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "coding",
+          "software development"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "program (noun/verb)",
+        "programmer (noun)",
+        "programmable (adjective)"
+      ],
+      "collocations": [
+        "computer programming",
+        "programming language",
+        "programming skills"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "desktop",
+      "source_candidate": "desktop",
+      "meanings_fa": "رایانهٔ رومیزی؛ میزکار؛ صفحهٔ اصلی محیط رایانه",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈdɛskˌtɑːp/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A computer designed to stay in one place; the main screen area of a computer; or something intended for use on a desk.",
+      "example_en": "I saved the file to my desktop.",
+      "example_fa": "فایل را روی صفحهٔ دسکتاپ ذخیره کردم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "desktop computer",
+          "workstation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "desktop-based (adjective)"
+      ],
+      "collocations": [
+        "desktop computer",
+        "desktop app",
+        "desktop icon"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "respective",
+      "source_candidate": "respective",
+      "meanings_fa": "مربوط به هرکدام؛ به‌ترتیب مربوط به افراد یا چیزهای نام‌برده",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/rɪˈspɛktɪv/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Belonging or relating separately to each of the people or things just mentioned.",
+      "example_en": "The students returned to their respective classrooms.",
+      "example_fa": "دانش‌آموزان به کلاس‌های مربوط به خود بازگشتند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "individual",
+          "corresponding"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "respect (noun/verb)",
+        "respectively (adverb)",
+        "respectfulness (noun)"
+      ],
+      "collocations": [
+        "respective roles",
+        "respective countries",
+        "their respective teams"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "monthly",
+      "source_candidate": "monthly",
+      "meanings_fa": "ماهانه؛ هر ماه؛ نشریهٔ ماهانه",
+      "part_of_speech": "ADJECTIVE; ADVERB; NOUN",
+      "ipa_us": "/ˈmʌnθli/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Happening, published, or paid once every month; a publication issued every month.",
+      "example_en": "The rent is paid monthly.",
+      "example_fa": "اجاره هر ماه پرداخت می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "every month",
+          "once a month"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "month (noun)",
+        "month-to-month (adjective/adverb)"
+      ],
+      "collocations": [
+        "monthly payment",
+        "monthly report",
+        "monthly subscription"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "suite",
+      "source_candidate": "suite",
+      "meanings_fa": "مجموعه؛ سوئیت؛ اتاق‌های به‌هم‌پیوسته؛ بستهٔ نرم‌افزاری",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/swiːt/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A set of related rooms, pieces of furniture, or computer programs designed to be used together.",
+      "example_en": "The hotel booked us a family suite.",
+      "example_fa": "هتل یک سوئیت خانوادگی برای ما رزرو کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "set",
+          "collection",
+          "apartment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "suite-style (adjective)"
+      ],
+      "collocations": [
+        "hotel suite",
+        "office suite",
+        "software suite"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "skip",
+      "source_candidate": "skip",
+      "meanings_fa": "رد کردن؛ جا انداختن؛ جَستن؛ نرفتن یا شرکت نکردن",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/skɪp/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "To leave something out, not do something, or move lightly with jumps.",
+      "example_en": "Don't skip breakfast before your exam.",
+      "example_fa": "پیش از امتحانت صبحانه را حذف نکن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "omit",
+          "miss",
+          "jump"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "skipped (adjective/verb)",
+        "skipping (noun/verb)"
+      ],
+      "collocations": [
+        "skip a meal",
+        "skip a step",
+        "skip class"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "gear",
+      "source_candidate": "gear",
+      "meanings_fa": "دنده؛ چرخ‌دنده؛ تجهیزات و لوازم",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ɡɪr/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Equipment needed for an activity; a mechanism that transfers motion; or a setting on a vehicle.",
+      "example_en": "Check your camping gear before the trip.",
+      "example_fa": "پیش از سفر وسایل کمپینگت را بررسی کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "equipment",
+          "kit",
+          "equipment set"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "geared (adjective)",
+        "gearing (noun)"
+      ],
+      "collocations": [
+        "camping gear",
+        "fishing gear",
+        "change gear"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "module",
+      "source_candidate": "module",
+      "meanings_fa": "ماژول؛ واحد مستقل آموزشی یا نرم‌افزاری؛ بخش جداشدنی یک سامانه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈmɑːdʒuːl/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "A self-contained part of a larger system, especially a computer program or course.",
+      "example_en": "The course has a separate module on workplace communication.",
+      "example_fa": "این دوره یک واحد جداگانه دربارهٔ ارتباطات محیط کار دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "unit",
+          "component",
+          "section"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "modular (adjective)",
+        "modularity (noun)"
+      ],
+      "collocations": [
+        "software module",
+        "training module",
+        "module design"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "naked",
+      "source_candidate": "naked",
+      "meanings_fa": "برهنه؛ بدون پوشش؛ آشکار و بی‌پرده",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈneɪkɪd/",
+      "cefr": "B1",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Not wearing clothes; without a covering; or plainly visible without protection.",
+      "example_en": "The report exposed the naked facts of the case.",
+      "example_fa": "گزارش واقعیت‌های بی‌پردهٔ پرونده را آشکار کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "unclothed",
+          "bare",
+          "uncovered"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "nakedness (noun)"
+      ],
+      "collocations": [
+        "naked eye",
+        "naked truth",
+        "naked flame"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "clinical",
+      "source_candidate": "clinical",
+      "meanings_fa": "بالینی؛ مربوط به درمان یا معاینهٔ پزشکی؛ بی‌احساس و خشک",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈklɪnɪkəl/",
+      "cefr": "B2",
+      "category": "Technology, work, health and daily life",
+      "definition_en": "Related to the examination and treatment of patients; also, very controlled and lacking emotion.",
+      "example_en": "The treatment is still being tested in clinical trials.",
+      "example_fa": "این درمان هنوز در کارآزمایی‌های بالینی در حال آزمایش است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "medical",
+          "therapeutic"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "clinically (adverb)",
+        "clinician (noun)",
+        "clinic (noun)"
+      ],
+      "collocations": [
+        "clinical trial",
+        "clinical practice",
+        "clinical research"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "فناوری، کار، سلامت و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}

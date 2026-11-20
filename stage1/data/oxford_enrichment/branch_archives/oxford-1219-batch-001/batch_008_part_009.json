@@ -1,0 +1,802 @@
+{
+  "batch": 8,
+  "part": 9,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "patent",
+      "source_candidate": "patent",
+      "meanings_fa": "حق اختراع؛ ثبت اختراع؛ ثبت کردن اختراع",
+      "part_of_speech": "NOUN; VERB; ADJECTIVE",
+      "ipa_us": "/ˈpætənt/; /ˈpeɪtənt/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "An official right to be the only person or company allowed to make or sell an invention; to obtain such a right.",
+      "example_en": "The engineer filed a patent for the new medical device.",
+      "example_fa": "مهندس برای دستگاه پزشکی جدید درخواست ثبت اختراع داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "invention right",
+          "intellectual property"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "patented (adjective)",
+        "patentable (adjective)",
+        "patenting (noun/verb)"
+      ],
+      "collocations": [
+        "patent application",
+        "patent law",
+        "hold a patent"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "terminal",
+      "source_candidate": "terminal",
+      "meanings_fa": "پایانه؛ ترمینال؛ پایانهٔ رایانه؛ نهایی؛ لاعلاج",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈtɝːmɪnəl/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A station or building where trips begin or end; a computer device for entering data; or something final.",
+      "example_en": "Our flight leaves from Terminal 2.",
+      "example_fa": "پرواز ما از ترمینال شمارهٔ ۲ انجام می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "station",
+          "endpoint",
+          "final"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "terminally (adverb)",
+        "terminate (verb)",
+        "termination (noun)"
+      ],
+      "collocations": [
+        "airport terminal",
+        "bus terminal",
+        "terminal illness"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "loop",
+      "source_candidate": "loop",
+      "meanings_fa": "حلقه؛ دور؛ چرخه؛ حلقه زدن یا تکرار کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/luːp/",
+      "cefr": "B1",
+      "category": "Work, health, education and technology",
+      "definition_en": "A shape made by a curved line that crosses or joins itself; a repeated sequence of actions.",
+      "example_en": "The video plays in a continuous loop.",
+      "example_fa": "ویدئو به‌طور پیوسته تکرار می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cycle",
+          "ring",
+          "circuit"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "looped (adjective/verb)",
+        "looping (noun/verb)",
+        "loopy (adjective)"
+      ],
+      "collocations": [
+        "feedback loop",
+        "loop around",
+        "in a loop"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "resume",
+      "source_candidate": "resume",
+      "meanings_fa": "از سر گرفتن؛ ادامه دادن؛ رزومه (صورت résumé)",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/rɪˈzuːm/ (verb); /ˈrɛzəˌmeɪ/ (noun, résumé)",
+      "cefr": "B1",
+      "category": "Work, health, education and technology",
+      "definition_en": "To start doing something again after a pause; a résumé is a document describing a person's work and education.",
+      "example_en": "The meeting will resume after lunch.",
+      "example_fa": "جلسه پس از ناهار از سر گرفته خواهد شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "restart",
+          "continue",
+          "recommence"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "resumption (noun)",
+        "resumable (adjective)"
+      ],
+      "collocations": [
+        "resume work",
+        "resume negotiations",
+        "resume service"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "newly",
+      "source_candidate": "newly",
+      "meanings_fa": "به‌تازگی؛ اخیراً؛ به‌صورت جدید",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/ˈnuːli/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "Recently or in a new way; used especially before a past participle or adjective.",
+      "example_en": "The newly opened clinic is near the bus station.",
+      "example_fa": "درمانگاه تازه‌افتتاح‌شده نزدیک ایستگاه اتوبوس است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "recently",
+          "freshly"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "new (adjective)",
+        "newlywed (noun/adjective)"
+      ],
+      "collocations": [
+        "newly married",
+        "newly appointed",
+        "newly opened"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "consent",
+      "source_candidate": "consent",
+      "meanings_fa": "رضایت؛ موافقت؛ رضایت دادن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/kənˈsɛnt/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "Permission or agreement for something to happen, especially after being informed about it.",
+      "example_en": "Patients must give informed consent before the procedure.",
+      "example_fa": "بیماران باید پیش از انجام این روش درمانی رضایت آگاهانه بدهند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "permission",
+          "agreement",
+          "approval"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consensual (adjective)",
+        "consensus (related noun)",
+        "consented (verb)"
+      ],
+      "collocations": [
+        "informed consent",
+        "parental consent",
+        "give consent"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "formula",
+      "source_candidate": "formula",
+      "meanings_fa": "فرمول؛ دستور ساخت؛ روش یا الگوی ثابت",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈfɔːrmjələ/",
+      "cefr": "B1",
+      "category": "Work, health, education and technology",
+      "definition_en": "A set of mathematical symbols or a fixed method for achieving or making something.",
+      "example_en": "The spreadsheet uses a formula to calculate the monthly total.",
+      "example_fa": "صفحه‌گسترده برای محاسبهٔ مجموع ماهانه از یک فرمول استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "equation",
+          "method",
+          "recipe"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "formulate (verb)",
+        "formulation (noun)",
+        "formulaic (adjective)"
+      ],
+      "collocations": [
+        "mathematical formula",
+        "formula for success",
+        "baby formula"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "consultation",
+      "source_candidate": "consultation",
+      "meanings_fa": "مشاوره؛ رایزنی؛ جلسهٔ مراجعه و گفت‌وگو با متخصص",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌkɑːnsəlˈteɪʃən/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A meeting with a professional to get advice, or the process of discussing something before making a decision.",
+      "example_en": "Schedule a consultation with your academic adviser.",
+      "example_fa": "برای مشاوره با مشاور تحصیلی خود وقت بگیر.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "advice session",
+          "meeting",
+          "discussion"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "consult (verb)",
+        "consultant (noun)",
+        "consultative (adjective)"
+      ],
+      "collocations": [
+        "medical consultation",
+        "initial consultation",
+        "consultation fee"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "memorial",
+      "source_candidate": "memorial",
+      "meanings_fa": "یادبود؛ بنای یادبود؛ مراسم بزرگداشت",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/məˈmɔːriəl/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "Something, such as a monument or event, created to remember a person or an important event.",
+      "example_en": "The town built a memorial for the firefighters.",
+      "example_fa": "شهر بنای یادبودی برای آتش‌نشانان ساخت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "monument",
+          "tribute",
+          "remembrance"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "memorialize (verb)",
+        "memorialization (noun)"
+      ],
+      "collocations": [
+        "war memorial",
+        "memorial service",
+        "memorial fund"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "forth",
+      "source_candidate": "forth",
+      "meanings_fa": "به جلو؛ پیش؛ به بیرون (در عبارت‌هایی مانند and so forth)",
+      "part_of_speech": "ADVERB",
+      "ipa_us": "/fɔːrθ/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "Forward or onward; used in formal or fixed expressions to mean onward or continuing.",
+      "example_en": "The policy will remain in effect from this day forth.",
+      "example_fa": "این سیاست از امروز به بعد همچنان اجرا خواهد شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "forward",
+          "onward"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "forthcoming (adjective)",
+        "forthwith (adverb)"
+      ],
+      "collocations": [
+        "and so forth",
+        "back and forth",
+        "set forth"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "insert",
+      "source_candidate": "insert",
+      "meanings_fa": "درج کردن؛ وارد کردن؛ قطعهٔ الحاقی یا آگهی داخل نشریه",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/ɪnˈsɝːt/",
+      "cefr": "B1",
+      "category": "Work, health, education and technology",
+      "definition_en": "To put something inside or between other things; a piece added to a document or publication.",
+      "example_en": "Insert your card into the machine and follow the instructions.",
+      "example_fa": "کارت خود را داخل دستگاه قرار بده و دستورالعمل‌ها را دنبال کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "put in",
+          "add",
+          "place"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "insertion (noun)",
+        "inserted (adjective/verb)",
+        "insertional (adjective)"
+      ],
+      "collocations": [
+        "insert a card",
+        "insert a paragraph",
+        "newspaper insert"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "romance",
+      "source_candidate": "romance",
+      "meanings_fa": "عشق رمانتیک؛ رابطهٔ عاشقانه؛ داستان عاشقانه؛ خیال‌پردازی",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈroʊˌmæns/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A feeling or relationship of romantic love; a story about love; or to try to create romantic interest.",
+      "example_en": "The movie is a romantic comedy about a long-distance romance.",
+      "example_fa": "فیلم یک کمدی رمانتیک دربارهٔ رابطه‌ای از راه دور است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "love",
+          "relationship",
+          "love story"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "romantic (adjective/noun)",
+        "romantically (adverb)",
+        "romanticize (verb)"
+      ],
+      "collocations": [
+        "romance novel",
+        "romantic relationship",
+        "office romance"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "physician",
+      "source_candidate": "physician",
+      "meanings_fa": "پزشک؛ دکتر (به‌ویژه پزشک دارای مدرک پزشکی)",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/fɪˈzɪʃən/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A medical doctor who is trained to diagnose and treat illness.",
+      "example_en": "The physician recommended a follow-up appointment in two weeks.",
+      "example_fa": "پزشک توصیه کرد دو هفتهٔ دیگر برای پیگیری مراجعه کنم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "doctor",
+          "medical practitioner"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "physicians (plural)",
+        "physician-led (adjective)"
+      ],
+      "collocations": [
+        "primary care physician",
+        "family physician",
+        "physician assistant"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "cutting",
+      "source_candidate": "cutting",
+      "meanings_fa": "برش؛ قطعهٔ بریده‌شده؛ قلمه؛ تند و نیش‌دار",
+      "part_of_speech": "NOUN; ADJECTIVE; VERB (GERUND)",
+      "ipa_us": "/ˈkʌtɪŋ/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "The act of cutting; a piece removed from something; or a remark that is sharply critical.",
+      "example_en": "The gardener planted a rose cutting in the spring.",
+      "example_fa": "باغبان در بهار یک قلمهٔ رز کاشت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "clipping",
+          "trimming",
+          "cutting piece"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "cut (verb/noun)",
+        "cutter (noun)",
+        "cuttable (adjective)"
+      ],
+      "collocations": [
+        "cutting edge",
+        "newspaper cutting",
+        "rose cutting"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "satisfaction",
+      "source_candidate": "satisfaction",
+      "meanings_fa": "رضایت؛ خشنودی؛ برآورده شدن نیاز یا انتظار",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌsætɪsˈfækʃən/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "The feeling of pleasure that comes when a need, expectation, or desire is fulfilled.",
+      "example_en": "Customer satisfaction is a priority for the company.",
+      "example_fa": "رضایت مشتری برای شرکت در اولویت است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "contentment",
+          "fulfillment",
+          "pleasure"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "satisfy (verb)",
+        "satisfied (adjective)",
+        "satisfactory (adjective)",
+        "satisfactorily (adverb)"
+      ],
+      "collocations": [
+        "customer satisfaction",
+        "job satisfaction",
+        "to your satisfaction"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "superior",
+      "source_candidate": "superior",
+      "meanings_fa": "برتر؛ بالاتر؛ مافوق؛ سرپرست یا مقام بالاتر",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/suːˈpɪriɚ/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "Better in quality or ability than something else; higher in rank; or a person in a higher position.",
+      "example_en": "This model has superior battery life.",
+      "example_fa": "این مدل عمر باتری بهتری دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "better",
+          "higher-ranking",
+          "excellent"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "superiority (noun)",
+        "superiorly (adverb, rare)"
+      ],
+      "collocations": [
+        "superior quality",
+        "superior performance",
+        "immediate superior"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "magnetic",
+      "source_candidate": "magnetic",
+      "meanings_fa": "مغناطیسی؛ آهن‌ربایی؛ بسیار جذاب و گیرا",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/mæɡˈnɛtɪk/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "Related to magnets or magnetism; informally, having a quality that strongly attracts people.",
+      "example_en": "The case closes with a magnetic clasp.",
+      "example_fa": "این قاب با یک قفل مغناطیسی بسته می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "magnetized",
+          "attractive (figurative)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "magnet (noun)",
+        "magnetism (noun)",
+        "magnetically (adverb)"
+      ],
+      "collocations": [
+        "magnetic field",
+        "magnetic force",
+        "magnetic attraction"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "outlook",
+      "source_candidate": "outlook",
+      "meanings_fa": "چشم‌انداز؛ نگرش؛ دیدگاه؛ دورنمای آینده",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈaʊtˌlʊk/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A person's way of thinking about life or a situation; or the expected future of something.",
+      "example_en": "The economic outlook has improved this quarter.",
+      "example_fa": "چشم‌انداز اقتصادی در این فصل بهتر شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "perspective",
+          "attitude",
+          "forecast"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "outlook-related (adjective)"
+      ],
+      "collocations": [
+        "positive outlook",
+        "economic outlook",
+        "long-term outlook"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "echo",
+      "source_candidate": "echo",
+      "meanings_fa": "پژواک؛ انعکاس صدا؛ تکرار یا بازتاب دادن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈɛkoʊ/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A sound that is repeated after bouncing off a surface; to repeat or reflect an idea or feeling.",
+      "example_en": "Her voice produced an echo in the empty hallway.",
+      "example_fa": "صدای او در راهروی خالی پژواک پیدا کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "reverberation",
+          "reflection",
+          "repetition"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "echoed (adjective/verb)",
+        "echoing (adjective/noun)"
+      ],
+      "collocations": [
+        "echo chamber",
+        "hear an echo",
+        "echo a statement"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "grid",
+      "source_candidate": "grid",
+      "meanings_fa": "شبکه؛ جدول؛ توری؛ شبکهٔ برق",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ɡrɪd/",
+      "cefr": "B2",
+      "category": "Work, health, education and technology",
+      "definition_en": "A pattern of crossing lines that form squares; a system of connected electricity lines or roads.",
+      "example_en": "The city uses a grid system for its streets.",
+      "example_fa": "این شهر برای خیابان‌هایش از سیستم شبکه‌ای استفاده می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "network",
+          "framework",
+          "matrix"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "gridded (adjective)",
+        "gridlike (adjective)"
+      ],
+      "collocations": [
+        "power grid",
+        "grid pattern",
+        "grid system"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "کار، سلامت، آموزش و فناوری",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}

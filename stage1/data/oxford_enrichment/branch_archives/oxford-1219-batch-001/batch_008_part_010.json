@@ -1,0 +1,809 @@
+{
+  "batch": 8,
+  "part": 10,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "experimental",
+      "source_candidate": "experimental",
+      "meanings_fa": "آزمایشی؛ تجربی؛ مربوط به آزمایش و تجربه",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ɪkˌspɛrɪˈmɛntəl/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "Involving tests or new ideas to discover whether something works or is true.",
+      "example_en": "The company is testing an experimental battery design.",
+      "example_fa": "شرکت در حال آزمایش یک طرح آزمایشی باتری است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "trial",
+          "exploratory",
+          "innovative"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "experiment (noun/verb)",
+        "experimentally (adverb)",
+        "experimentalism (noun)"
+      ],
+      "collocations": [
+        "experimental study",
+        "experimental design",
+        "experimental treatment"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "earnings",
+      "source_candidate": "earnings",
+      "meanings_fa": "درآمد؛ عایدی؛ سود یا دستمزد حاصل‌شده",
+      "part_of_speech": "NOUN (PLURAL)",
+      "ipa_us": "/ˈɝːnɪŋz/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "Money received from work, business, or investments.",
+      "example_en": "The report shows a rise in employee earnings.",
+      "example_fa": "گزارش افزایش درآمد کارکنان را نشان می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "income",
+          "wages",
+          "revenue (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "earn (verb)",
+        "earner (noun)",
+        "earned (adjective)"
+      ],
+      "collocations": [
+        "annual earnings",
+        "employee earnings",
+        "earnings report"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "seminar",
+      "source_candidate": "seminar",
+      "meanings_fa": "سمینار؛ نشست آموزشی یا تخصصی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsɛmɪˌnɑːr/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A class or meeting in which a small group discusses a subject with an expert or teacher.",
+      "example_en": "I'm attending a seminar on personal finance this weekend.",
+      "example_fa": "این آخر هفته در یک سمینار دربارهٔ امور مالی شخصی شرکت می‌کنم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "workshop",
+          "discussion session",
+          "lecture (related)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "seminar-based (adjective)",
+        "seminarian (noun, different sense)"
+      ],
+      "collocations": [
+        "academic seminar",
+        "seminar room",
+        "attend a seminar"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "concrete",
+      "source_candidate": "concrete",
+      "meanings_fa": "بتن؛ عینی؛ ملموس؛ مشخص",
+      "part_of_speech": "NOUN; ADJECTIVE",
+      "ipa_us": "/ˈkɑːŋkriːt/ (noun); /kənˈkriːt/ (adjective)",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A strong building material made from cement, sand, and water; or something definite and real rather than abstract.",
+      "example_en": "We need concrete evidence before making a decision.",
+      "example_fa": "پیش از تصمیم‌گیری به شواهد عینی نیاز داریم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "specific",
+          "tangible",
+          "definite"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "concretely (adverb)",
+        "concreteness (noun)",
+        "concretize (verb)"
+      ],
+      "collocations": [
+        "concrete evidence",
+        "concrete example",
+        "concrete floor"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "completion",
+      "source_candidate": "completion",
+      "meanings_fa": "تکمیل؛ پایان؛ اتمام کار یا فرایند",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəmˈpliːʃən/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The act of finishing something or the state of being finished.",
+      "example_en": "Payment is due upon completion of the work.",
+      "example_fa": "پرداخت پس از تکمیل کار انجام می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "finish",
+          "conclusion",
+          "fulfillment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "complete (verb/adjective)",
+        "completely (adverb)",
+        "completeness (noun)"
+      ],
+      "collocations": [
+        "project completion",
+        "course completion",
+        "certificate of completion"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "pulse",
+      "source_candidate": "pulse",
+      "meanings_fa": "نبض؛ ضربان؛ تپش؛ حبوبات خشک (جمعاً pulses)",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/pʌls/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The regular beating of the heart felt at an artery; a short burst or rhythm; also, edible seeds such as beans and lentils.",
+      "example_en": "The nurse checked the patient's pulse.",
+      "example_fa": "پرستار نبض بیمار را بررسی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "heartbeat",
+          "beat",
+          "rhythm"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "pulsate (verb)",
+        "pulsation (noun)",
+        "pulsed (adjective)"
+      ],
+      "collocations": [
+        "check your pulse",
+        "pulse rate",
+        "pulse oximeter"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "voting",
+      "source_candidate": "voting",
+      "meanings_fa": "رأی‌گیری؛ رأی دادن؛ فرایند انتخاب با رأی",
+      "part_of_speech": "NOUN; VERB (GERUND)",
+      "ipa_us": "/ˈvoʊtɪŋ/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The act or process of choosing someone or making a decision by casting votes.",
+      "example_en": "Early voting begins next week.",
+      "example_fa": "رأی‌گیری زودهنگام از هفتهٔ آینده آغاز می‌شود.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "election",
+          "balloting"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "vote (noun/verb)",
+        "voter (noun)",
+        "voteable (adjective, rare)"
+      ],
+      "collocations": [
+        "early voting",
+        "voting rights",
+        "voting process"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "specification",
+      "source_candidate": "specification",
+      "meanings_fa": "مشخصات؛ ویژگی‌های فنی؛ شرح دقیق الزامات",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌspɛsɪfɪˈkeɪʃən/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A detailed description of the design, features, or requirements of something.",
+      "example_en": "Check the product specifications before you buy it.",
+      "example_fa": "پیش از خرید، مشخصات محصول را بررسی کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "details",
+          "requirements",
+          "technical description"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "specify (verb)",
+        "specific (adjective)",
+        "specifically (adverb)"
+      ],
+      "collocations": [
+        "technical specification",
+        "product specification",
+        "meet specifications"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "pump",
+      "source_candidate": "pump",
+      "meanings_fa": "پمپ؛ تلمبه؛ پمپاژ کردن؛ بالا و پایین بردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/pʌmp/",
+      "cefr": "B1",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A device that moves liquid or gas; to move something using such a device.",
+      "example_en": "The mechanic replaced the water pump.",
+      "example_fa": "مکانیک پمپ آب را تعویض کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "device",
+          "compressor (related)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "pumped (adjective/verb)",
+        "pumping (noun/verb)",
+        "pumpable (adjective)"
+      ],
+      "collocations": [
+        "water pump",
+        "fuel pump",
+        "pump air"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "legislative",
+      "source_candidate": "legislative",
+      "meanings_fa": "قانون‌گذاری؛ مربوط به وضع قوانین یا قوهٔ مقننه",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈlɛdʒɪsˌleɪtɪv/",
+      "cefr": "C1",
+      "category": "Science, work, society and daily life",
+      "definition_en": "Related to making laws or to the part of government that creates laws.",
+      "example_en": "The proposal needs legislative approval.",
+      "example_fa": "این پیشنهاد به تأیید قانون‌گذاری نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "law-making",
+          "parliamentary"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "legislate (verb)",
+        "legislature (noun)",
+        "legislator (noun)",
+        "legislation (noun)"
+      ],
+      "collocations": [
+        "legislative branch",
+        "legislative process",
+        "legislative session"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "trailer",
+      "source_candidate": "trailer",
+      "meanings_fa": "تریلر؛ یدک؛ پیش‌نمایش فیلم؛ کاروان مسکونی متحرک",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈtreɪlɚ/",
+      "cefr": "B1",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A vehicle pulled by another vehicle; a short preview of a movie or show; or a movable home.",
+      "example_en": "We watched the trailer before deciding to see the movie.",
+      "example_fa": "پیش از تصمیم برای دیدن فیلم، تریلر آن را تماشا کردیم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "preview (film)",
+          "towable vehicle"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "trail (noun/verb)",
+        "trailering (noun/verb)"
+      ],
+      "collocations": [
+        "movie trailer",
+        "trailer park",
+        "utility trailer"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "density",
+      "source_candidate": "density",
+      "meanings_fa": "چگالی؛ تراکم؛ فشردگی؛ میزان تعداد در یک فضا",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈdɛnsəti/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The amount of mass in a given space, or the number of people or things in a particular area.",
+      "example_en": "The city has a high population density.",
+      "example_fa": "این شهر تراکم جمعیت بالایی دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "concentration",
+          "compactness",
+          "thickness"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "dense (adjective)",
+        "densely (adverb)"
+      ],
+      "collocations": [
+        "population density",
+        "bone density",
+        "high density"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "sustainable",
+      "source_candidate": "sustainable",
+      "meanings_fa": "پایدار؛ قابل‌دوام؛ سازگار با محیط‌زیست در بلندمدت",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/səˈsteɪnəbəl/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "Able to continue for a long time without causing serious damage or using up resources.",
+      "example_en": "The city is investing in sustainable public transportation.",
+      "example_fa": "این شهر در حمل‌ونقل عمومی پایدار سرمایه‌گذاری می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "viable",
+          "renewable (context-dependent)",
+          "long-lasting"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "sustain (verb)",
+        "sustainability (noun)",
+        "sustainably (adverb)"
+      ],
+      "collocations": [
+        "sustainable development",
+        "sustainable energy",
+        "sustainable business"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "innovation",
+      "source_candidate": "innovation",
+      "meanings_fa": "نوآوری؛ ابداع؛ به‌کارگیری روش یا ایدهٔ تازه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌɪnəˈveɪʃən/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A new idea, method, or product, or the process of introducing something new.",
+      "example_en": "Innovation has helped the company reduce costs.",
+      "example_fa": "نوآوری به شرکت کمک کرده است هزینه‌ها را کاهش دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "invention",
+          "new idea",
+          "improvement"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "innovate (verb)",
+        "innovative (adjective)",
+        "innovator (noun)"
+      ],
+      "collocations": [
+        "technological innovation",
+        "drive innovation",
+        "innovation strategy"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "parallel",
+      "source_candidate": "parallel",
+      "meanings_fa": "موازی؛ هم‌زمان؛ مشابه؛ خط یا مسیر موازی",
+      "part_of_speech": "ADJECTIVE; NOUN; VERB",
+      "ipa_us": "/ˈpærəˌlɛl/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "Side by side and always the same distance apart; similar or happening at the same time.",
+      "example_en": "The two roads run parallel to the river.",
+      "example_fa": "این دو جاده به موازات رودخانه امتداد دارند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "corresponding",
+          "similar",
+          "alongside"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "parallelism (noun)",
+        "parallelly (adverb, uncommon)"
+      ],
+      "collocations": [
+        "parallel lines",
+        "parallel process",
+        "draw a parallel"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "fabric",
+      "source_candidate": "fabric",
+      "meanings_fa": "پارچه؛ بافت؛ ساختار یا تار و پود یک جامعه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈfæbrɪk/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "Cloth made by weaving or knitting; or the basic structure of something such as society.",
+      "example_en": "This jacket is made from recycled fabric.",
+      "example_fa": "این کت از پارچهٔ بازیافتی ساخته شده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cloth",
+          "textile",
+          "material"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "fabricate (verb",
+        "different root sense)",
+        "fabrication (noun)"
+      ],
+      "collocations": [
+        "cotton fabric",
+        "fabric softener",
+        "social fabric"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "recruitment",
+      "source_candidate": "recruitment",
+      "meanings_fa": "استخدام؛ جذب نیرو؛ فرایند به‌کارگیری کارکنان یا اعضا",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/rɪˈkruːtmənt/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The process of finding and hiring people for a job or organization.",
+      "example_en": "The hospital has started recruitment for several nursing positions.",
+      "example_fa": "بیمارستان فرایند جذب نیرو برای چند موقعیت پرستاری را آغاز کرده است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "hiring",
+          "staffing",
+          "enlistment"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "recruit (verb/noun)",
+        "recruiter (noun)",
+        "recruitable (adjective)"
+      ],
+      "collocations": [
+        "staff recruitment",
+        "recruitment process",
+        "recruitment agency"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "peer",
+      "source_candidate": "peer",
+      "meanings_fa": "همتا؛ هم‌سطح؛ همسال؛ نگاه کردن با دقت",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/pɪr/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "A person who is equal to another in age, status, or ability; as a verb, to look closely or with difficulty.",
+      "example_en": "Students learn a lot from feedback from their peers.",
+      "example_fa": "دانشجویان از بازخورد همتایان خود چیزهای زیادی یاد می‌گیرند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "equal",
+          "colleague",
+          "counterpart"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "peerless (adjective)",
+        "peer-to-peer (adjective/adverb)"
+      ],
+      "collocations": [
+        "peer group",
+        "peer review",
+        "peer pressure"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "collaboration",
+      "source_candidate": "collaboration",
+      "meanings_fa": "همکاری؛ مشارکت برای انجام کار مشترک",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˌlæbəˈreɪʃən/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The act of working with another person or group to achieve a shared goal.",
+      "example_en": "The project was completed through collaboration between two universities.",
+      "example_fa": "این پروژه از طریق همکاری دو دانشگاه تکمیل شد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "cooperation",
+          "partnership",
+          "teamwork"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "collaborate (verb)",
+        "collaborator (noun)",
+        "collaborative (adjective)"
+      ],
+      "collocations": [
+        "close collaboration",
+        "collaboration tool",
+        "international collaboration"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "detection",
+      "source_candidate": "detection",
+      "meanings_fa": "تشخیص؛ کشف؛ شناسایی چیزی که پنهان یا دشوار است",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/dɪˈtɛkʃən/",
+      "cefr": "B2",
+      "category": "Science, work, society and daily life",
+      "definition_en": "The act of discovering or noticing something, especially something hidden or difficult to see.",
+      "example_en": "Early detection can improve the treatment of many diseases.",
+      "example_fa": "تشخیص زودهنگام می‌تواند درمان بسیاری از بیماری‌ها را بهبود دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "discovery",
+          "identification",
+          "recognition"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "detect (verb)",
+        "detector (noun)",
+        "detectable (adjective)",
+        "detective (noun)"
+      ],
+      "collocations": [
+        "early detection",
+        "fraud detection",
+        "motion detection"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "علم، کار، جامعه و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}

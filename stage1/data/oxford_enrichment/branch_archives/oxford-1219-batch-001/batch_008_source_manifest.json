@@ -1,0 +1,1018 @@
+{
+  "batch": 1,
+  "source": "American Oxford 3000 + American Oxford 5000 supplementary wordlists",
+  "comparison": {
+    "app_unique_headwords": 4000,
+    "oxford_3000_missing": 41,
+    "oxford_5000_supplementary_missing": 1178,
+    "total_missing": 1219
+  },
+  "selection": {
+    "oxford_3000": 41,
+    "oxford_5000_supplementary": 159,
+    "total": 200
+  },
+  "status": "selection_locked_enrichment_pending",
+  "words": [
+    {
+      "order": 1,
+      "word": "and",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 2,
+      "word": "a",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 3,
+      "word": "by",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 4,
+      "word": "at",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 5,
+      "word": "all",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 6,
+      "word": "an",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 7,
+      "word": "can",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 8,
+      "word": "but",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 9,
+      "word": "could",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 10,
+      "word": "cd",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 11,
+      "word": "december",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 12,
+      "word": "april",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 13,
+      "word": "august",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 14,
+      "word": "according",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 15,
+      "word": "congress",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 16,
+      "word": "senate",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 17,
+      "word": "disk",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 18,
+      "word": "billion",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 19,
+      "word": "awesome",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 20,
+      "word": "overseas",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 21,
+      "word": "candy",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 22,
+      "word": "ah",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 23,
+      "word": "clerk",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 24,
+      "word": "cookie",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 25,
+      "word": "corn",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 26,
+      "word": "anymore",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 27,
+      "word": "grocery",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 28,
+      "word": "railroad",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 29,
+      "word": "fever",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 30,
+      "word": "garbage",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 31,
+      "word": "refrigerator",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 32,
+      "word": "blond",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 33,
+      "word": "closet",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 34,
+      "word": "dessert",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 35,
+      "word": "smartphone",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 36,
+      "word": "stove",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 37,
+      "word": "backward",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 38,
+      "word": "downward",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 39,
+      "word": "afterward",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 40,
+      "word": "policeman",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 41,
+      "word": "sneaker",
+      "source_list": "Oxford 3000"
+    },
+    {
+      "order": 42,
+      "word": "copyright",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 43,
+      "word": "info",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 44,
+      "word": "terms",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 45,
+      "word": "shipping",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 46,
+      "word": "forum",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 47,
+      "word": "directory",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 48,
+      "word": "rating",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 49,
+      "word": "password",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 50,
+      "word": "id",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 51,
+      "word": "format",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 52,
+      "word": "log",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 53,
+      "word": "electronics",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 54,
+      "word": "newsletter",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 55,
+      "word": "domain",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 56,
+      "word": "hardware",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 57,
+      "word": "mortgage",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 58,
+      "word": "lesbian",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 59,
+      "word": "logo",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 60,
+      "word": "registration",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 61,
+      "word": "super",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 62,
+      "word": "navigation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 63,
+      "word": "kit",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 64,
+      "word": "interface",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 65,
+      "word": "sexy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 66,
+      "word": "graphics",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 67,
+      "word": "filter",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 68,
+      "word": "default",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 69,
+      "word": "protein",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 70,
+      "word": "moving",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 71,
+      "word": "programming",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 72,
+      "word": "desktop",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 73,
+      "word": "respective",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 74,
+      "word": "monthly",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 75,
+      "word": "suite",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 76,
+      "word": "skip",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 77,
+      "word": "gear",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 78,
+      "word": "module",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 79,
+      "word": "naked",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 80,
+      "word": "clinical",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 81,
+      "word": "publishing",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 82,
+      "word": "palm",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 83,
+      "word": "oral",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 84,
+      "word": "functional",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 85,
+      "word": "patch",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 86,
+      "word": "rose",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 87,
+      "word": "premium",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 88,
+      "word": "upgrade",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 89,
+      "word": "nursing",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 90,
+      "word": "integrated",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 91,
+      "word": "marine",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 92,
+      "word": "interactive",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 93,
+      "word": "workshop",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 94,
+      "word": "extension",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 95,
+      "word": "lighting",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 96,
+      "word": "laser",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 97,
+      "word": "icon",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 98,
+      "word": "dedicated",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 99,
+      "word": "tag",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 100,
+      "word": "handling",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 101,
+      "word": "gaming",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 102,
+      "word": "protocol",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 103,
+      "word": "query",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 104,
+      "word": "replacement",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 105,
+      "word": "spam",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 106,
+      "word": "economics",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 107,
+      "word": "failed",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 108,
+      "word": "forecast",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 109,
+      "word": "dual",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 110,
+      "word": "pharmacy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 111,
+      "word": "crystal",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 112,
+      "word": "dynamic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 113,
+      "word": "portfolio",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 114,
+      "word": "nutrition",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 115,
+      "word": "prevention",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 116,
+      "word": "instant",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 117,
+      "word": "healthcare",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 118,
+      "word": "utility",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 119,
+      "word": "standing",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 120,
+      "word": "subscription",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 121,
+      "word": "exposure",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 122,
+      "word": "gambling",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 123,
+      "word": "circuit",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 124,
+      "word": "trademark",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 125,
+      "word": "hip",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 126,
+      "word": "optical",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 127,
+      "word": "promotion",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 128,
+      "word": "dot",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 129,
+      "word": "conversion",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 130,
+      "word": "serial",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 131,
+      "word": "revision",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 132,
+      "word": "ratio",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 133,
+      "word": "prescription",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 134,
+      "word": "marketplace",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 135,
+      "word": "evolution",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 136,
+      "word": "remains",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 137,
+      "word": "generic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 138,
+      "word": "usage",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 139,
+      "word": "ink",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 140,
+      "word": "transit",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 141,
+      "word": "width",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 142,
+      "word": "heritage",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 143,
+      "word": "plug",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 144,
+      "word": "transmission",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 145,
+      "word": "organic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 146,
+      "word": "curriculum",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 147,
+      "word": "identification",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 148,
+      "word": "buddy",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 149,
+      "word": "setup",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 150,
+      "word": "notebook",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 151,
+      "word": "upcoming",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 152,
+      "word": "linear",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 153,
+      "word": "visa",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 154,
+      "word": "lens",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 155,
+      "word": "suck",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 156,
+      "word": "parameter",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 157,
+      "word": "processor",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 158,
+      "word": "recognition",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 159,
+      "word": "submission",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 160,
+      "word": "execution",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 161,
+      "word": "patent",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 162,
+      "word": "terminal",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 163,
+      "word": "loop",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 164,
+      "word": "resume",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 165,
+      "word": "newly",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 166,
+      "word": "consent",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 167,
+      "word": "formula",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 168,
+      "word": "consultation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 169,
+      "word": "memorial",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 170,
+      "word": "forth",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 171,
+      "word": "insert",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 172,
+      "word": "romance",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 173,
+      "word": "physician",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 174,
+      "word": "cutting",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 175,
+      "word": "satisfaction",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 176,
+      "word": "superior",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 177,
+      "word": "magnetic",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 178,
+      "word": "outlook",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 179,
+      "word": "echo",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 180,
+      "word": "grid",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 181,
+      "word": "experimental",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 182,
+      "word": "earnings",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 183,
+      "word": "seminar",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 184,
+      "word": "concrete",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 185,
+      "word": "completion",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 186,
+      "word": "pulse",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 187,
+      "word": "voting",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 188,
+      "word": "specification",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 189,
+      "word": "pump",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 190,
+      "word": "legislative",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 191,
+      "word": "trailer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 192,
+      "word": "density",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 193,
+      "word": "sustainable",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 194,
+      "word": "innovation",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 195,
+      "word": "parallel",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 196,
+      "word": "fabric",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 197,
+      "word": "recruitment",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 198,
+      "word": "peer",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 199,
+      "word": "collaboration",
+      "source_list": "Oxford 5000 supplementary"
+    },
+    {
+      "order": 200,
+      "word": "detection",
+      "source_list": "Oxford 5000 supplementary"
+    }
+  ]
+}

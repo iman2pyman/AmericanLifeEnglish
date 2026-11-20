@@ -1,0 +1,798 @@
+{
+  "batch": 8,
+  "part": 8,
+  "status": "partial_staging_only",
+  "candidate_source": "Exact first 200 of reconstructed Oxford 1219 difference",
+  "target_size": 200,
+  "count": 20,
+  "validation": {
+    "count": 20,
+    "unique_headwords": 20,
+    "all_required_fields_populated": true,
+    "production_ready": false
+  },
+  "words": [
+    {
+      "word": "width",
+      "source_candidate": "width",
+      "meanings_fa": "عرض؛ پهنا؛ اندازهٔ فاصله از یک طرف تا طرف دیگر",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/wɪdθ/",
+      "cefr": "B1",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The measurement of how wide something is from one side to the other.",
+      "example_en": "Measure the width of the doorway before buying the desk.",
+      "example_fa": "پیش از خرید میز، عرض چارچوب در را اندازه بگیر.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "breadth",
+          "span"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "wide (adjective)",
+        "widen (verb)",
+        "wide-ranging (adjective)"
+      ],
+      "collocations": [
+        "shoulder width",
+        "screen width",
+        "width of the road"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "heritage",
+      "source_candidate": "heritage",
+      "meanings_fa": "میراث؛ میراث فرهنگی یا تاریخی؛ پیشینه و سنت خانوادگی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈhɛrɪtɪdʒ/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The traditions, history, and qualities passed down from earlier generations.",
+      "example_en": "The museum celebrates the cultural heritage of the region.",
+      "example_fa": "این موزه میراث فرهنگی منطقه را گرامی می‌دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "legacy",
+          "inheritance",
+          "tradition"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "heritage-related (adjective)"
+      ],
+      "collocations": [
+        "cultural heritage",
+        "family heritage",
+        "heritage site"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "plug",
+      "source_candidate": "plug",
+      "meanings_fa": "دوشاخه؛ درپوش؛ پلاگ؛ وصل کردن؛ تبلیغ کردن",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/plʌɡ/",
+      "cefr": "B1",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "A device that connects electrical equipment to a power supply; a stopper; or to connect something by inserting a plug.",
+      "example_en": "Plug the charger into the wall outlet.",
+      "example_fa": "شارژر را به پریز دیوار وصل کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "connector",
+          "stopper",
+          "insert"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "plugged (adjective/verb)",
+        "plugging (noun/verb)",
+        "plug-in (noun/adjective)"
+      ],
+      "collocations": [
+        "power plug",
+        "plug in",
+        "plug a leak"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "transmission",
+      "source_candidate": "transmission",
+      "meanings_fa": "انتقال؛ ارسال؛ گیربکس خودرو؛ شیوع یا انتقال بیماری",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/trænzˈmɪʃən/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The act of sending or passing something from one person, place, or system to another.",
+      "example_en": "The system supports secure transmission of medical records.",
+      "example_fa": "این سامانه از انتقال امن پرونده‌های پزشکی پشتیبانی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "transfer",
+          "sending",
+          "conveyance"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "transmit (verb)",
+        "transmitter (noun)",
+        "transmissible (adjective)"
+      ],
+      "collocations": [
+        "data transmission",
+        "disease transmission",
+        "automatic transmission"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "organic",
+      "source_candidate": "organic",
+      "meanings_fa": "زیستی؛ ارگانیک؛ طبیعی؛ مربوط به مواد آلی",
+      "part_of_speech": "ADJECTIVE; NOUN",
+      "ipa_us": "/ɔːrˈɡænɪk/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "Produced without many artificial chemicals; related to living things or carbon-based compounds.",
+      "example_en": "They buy organic vegetables at the farmers market.",
+      "example_fa": "آن‌ها در بازار کشاورزان سبزیجات ارگانیک می‌خرند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "natural",
+          "biological",
+          "chemical-free (context-dependent)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "organically (adverb)",
+        "organism (noun)",
+        "organicity (noun, rare)"
+      ],
+      "collocations": [
+        "organic food",
+        "organic farming",
+        "organic matter"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "curriculum",
+      "source_candidate": "curriculum",
+      "meanings_fa": "برنامهٔ درسی؛ سرفصل و محتوای آموزشی یک دوره",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/kəˈrɪkjələm/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The subjects and content taught in a school, college, or training program.",
+      "example_en": "The college updated its nursing curriculum this year.",
+      "example_fa": "کالج امسال برنامهٔ درسی پرستاری خود را به‌روزرسانی کرد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "syllabus",
+          "course of study"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "curricular (adjective)",
+        "curriculum-based (adjective)"
+      ],
+      "collocations": [
+        "school curriculum",
+        "curriculum design",
+        "core curriculum"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "identification",
+      "source_candidate": "identification",
+      "meanings_fa": "شناسایی؛ تشخیص هویت؛ مدرک شناسایی",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/aɪˌdɛntɪfɪˈkeɪʃən/",
+      "cefr": "B1",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The act of recognizing or proving who someone or what something is.",
+      "example_en": "You must show identification to collect the package.",
+      "example_fa": "برای تحویل گرفتن بسته باید مدرک شناسایی نشان بدهی.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "recognition",
+          "verification",
+          "ID"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "identify (verb)",
+        "identifiable (adjective)",
+        "identifier (noun)"
+      ],
+      "collocations": [
+        "photo identification",
+        "identity verification",
+        "identification card"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "buddy",
+      "source_candidate": "buddy",
+      "meanings_fa": "رفیق؛ دوست صمیمی؛ هم‌گروهی یا همراه",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈbʌdi/",
+      "cefr": "A2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "An informal word for a friend or partner, especially someone who helps or accompanies you.",
+      "example_en": "My workout buddy keeps me motivated.",
+      "example_fa": "رفیق تمرینم باعث می‌شود باانگیزه بمانم.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "friend",
+          "pal",
+          "mate"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "buddies (plural)",
+        "buddy up (phrasal verb)"
+      ],
+      "collocations": [
+        "buddy system",
+        "study buddy",
+        "best buddy"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "setup",
+      "source_candidate": "setup",
+      "meanings_fa": "راه‌اندازی؛ چیدمان؛ ساختار؛ مجموعهٔ تجهیزات",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈsɛtˌʌp/",
+      "cefr": "B1",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The way equipment or a system is arranged; the process of preparing something for use.",
+      "example_en": "The new office setup gives everyone more space.",
+      "example_fa": "چیدمان جدید دفتر فضای بیشتری در اختیار همه قرار می‌دهد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "arrangement",
+          "configuration",
+          "installation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "set up (phrasal verb)",
+        "set-up (hyphenated variant)"
+      ],
+      "collocations": [
+        "computer setup",
+        "home office setup",
+        "setup process"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "notebook",
+      "source_candidate": "notebook",
+      "meanings_fa": "دفتر یادداشت؛ دفترچه؛ رایانهٔ قابل‌حمل کوچک",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈnoʊtˌbʊk/",
+      "cefr": "A2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "A book of blank or lined pages for writing notes; also, a small laptop computer.",
+      "example_en": "Write the new vocabulary in your notebook.",
+      "example_fa": "واژگان جدید را در دفتر یادداشتت بنویس.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "notepad",
+          "journal",
+          "laptop (computer sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "notebook-sized (adjective)"
+      ],
+      "collocations": [
+        "spiral notebook",
+        "notebook computer",
+        "notebook paper"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "upcoming",
+      "source_candidate": "upcoming",
+      "meanings_fa": "آینده؛ پیشِ رو؛ در شُرف وقوع",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈʌpˌkʌmɪŋ/",
+      "cefr": "B1",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "Happening soon or scheduled for the near future.",
+      "example_en": "Check the website for upcoming classes.",
+      "example_fa": "برای اطلاع از کلاس‌های پیشِ رو وب‌سایت را بررسی کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "forthcoming",
+          "approaching",
+          "impending"
+        ],
+        "antonyms": []
+      },
+      "word_family": [],
+      "collocations": [
+        "upcoming event",
+        "upcoming deadline",
+        "upcoming release"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "linear",
+      "source_candidate": "linear",
+      "meanings_fa": "خطی؛ مستقیم؛ دارای ترتیب یا رابطهٔ خطی",
+      "part_of_speech": "ADJECTIVE",
+      "ipa_us": "/ˈlɪniɚ/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "Arranged in a straight line or developing in a direct, step-by-step way.",
+      "example_en": "The course follows a linear sequence from basic to advanced topics.",
+      "example_fa": "این دوره از ترتیب خطی، از مباحث پایه تا پیشرفته، پیروی می‌کند.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "straight-line",
+          "sequential",
+          "direct"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "linearly (adverb)",
+        "linearity (noun)",
+        "nonlinear (adjective)"
+      ],
+      "collocations": [
+        "linear equation",
+        "linear progression",
+        "linear relationship"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "visa",
+      "source_candidate": "visa",
+      "meanings_fa": "روادید؛ ویزا؛ مجوز ورود یا اقامت در کشور",
+      "part_of_speech": "NOUN; VERB",
+      "ipa_us": "/ˈviːzə/",
+      "cefr": "A2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "An official document or mark that allows someone to enter, stay in, or leave a country under certain conditions.",
+      "example_en": "She applied for a student visa to study in the United States.",
+      "example_fa": "او برای تحصیل در ایالات متحده درخواست ویزای دانشجویی داد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "entry permit",
+          "travel authorization"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "visa-free (adjective)",
+        "visa holder (noun)"
+      ],
+      "collocations": [
+        "student visa",
+        "work visa",
+        "visa application"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "lens",
+      "source_candidate": "lens",
+      "meanings_fa": "عدسی؛ لنز دوربین یا عینک؛ دیدگاه و زاویهٔ نگاه",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/lɛnz/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "A curved piece of glass or plastic that focuses light; or a way of viewing or understanding something.",
+      "example_en": "Clean the camera lens before taking the picture.",
+      "example_fa": "پیش از عکس گرفتن، لنز دوربین را تمیز کن.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "optical lens",
+          "viewpoint (figurative sense)"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "lenses (plural)",
+        "lens-shaped (adjective)"
+      ],
+      "collocations": [
+        "camera lens",
+        "contact lens",
+        "wide-angle lens"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "suck",
+      "source_candidate": "suck",
+      "meanings_fa": "مکیدن؛ مکش کردن؛ (عامیانه) بد بودن یا افتضاح بودن",
+      "part_of_speech": "VERB; NOUN",
+      "ipa_us": "/sʌk/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "To draw liquid or air into the mouth or through a device; informally, to be very bad or unpleasant.",
+      "example_en": "The vacuum cleaner can suck up dust from the carpet.",
+      "example_fa": "جاروبرقی می‌تواند گردوغبار را از فرش بمکد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "draw in",
+          "absorb",
+          "(slang) be terrible"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "sucked (verb/adjective)",
+        "sucking (noun/adjective)",
+        "sucker (noun)"
+      ],
+      "collocations": [
+        "suck up",
+        "suck air",
+        "suck at something"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "parameter",
+      "source_candidate": "parameter",
+      "meanings_fa": "پارامتر؛ متغیر یا عامل تعیین‌کننده؛ محدودهٔ مشخص",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/pəˈræmɪtɚ/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "A factor or limit that defines how something works or what is possible.",
+      "example_en": "You can change the search parameters to get better results.",
+      "example_fa": "می‌توانی پارامترهای جست‌وجو را تغییر دهی تا نتایج بهتری بگیری.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "variable",
+          "factor",
+          "limit"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "parametric (adjective)",
+        "parameterize (verb)",
+        "parameterization (noun)"
+      ],
+      "collocations": [
+        "search parameter",
+        "key parameter",
+        "within the parameters"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "processor",
+      "source_candidate": "processor",
+      "meanings_fa": "پردازنده؛ واحد پردازش رایانه؛ دستگاه یا فردی که چیزی را پردازش می‌کند",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˈprɑːˌsɛsɚ/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "A part of a computer that carries out instructions; or a person or company that processes something.",
+      "example_en": "This laptop has a faster processor than my old one.",
+      "example_fa": "این لپ‌تاپ پردازندهٔ سریع‌تری از لپ‌تاپ قبلی من دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "CPU",
+          "processing unit"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "process (verb/noun)",
+        "processing (noun)",
+        "processable (adjective)"
+      ],
+      "collocations": [
+        "computer processor",
+        "food processor",
+        "payment processor"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "recognition",
+      "source_candidate": "recognition",
+      "meanings_fa": "شناخت؛ تشخیص؛ شناسایی؛ قدردانی و به‌رسمیت‌شناختن",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌrɛkəɡˈnɪʃən/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The act of identifying someone or something, or publicly appreciating an achievement.",
+      "example_en": "The employee received recognition for excellent customer service.",
+      "example_fa": "کارمند به‌خاطر خدمات عالی به مشتریان مورد قدردانی قرار گرفت.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "identification",
+          "acknowledgment",
+          "appreciation"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "recognize (verb)",
+        "recognizable (adjective)",
+        "recognizably (adverb)"
+      ],
+      "collocations": [
+        "facial recognition",
+        "official recognition",
+        "receive recognition"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "submission",
+      "source_candidate": "submission",
+      "meanings_fa": "ارسال؛ تحویل؛ تسلیم؛ اثر یا درخواست ارسال‌شده",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/səbˈmɪʃən/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The act of presenting something for consideration; or the state of accepting another person's authority.",
+      "example_en": "The deadline for submission is Friday at noon.",
+      "example_fa": "مهلت ارسال تا ظهر جمعه است.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "delivery",
+          "presentation",
+          "surrender"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "submit (verb)",
+        "submitted (adjective)",
+        "submissive (adjective)"
+      ],
+      "collocations": [
+        "online submission",
+        "submission deadline",
+        "submit a proposal"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    },
+    {
+      "word": "execution",
+      "source_candidate": "execution",
+      "meanings_fa": "اجرا؛ پیاده‌سازی؛ انجام؛ اعدام (معنای حقوقی)",
+      "part_of_speech": "NOUN",
+      "ipa_us": "/ˌɛksɪˈkjuːʃən/",
+      "cefr": "B2",
+      "category": "Education, technology, travel and daily life",
+      "definition_en": "The act of carrying out a plan, order, or task; in law, the carrying out of a death sentence.",
+      "example_en": "Successful execution of the plan requires careful coordination.",
+      "example_fa": "اجرای موفق طرح به هماهنگی دقیق نیاز دارد.",
+      "synonyms_antonyms": {
+        "synonyms": [
+          "implementation",
+          "performance",
+          "carrying out"
+        ],
+        "antonyms": []
+      },
+      "word_family": [
+        "execute (verb)",
+        "executable (adjective/noun)",
+        "executor (noun)"
+      ],
+      "collocations": [
+        "plan execution",
+        "execution of a contract",
+        "flawless execution"
+      ],
+      "frequency": "common_or_useful",
+      "openjam_frequency_rank": null,
+      "data_source": "Original learner-focused editorial entry; US usage and Persian gloss drafted with reference to learner dictionaries; no dictionary definition copied verbatim.",
+      "review_status": "editorial_draft_needs_dictionary_review",
+      "quality_flag": "Staging only. Verify senses, US IPA, POS and CEFR against a dictionary before production release.",
+      "release_decision": "staging_only",
+      "ready_flag": false,
+      "category_fa": "آموزش، فناوری، سفر و زندگی روزمره",
+      "level_source": "editorial_estimate",
+      "level_review_status": "needs_dictionary_review"
+    }
+  ]
+}
