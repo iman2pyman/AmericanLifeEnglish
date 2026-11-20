@@ -169,6 +169,8 @@ private fun AmericanEnglishRoot(
                 )
                 page == "search" -> SearchScreen(
                     words, onSpeak, { page = "home" }, { selectedWord = it },
+                    isPremium = isPremium,
+                    onPremiumRequired = { page = "premium" },
                     bookmarks = bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
                 )
@@ -181,6 +183,8 @@ private fun AmericanEnglishRoot(
                 )
                 page == "vocabulary-level" -> VocabularyLevelScreen(
                     words = words,
+                    isPremium = isPremium,
+                    onPremiumRequired = { page = "premium" },
                     onLevel = { browsedLevel = it; page = "vocabulary-level-words" },
                     onBack = { page = "vocabulary" }
                 )
@@ -196,14 +200,21 @@ private fun AmericanEnglishRoot(
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }
                 )
                 page == "vocabulary-practice" -> LearningScreen(
-                    words, onSpeak, { page = "vocabulary" }, { selectedWord = it },
-                    initialLevel = selectedLevel,
+                    words = if (isPremium) words else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) },
+                    onSpeak = onSpeak, onBack = { page = "vocabulary" }, onWord = { selectedWord = it },
+                    initialLevel = if (isPremium || selectedLevel in setOf("A1", "A2")) selectedLevel else "A1",
+                    isPremium = isPremium,
+                    onPremiumRequired = { page = "premium" },
                     onLevelChanged = { selectedLevel = it; learningStore.setSelectedLevel(it) },
                     bookmarks = bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ },
                     learningStore = learningStore
                 )
-                else -> GrammarScreen { page = "home" }
+                else -> GrammarScreen(
+                    onBack = { page = "home" },
+                    isPremium = isPremium,
+                    onPremiumRequired = { page = "premium" }
+                )
             }
         }
         if (welcomeVisible) {
