@@ -59,6 +59,13 @@ private fun parseRelatedVocabularyTerms(raw: String): RelatedVocabularyTerms {
     )
 }
 
+private fun normalizeRelatedTerm(value: String): String = value.trim()
+    .lowercase(Locale.US)
+    .replace('’', '\'')
+    .replace(Regex("[^\\p{L}\\p{N}]+"), " ")
+    .trim()
+    .replace(Regex("\\s+"), " ")
+
 private fun normalizeSearchText(value: String): String = value.lowercase()
     .replace('ي', 'ی').replace('ك', 'ک').replace('ى', 'ی')
 
@@ -449,14 +456,27 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
     val englishExamples = word.exampleEn.split("|").map { it.trim() }.filter { it.isNotBlank() }
     val persianExamples = word.exampleFa.split("|").map { it.trim() }.filter { it.isNotBlank() }
     val relationTerms = remember(word.synonymsAntonyms) { parseRelatedVocabularyTerms(word.synonymsAntonyms) }
-    val vocabularyIndex = remember(allWords) { allWords.distinctBy { LearningStore.wordId(it.word) }.associateBy { LearningStore.wordId(it.word) } }
-    val linkedSynonyms = remember(relationTerms, vocabularyIndex, word.word) {
-        relationTerms.synonyms.mapNotNull { vocabularyIndex[LearningStore.wordId(it)] }
+    // Match related terms after normalizing punctuation, hyphens and whitespace.
+    // This lets entries such as "one-of-a-kind" match "one of a kind".
+    val vocabularyIndex = remember(allWords) {
+        allWords.distinctBy { LearningStore.wordId(it.word) }
+            .associateBy { normalizeRelatedTerm(it.word) }
+    }
+    val compactVocabularyIndex = remember(allWords) {
+        allWords.distinctBy { LearningStore.wordId(it.word) }
+            .associateBy { normalizeRelatedTerm(it.word).replace(" ", "") }
+    }
+    fun findVocabularyTerm(term: String): VocabularyWord? {
+        val normalized = normalizeRelatedTerm(term)
+        return vocabularyIndex[normalized] ?: compactVocabularyIndex[normalized.replace(" ", "")]
+    }
+    val linkedSynonyms = remember(relationTerms, vocabularyIndex, compactVocabularyIndex, word.word) {
+        relationTerms.synonyms.mapNotNull { findVocabularyTerm(it) }
             .filter { LearningStore.wordId(it.word) != LearningStore.wordId(word.word) }
             .distinctBy { LearningStore.wordId(it.word) }
     }
-    val unlinkedSynonyms = remember(relationTerms, vocabularyIndex) {
-        relationTerms.synonyms.filter { vocabularyIndex[LearningStore.wordId(it)] == null }
+    val unlinkedSynonyms = remember(relationTerms, vocabularyIndex, compactVocabularyIndex) {
+        relationTerms.synonyms.filter { findVocabularyTerm(it) == null }
     }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(18.dp)) {
         ScreenHeader("اطلاعات واژه", onBack)
