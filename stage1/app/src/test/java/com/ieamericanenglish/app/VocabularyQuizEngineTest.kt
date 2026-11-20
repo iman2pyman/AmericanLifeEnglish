@@ -98,7 +98,7 @@ class VocabularyQuizEngineTest {
         )
         val questions = VocabularyQuizEngine.createLeitnerQuiz(words.take(2), words)
         assertEquals(10, questions.size)
-        assertEquals(LeitnerQuestionType.values().toList(), questions.take(2).map { it.type }.distinct())
+        assertEquals(LeitnerQuestionType.values().toList(), questions.map { it.type }.distinct())
         assertEquals(setOf("apple", "book"), questions.map { it.targetWord }.toSet())
         questions.forEach {
             assertEquals(4, it.options.size)
