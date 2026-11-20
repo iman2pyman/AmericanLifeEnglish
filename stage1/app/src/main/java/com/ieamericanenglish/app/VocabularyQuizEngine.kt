@@ -19,6 +19,24 @@ data class VocabularyQuizQuestion(
     val explanation: String
 )
 
+
+enum class LeitnerQuestionType(val titleFa: String) {
+    MEANING_FROM_WORD("۱. حدس معنی فارسی با دیدن واژه"),
+    WORD_FROM_MEANING("۲. حدس واژه با دیدن معنی فارسی"),
+    WORD_FROM_DEFINITION("۳. حدس واژه با دیدن تعریف انگلیسی"),
+    MEANING_FROM_DEFINITION("۴. حدس معنی فارسی با دیدن تعریف انگلیسی"),
+    DEFINITION_FROM_WORD("۵. حدس تعریف انگلیسی با دیدن واژه")
+}
+
+data class LeitnerQuizQuestion(
+    val type: LeitnerQuestionType,
+    val prompt: String,
+    val options: List<String>,
+    val correctAnswer: String,
+    val targetWord: String,
+    val explanation: String
+)
+
 object VocabularyQuizEngine {
     fun createQuiz(words: List<VocabularyWord>, level: String, count: Int = 10): List<VocabularyQuizQuestion> =
         createQuizFromPool(words.filter { it.cefr.equals(level, true) }, count)
@@ -63,6 +81,51 @@ object VocabularyQuizEngine {
             }
         }
         return questions.shuffled()
+    }
+
+
+    /** Builds five ordered question types for every word studied in the Leitner session. */
+    fun createLeitnerQuiz(sessionWords: List<VocabularyWord>, fullBank: List<VocabularyWord>): List<LeitnerQuizQuestion> {
+        val targets = sessionWords.asSequence()
+            .filter { it.word.isNotBlank() && it.meaningsFa.isNotBlank() && it.definitionEn.isNotBlank() }
+            .distinctBy { LearningStore.wordId(it.word) }.toList()
+        val pool = fullBank.asSequence()
+            .filter { it.word.isNotBlank() && it.meaningsFa.isNotBlank() && it.definitionEn.isNotBlank() }
+            .distinctBy { LearningStore.wordId(it.word) }.toList()
+        if (targets.isEmpty() || pool.size < 4) return emptyList()
+        val result = mutableListOf<LeitnerQuizQuestion>()
+        LeitnerQuestionType.values().forEach { type ->
+            targets.forEach { target ->
+                val answer = when (type) {
+                    LeitnerQuestionType.MEANING_FROM_WORD, LeitnerQuestionType.MEANING_FROM_DEFINITION -> target.meaningsFa.trim()
+                    LeitnerQuestionType.WORD_FROM_MEANING, LeitnerQuestionType.WORD_FROM_DEFINITION -> target.word.trim()
+                    LeitnerQuestionType.DEFINITION_FROM_WORD -> target.definitionEn.trim()
+                }
+                val prompt = when (type) {
+                    LeitnerQuestionType.MEANING_FROM_WORD -> "معنی فارسی واژه «${target.word}» چیست؟"
+                    LeitnerQuestionType.WORD_FROM_MEANING -> "کدام واژه این معنی را دارد؟\n${target.meaningsFa}"
+                    LeitnerQuestionType.WORD_FROM_DEFINITION -> "کدام واژه با این تعریف انگلیسی مطابقت دارد؟\n${target.definitionEn}"
+                    LeitnerQuestionType.MEANING_FROM_DEFINITION -> "معنی فارسی این تعریف انگلیسی چیست؟\n${target.definitionEn}"
+                    LeitnerQuestionType.DEFINITION_FROM_WORD -> "تعریف انگلیسی واژه «${target.word}» کدام است؟"
+                }
+                val distractors = when (type) {
+                    LeitnerQuestionType.MEANING_FROM_WORD, LeitnerQuestionType.MEANING_FROM_DEFINITION ->
+                        pool.filterNot { LearningStore.wordId(it.word) == LearningStore.wordId(target.word) }.map { it.meaningsFa }
+                    LeitnerQuestionType.WORD_FROM_MEANING, LeitnerQuestionType.WORD_FROM_DEFINITION ->
+                        pool.filterNot { LearningStore.wordId(it.word) == LearningStore.wordId(target.word) }.map { it.word }
+                    LeitnerQuestionType.DEFINITION_FROM_WORD ->
+                        pool.filterNot { LearningStore.wordId(it.word) == LearningStore.wordId(target.word) }.map { it.definitionEn }
+                }
+                val choices = distractors.asSequence().map { it.trim() }
+                    .filter { it.isNotBlank() && !it.equals(answer, true) }
+                    .distinctBy { it.lowercase(Locale.US) }.shuffled().take(3).toList()
+                if (choices.size == 3) result += LeitnerQuizQuestion(
+                    type, prompt, (choices + answer).shuffled(), answer, target.word,
+                    "${target.word}: ${target.meaningsFa}\n${target.definitionEn}"
+                )
+            }
+        }
+        return result
     }
 
     private fun buildQuestion(
