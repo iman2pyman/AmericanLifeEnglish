@@ -5,6 +5,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
@@ -182,7 +183,7 @@ fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit
 }
 
 @Composable
-fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, onWord: (VocabularyWord) -> Unit, onSpeak: (String) -> Unit, onBack: () -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, listState: LazyListState, onWord: (VocabularyWord) -> Unit, onSpeak: (String) -> Unit, onBack: () -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember(level) { mutableStateOf("") }
     val levelWords = remember(words, level) { words.distinctBy { LearningStore.wordId(it.word) }.filter { it.cefr.equals(level, true) }.sortedBy { it.word.lowercase() } }
     val results = remember(levelWords, query) {
@@ -202,7 +203,7 @@ fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, onWor
         if (results.isEmpty()) {
             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(if (levelWords.isEmpty()) "برای این سطح هنوز واژه‌ای ثبت نشده است." else "واژه‌ای با این جستجو پیدا نشد.", color = appColor(Color(0xFF718096)), fontSize = 13.sp) }
         } else {
-            LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
+            LazyColumn(state = listState, verticalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
                 items(results, key = { LearningStore.wordId(it.word) }) { word ->
                     WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) }
                 }
