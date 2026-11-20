@@ -56,6 +56,8 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
     }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("جستجوی واژگان", onBack)
+        Text("کل بانک آموزشی: $uniqueWordCount واژه", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        Spacer(Modifier.height(8.dp))
         OutlinedTextField(
             value = query, onValueChange = { query = it }, modifier = Modifier.fillMaxWidth(),
             singleLine = true, label = { Text("کلمه انگلیسی یا معنی فارسی") },
@@ -63,7 +65,7 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
             colors = OutlinedTextFieldDefaults.colors(focusedBorderColor = appColor(Color(0xFF2563EB)), focusedLabelColor = appColor(Color(0xFF2563EB)))
         )
         Spacer(Modifier.height(10.dp))
-        Text(if (query.isBlank()) "جستجو در " + uniqueWordCount + " واژه" else results.size.toString() + " نتیجه", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
+        Text(if (query.isBlank()) "برای جستجو، واژه انگلیسی یا معنی فارسی را وارد کنید" else results.size.toString() + " نتیجه", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
         LazyColumn(verticalArrangement = Arrangement.spacedBy(9.dp), contentPadding = PaddingValues(bottom = 22.dp)) {
             items(results, key = { it.word }) { word -> WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) } }
         }
