@@ -76,6 +76,31 @@ private val LevelColors = mapOf(
     "C1" to Color(0xFFDB6B35), "C2" to Color(0xFFBE4778)
 )
 
+
+@Composable
+private fun PremiumAccessPrompt(message: String, onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 8.dp),
+        shape = RoundedCornerShape(18.dp),
+        color = appColor(Color(0xFFFFF7E5)),
+        shadowElevation = 3.dp
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 14.dp, vertical = 13.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Text("★", color = appColor(Color(0xFFE5A000)), fontSize = 34.sp, fontWeight = FontWeight.Black)
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Text("دسترسی با اشتراک ویژه", color = appColor(Color(0xFF8A5A00)), fontSize = 16.sp, fontWeight = FontWeight.ExtraBold)
+                Text(message, color = appColor(Color(0xFF6B4B16)), fontSize = 14.sp, fontWeight = FontWeight.Bold, lineHeight = 21.sp)
+                Text("برای مشاهده طرح‌های خرید لمس کنید", color = appColor(Color(0xFF9A6700)), fontSize = 12.sp, fontWeight = FontWeight.ExtraBold)
+            }
+        }
+    }
+}
+
 @Composable
 fun ScreenHeader(title: String, onBack: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -88,7 +113,9 @@ fun ScreenHeader(title: String, onBack: () -> Unit) {
 @Composable
 fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember { mutableStateOf("") }
-    val searchableWords = remember(words, isPremium) { if (isPremium) words else words.take(500) }
+    val searchableWords = remember(words, isPremium) {
+        if (isPremium) words else words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) }
+    }
     val uniqueWordCount = remember(searchableWords) {
         searchableWords.map { it.word.trim().lowercase() }.distinct().size
     }
@@ -104,10 +131,11 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
     }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("جستجوی واژگان", onBack)
-        Text(if (isPremium) "کل بانک آموزشی: $uniqueWordCount واژه" else "نسخه رایگان: جستجو در ۵۰۰ واژه نخست", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
-        if (!isPremium) {
-            TextButton(onClick = onPremiumRequired) { Text("برای جستجوی همه واژه‌ها، اشتراک ویژه را فعال کنید") }
-        }
+        Text(if (isPremium) "کل بانک آموزشی: $uniqueWordCount واژه" else "نسخه رایگان: جستجو در همه واژه‌های سطح A1 و A2 ($uniqueWordCount واژه)", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        if (!isPremium) PremiumAccessPrompt(
+            message = "برای دسترسی به تمام سطوح و بانک کامل واژگان، اشتراک ویژه را فعال کنید.",
+            onClick = onPremiumRequired
+        )
         Spacer(Modifier.height(8.dp))
         OutlinedTextField(
             value = query, onValueChange = { query = it }, modifier = Modifier.fillMaxWidth(),
@@ -213,7 +241,11 @@ fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("سطح‌بندی لغات", onBack)
         Text("سطح موردنظرت را انتخاب کن", color = appColor(Color(0xFF18243A)), fontSize = 17.sp, fontWeight = FontWeight.Bold)
-        Text(if (isPremium) "با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود." else "در نسخه رایگان سطوح A1 و A2 فعال‌اند؛ سطوح بالاتر با اشتراک ویژه باز می‌شوند.", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
+        Text(if (isPremium) "با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود." else "در نسخه رایگان همه واژه‌های سطوح A1 و A2 فعال‌اند؛ برای سطوح بالاتر اشتراک ویژه تهیه کنید.", color = appColor(Color(0xFF718096)), fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
+        if (!isPremium) PremiumAccessPrompt(
+            message = "با اشتراک ویژه، همه سطح‌های واژگان را باز کنید.",
+            onClick = onPremiumRequired
+        )
         Spacer(Modifier.height(16.dp))
         listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
             val tint = appColor(LevelColors[item] ?: Color(0xFF2563EB))
@@ -278,7 +310,10 @@ fun LearningScreen(
         }
         if (mode == "leitner" && isPremium) LeitnerLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
         else DailyLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore, isPremium)
-        if (!isPremium) TextButton(onClick = onPremiumRequired, modifier = Modifier.fillMaxWidth()) { Text("جعبه لایتنر و آزمون کامل با اشتراک ویژه") }
+        if (!isPremium) PremiumAccessPrompt(
+            message = "جعبه لایتنر و آزمون کامل با اشتراک ویژه فعال می‌شود.",
+            onClick = onPremiumRequired
+        )
     }
 }
 
