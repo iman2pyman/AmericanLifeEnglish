@@ -88,4 +88,35 @@ class VocabularyQuizEngineTest {
         assertTrue(targetLevels.contains("A1"))
         assertTrue(targetLevels.contains("B1"))
     }
+
+    @Test
+    fun leitnerQuizCreatesFiveOrderedQuestionsForEveryReviewedWord() {
+        val words = listOf(
+            sampleWord("apple", "سیب"), sampleWord("book", "کتاب"),
+            sampleWord("chair", "صندلی"), sampleWord("door", "در"),
+            sampleWord("earth", "زمین")
+        )
+        val questions = VocabularyQuizEngine.createLeitnerQuiz(words.take(2), words)
+        assertEquals(10, questions.size)
+        assertEquals(LeitnerQuestionType.values().toList(), questions.take(2).map { it.type }.distinct())
+        assertEquals(setOf("apple", "book"), questions.map { it.targetWord }.toSet())
+        questions.forEach {
+            assertEquals(4, it.options.size)
+            assertEquals(4, it.options.distinctBy { option -> option.lowercase() }.size)
+            assertTrue(it.correctAnswer in it.options)
+        }
+    }
+
+    @Test
+    fun leitnerQuizNeverUsesUnreviewedWordsAsQuestionTargets() {
+        val words = listOf(
+            sampleWord("apple", "سیب"), sampleWord("book", "کتاب"),
+            sampleWord("chair", "صندلی"), sampleWord("door", "در"),
+            sampleWord("earth", "زمین")
+        )
+        val reviewed = listOf(words[1], words[3])
+        val questions = VocabularyQuizEngine.createLeitnerQuiz(reviewed, words)
+        assertTrue(questions.all { it.targetWord == "book" || it.targetWord == "door" })
+    }
+
 }
