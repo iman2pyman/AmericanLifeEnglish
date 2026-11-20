@@ -14,11 +14,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "lyric",
@@ -34,11 +37,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "machinery",
@@ -54,11 +60,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "magnetic",
@@ -74,11 +83,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "magnitude",
@@ -94,11 +106,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mainland",
@@ -114,11 +129,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mainstream",
@@ -134,11 +152,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "makeup",
@@ -154,11 +175,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mandate",
@@ -174,11 +198,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mandatory",
@@ -194,11 +221,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "manifest",
@@ -214,11 +244,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "manipulate",
@@ -234,11 +267,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "manipulation",
@@ -254,11 +290,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "manuscript",
@@ -274,11 +313,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "marathon",
@@ -294,11 +336,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "marginal",
@@ -314,11 +359,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "marine",
@@ -334,11 +382,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "marker",
@@ -354,11 +405,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "marketplace",
@@ -374,11 +428,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "martial",
@@ -394,11 +451,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mask",
@@ -414,11 +474,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mathematical",
@@ -434,11 +497,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "maximize",
@@ -454,11 +520,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "meantime",
@@ -474,11 +543,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mechanic",
@@ -494,11 +566,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "medal",
@@ -514,11 +589,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "medication",
@@ -534,11 +612,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "meditation",
@@ -554,11 +635,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "melody",
@@ -574,11 +658,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "memo",
@@ -594,11 +681,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "memorable",
@@ -614,11 +704,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "memorial",
@@ -634,11 +727,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mentor",
@@ -654,11 +750,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mercy",
@@ -674,11 +773,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "merge",
@@ -694,11 +796,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "merger",
@@ -714,11 +819,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "merit",
@@ -734,11 +842,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "metaphor",
@@ -754,11 +865,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "methodology",
@@ -774,11 +888,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "midst",
@@ -794,11 +911,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "migration",
@@ -814,11 +934,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "militant",
@@ -834,11 +957,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "militia",
@@ -854,11 +980,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mill",
@@ -874,11 +1003,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "miner",
@@ -894,11 +1026,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "minimal",
@@ -914,11 +1049,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mining",
@@ -934,11 +1072,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "miserable",
@@ -954,11 +1095,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "misery",
@@ -974,11 +1118,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "misleading",
@@ -994,11 +1141,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mob",
@@ -1014,11 +1164,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mobility",
@@ -1034,11 +1187,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     },
     {
       "word": "mobilize",
@@ -1054,11 +1210,14 @@
       "category": "general",
       "review_status": "approved_by_user",
       "quality_flag": "needs_editorial_review",
-      "release_decision": "approved_by_user",
+      "release_decision": "user_approved",
       "ready_flag": true,
       "category_fa": "عمومی",
       "level_source": "user_supplied",
-      "level_review_status": "pending"
+      "level_review_status": "pending",
+      "user_approved": true,
+      "user_approval_date": "2026-11-20",
+      "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
     }
   ]
 }
