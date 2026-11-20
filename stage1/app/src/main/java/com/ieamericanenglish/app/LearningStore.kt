@@ -140,6 +140,60 @@ class LearningStore(context: Context) {
         return nextBox
     }
 
+
+    /** Persist the complete Leitner flow, including the exact review batch and quiz state. */
+    fun saveLeitnerSession(
+        level: String, box: Int, phase: String, words: List<VocabularyWord>, reviewIndex: Int,
+        questions: List<LeitnerQuizQuestion>, questionIndex: Int, selectedAnswer: String?, score: Int
+    ) {
+        val questionArray = JSONArray()
+        questions.forEach { question ->
+            questionArray.put(JSONObject()
+                .put("type", question.type.name).put("prompt", question.prompt)
+                .put("options", JSONArray(question.options)).put("correct", question.correctAnswer)
+                .put("target", wordId(question.targetWord)).put("explanation", question.explanation))
+        }
+        val state = JSONObject()
+            .put("level", level).put("box", box.coerceIn(1, 5)).put("phase", phase)
+            .put("words", JSONArray(words.map { wordId(it.word) }))
+            .put("reviewIndex", reviewIndex.coerceIn(0, words.size))
+            .put("questions", questionArray).put("questionIndex", questionIndex.coerceAtLeast(0))
+            .put("selectedAnswer", selectedAnswer ?: JSONObject.NULL).put("score", score.coerceAtLeast(0))
+        prefs.edit().putString(KEY_LEITNER_SESSION, state.toString()).apply()
+    }
+
+    /** Restore the exact same batch and quiz choices; never regenerate a partially answered quiz. */
+    fun restoreLeitnerSession(words: List<VocabularyWord>): LeitnerSessionState? {
+        val state = runCatching { JSONObject(prefs.getString(KEY_LEITNER_SESSION, "{}") ?: "{}") }.getOrNull() ?: return null
+        val level = state.optString("level")
+        val phase = state.optString("phase")
+        if (level !in LEVELS || phase !in setOf("boxes", "review", "quiz", "result")) return null
+        val byId = words.distinctBy { wordId(it.word) }.associateBy { wordId(it.word) }
+        val ids = state.optJSONArray("words") ?: JSONArray()
+        val restoredWords = (0 until ids.length()).mapNotNull { byId[ids.optString(it)] }
+        val savedQuestions = state.optJSONArray("questions") ?: JSONArray()
+        val restoredQuestions = (0 until savedQuestions.length()).mapNotNull { index ->
+            val item = savedQuestions.optJSONObject(index) ?: return@mapNotNull null
+            val type = runCatching { LeitnerQuestionType.valueOf(item.optString("type")) }.getOrNull() ?: return@mapNotNull null
+            val options = item.optJSONArray("options") ?: return@mapNotNull null
+            val target = byId[item.optString("target")] ?: return@mapNotNull null
+            LeitnerQuizQuestion(type, item.optString("prompt"),
+                (0 until options.length()).map { options.optString(it) },
+                item.optString("correct"), target.word, item.optString("explanation"))
+        }
+        if (phase in setOf("review", "quiz", "result") && restoredWords.isEmpty()) return null
+        if (phase == "quiz" && restoredQuestions.isEmpty()) return null
+        return LeitnerSessionState(level, state.optInt("box", 1).coerceIn(1, 5), phase, restoredWords,
+            state.optInt("reviewIndex", 0).coerceIn(0, restoredWords.size), restoredQuestions,
+            state.optInt("questionIndex", 0).coerceIn(0, restoredQuestions.size),
+            if (state.isNull("selectedAnswer")) null else state.optString("selectedAnswer"),
+            state.optInt("score", 0).coerceAtLeast(0))
+    }
+
+    fun clearLeitnerSession() {
+        prefs.edit().remove(KEY_LEITNER_SESSION).apply()
+    }
+
     fun buildDailyPlan(words: List<VocabularyWord>, level: String, limit: Int = DAILY_NEW_WORD_GOAL): DailyLearningPlan {
         val today = todayKey()
         val progress = wordProgress()
@@ -331,11 +385,18 @@ class LearningStore(context: Context) {
         private const val KEY_QUIZ_HISTORY = "quiz_answer_history"
         private const val KEY_SESSION = "daily_practice_session"
         private const val KEY_LEITNER = "leitner_box_progress"
+        private const val KEY_LEITNER_SESSION = "leitner_active_session"
         private val LEITNER_INTERVAL_DAYS = longArrayOf(1L, 3L, 7L, 14L, 30L)
         private const val MAX_QUIZ_HISTORY = 5000
         fun wordId(word: String): String = word.trim().lowercase(Locale.US)
     }
 }
+
+data class LeitnerSessionState(
+    val level: String, val box: Int, val phase: String, val words: List<VocabularyWord>,
+    val reviewIndex: Int, val questions: List<LeitnerQuizQuestion>, val questionIndex: Int,
+    val selectedAnswer: String?, val score: Int
+)
 
 data class LeitnerBoxCount(val box: Int, val total: Int, val due: Int)
 
