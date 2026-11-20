@@ -284,7 +284,6 @@ private fun LeitnerLearningScreen(
     onToggleBookmark: (String) -> Unit, learningStore: LearningStore?
 ) {
     var level by remember { mutableStateOf(initialLevel) }
-    LaunchedEffect(initialLevel) { level = initialLevel }
     var selectedBox by remember { mutableIntStateOf(1) }
     var boxStats by remember { mutableStateOf<List<LeitnerBoxCount>>(emptyList()) }
     var queue by remember { mutableStateOf<List<VocabularyWord>>(emptyList()) }
@@ -294,16 +293,59 @@ private fun LeitnerLearningScreen(
     var questionIndex by remember { mutableIntStateOf(0) }
     var selectedAnswer by remember { mutableStateOf<String?>(null) }
     var score by remember { mutableIntStateOf(0) }
+    var restored by remember { mutableStateOf(false) }
     val current = queue.getOrNull(index)
     val currentQuestion = questions.getOrNull(questionIndex)
     val tint = appColor(LevelColors[level] ?: Color(0xFF2563EB))
+
     fun refreshBoxes() { boxStats = learningStore?.leitnerBoxCounts(words, level).orEmpty() }
+    fun persistSession() {
+        learningStore?.saveLeitnerSession(level, selectedBox, phase, queue, index, questions, questionIndex, selectedAnswer, score)
+    }
+    fun startNextBatch() {
+        val next = learningStore?.dueLeitnerWords(words, level, selectedBox, LearningStore.DAILY_REVIEW_LIMIT).orEmpty()
+        if (next.isNotEmpty()) {
+            queue = next
+            index = 0
+            questions = emptyList()
+            questionIndex = 0
+            selectedAnswer = null
+            score = 0
+            phase = "review"
+        }
+    }
     fun finishReview() {
         questions = VocabularyQuizEngine.createLeitnerQuiz(queue, words)
-        questionIndex = 0; selectedAnswer = null; score = 0
+        questionIndex = 0
+        selectedAnswer = null
+        score = 0
         phase = if (questions.isEmpty()) "result" else "quiz"
     }
-    LaunchedEffect(level, words, learningStore) { refreshBoxes() }
+
+    LaunchedEffect(words, learningStore) {
+        if (!restored && words.isNotEmpty()) {
+            val saved = learningStore?.restoreLeitnerSession(words)
+            if (saved != null) {
+                level = saved.level
+                selectedBox = saved.box
+                phase = saved.phase
+                queue = saved.words
+                index = saved.reviewIndex
+                questions = saved.questions
+                questionIndex = saved.questionIndex
+                selectedAnswer = saved.selectedAnswer
+                score = saved.score
+                onLevelChanged(saved.level)
+            }
+            restored = true
+        }
+    }
+    LaunchedEffect(level, selectedBox, queue, index, phase, questions, questionIndex, selectedAnswer, score, restored) {
+        if (restored) {
+            persistSession()
+            refreshBoxes()
+        }
+    }
 
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 10.dp)) {
         ScreenHeader(if (phase == "quiz") "آزمون لایتنر" else "جعبه لایتنر", onBack)
@@ -312,7 +354,16 @@ private fun LeitnerLearningScreen(
             Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 LearningStore.LEVELS.forEach { item ->
                     FilterChip(selected = level == item, onClick = {
-                        level = item; onLevelChanged(item); selectedBox = 1; queue = emptyList(); index = 0; phase = "boxes"
+                        level = item
+                        onLevelChanged(item)
+                        selectedBox = 1
+                        queue = emptyList()
+                        index = 0
+                        questions = emptyList()
+                        questionIndex = 0
+                        selectedAnswer = null
+                        score = 0
+                        phase = "boxes"
                     }, label = { Text(item) })
                 }
             }
@@ -339,14 +390,10 @@ private fun LeitnerLearningScreen(
                     }
                 }
             }
-            Button(onClick = {
-                queue = learningStore?.dueLeitnerWords(words, level, selectedBox, LearningStore.DAILY_REVIEW_LIMIT).orEmpty()
-                index = 0
-                if (queue.isNotEmpty()) phase = "review"
-            }, enabled = boxStats.getOrNull(selectedBox - 1)?.due?.let { it > 0 } == true, modifier = Modifier.fillMaxWidth()) {
-                Text("شروع مرور خانه ${selectedBox}")
-            }
-            Text("در هر نوبت حداکثر ۳۰ واژه مرور می‌شود. پس از آخرین واژه، آزمون همین مجموعه بلافاصله آغاز می‌شود.",
+            Button(onClick = { startNextBatch() },
+                enabled = boxStats.getOrNull(selectedBox - 1)?.due?.let { it > 0 } == true,
+                modifier = Modifier.fillMaxWidth()) { Text("شروع ۳۰ واژه بعدی خانه ${selectedBox}") }
+            Text("هر نوبت حداکثر ۳۰ واژه دارد. پس از پایان مرور، آزمون همین واژه‌ها بلافاصله آغاز می‌شود. مجموعه بعدی فقط با انتخاب خودت شروع خواهد شد.",
                 color = appColor(Color(0xFF718096)), fontSize = 11.sp, lineHeight = 18.sp)
         } else if (phase == "review" && current != null) {
             Text("مرور خانه ${selectedBox}  •  ${index + 1} از ${queue.size}", color = tint, fontWeight = FontWeight.Bold)
@@ -418,13 +465,15 @@ private fun LeitnerLearningScreen(
                             color = if (selectedAnswer == currentQuestion.correctAnswer) appColor(Color(0xFF0F9D91)) else appColor(Color(0xFFBE4778)),
                             fontSize = 12.sp, fontWeight = FontWeight.Bold, modifier = Modifier.padding(vertical = 8.dp))
                         Button(onClick = {
-                            questionIndex++; selectedAnswer = null
+                            questionIndex++
+                            selectedAnswer = null
                             if (questionIndex >= questions.size) phase = "result"
                         }, modifier = Modifier.fillMaxWidth()) { Text(if (questionIndex == questions.lastIndex) "پایان آزمون" else "سؤال بعدی") }
                     }
                 }
             }
         } else if (phase == "result") {
+            val nextDue = boxStats.getOrNull(selectedBox - 1)?.due ?: 0
             Text("نتیجه آزمون لایتنر", color = appColor(Color(0xFF14213D)), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
             Spacer(Modifier.height(10.dp))
             Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(18.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
@@ -432,9 +481,20 @@ private fun LeitnerLearningScreen(
                     Text("$score از ${questions.size}", color = tint, fontSize = 28.sp, fontWeight = FontWeight.ExtraBold)
                     Text("پاسخ درست در آزمون واژه‌های مرورشده", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
                     Text("${queue.size} واژه در مرور این جلسه آموزش داده شد.", color = appColor(Color(0xFF18243A)), fontSize = 13.sp, modifier = Modifier.padding(top = 10.dp))
-                    Button(onClick = {
-                        queue = emptyList(); questions = emptyList(); index = 0; questionIndex = 0
-                        selectedAnswer = null; score = 0; phase = "boxes"; refreshBoxes()
+                    Button(onClick = { startNextBatch() }, enabled = nextDue > 0, modifier = Modifier.fillMaxWidth()) {
+                        Text("شروع ۳۰ واژه بعدی")
+                    }
+                    if (nextDue == 0) Text("فعلاً واژه موعددار دیگری در این خانه وجود ندارد.", color = appColor(Color(0xFF718096)), fontSize = 11.sp)
+                    TextButton(onClick = {
+                        queue = emptyList()
+                        questions = emptyList()
+                        index = 0
+                        questionIndex = 0
+                        selectedAnswer = null
+                        score = 0
+                        phase = "boxes"
+                        learningStore?.clearLeitnerSession()
+                        refreshBoxes()
                     }, modifier = Modifier.fillMaxWidth()) { Text("بازگشت به خانه‌های لایتنر") }
                 }
             }
