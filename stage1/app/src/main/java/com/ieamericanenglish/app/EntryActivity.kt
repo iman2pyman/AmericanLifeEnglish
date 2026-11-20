@@ -9,6 +9,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -66,6 +67,20 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
     var page by remember { mutableStateOf("home") }
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
     var browsedLevel by remember { mutableStateOf("A1") }
+    // Preserve the exact list position when a word detail screen temporarily replaces the list.
+    val levelWordsListState = rememberLazyListState()
+    var savedLevelListIndex by remember { mutableIntStateOf(0) }
+    var savedLevelListOffset by remember { mutableIntStateOf(0) }
+    LaunchedEffect(browsedLevel) {
+        savedLevelListIndex = 0
+        savedLevelListOffset = 0
+        levelWordsListState.scrollToItem(0)
+    }
+    LaunchedEffect(selectedWord, page) {
+        if (selectedWord == null && page == "vocabulary-level-words") {
+            levelWordsListState.scrollToItem(savedLevelListIndex, savedLevelListOffset)
+        }
+    }
     var dialog by remember { mutableStateOf<String?>(null) }
     var lastBackPressedAt by remember { mutableLongStateOf(0L) }
 
@@ -101,7 +116,9 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
                 selectedWord != null -> WordDetailScreen(
                     selectedWord!!, onSpeak, { selectedWord = null },
                     isBookmarked = LearningStore.wordId(selectedWord!!.word) in bookmarkedWords,
-                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ }
+                    onToggleBookmark = { learningStore.toggleBookmark(selectedWord!!.word); storeRevision++ },
+                    allWords = words,
+                    onRelatedWord = { selectedWord = it }
                 )
                 page == "home" -> HomeScreen(
                     onSearch = { page = "search" }, onVocabulary = { page = "vocabulary" },
@@ -129,8 +146,12 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
                     onBack = { page = "vocabulary" }
                 )
                 page == "vocabulary-level-words" -> VocabularyLevelWordsScreen(
-                    words = words, level = browsedLevel,
-                    onWord = { selectedWord = it }, onSpeak = onSpeak,
+                    words = words, level = browsedLevel, listState = levelWordsListState,
+                    onWord = {
+                        savedLevelListIndex = levelWordsListState.firstVisibleItemIndex
+                        savedLevelListOffset = levelWordsListState.firstVisibleItemScrollOffset
+                        selectedWord = it
+                    }, onSpeak = onSpeak,
                     onBack = { page = "vocabulary-level" },
                     bookmarks = bookmarkedWords,
                     onToggleBookmark = { learningStore.toggleBookmark(it); storeRevision++ }

@@ -5,6 +5,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
@@ -19,6 +20,51 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import org.json.JSONArray
+import org.json.JSONObject
+import java.util.Locale
+
+
+private data class RelatedVocabularyTerms(val synonyms: List<String>, val antonyms: List<String>)
+
+private fun splitRelatedTerms(value: Any?): List<String> {
+    val raw = when (value) {
+        null, JSONObject.NULL -> ""
+        is JSONArray -> (0 until value.length()).mapNotNull { value.optString(it).takeIf(String::isNotBlank) }.joinToString(",")
+        else -> value.toString()
+    }
+    return raw.trim().removePrefix("[").removeSuffix("]")
+        .split(Regex("[,;|،؛]+"))
+        .map { it.trim().trim('"', '\'') }
+        .filter { it.isNotBlank() && it !in setOf("—", "-", "–", "none", "n/a") }
+        .distinctBy { it.lowercase(Locale.US) }
+}
+
+private fun parseRelatedVocabularyTerms(raw: String): RelatedVocabularyTerms {
+    if (raw.isBlank()) return RelatedVocabularyTerms(emptyList(), emptyList())
+    val trimmed = raw.trim()
+    if (trimmed.startsWith("{")) {
+        runCatching {
+            val json = JSONObject(trimmed)
+            return RelatedVocabularyTerms(
+                splitRelatedTerms(json.opt("synonyms") ?: json.opt("synonym")),
+                splitRelatedTerms(json.opt("antonyms") ?: json.opt("antonym"))
+            )
+        }
+    }
+    val sides = trimmed.split(Regex("\\s*/\\s*"), limit = 2)
+    return RelatedVocabularyTerms(
+        splitRelatedTerms(sides.firstOrNull()),
+        splitRelatedTerms(sides.getOrNull(1))
+    )
+}
+
+private fun normalizeRelatedTerm(value: String): String = value.trim()
+    .lowercase(Locale.US)
+    .replace('’', '\'')
+    .replace(Regex("[^\\p{L}\\p{N}]+"), " ")
+    .trim()
+    .replace(Regex("\\s+"), " ")
 
 private fun normalizeSearchText(value: String): String = value.lowercase()
     .replace('ي', 'ی').replace('ك', 'ک').replace('ى', 'ی')
@@ -182,7 +228,7 @@ fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit
 }
 
 @Composable
-fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, onWord: (VocabularyWord) -> Unit, onSpeak: (String) -> Unit, onBack: () -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, listState: LazyListState, onWord: (VocabularyWord) -> Unit, onSpeak: (String) -> Unit, onBack: () -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember(level) { mutableStateOf("") }
     val levelWords = remember(words, level) { words.distinctBy { LearningStore.wordId(it.word) }.filter { it.cefr.equals(level, true) }.sortedBy { it.word.lowercase() } }
     val results = remember(levelWords, query) {
@@ -202,7 +248,7 @@ fun VocabularyLevelWordsScreen(words: List<VocabularyWord>, level: String, onWor
         if (results.isEmpty()) {
             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(if (levelWords.isEmpty()) "برای این سطح هنوز واژه‌ای ثبت نشده است." else "واژه‌ای با این جستجو پیدا نشد.", color = appColor(Color(0xFF718096)), fontSize = 13.sp) }
         } else {
-            LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
+            LazyColumn(state = listState, verticalArrangement = Arrangement.spacedBy(8.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
                 items(results, key = { LearningStore.wordId(it.word) }) { word ->
                     WordRow(word, onSpeak, isBookmarked = LearningStore.wordId(word.word) in bookmarks, onToggleBookmark = { onToggleBookmark(word.word) }) { onWord(word) }
                 }
@@ -405,10 +451,33 @@ fun WordRow(word: VocabularyWord, onSpeak: (String) -> Unit, isBookmarked: Boole
 }
 
 @Composable
-fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: () -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}) {
+fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: () -> Unit, isBookmarked: Boolean = false, onToggleBookmark: () -> Unit = {}, allWords: List<VocabularyWord> = emptyList(), onRelatedWord: (VocabularyWord) -> Unit = {}) {
     val accent = LevelColors[word.cefr] ?: appColor(Color(0xFF2563EB))
     val englishExamples = word.exampleEn.split("|").map { it.trim() }.filter { it.isNotBlank() }
     val persianExamples = word.exampleFa.split("|").map { it.trim() }.filter { it.isNotBlank() }
+    val relationTerms = remember(word.synonymsAntonyms) { parseRelatedVocabularyTerms(word.synonymsAntonyms) }
+    // Match related terms after normalizing punctuation, hyphens and whitespace.
+    // This lets entries such as "one-of-a-kind" match "one of a kind".
+    val vocabularyIndex = remember(allWords) {
+        allWords.distinctBy { LearningStore.wordId(it.word) }
+            .associateBy { normalizeRelatedTerm(it.word) }
+    }
+    val compactVocabularyIndex = remember(allWords) {
+        allWords.distinctBy { LearningStore.wordId(it.word) }
+            .associateBy { normalizeRelatedTerm(it.word).replace(" ", "") }
+    }
+    fun findVocabularyTerm(term: String): VocabularyWord? {
+        val normalized = normalizeRelatedTerm(term)
+        return vocabularyIndex[normalized] ?: compactVocabularyIndex[normalized.replace(" ", "")]
+    }
+    val linkedSynonyms = remember(relationTerms, vocabularyIndex, compactVocabularyIndex, word.word) {
+        relationTerms.synonyms.mapNotNull { findVocabularyTerm(it) }
+            .filter { LearningStore.wordId(it.word) != LearningStore.wordId(word.word) }
+            .distinctBy { LearningStore.wordId(it.word) }
+    }
+    val unlinkedSynonyms = remember(relationTerms, vocabularyIndex, compactVocabularyIndex) {
+        relationTerms.synonyms.filter { findVocabularyTerm(it) == null }
+    }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(18.dp)) {
         ScreenHeader("اطلاعات واژه", onBack)
         Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
@@ -417,6 +486,7 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
                     Column(Modifier.weight(1f)) {
                         Text(word.word, color = accent, fontSize = 29.sp, fontWeight = FontWeight.ExtraBold)
                         Text(word.ipaUs, color = appColor(Color(0xFF718096)), fontSize = 15.sp)
+                        if (word.pronunciationGuideFa.isNotBlank()) Text("راهنمای تلفظ: ${word.pronunciationGuideFa}", color = appColor(Color(0xFF0F766E)), fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
                     }
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         TextButton(onClick = { onSpeak(word.word) }) { Text("🔊 تلفظ", color = appColor(Color(0xFF2563EB)), fontWeight = FontWeight.Bold) }
@@ -449,9 +519,39 @@ fun WordDetailScreen(word: VocabularyWord, onSpeak: (String) -> Unit, onBack: ()
                     Spacer(Modifier.height(8.dp)); DetailLabel("ترکیب‌های رایج")
                     Text(word.collocations, color = appColor(Color(0xFF18243A)), fontSize = 13.sp, lineHeight = 21.sp)
                 }
-                if (word.synonymsAntonyms.isNotBlank()) {
-                    Spacer(Modifier.height(8.dp)); DetailLabel("مترادف‌ها و متضادها")
-                    Text(word.synonymsAntonyms, color = appColor(Color(0xFF18243A)), fontSize = 13.sp)
+                if (relationTerms.synonyms.isNotEmpty() || relationTerms.antonyms.isNotEmpty()) {
+                    Spacer(Modifier.height(8.dp))
+                    if (relationTerms.synonyms.isNotEmpty()) {
+                        DetailLabel("مترادف‌ها")
+                        if (linkedSynonyms.isNotEmpty()) {
+                            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                                linkedSynonyms.forEach { synonym ->
+                                    Surface(
+                                        onClick = { onRelatedWord(synonym) },
+                                        modifier = Modifier.fillMaxWidth(),
+                                        shape = RoundedCornerShape(12.dp),
+                                        color = appColor(Color(0xFFEAF2FF))
+                                    ) {
+                                        Row(Modifier.padding(horizontal = 12.dp, vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
+                                            Text(synonym.word, modifier = Modifier.weight(1f), color = appColor(Color(0xFF2563EB)), fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                                            Text("مشاهده واژه  ←", color = appColor(Color(0xFF2563EB)), fontSize = 11.sp)
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (unlinkedSynonyms.isNotEmpty()) {
+                            Text(
+                                "در بانک واژگان موجود نیست: " + unlinkedSynonyms.joinToString("، "),
+                                color = appColor(Color(0xFF718096)), fontSize = 11.sp, lineHeight = 19.sp
+                            )
+                        }
+                    }
+                    if (relationTerms.antonyms.isNotEmpty()) {
+                        Spacer(Modifier.height(8.dp))
+                        DetailLabel("متضادها")
+                        Text(relationTerms.antonyms.joinToString("، "), color = appColor(Color(0xFF18243A)), fontSize = 13.sp)
+                    }
                 }
                 Spacer(Modifier.height(8.dp)); DetailLabel("دسته‌بندی")
                 Text(word.category, color = appColor(Color(0xFF718096)), fontSize = 12.sp, lineHeight = 19.sp)

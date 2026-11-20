@@ -10,6 +10,7 @@ class VocabularyQuizEngineTest {
         meaningsFa = meaning,
         partOfSpeech = "noun",
         ipaUs = "/test/",
+        pronunciationGuideFa = "",
         cefr = level,
         category = "test",
         definitionEn = "A test definition for $word.",
