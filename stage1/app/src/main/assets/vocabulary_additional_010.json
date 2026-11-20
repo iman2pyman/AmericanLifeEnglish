@@ -18,11 +18,14 @@
     "source_candidate": "according",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "frustrating",
@@ -43,11 +46,14 @@
     "source_candidate": "frustrating",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "frustration",
@@ -68,11 +74,14 @@
     "source_candidate": "frustration",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "fulfill",
@@ -93,11 +102,14 @@
     "source_candidate": "fulfill",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "full-time",
@@ -118,11 +130,14 @@
     "source_candidate": "full-time",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "functional",
@@ -143,11 +158,14 @@
     "source_candidate": "functional",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "fundamentally",
@@ -168,11 +186,14 @@
     "source_candidate": "fundamentally",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "fundraising",
@@ -193,11 +214,14 @@
     "source_candidate": "fundraising",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "furious",
@@ -218,11 +242,14 @@
     "source_candidate": "furious",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "gallon",
@@ -243,11 +270,14 @@
     "source_candidate": "gallon",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "gambling",
@@ -268,11 +298,14 @@
     "source_candidate": "gambling",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "gaming",
@@ -293,11 +326,14 @@
     "source_candidate": "gaming",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "gathering",
@@ -318,11 +354,14 @@
     "source_candidate": "gathering",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "gaze",
@@ -343,11 +382,14 @@
     "source_candidate": "gaze",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "gear",
@@ -368,11 +410,14 @@
     "source_candidate": "gear",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "generic",
@@ -393,11 +438,14 @@
     "source_candidate": "generic",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "genetic",
@@ -418,11 +466,14 @@
     "source_candidate": "genetic",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "genius",
@@ -443,11 +494,14 @@
     "source_candidate": "genius",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "genocide",
@@ -468,11 +522,14 @@
     "source_candidate": "genocide",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   },
   {
     "word": "genuine",
@@ -493,10 +550,13 @@
     "source_candidate": "genuine",
     "review_status": "approved_by_user",
     "quality_flag": "Staging entry. Editorially authored; verify each IPA, sense coverage and usage before release.",
-    "release_decision": "approved_by_user",
+    "release_decision": "user_approved",
     "ready_flag": true,
     "category_fa": "واژگان پیشرفته انگلیسی آمریکایی",
     "level_source": "Oxford 5000 American English; according provisionally B1 (verify against Oxford 3000)",
-    "level_review_status": "official_oxford_level_checked_except_according"
+    "level_review_status": "official_oxford_level_checked_except_according",
+    "user_approved": true,
+    "user_approval_date": "2026-11-20",
+    "user_approval_note": "User explicitly approved inclusion of all vocabulary records. Existing linguistic review status is preserved and is not represented as independently verified."
   }
 ]
