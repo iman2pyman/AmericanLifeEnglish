@@ -22,32 +22,107 @@ data class VocabularyWord(
     val collocations: String
 )
 
-fun loadVocabulary(context: Context): List<VocabularyWord> {
-    val arrays = mutableListOf<JSONArray>()
-    arrays += JSONArray(context.assets.open("vocabulary_1000.json")
-        .bufferedReader(Charsets.UTF_8).use { it.readText() })
-    val additionalFiles = context.assets.list("").orEmpty()
-        .filter { it.matches(Regex("vocabulary_additional_\\d{3}\\.json")) }
-        .sorted()
-    for (name in additionalFiles) {
-        arrays += JSONArray(context.assets.open(name)
-            .bufferedReader(Charsets.UTF_8).use { it.readText() })
+private fun JSONObject.readTextField(key: String): String {
+    val value = opt(key) ?: return ""
+    if (value === JSONObject.NULL) return ""
+    return when (value) {
+        is JSONObject, is JSONArray -> value.toString()
+        else -> value.toString()
     }
-    val levelJson = context.assets.open("cefr_levels.json")
-        .bufferedReader(Charsets.UTF_8).use { it.readText() }
-    val levelOverrides = JSONObject(levelJson)
+}
+
+/**
+ * Reads a vocabulary asset defensively. A malformed or unexpected asset is
+ * logged and skipped rather than crashing the entire application at launch.
+ */
+private fun readVocabularyArray(context: Context, assetName: String): JSONArray? {
+    return try {
+        val source = context.assets.open(assetName)
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val parsed = org.json.JSONTokener(source).nextValue()
+        when (parsed) {
+            is JSONArray -> parsed
+            is JSONObject -> {
+                // Some published assets contain one word record as the root object.
+                // Keep that record instead of treating it as an invalid dataset.
+                when {
+                    parsed.has("word") -> JSONArray().put(parsed)
+                    parsed.optJSONArray("words") != null -> parsed.optJSONArray("words")
+                    parsed.optJSONArray("vocabulary") != null -> parsed.optJSONArray("vocabulary")
+                    else -> {
+                        android.util.Log.w("AmericanLifeEnglish", "$assetName is a JSON object without a word record or recognized wrapper")
+                        null
+                    }
+                }
+            }
+            else -> {
+                android.util.Log.w("AmericanLifeEnglish", "$assetName has an unsupported JSON root")
+                null
+            }
+        }
+    } catch (error: Exception) {
+        android.util.Log.e("AmericanLifeEnglish", "Could not read vocabulary asset: $assetName", error)
+        null
+    }
+}
+
+fun loadVocabulary(context: Context): List<VocabularyWord> {
     val result = mutableListOf<VocabularyWord>()
-    for (array in arrays) {
-        for (i in 0 until array.length()) {
-            val o = array.getJSONObject(i)
+    val assetNames = buildList {
+        add("vocabulary_1000.json")
+        addAll(
+            context.assets.list("").orEmpty()
+                .filter { it.matches(Regex("vocabulary_additional_\\d{3}\\.json")) }
+                .sorted()
+        )
+    }.distinct()
+
+    val levelOverrides = try {
+        val source = context.assets.open("cefr_levels.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        JSONObject(source)
+    } catch (error: Exception) {
+        android.util.Log.e("AmericanLifeEnglish", "Could not read cefr_levels.json; using levels embedded in vocabulary records", error)
+        JSONObject()
+    }
+
+    for (assetName in assetNames) {
+        val array = readVocabularyArray(context, assetName) ?: continue
+        for (index in 0 until array.length()) {
+            val item = array.optJSONObject(index)
+            if (item == null) {
+                android.util.Log.w("AmericanLifeEnglish", "Skipping non-object record $index in $assetName")
+                continue
+            }
+
+            val word = item.readTextField("word").trim()
+            if (word.isEmpty()) {
+                android.util.Log.w("AmericanLifeEnglish", "Skipping record without a word at index $index in $assetName")
+                continue
+            }
+
+            val embeddedLevel = item.readTextField("cefr")
+            val level = levelOverrides.optString(word.lowercase(Locale.US), embeddedLevel)
+                .takeIf { it.isNotBlank() } ?: embeddedLevel
+
             result += VocabularyWord(
-                o.optString("word"), o.optString("meanings_fa"), o.optString("part_of_speech"),
-                o.optString("ipa_us"), levelOverrides.optString(o.optString("word").lowercase(Locale.US), o.optString("cefr")), o.optString("category"),
-                o.optString("definition_en"), o.optString("example_en"), o.optString("example_fa"),
-                o.optString("synonyms_antonyms"), o.optString("word_family"), o.optString("collocations")
+                word = word,
+                meaningsFa = item.readTextField("meanings_fa"),
+                partOfSpeech = item.readTextField("part_of_speech"),
+                ipaUs = item.readTextField("ipa_us"),
+                cefr = level,
+                category = item.readTextField("category"),
+                definitionEn = item.readTextField("definition_en"),
+                exampleEn = item.readTextField("example_en"),
+                exampleFa = item.readTextField("example_fa"),
+                synonymsAntonyms = item.readTextField("synonyms_antonyms"),
+                wordFamily = item.readTextField("word_family"),
+                collocations = item.readTextField("collocations")
             )
         }
     }
+
+    android.util.Log.i("AmericanLifeEnglish", "Loaded ${result.size} vocabulary records from ${assetNames.size} assets")
     return result
 }
 
