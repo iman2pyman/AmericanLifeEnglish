@@ -34,6 +34,7 @@ class BazaarBillingManager(
 
     private var connection: Connection? = null
     private var connected = false
+    private var pendingProductId: String? = null
 
     fun connect() {
         if (connection != null) return
@@ -42,13 +43,20 @@ class BazaarBillingManager(
                 connected = true
                 onStatus("اتصال به پرداخت کافه‌بازار برقرار شد")
                 refreshSubscriptions()
+                pendingProductId?.let { productId ->
+                    pendingProductId = null
+                    launchSubscription(productId)
+                }
             }
             connectionFailed { error ->
                 connected = false
+                connection = null
+                pendingProductId = null
                 onStatus("اتصال به کافه‌بازار ناموفق بود: ${error.message ?: "خطای نامشخص"}")
             }
             disconnected {
                 connected = false
+                connection = null
                 onStatus("ارتباط با کافه‌بازار قطع شد؛ وضعیت اشتراک پس از اتصال دوباره بررسی می‌شود")
             }
         }
@@ -76,15 +84,26 @@ class BazaarBillingManager(
     }
 
     fun subscribe(productId: String) {
-        if (!connected) {
-            onStatus("ابتدا باید اتصال کافه‌بازار برقرار شود")
-            connect()
-            return
-        }
         if (productId != BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU &&
             productId != BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU
         ) {
             onStatus("شناسه اشتراک معتبر نیست")
+            return
+        }
+        if (connected) {
+            launchSubscription(productId)
+        } else {
+            pendingProductId = productId
+            onStatus("در حال اتصال به کافه‌بازار؛ صفحه خرید به‌صورت خودکار باز می‌شود…")
+            connect()
+        }
+    }
+
+    private fun launchSubscription(productId: String) {
+        if (!connected) {
+            pendingProductId = productId
+            onStatus("اتصال کافه‌بازار برقرار نیست؛ دوباره تلاش می‌کنیم")
+            connect()
             return
         }
         payment.subscribeProduct(
