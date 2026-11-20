@@ -483,16 +483,17 @@ private val grammarLessons = listOf(
 )
 
 @Composable
-fun GrammarScreen(onBack: () -> Unit) {
+fun GrammarScreen(onBack: () -> Unit, isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}) {
     var selected by remember { mutableStateOf<GrammarLesson?>(null) }
     var level by remember { mutableStateOf("همه") }
-    val levels = listOf("همه","A1","A2","B1","B2","C1","C2")
+    val levels = if (isPremium) listOf("همه","A1","A2","B1","B2","C1","C2") else listOf("همه","A1","A2")
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         if (selected == null) {
             ScreenHeader("آموزش گرامر", onBack)
             Text("دستور زبان انگلیسی از پایه تا پیشرفته", color = appColor(Color(0xFF14213D)), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
             Spacer(Modifier.height(5.dp))
-            Text("${grammarLessons.size} درس تألیفی با توضیح فارسی، مثال آمریکایی، خطاهای رایج و تمرین", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
+            Text("${grammarLessons.count { isPremium || it.level in setOf("A1", "A2") }} درس در دسترس شما", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
+            if (!isPremium) TextButton(onClick = onPremiumRequired) { Text("درس‌های B1 تا C2 با اشتراک ویژه باز می‌شوند") }
             Spacer(Modifier.height(12.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.fillMaxWidth()) {
                 levels.forEach { item ->
@@ -501,7 +502,7 @@ fun GrammarScreen(onBack: () -> Unit) {
             }
             Spacer(Modifier.height(8.dp))
             Column(Modifier.weight(1f).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                grammarLessons.filter { level == "همه" || it.level == level }.forEach { item ->
+                grammarLessons.filter { (isPremium || it.level in setOf("A1", "A2")) && (level == "همه" || it.level == level) }.forEach { item ->
                     Surface(
                         modifier = Modifier.fillMaxWidth().clickable { selected = item },
                         shape = RoundedCornerShape(15.dp), color = appColor(Color.White), shadowElevation = 1.dp
