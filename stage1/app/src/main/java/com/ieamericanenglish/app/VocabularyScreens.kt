@@ -86,16 +86,17 @@ fun ScreenHeader(title: String, onBack: () -> Unit) {
 }
 
 @Composable
-fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
+fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack: () -> Unit, onWord: (VocabularyWord) -> Unit, isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}, bookmarks: Set<String> = emptySet(), onToggleBookmark: (String) -> Unit = {}) {
     var query by remember { mutableStateOf("") }
-    val uniqueWordCount = remember(words) {
-        words.map { it.word.trim().lowercase() }.distinct().size
+    val searchableWords = remember(words, isPremium) { if (isPremium) words else words.take(500) }
+    val uniqueWordCount = remember(searchableWords) {
+        searchableWords.map { it.word.trim().lowercase() }.distinct().size
     }
-    val results = remember(query, words) {
+    val results = remember(query, searchableWords) {
         if (query.isBlank()) emptyList()
         else {
             val needle = normalizeSearchText(query.trim())
-            words.filter {
+            searchableWords.filter {
                 normalizeSearchText(it.word).contains(needle) ||
                     normalizeSearchText(it.meaningsFa).contains(needle)
             }
@@ -103,7 +104,10 @@ fun SearchScreen(words: List<VocabularyWord>, onSpeak: (String) -> Unit, onBack:
     }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("جستجوی واژگان", onBack)
-        Text("کل بانک آموزشی: $uniqueWordCount واژه", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        Text(if (isPremium) "کل بانک آموزشی: $uniqueWordCount واژه" else "نسخه رایگان: جستجو در ۵۰۰ واژه نخست", color = appColor(Color(0xFF2563EB)), fontSize = 13.sp, fontWeight = FontWeight.Bold)
+        if (!isPremium) {
+            TextButton(onClick = onPremiumRequired) { Text("برای جستجوی همه واژه‌ها، اشتراک ویژه را فعال کنید") }
+        }
         Spacer(Modifier.height(8.dp))
         OutlinedTextField(
             value = query, onValueChange = { query = it }, modifier = Modifier.fillMaxWidth(),
@@ -203,17 +207,17 @@ private fun LearningEntryCard(
 }
 
 @Composable
-fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit, onBack: () -> Unit) {
+fun VocabularyLevelScreen(words: List<VocabularyWord>, onLevel: (String) -> Unit, onBack: () -> Unit, isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}) {
     val uniqueWords = remember(words) { words.distinctBy { LearningStore.wordId(it.word) } }
     val counts = remember(uniqueWords) { uniqueWords.groupingBy { it.cefr.uppercase() }.eachCount() }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC))).verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
         ScreenHeader("سطح‌بندی لغات", onBack)
         Text("سطح موردنظرت را انتخاب کن", color = appColor(Color(0xFF18243A)), fontSize = 17.sp, fontWeight = FontWeight.Bold)
-        Text("با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود.", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
+        Text(if (isPremium) "با لمس هر سطح، صفحه اختصاصی واژگان همان سطح باز می‌شود." else "در نسخه رایگان سطوح A1 و A2 فعال‌اند؛ سطوح بالاتر با اشتراک ویژه باز می‌شوند.", color = appColor(Color(0xFF718096)), fontSize = 12.sp)
         Spacer(Modifier.height(16.dp))
         listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { item ->
             val tint = appColor(LevelColors[item] ?: Color(0xFF2563EB))
-            Surface(onClick = { onLevel(item) }, modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp), shape = RoundedCornerShape(18.dp), color = appColor(Color.White), shadowElevation = 2.dp) {
+            Surface(onClick = { if (isPremium || item in setOf("A1", "A2")) onLevel(item) else onPremiumRequired() }, modifier = Modifier.fillMaxWidth().padding(bottom = 10.dp), shape = RoundedCornerShape(18.dp), color = appColor(Color.White), shadowElevation = 2.dp) {
                 Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
                     Box(Modifier.size(48.dp).clip(RoundedCornerShape(14.dp)).background(tint), contentAlignment = Alignment.Center) { Text(item, color = appColor(Color.White), fontWeight = FontWeight.ExtraBold, fontSize = 16.sp) }
                     Spacer(Modifier.width(13.dp))
@@ -265,14 +269,17 @@ fun LearningScreen(
     onLevelChanged: (String) -> Unit = {}, bookmarks: Set<String> = emptySet(),
     onToggleBookmark: (String) -> Unit = {}, learningStore: LearningStore? = null
 ) {
-    var mode by remember { mutableStateOf("leitner") }
+    isPremium: Boolean = false, onPremiumRequired: () -> Unit = {}
+) {
+    var mode by remember(isPremium) { mutableStateOf(if (isPremium) "leitner" else "daily") }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC)))) {
         Row(Modifier.fillMaxWidth().padding(horizontal = 18.dp, vertical = 5.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            FilterChip(selected = mode == "leitner", onClick = { mode = "leitner" }, label = { Text("جعبه لایتنر") })
+            if (isPremium) FilterChip(selected = mode == "leitner", onClick = { mode = "leitner" }, label = { Text("جعبه لایتنر") })
             FilterChip(selected = mode == "daily", onClick = { mode = "daily" }, label = { Text("برنامه روزانه") })
         }
-        if (mode == "leitner") LeitnerLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
-        else DailyLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
+        if (mode == "leitner" && isPremium) LeitnerLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
+        else DailyLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore, isPremium)
+        if (!isPremium) TextButton(onClick = onPremiumRequired, modifier = Modifier.fillMaxWidth()) { Text("جعبه لایتنر و آزمون کامل با اشتراک ویژه") }
     }
 }
 
