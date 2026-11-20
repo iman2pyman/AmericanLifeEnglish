@@ -49,8 +49,7 @@ class BazaarBillingManager(
             }
             disconnected {
                 connected = false
-                onPremiumChanged(false)
-                onStatus("ارتباط با کافه‌بازار قطع شد")
+                onStatus("ارتباط با کافه‌بازار قطع شد؛ وضعیت اشتراک پس از اتصال دوباره بررسی می‌شود")
             }
         }
     }
