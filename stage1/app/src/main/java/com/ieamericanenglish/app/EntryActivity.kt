@@ -64,6 +64,15 @@ class EntryActivity : ComponentActivity() {
             },
             onStatus = { status ->
                 android.util.Log.i("AmericanLifeEnglishBilling", status)
+                if (status.contains("ناموفق") || status.contains("در حال انتقال") ||
+                    status.contains("خرید ثبت شد") || status.contains("لغو شد") ||
+                    status.contains("اتصال به پرداخت کافه‌بازار برقرار شد") ||
+                    status.contains("در حال اتصال به کافه‌بازار")
+                ) {
+                    runOnUiThread {
+                        Toast.makeText(this, status, Toast.LENGTH_LONG).show()
+                    }
+                }
             }
         )
         bazaarBilling.connect()
@@ -98,7 +107,11 @@ private fun AmericanEnglishRoot(
 ) {
     val context = LocalContext.current
     val words = remember { loadVocabulary(context) }
-    val freeWordIds = remember(words) { words.take(500).map { LearningStore.wordId(it.word) }.toSet() }
+    // Keep every A1/A2 word available in the free tier instead of an arbitrary first-500 slice.
+    val freeWordIds = remember(words) {
+        words.filter { it.cefr.equals("A1", true) || it.cefr.equals("A2", true) }
+            .map { LearningStore.wordId(it.word) }.toSet()
+    }
     val learningStore = remember(context) { LearningStore(context) }
     val preferences = remember(context) { context.getSharedPreferences("american_english_settings", android.content.Context.MODE_PRIVATE) }
     var darkMode by remember { mutableStateOf(preferences.getBoolean("dark_mode", false)) }
@@ -311,13 +324,14 @@ private fun HomeScreen(
             Spacer(Modifier.height(5.dp))
             Text("بخش موردنظرت را انتخاب کن", color = appColor(Muted), fontSize = 13.sp)
             Spacer(Modifier.height(19.dp))
+            ActionCard("اشتراک ویژه", "ماهانه ۵۰٬۰۰۰ تومان  |  سالانه ۳۰۰٬۰۰۰ تومان", "★", Gold, onPremium)
+            Spacer(Modifier.height(12.dp))
             ActionCard("جستجوی واژگان", "واژه موردنظرت را سریع پیدا کن", "⌕", Blue, onSearch)
             Spacer(Modifier.height(12.dp))
             ActionCard("آموزش واژگان", "یادگیری واژه‌ها به‌صورت هدفمند", "✦", Teal, onVocabulary)
             Spacer(Modifier.height(12.dp))
             ActionCard("آموزش گرامر", "قواعد زبان را قدم‌به‌قدم یاد بگیر", "文", appColor(Color(0xFF8B5CF6)), onGrammar)
             Spacer(Modifier.height(12.dp))
-            ActionCard("اشتراک ویژه", "دسترسی به امکانات کامل برنامه", "★", Gold, onPremium)
             Spacer(Modifier.height(24.dp))
             HorizontalDivider(color = appColor(Color(0xFFE1E7F0)))
             Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 12.dp), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
@@ -363,6 +377,7 @@ private fun PremiumScreen(
             Column(Modifier.padding(18.dp)) {
                 Text("اشتراک یک‌ماهه", color = appColor(Ink), fontSize = 17.sp, fontWeight = FontWeight.Bold)
                 Text("دسترسی ویژه به مدت یک ماه", color = appColor(Muted), fontSize = 13.sp)
+                Text("۵۰٬۰۰۰ تومان", color = appColor(Gold), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
                 Spacer(Modifier.height(12.dp))
                 Button(onClick = onSubscribeMonthly, modifier = Modifier.fillMaxWidth(), enabled = !isPremium) {
                     Text("خرید اشتراک ماهانه")
@@ -374,6 +389,7 @@ private fun PremiumScreen(
             Column(Modifier.padding(18.dp)) {
                 Text("اشتراک یک‌ساله", color = appColor(Ink), fontSize = 17.sp, fontWeight = FontWeight.Bold)
                 Text("دسترسی ویژه به مدت یک سال", color = appColor(Muted), fontSize = 13.sp)
+                Text("۳۰۰٬۰۰۰ تومان", color = appColor(Gold), fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
                 Spacer(Modifier.height(12.dp))
                 Button(onClick = onSubscribeYearly, modifier = Modifier.fillMaxWidth(), enabled = !isPremium) {
                     Text("خرید اشتراک سالانه")
