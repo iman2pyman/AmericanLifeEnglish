@@ -6,6 +6,7 @@ on:
     branches: [ main ]
     paths:
       - '.github/workflows/release-apk.yml'
+      - 'stage1/app/src/main/res/drawable/ic_launcher.xml'
 
 permissions:
   contents: read
