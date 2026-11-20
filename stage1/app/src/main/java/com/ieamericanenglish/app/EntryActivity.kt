@@ -9,6 +9,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -66,6 +67,9 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
     var page by remember { mutableStateOf("home") }
     var selectedWord by remember { mutableStateOf<VocabularyWord?>(null) }
     var browsedLevel by remember { mutableStateOf("A1") }
+    // Keep the level list scroll position while the word detail screen is shown.
+    val levelWordsListState = rememberLazyListState()
+    LaunchedEffect(browsedLevel) { levelWordsListState.scrollToItem(0) }
     var dialog by remember { mutableStateOf<String?>(null) }
     var lastBackPressedAt by remember { mutableLongStateOf(0L) }
 
@@ -129,7 +133,7 @@ private fun AmericanEnglishRoot(onSpeak: (String) -> Unit, onExit: () -> Unit) {
                     onBack = { page = "vocabulary" }
                 )
                 page == "vocabulary-level-words" -> VocabularyLevelWordsScreen(
-                    words = words, level = browsedLevel,
+                    words = words, level = browsedLevel, listState = levelWordsListState,
                     onWord = { selectedWord = it }, onSpeak = onSpeak,
                     onBack = { page = "vocabulary-level" },
                     bookmarks = bookmarkedWords,
