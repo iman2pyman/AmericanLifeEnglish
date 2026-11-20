@@ -141,13 +141,13 @@
     "frequency": "common_or_useful",
     "openjam_frequency_rank": null,
     "data_source": "AI-authored editorial draft based on archived Oxford/Longman candidate list; not copied from dictionary; verify all linguistic details",
-    "review_status": "CEFR level cross-checked against American Oxford 3000; other lexical fields remain pending linguistic review.",
-    "quality_flag": "CEFR source cross-check completed only; Persian meaning, General American IPA, English definition, example, Persian example translation, synonyms/antonyms, word family, and collocations remain pending independent linguistic review.",
+    "review_status": "Not listed as a headword in the checked American Oxford 3000; retain editorial estimate pending independent CEFR source review.",
+    "quality_flag": "CEFR not confirmed in American Oxford 3000; verify against another authoritative learner-dictionary source. Other lexical fields remain pending linguistic review.",
     "release_decision": "staging_only",
     "ready_flag": false,
     "category_fa": "زندگی روزمره؛ افراد و اشیا",
-    "level_source": "American Oxford 3000 by CEFR level",
-    "level_review_status": "official_source_cross_checked"
+    "level_source": "editorial_estimate",
+    "level_review_status": "needs_dictionary_review"
   },
   {
     "word": "runner",
