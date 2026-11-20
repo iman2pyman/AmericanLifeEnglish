@@ -1,15 +1,12 @@
 name: Android debug build
 
 on:
-  push:
-    branches:
-      - fix/startup-json-loader
   pull_request:
-    branches:
-      - main
+    branches: [ main, master ]
     paths:
       - "stage1/**"
       - ".github/workflows/android-build.yml"
+      - ".github/workflows/learning-checks.yml"
 
 permissions:
   contents: read
@@ -17,6 +14,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      ANDROID_HOME: /usr/local/lib/android/sdk
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,15 +25,17 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Install Android SDK platform
+        run: |
+          yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses
+          ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: "8.9"
-      - name: Build debug APK
+      - name: Build debug APK and run unit tests
         working-directory: stage1
-        run: gradle --no-daemon :app:assembleDebug
+        run: gradle --no-daemon :app:assembleDebug :app:testDebugUnitTest
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
