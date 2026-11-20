@@ -1,0 +1,1186 @@
+[
+  {
+    "word": "experimental",
+    "meanings_fa": "آزمایشی؛ تجربی",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪkˌsperɪˈmentəl",
+    "cefr": "B2",
+    "category": "Science and research",
+    "definition_en": "using tests or practical experiments to discover or demonstrate something",
+    "example_en": "The treatment is still in the experimental stage.",
+    "example_fa": "این درمان هنوز در مرحله آزمایشی است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "trial",
+        "exploratory"
+      ],
+      "antonyms": [
+        "established",
+        "proven"
+      ]
+    },
+    "word_family": [
+      "experiment",
+      "experimentally"
+    ],
+    "collocations": [
+      "experimental study",
+      "experimental design"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "experimental",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and research",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "expire",
+    "meanings_fa": "منقضی شدن؛ پایان یافتن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪkˈspaɪər",
+    "cefr": "B1",
+    "category": "Time and administration",
+    "definition_en": "to come to an end or no longer be valid",
+    "example_en": "My driver's license expires next month.",
+    "example_fa": "گواهینامه رانندگی من ماه آینده منقضی می‌شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "run out",
+        "lapse"
+      ],
+      "antonyms": [
+        "begin",
+        "renew"
+      ]
+    },
+    "word_family": [
+      "expiration",
+      "expiry",
+      "expired"
+    ],
+    "collocations": [
+      "expire on",
+      "expire soon"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "expire",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Time and administration",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "explicit",
+    "meanings_fa": "صریح؛ روشن و بی‌ابهام",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪkˈsplɪsɪt",
+    "cefr": "B2",
+    "category": "Communication and rules",
+    "definition_en": "clear and direct, leaving no doubt about the meaning",
+    "example_en": "The contract contains explicit instructions.",
+    "example_fa": "قرارداد شامل دستورالعمل‌های صریحی است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "clear",
+        "direct",
+        "definite"
+      ],
+      "antonyms": [
+        "implicit",
+        "vague"
+      ]
+    },
+    "word_family": [
+      "explicitly",
+      "explicitness"
+    ],
+    "collocations": [
+      "explicit permission",
+      "explicit instructions"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "explicit",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and rules",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "explicitly",
+    "meanings_fa": "به‌صراحت؛ آشکارا",
+    "part_of_speech": "adverb",
+    "ipa_us": "ɪkˈsplɪsɪtli",
+    "cefr": "B2",
+    "category": "Communication and rules",
+    "definition_en": "in a clear and direct way, leaving no doubt",
+    "example_en": "The manager explicitly approved the request.",
+    "example_fa": "مدیر درخواست را به‌صراحت تأیید کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "clearly",
+        "directly"
+      ],
+      "antonyms": [
+        "implicitly",
+        "indirectly"
+      ]
+    },
+    "word_family": [
+      "explicit",
+      "explicitness"
+    ],
+    "collocations": [
+      "state explicitly",
+      "explicitly prohibit"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "explicitly",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and rules",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exploit",
+    "meanings_fa": "بهره‌برداری کردن؛ سوءاستفاده کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪkˈsplɔɪt",
+    "cefr": "B2",
+    "category": "Work and society",
+    "definition_en": "to use a situation or person for your own benefit, sometimes unfairly",
+    "example_en": "Some companies exploit workers by paying very low wages.",
+    "example_fa": "برخی شرکت‌ها با پرداخت دستمزد بسیار پایین از کارگران سوءاستفاده می‌کنند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "take advantage of",
+        "use"
+      ],
+      "antonyms": [
+        "protect",
+        "support"
+      ]
+    },
+    "word_family": [
+      "exploitation",
+      "exploiter",
+      "exploitative"
+    ],
+    "collocations": [
+      "exploit a weakness",
+      "exploit workers"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exploit",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exploitation",
+    "meanings_fa": "بهره‌کشی؛ سوءاستفاده؛ بهره‌برداری",
+    "part_of_speech": "noun",
+    "ipa_us": "ˌeksplɔɪˈteɪʃən",
+    "cefr": "C1",
+    "category": "Work and society",
+    "definition_en": "the unfair use of someone or something for personal or commercial benefit",
+    "example_en": "The law was designed to prevent the exploitation of children.",
+    "example_fa": "این قانون برای جلوگیری از بهره‌کشی از کودکان طراحی شده بود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "abuse",
+        "taking advantage"
+      ],
+      "antonyms": [
+        "protection",
+        "fair treatment"
+      ]
+    },
+    "word_family": [
+      "exploit",
+      "exploiter",
+      "exploitative"
+    ],
+    "collocations": [
+      "labor exploitation",
+      "sexual exploitation"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exploitation",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "explosive",
+    "meanings_fa": "انفجاری؛ ماده منفجره؛ ناگهانی و شدید",
+    "part_of_speech": "adjective",
+    "ipa_us": "ɪkˈsploʊsɪv",
+    "cefr": "B2",
+    "category": "Safety and description",
+    "definition_en": "able or likely to explode, or involving a sudden and powerful change",
+    "example_en": "Firefighters found explosive materials in the building.",
+    "example_fa": "آتش‌نشانان مواد منفجره‌ای در ساختمان پیدا کردند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "volatile",
+        "detonating"
+      ],
+      "antonyms": [
+        "stable",
+        "non-explosive"
+      ]
+    },
+    "word_family": [
+      "explode",
+      "explosion",
+      "explosively"
+    ],
+    "collocations": [
+      "explosive device",
+      "explosive growth"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "explosive",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Safety and description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "exposure",
+    "meanings_fa": "قرار گرفتن در معرض؛ مواجهه؛ افشا",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪkˈspoʊʒər",
+    "cefr": "B2",
+    "category": "Health and communication",
+    "definition_en": "the state of being affected by something, or the act of making something known",
+    "example_en": "Long exposure to sunlight can damage your skin.",
+    "example_fa": "قرار گرفتن طولانی‌مدت در معرض نور خورشید می‌تواند به پوست آسیب بزند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "contact",
+        "revelation"
+      ],
+      "antonyms": [
+        "protection",
+        "concealment"
+      ]
+    },
+    "word_family": [
+      "expose",
+      "exposed"
+    ],
+    "collocations": [
+      "exposure to chemicals",
+      "media exposure"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "exposure",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Health and communication",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "extension",
+    "meanings_fa": "تمدید؛ گسترش؛ الحاقیه؛ داخلی تلفن",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪkˈstenʃən",
+    "cefr": "B1",
+    "category": "Work and daily life",
+    "definition_en": "an increase in length or time, or an additional part of something",
+    "example_en": "We requested an extension to the application deadline.",
+    "example_fa": "ما درخواست تمدید مهلت درخواست را دادیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "expansion",
+        "prolongation"
+      ],
+      "antonyms": [
+        "reduction",
+        "shortening"
+      ]
+    },
+    "word_family": [
+      "extend",
+      "extensive"
+    ],
+    "collocations": [
+      "deadline extension",
+      "phone extension"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "extension",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "extensively",
+    "meanings_fa": "به‌طور گسترده؛ به‌تفصیل",
+    "part_of_speech": "adverb",
+    "ipa_us": "ɪkˈstensɪvli",
+    "cefr": "B2",
+    "category": "Communication and research",
+    "definition_en": "in a way that covers a large area or includes many details",
+    "example_en": "The issue has been extensively studied.",
+    "example_fa": "این موضوع به‌طور گسترده بررسی شده است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "widely",
+        "thoroughly"
+      ],
+      "antonyms": [
+        "briefly",
+        "narrowly"
+      ]
+    },
+    "word_family": [
+      "extensive",
+      "extension"
+    ],
+    "collocations": [
+      "extensively researched",
+      "used extensively"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "extensively",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Communication and research",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "extract",
+    "meanings_fa": "استخراج کردن؛ بیرون کشیدن؛ عصاره",
+    "part_of_speech": "verb",
+    "ipa_us": "ɪkˈstrækt",
+    "cefr": "B2",
+    "category": "Science and work",
+    "definition_en": "to remove or obtain something from a larger whole, often by using effort or a process",
+    "example_en": "The dentist had to extract the damaged tooth.",
+    "example_fa": "دندان‌پزشک مجبور شد دندان آسیب‌دیده را بکشد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "remove",
+        "obtain"
+      ],
+      "antonyms": [
+        "insert",
+        "add"
+      ]
+    },
+    "word_family": [
+      "extraction",
+      "extractor",
+      "extractable"
+    ],
+    "collocations": [
+      "extract information",
+      "extract a tooth"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "extract",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Science and work",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "extremist",
+    "meanings_fa": "افراط‌گرا؛ فرد تندرو",
+    "part_of_speech": "noun",
+    "ipa_us": "ɪkˈstriːmɪst",
+    "cefr": "C1",
+    "category": "Politics and society",
+    "definition_en": "a person who supports extreme political, religious, or social ideas",
+    "example_en": "The group was accused of helping violent extremists.",
+    "example_fa": "این گروه متهم شد که به افراط‌گرایان خشونت‌طلب کمک کرده است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "radical",
+        "fanatic"
+      ],
+      "antonyms": [
+        "moderate"
+      ]
+    },
+    "word_family": [
+      "extremism",
+      "extreme"
+    ],
+    "collocations": [
+      "violent extremist",
+      "extremist group"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "extremist",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Politics and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fabric",
+    "meanings_fa": "پارچه؛ بافت؛ ساختار",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfæbrɪk",
+    "cefr": "B1",
+    "category": "Clothing and materials",
+    "definition_en": "cloth used for making clothes or other items; also the basic structure of a society or system",
+    "example_en": "This fabric is soft and easy to wash.",
+    "example_fa": "این پارچه نرم است و به‌راحتی شسته می‌شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "cloth",
+        "material",
+        "structure"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "fabricate",
+      "fabrication"
+    ],
+    "collocations": [
+      "cotton fabric",
+      "social fabric"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fabric",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Clothing and materials",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fabulous",
+    "meanings_fa": "فوق‌العاده؛ شگفت‌انگیز؛ افسانه‌ای",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈfæbjələs",
+    "cefr": "B1",
+    "category": "Informal description",
+    "definition_en": "extremely good, attractive, or impressive",
+    "example_en": "We had a fabulous time at the concert.",
+    "example_fa": "در کنسرت اوقات فوق‌العاده‌ای داشتیم.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "wonderful",
+        "fantastic"
+      ],
+      "antonyms": [
+        "awful",
+        "terrible"
+      ]
+    },
+    "word_family": [
+      "fabulously"
+    ],
+    "collocations": [
+      "fabulous view",
+      "look fabulous"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fabulous",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Informal description",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "facilitate",
+    "meanings_fa": "تسهیل کردن؛ آسان‌تر کردن",
+    "part_of_speech": "verb",
+    "ipa_us": "fəˈsɪlɪteɪt",
+    "cefr": "C1",
+    "category": "Work and processes",
+    "definition_en": "to make an action or process easier",
+    "example_en": "The app facilitates communication between patients and doctors.",
+    "example_fa": "این برنامه ارتباط میان بیماران و پزشکان را آسان‌تر می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "ease",
+        "enable",
+        "assist"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ]
+    },
+    "word_family": [
+      "facilitation",
+      "facilitator"
+    ],
+    "collocations": [
+      "facilitate access",
+      "facilitate learning"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "facilitate",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and processes",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "faction",
+    "meanings_fa": "جناح؛ گروه منشعب و مخالف",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfækʃən",
+    "cefr": "C1",
+    "category": "Politics and organizations",
+    "definition_en": "a smaller group within a larger organization that disagrees with other members",
+    "example_en": "A powerful faction opposed the proposed changes.",
+    "example_fa": "یک جناح قدرتمند با تغییرات پیشنهادی مخالفت کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "clique",
+        "splinter group"
+      ],
+      "antonyms": [
+        "whole",
+        "unity"
+      ]
+    },
+    "word_family": [
+      "factional",
+      "factionalism"
+    ],
+    "collocations": [
+      "political faction",
+      "rival faction"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "faction",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Politics and organizations",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fade",
+    "meanings_fa": "محو شدن؛ کم‌رنگ شدن؛ کم شدن",
+    "part_of_speech": "verb",
+    "ipa_us": "feɪd",
+    "cefr": "B1",
+    "category": "Change and appearance",
+    "definition_en": "to gradually become less bright, strong, or noticeable",
+    "example_en": "The color may fade after repeated washing.",
+    "example_fa": "رنگ ممکن است پس از شست‌وشوی مکرر کم‌رنگ شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "diminish",
+        "disappear gradually"
+      ],
+      "antonyms": [
+        "intensify",
+        "brighten"
+      ]
+    },
+    "word_family": [
+      "fading",
+      "faded"
+    ],
+    "collocations": [
+      "fade away",
+      "fade in and out"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fade",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Change and appearance",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "failed",
+    "meanings_fa": "ناموفق؛ شکست‌خورده؛ ازکارافتاده",
+    "part_of_speech": "adjective",
+    "ipa_us": "feɪld",
+    "cefr": "B1",
+    "category": "Work and results",
+    "definition_en": "not successful, or no longer working",
+    "example_en": "The company tried to recover from a failed investment.",
+    "example_fa": "شرکت تلاش کرد از یک سرمایه‌گذاری ناموفق بهبود پیدا کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "unsuccessful",
+        "unsuccessful"
+      ],
+      "antonyms": [
+        "successful",
+        "working"
+      ]
+    },
+    "word_family": [
+      "fail",
+      "failure"
+    ],
+    "collocations": [
+      "failed attempt",
+      "failed system"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "failed",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Work and results",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fairness",
+    "meanings_fa": "انصاف؛ عدالت؛ منصفانه بودن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfernəs",
+    "cefr": "B2",
+    "category": "Values and society",
+    "definition_en": "the quality of treating people equally and reasonably",
+    "example_en": "Employees expect fairness in hiring and promotion.",
+    "example_fa": "کارکنان انتظار دارند در استخدام و ارتقا با آن‌ها منصفانه رفتار شود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "justice",
+        "impartiality"
+      ],
+      "antonyms": [
+        "injustice",
+        "bias"
+      ]
+    },
+    "word_family": [
+      "fair",
+      "fairly",
+      "unfair"
+    ],
+    "collocations": [
+      "fairness at work",
+      "sense of fairness"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fairness",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Values and society",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fare",
+    "meanings_fa": "کرایه؛ هزینه سفر؛ وضعیت یا عملکرد",
+    "part_of_speech": "noun",
+    "ipa_us": "fer",
+    "cefr": "B1",
+    "category": "Travel and daily life",
+    "definition_en": "the money paid for a journey on public transport; also, a type or quality of experience",
+    "example_en": "The bus fare is cheaper if you buy a weekly pass.",
+    "example_fa": "اگر بلیت هفتگی بخری، کرایه اتوبوس ارزان‌تر است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "fee",
+        "price"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "farewell"
+    ],
+    "collocations": [
+      "bus fare",
+      "air fare",
+      "standard fare"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fare",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Travel and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fatal",
+    "meanings_fa": "مرگبار؛致ی؛ بسیار زیان‌بار",
+    "part_of_speech": "adjective",
+    "ipa_us": "ˈfeɪtəl",
+    "cefr": "B2",
+    "category": "Health and safety",
+    "definition_en": "causing or capable of causing death or complete failure",
+    "example_en": "The crash resulted in two fatal injuries.",
+    "example_fa": "این تصادف به دو جراحت منجر به مرگ انجامید.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "deadly",
+        "lethal"
+      ],
+      "antonyms": [
+        "harmless",
+        "nonfatal"
+      ]
+    },
+    "word_family": [
+      "fatally",
+      "fatality"
+    ],
+    "collocations": [
+      "fatal accident",
+      "fatal error"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fatal",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Health and safety",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "feat",
+    "meanings_fa": "کار برجسته؛ دستاورد دشوار",
+    "part_of_speech": "noun",
+    "ipa_us": "fiːt",
+    "cefr": "B2",
+    "category": "Achievement and performance",
+    "definition_en": "an impressive achievement that requires skill or effort",
+    "example_en": "Completing the marathon was an amazing feat.",
+    "example_fa": "تمام کردن ماراتن دستاوردی شگفت‌انگیز بود.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "achievement",
+        "accomplishment"
+      ],
+      "antonyms": [
+        "failure"
+      ]
+    },
+    "word_family": [
+      "—"
+    ],
+    "collocations": [
+      "remarkable feat",
+      "athletic feat"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "feat",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Achievement and performance",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "felony",
+    "meanings_fa": "جرم سنگین؛ جنایت",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfeləni",
+    "cefr": "C1",
+    "category": "Law and crime",
+    "definition_en": "a serious crime under US law, usually punishable by more than one year in prison",
+    "example_en": "A felony conviction can affect future employment.",
+    "example_fa": "محکومیت به جرم سنگین می‌تواند بر اشتغال آینده تأثیر بگذارد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "serious crime"
+      ],
+      "antonyms": [
+        "misdemeanor"
+      ]
+    },
+    "word_family": [
+      "felon",
+      "felonious"
+    ],
+    "collocations": [
+      "felony charge",
+      "felony conviction"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "felony",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Law and crime",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "feminist",
+    "meanings_fa": "فمینیست؛ طرفدار برابری جنسیتی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfemənɪst",
+    "cefr": "B2",
+    "category": "Society and equality",
+    "definition_en": "a person who supports equal rights and opportunities for women",
+    "example_en": "She identifies as a feminist and advocates equal pay.",
+    "example_fa": "او خود را فمینیست می‌داند و از دستمزد برابر حمایت می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "equality advocate"
+      ],
+      "antonyms": [
+        "sexist"
+      ]
+    },
+    "word_family": [
+      "feminism",
+      "feminine"
+    ],
+    "collocations": [
+      "feminist movement",
+      "feminist writer"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "feminist",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Society and equality",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fiber",
+    "meanings_fa": "فیبر؛ الیاف؛ رشته",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfaɪbər",
+    "cefr": "B1",
+    "category": "Health and materials",
+    "definition_en": "a threadlike material; in food, the part of plants that helps digestion",
+    "example_en": "Beans are a good source of dietary fiber.",
+    "example_fa": "لوبیا منبع خوبی از فیبر غذایی است.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "fibre",
+        "strand"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "fibrous"
+    ],
+    "collocations": [
+      "dietary fiber",
+      "fiber optic cable"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fiber",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Health and materials",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "fierce",
+    "meanings_fa": "خشن؛ شدید؛ سرسخت",
+    "part_of_speech": "adjective",
+    "ipa_us": "fɪrs",
+    "cefr": "B2",
+    "category": "People and intensity",
+    "definition_en": "showing strong aggression or energy, or being extremely intense",
+    "example_en": "The two teams faced fierce competition.",
+    "example_fa": "دو تیم با رقابتی شدید روبه‌رو شدند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "intense",
+        "aggressive",
+        "strong"
+      ],
+      "antonyms": [
+        "gentle",
+        "mild"
+      ]
+    },
+    "word_family": [
+      "fiercely",
+      "fierceness"
+    ],
+    "collocations": [
+      "fierce competition",
+      "fierce storm"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "fierce",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "People and intensity",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "filmmaker",
+    "meanings_fa": "فیلم‌ساز",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɪlmˌmeɪkər",
+    "cefr": "B2",
+    "category": "Media and entertainment",
+    "definition_en": "a person who makes films, especially as a director or producer",
+    "example_en": "The filmmaker won an award for her documentary.",
+    "example_fa": "این فیلم‌ساز برای مستندش جایزه گرفت.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "director",
+        "producer"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "filmmaking",
+      "film"
+    ],
+    "collocations": [
+      "independent filmmaker",
+      "documentary filmmaker"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "filmmaker",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Media and entertainment",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "filter",
+    "meanings_fa": "فیلتر؛ صافی؛ پالایش کردن",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfɪltər",
+    "cefr": "B1",
+    "category": "Technology and daily life",
+    "definition_en": "a device or process that removes unwanted substances or information",
+    "example_en": "Change the air filter every few months.",
+    "example_fa": "فیلتر هوا را هر چند ماه یک‌بار عوض کن.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "screen",
+        "strainer"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "filtering",
+      "filtration"
+    ],
+    "collocations": [
+      "air filter",
+      "water filter",
+      "filter out"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "filter",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Technology and daily life",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "firearm",
+    "meanings_fa": "سلاح گرم؛ تفنگ",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfaɪərɑːrm",
+    "cefr": "C1",
+    "category": "Law and safety",
+    "definition_en": "a gun that uses an explosive charge to fire a bullet",
+    "example_en": "The law requires secure storage of every firearm.",
+    "example_fa": "قانون نگهداری ایمن هر سلاح گرم را الزامی می‌کند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "gun",
+        "weapon"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "—"
+    ],
+    "collocations": [
+      "firearm safety",
+      "firearm permit"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "firearm",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Law and safety",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "firefighter",
+    "meanings_fa": "آتش‌نشان",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfaɪərˌfaɪtər",
+    "cefr": "B1",
+    "category": "Jobs and emergencies",
+    "definition_en": "a person whose job is to put out fires and rescue people",
+    "example_en": "Firefighters arrived within minutes.",
+    "example_fa": "آتش‌نشانان ظرف چند دقیقه رسیدند.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "fireman",
+        "firewoman"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "firefighting"
+    ],
+    "collocations": [
+      "volunteer firefighter",
+      "firefighter training"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "firefighter",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Jobs and emergencies",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  },
+  {
+    "word": "firework",
+    "meanings_fa": "آتش‌بازی؛ ماده آتش‌بازی",
+    "part_of_speech": "noun",
+    "ipa_us": "ˈfaɪərwɜːrk",
+    "cefr": "B1",
+    "category": "Celebrations and safety",
+    "definition_en": "a device that produces bright colored lights and loud noises when it explodes",
+    "example_en": "The town canceled its fireworks display because of the drought.",
+    "example_fa": "شهر به‌دلیل خشکسالی نمایش آتش‌بازی را لغو کرد.",
+    "synonyms_antonyms": {
+      "synonyms": [
+        "pyrotechnic"
+      ],
+      "antonyms": []
+    },
+    "word_family": [
+      "fireworks",
+      "pyrotechnic"
+    ],
+    "collocations": [
+      "fireworks display",
+      "set off fireworks"
+    ],
+    "frequency": "Oxford 5000 target headword",
+    "data_source": "Oxford 5000 headword; AI-authored editorial enrichment, not copied from a dictionary",
+    "source_candidate": "firework",
+    "review_status": "ai_draft_needs_lexical_review",
+    "quality_flag": "Meaning, definition, example and lexical relations drafted; IPA, CEFR and sense coverage require editorial verification",
+    "release_decision": "staging_only",
+    "ready_flag": false,
+    "category_fa": "Celebrations and safety",
+    "level_source": "Editorial CEFR estimate",
+    "level_review_status": "estimated_pending_review"
+  }
+]
