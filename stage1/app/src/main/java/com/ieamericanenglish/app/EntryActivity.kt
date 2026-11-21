@@ -190,6 +190,7 @@ private fun AmericanEnglishRoot(
                     isPremium = isPremium,
                     onSubscribeMonthly = { onSubscribe(BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU) },
                     onSubscribeYearly = { onSubscribe(BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU) },
+                    onSubscribeTrial = { onSubscribe(BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU) },
                     onBack = { page = "home" }
                 )
                 page == "search" -> SearchScreen(
@@ -347,6 +348,7 @@ private fun PremiumScreen(
     isPremium: Boolean,
     onSubscribeMonthly: () -> Unit,
     onSubscribeYearly: () -> Unit,
+    onSubscribeTrial: () -> Unit,
     onBack: () -> Unit
 ) {
     Column(
@@ -370,7 +372,18 @@ private fun PremiumScreen(
             "با تهیه اشتراک، به امکانات ویژه American Life English دسترسی خواهید داشت.",
             color = appColor(Muted), fontSize = 14.sp, textAlign = TextAlign.Center
         )
-        Spacer(Modifier.height(24.dp))
+        Spacer(Modifier.height(18.dp))
+        Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color(0xFFEAF7F3)), shadowElevation = 3.dp) {
+            Column(Modifier.padding(18.dp)) {
+                Text("دوره آزمایشی رایگان", color = appColor(Teal), fontSize = 17.sp, fontWeight = FontWeight.Bold)
+                Text("۳ روز دسترسی به امکانات ویژه", color = appColor(Muted), fontSize = 13.sp)
+                Spacer(Modifier.height(12.dp))
+                Button(onClick = onSubscribeTrial, modifier = Modifier.fillMaxWidth(), enabled = !isPremium) {
+                    Text("شروع دوره آزمایشی ۳ روزه")
+                }
+            }
+        }
+        Spacer(Modifier.height(14.dp))
         Surface(Modifier.fillMaxWidth(), shape = RoundedCornerShape(20.dp), color = appColor(Color.White), shadowElevation = 3.dp) {
             Column(Modifier.padding(18.dp)) {
                 Text("اشتراک یک‌ماهه", color = appColor(Ink), fontSize = 17.sp, fontWeight = FontWeight.Bold)
