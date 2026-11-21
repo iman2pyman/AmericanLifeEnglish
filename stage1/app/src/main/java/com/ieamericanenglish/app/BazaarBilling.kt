@@ -16,6 +16,7 @@ object BazaarBillingConfig {
     const val RSA_PUBLIC_KEY = "MIHNMA0GCSqGSIb3DQEBAQUAA4G7ADCBtwKBrwDnutWH2SlBsrw8zkVcx4je/PLxT79ltQMprjg65qwXuboCAyZuqcBgqNtdkm4184u0trRop6uHka9pJ0HfRILsrPPB+3PvJI4ycvnjrewyBEwWfCvPzXU1k3Oahkp+H4i+1hwEYiQAZ5GvAviJdjQFts4YEc5v4EFx2xnxmdYSVc+oSJHyliAi0msyG3bSjjfyDVfZtHl6LX1y9FkpeU5S0K/yb7NagYrQmmo24mMCAwEAAQ=="
     const val MONTHLY_SUBSCRIPTION_SKU = "premium_monthly"
     const val YEARLY_SUBSCRIPTION_SKU = "Premium_Yearly"
+    const val TRIAL_SUBSCRIPTION_SKU = "trial_subscription"
 }
 
 class BazaarBillingManager(
@@ -68,7 +69,8 @@ class BazaarBillingManager(
             querySucceed { purchases ->
                 val active = purchases.any {
                     it.productId == BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU ||
-                    it.productId == BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU
+                    it.productId == BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU ||
+                    it.productId == BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU
                 }
                 activity.runOnUiThread {
                     onPremiumChanged(active)
@@ -85,7 +87,8 @@ class BazaarBillingManager(
 
     fun subscribe(productId: String) {
         if (productId != BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU &&
-            productId != BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU
+            productId != BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU &&
+            productId != BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU
         ) {
             onStatus("شناسه اشتراک معتبر نیست")
             return
