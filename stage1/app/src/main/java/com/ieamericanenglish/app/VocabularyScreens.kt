@@ -313,7 +313,11 @@ fun LearningScreen(
     var mode by remember(isPremium) { mutableStateOf(if (isPremium) "leitner" else "daily") }
     Column(Modifier.fillMaxSize().background(appColor(Color(0xFFF4F7FC)))) {
         Row(Modifier.fillMaxWidth().padding(horizontal = 18.dp, vertical = 5.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (isPremium) FilterChip(selected = mode == "leitner", onClick = { mode = "leitner" }, label = { Text("جعبه لایتنر") })
+            FilterChip(
+                selected = mode == "leitner",
+                onClick = { if (isPremium) mode = "leitner" else onPremiumRequired() },
+                label = { Text("جعبه لایتنر") }
+            )
             FilterChip(selected = mode == "daily", onClick = { mode = "daily" }, label = { Text("برنامه روزانه") })
         }
         if (mode == "leitner" && isPremium) LeitnerLearningScreen(words, onSpeak, onBack, onWord, initialLevel, onLevelChanged, bookmarks, onToggleBookmark, learningStore)
