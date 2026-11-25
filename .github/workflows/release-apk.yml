@@ -3,7 +3,7 @@ name: Build Signed Release APK
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ main, "test/**" ]
     paths:
       - '.github/workflows/release-apk.yml'
       - 'stage1/app/src/main/res/drawable/ic_launcher.xml'
