@@ -70,7 +70,9 @@ class EntryActivity : ComponentActivity() {
                     status.contains("در حال اتصال به کافه‌بازار") ||
                     status.contains("قیمت دریافتی بازار") ||
                     status.contains("خرید متوقف شد") ||
-                    status.contains("صفحه پرداخت کافه‌بازار باز شد")
+                    status.contains("صفحه پرداخت کافه‌بازار باز شد") ||
+                    status.contains("اشتراک‌های شناسایی‌شده") ||
+                    status.contains("اشتراک ناشناخته از بازار")
                 ) {
                     runOnUiThread {
                         Toast.makeText(this, status, Toast.LENGTH_LONG).show()
