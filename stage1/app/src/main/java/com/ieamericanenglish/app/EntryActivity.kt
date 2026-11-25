@@ -67,7 +67,10 @@ class EntryActivity : ComponentActivity() {
                 if (status.contains("ناموفق") || status.contains("در حال انتقال") ||
                     status.contains("خرید ثبت شد") || status.contains("لغو شد") ||
                     status.contains("اتصال به پرداخت کافه‌بازار برقرار شد") ||
-                    status.contains("در حال اتصال به کافه‌بازار")
+                    status.contains("در حال اتصال به کافه‌بازار") ||
+                    status.contains("قیمت دریافتی بازار") ||
+                    status.contains("خرید متوقف شد") ||
+                    status.contains("صفحه پرداخت کافه‌بازار باز شد")
                 ) {
                     runOnUiThread {
                         Toast.makeText(this, status, Toast.LENGTH_LONG).show()
