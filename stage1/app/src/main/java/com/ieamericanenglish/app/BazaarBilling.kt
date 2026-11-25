@@ -1,5 +1,7 @@
 package com.ieamericanenglish.app
 
+import android.os.Handler
+import android.os.Looper
 import androidx.activity.ComponentActivity
 import ir.cafebazaar.poolakey.Connection
 import ir.cafebazaar.poolakey.Payment
@@ -36,11 +38,30 @@ class BazaarBillingManager(
     private var connection: Connection? = null
     private var connected = false
     private var pendingProductId: String? = null
+    private val mainHandler = Handler(Looper.getMainLooper())
+    private var connectionAttempt = 0
+    private var connectionTimeout: Runnable? = null
 
     fun connect() {
-        if (connection != null) return
+        if (connected || connection != null) return
+        val attempt = ++connectionAttempt
+        onStatus("در حال اتصال به سرویس پرداخت کافه‌بازار…")
+        val timeout = Runnable {
+            if (attempt == connectionAttempt && !connected) {
+                android.util.Log.e("AmericanLifeEnglishBilling", "BAZAAR_CONNECTION_TIMEOUT attempt=$attempt")
+                connection?.disconnect()
+                connection = null
+                connectionTimeout = null
+                onStatus("اتصال به کافه‌بازار پس از ۱۵ ثانیه پاسخ نداد. برنامه بازار را روی همین گوشی نصب و به‌روز کنید و دوباره تلاش کنید.")
+            }
+        }
+        connectionTimeout = timeout
+        mainHandler.postDelayed(timeout, 15_000L)
         connection = payment.connect {
             connectionSucceed {
+                if (attempt != connectionAttempt) return@connectionSucceed
+                connectionTimeout?.let { mainHandler.removeCallbacks(it) }
+                connectionTimeout = null
                 connected = true
                 onStatus("اتصال به پرداخت کافه‌بازار برقرار شد")
                 refreshSubscriptions()
@@ -50,12 +71,18 @@ class BazaarBillingManager(
                 }
             }
             connectionFailed { error ->
+                if (attempt != connectionAttempt) return@connectionFailed
+                connectionTimeout?.let { mainHandler.removeCallbacks(it) }
+                connectionTimeout = null
                 connected = false
                 connection = null
                 pendingProductId = null
                 onStatus("اتصال به کافه‌بازار ناموفق بود: ${error.message ?: "خطای نامشخص"}")
             }
             disconnected {
+                if (attempt != connectionAttempt) return@disconnected
+                connectionTimeout?.let { mainHandler.removeCallbacks(it) }
+                connectionTimeout = null
                 connected = false
                 connection = null
                 onStatus("ارتباط با کافه‌بازار قطع شد؛ وضعیت اشتراک پس از اتصال دوباره بررسی می‌شود")
@@ -197,6 +224,9 @@ class BazaarBillingManager(
         }
     }
     fun disconnect() {
+        connectionAttempt++
+        connectionTimeout?.let { mainHandler.removeCallbacks(it) }
+        connectionTimeout = null
         connection?.disconnect()
         connection = null
         connected = false
