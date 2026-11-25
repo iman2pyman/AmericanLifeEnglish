@@ -109,28 +109,70 @@ class BazaarBillingManager(
             connect()
             return
         }
-        payment.subscribeProduct(
-            registry = activity.activityResultRegistry,
-            request = PurchaseRequest(
-                productId = productId,
-                payload = "AmericanLifeEnglish-premium"
-            )
-        ) {
-            purchaseFlowBegan { onStatus("در حال انتقال به صفحه پرداخت کافه‌بازار…") }
-            failedToBeginFlow { error ->
-                onStatus("شروع پرداخت ناموفق بود: ${error.message ?: "خطای نامشخص"}")
+
+        // Query Bazaar for the live subscription price before opening payment.
+        payment.getSubscriptionSkuDetails(skuIds = listOf(productId)) {
+            getSkuDetailsSucceed { details ->
+                val sku = details.firstOrNull { it.sku == productId }
+                val price = sku?.price
+                android.util.Log.i("AmericanLifeEnglishBilling", "SKU_PRICE sku=$productId returned=${details.size} price=${price ?: "<missing>"}")
+
+                val isTrial = productId == BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU
+                val digits = price.orEmpty().mapNotNull { ch ->
+                    when (ch) {
+                        in '۰'..'۹' -> ch.code - '۰'.code
+                        in '٠'..'٩' -> ch.code - '٠'.code
+                        in '0'..'9' -> ch.code - '0'.code
+                        else -> null
+                    }
+                }.joinToString("")
+                val amount = digits.toLongOrNull()
+
+                if (!isTrial && (sku == null || amount == null || amount <= 0L)) {
+                    onStatus("خرید متوقف شد؛ قیمت معتبر از بازار دریافت نشد. شناسه: $productId، قیمت دریافتی: ${price ?: "دریافت نشد"}")
+                    return@getSkuDetailsSucceed
+                }
+
+                onStatus("قیمت دریافتی بازار برای $productId: ${price ?: "نامشخص"}؛ در حال باز کردن پرداخت…")
+                openSubscriptionPayment(productId)
             }
-            purchaseSucceed {
-                onStatus("خرید ثبت شد؛ در حال بررسی وضعیت اشتراک…")
-                refreshSubscriptions()
-            }
-            purchaseCanceled { onStatus("پرداخت لغو شد") }
-            purchaseFailed { error ->
-                onStatus("پرداخت ناموفق بود: ${error.message ?: "خطای نامشخص"}")
+            getSkuDetailsFailed { error ->
+                android.util.Log.e("AmericanLifeEnglishBilling", "SKU_PRICE_ERROR sku=$productId message=${error.message}", error)
+                if (productId == BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU) {
+                    onStatus("استعلام قیمت دوره آزمایشی ناموفق بود؛ تلاش برای باز کردن خرید آزمایشی")
+                    openSubscriptionPayment(productId)
+                } else {
+                    onStatus("خرید متوقف شد؛ استعلام قیمت از بازار ناموفق بود: ${error.message ?: "خطای نامشخص"}")
+                }
             }
         }
     }
 
+    private fun openSubscriptionPayment(productId: String) {
+        payment.subscribeProduct(
+            registry = activity.activityResultRegistry,
+            request = PurchaseRequest(productId = productId, payload = "AmericanLifeEnglish-premium")
+        ) {
+            purchaseFlowBegan {
+                android.util.Log.i("AmericanLifeEnglishBilling", "PURCHASE_FLOW_BEGAN sku=$productId")
+                onStatus("صفحه پرداخت کافه‌بازار باز شد؛ شناسه: $productId")
+            }
+            failedToBeginFlow { error ->
+                android.util.Log.e("AmericanLifeEnglishBilling", "PURCHASE_FLOW_FAILED sku=$productId", error)
+                onStatus("شروع پرداخت ناموفق بود: ${error.message ?: "خطای نامشخص"}")
+            }
+            purchaseSucceed { purchase ->
+                android.util.Log.i("AmericanLifeEnglishBilling", "PURCHASE_SUCCEEDED sku=${purchase.productId} state=${purchase.purchaseState} order=${purchase.orderId}")
+                onStatus("خرید ثبت شد؛ شناسه: ${purchase.productId}؛ در حال بررسی وضعیت اشتراک…")
+                refreshSubscriptions()
+            }
+            purchaseCanceled { onStatus("پرداخت لغو شد") }
+            purchaseFailed { error ->
+                android.util.Log.e("AmericanLifeEnglishBilling", "PURCHASE_FAILED sku=$productId", error)
+                onStatus("پرداخت ناموفق بود: ${error.message ?: "خطای نامشخص"}")
+            }
+        }
+    }
     fun disconnect() {
         connection?.disconnect()
         connection = null
