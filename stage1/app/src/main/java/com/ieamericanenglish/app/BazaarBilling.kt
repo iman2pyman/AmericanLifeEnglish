@@ -67,17 +67,40 @@ class BazaarBillingManager(
         if (!connected) return
         payment.getSubscribedProducts {
             querySucceed { purchases ->
-                val active = purchases.any {
-                    it.productId == BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU ||
-                    it.productId == BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU ||
-                    it.productId == BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU
+                val activeIds = purchases.map { it.productId }.distinct()
+                val hasTrial = activeIds.contains(BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU)
+                val hasMonthly = activeIds.contains(BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU)
+                val hasYearly = activeIds.contains(BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU)
+                val active = hasTrial || hasMonthly || hasYearly
+                val knownIds = activeIds.filter {
+                    it == BazaarBillingConfig.TRIAL_SUBSCRIPTION_SKU ||
+                    it == BazaarBillingConfig.MONTHLY_SUBSCRIPTION_SKU ||
+                    it == BazaarBillingConfig.YEARLY_SUBSCRIPTION_SKU
                 }
+                val unknownIds = activeIds - knownIds.toSet()
+
+                android.util.Log.i(
+                    "AmericanLifeEnglishBilling",
+                    "SUBSCRIPTIONS_QUERY count=${purchases.size} activeIds=${activeIds.joinToString(",")} trial=$hasTrial monthly=$hasMonthly yearly=$hasYearly unknownIds=${unknownIds.joinToString(",")}"
+                )
+
                 activity.runOnUiThread {
                     onPremiumChanged(active)
-                    onStatus(if (active) "اشتراک ویژه فعال است" else "اشتراک فعالی پیدا نشد")
+                    val details = buildList {
+                        if (hasTrial) add("آزمایشی")
+                        if (hasMonthly) add("ماهانه")
+                        if (hasYearly) add("سالانه")
+                    }
+                    val status = when {
+                        details.isNotEmpty() -> "اشتراک‌های شناسایی‌شده: ${details.joinToString("، ")} | شناسه‌ها: ${knownIds.joinToString(", ")}"
+                        unknownIds.isNotEmpty() -> "اشتراک ناشناخته از بازار دریافت شد: ${unknownIds.joinToString(", ")}"
+                        else -> "اشتراک فعالی پیدا نشد"
+                    }
+                    onStatus(status)
                 }
             }
             queryFailed { error ->
+                android.util.Log.e("AmericanLifeEnglishBilling", "SUBSCRIPTIONS_QUERY_FAILED", error)
                 activity.runOnUiThread {
                     onStatus("بررسی اشتراک ناموفق بود: ${error.message ?: "خطای نامشخص"}")
                 }
